@@ -16,8 +16,11 @@
          );
          
          var input = document.getElementById("search");
-         input.value=params.get('name);
-         if(input.value!=='')document.getElementById("myBtn").click();
+         
+         if(params.get('name')!=null){
+            input.value=params.get('name');
+            document.getElementById("myBtn").click();
+         }
          // Execute a function when the user releases a key on the keyboard
          input.addEventListener("keyup", function(event) {
            // Number 13 is the "Enter" key on the keyboard
