@@ -73,6 +73,11 @@
              }
 
          }
+         window.addEventListener("hashchange", function(){
+            input.value=params.get('name');
+            document.getElementById("myBtn").click();
+         }, false);
+
       </script>
    </body>
 </html>
