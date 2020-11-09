@@ -11,9 +11,7 @@
       </div>
       <div id="iframes"></div>
       <script type="text/javascript">
-         params = new URLSearchParams(
-            window.location.hash.substr(1), // skip the first char (#)
-         );
+         
          
          var input = document.getElementById("search");
          
@@ -71,6 +69,9 @@
 
          }
          function hashfunc(){
+            params = new URLSearchParams(
+               window.location.hash.substr(1), // skip the first char (#)
+            );
             if(params.get('name')!=null){
                input.value=params.get('name');
                search2()
