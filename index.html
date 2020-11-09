@@ -17,10 +17,7 @@
          
          var input = document.getElementById("search");
          
-         if(params.get('name')!=null){
-            input.value=params.get('name');
-            document.getElementById("myBtn").click();
-         }
+         
          // Execute a function when the user releases a key on the keyboard
          input.addEventListener("keyup", function(event) {
            // Number 13 is the "Enter" key on the keyboard
@@ -73,11 +70,14 @@
              }
 
          }
-         window.addEventListener("hashchange", function(){
-            input.value=params.get('name');
-            document.getElementById("myBtn").click();
-         }, false);
-
+         function hashfunc(){
+            if(params.get('name')!=null){
+               input.value=params.get('name');
+               search2()
+            }
+         }
+         window.addEventListener("hashchange", hashfunc, false);
+         hashfunc()
       </script>
    </body>
 </html>
