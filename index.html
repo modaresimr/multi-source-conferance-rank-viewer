@@ -5,7 +5,7 @@
       <div style="position:sticky;top:0px">
          <form action="/#">
             <input id="search" placeholder="type conference or journal name" autofocus style="width:70%">
-            <button id="myBtn" type="submit" submitter onclick="event.preventDefault();search2();">Button</button>
+            <button id="myBtn" type="submit" submitter onclick="event.preventDefault();search2();">Search</button>
          </form>
          <div id="toc"></div>
       </div>
@@ -27,8 +27,8 @@
            }
          });
          
-         websites={"core-conf":"http://portal.core.edu.au/conf-ranks/?search=SEARCHKEY&by=all&source=CORE2018&sort=atitle&page=1",
-                                 "core-jnl":"http://portal.core.edu.au/jnl-ranks/?search=SEARCHKEY&by=all&source=CORE2018&sort=atitle&page=1",
+         websites={"core-conf":"http://portal.core.edu.au/conf-ranks/?search=SEARCHKEY&by=all&source=all&sort=atitle&page=1",
+                                 "core-jnl":"http://portal.core.edu.au/jnl-ranks/?search=SEARCHKEY&by=all&source=all&sort=atitle&page=1",
                                  "conferenceranks":"http://www.conferenceranks.com/?searchall=SEARCHKEY#data",
                                  "scimagojr":"https://www.scimagojr.com/journalsearch.php?q=SEARCHKEY",
                                  "guide2research":"http://www.guide2research.com/topconf/?ajax=1&k=SEARCHKEY&due=0&con=&cat=",
