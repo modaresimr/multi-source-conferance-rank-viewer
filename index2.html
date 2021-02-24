@@ -68,35 +68,13 @@
                             data: "Title",
                             width: "70px",
                             render: (data, type, row) =>
-                                data == ""
-                                    ? ""
-                                    : row["DBLP Source"] == ""
-                                    ? ""
-                                    : '<a target="_blank" href="' +
-                                      row["DBLP Source"] +
-                                      '">D</a> ' +
-                                      '<a target="_blank" href="https://www.google.com/search?q=' +
-                                      row["Acronym"] +
-                                      " " +
-                                      data +
-                                      '">G</a> ' +
-                                      '<a target="_blank" href="https://academic.microsoft.com/search?q=' +
-                                      row["Acronym"] +
-                                      " " +
-                                      data +
-                                      '">M</a> ' +
-                                      '<a target="_blank" href="http://www.wikicfp.com/cfp/servlet/tool.search?year=f&q=' +
-                                      row["Acronym"] +
-                                      (row["Acronym"] != "" ? "" : " " + data) +
-                                      '">W</a> ' +
-                                      '<a target="_blank" href="https://www.openresearch.org/mediawiki/index.php?title=Special%3ASearch&go=Go&search=' +
-                                      row["Acronym"] +
-                                      (row["Acronym"] != "" ? "" : " " + data) +
-                                      '">O</a> ' +
-                                      '<a target="_blank" href="https://www.guide2research.com/topconf/?ajax=1&due=0&con=&cat=&k=' +
-                                      row["Acronym"] +
-                                      (row["Acronym"] != "" ? "" : " " + data) +
-                                      '">R</a>',
+                                data == "" ? "":
+				       (row["DBLP Source"] == ""? "": '<a target="_blank" href="' + row["DBLP Source"] + '">D</a> ') +
+                                      '<a target="_blank" href="https://www.google.com/search?q=' +row["Acronym"] +" " + data +'">G</a> ' +
+                                      '<a target="_blank" href="https://academic.microsoft.com/search?q=' +row["Acronym"] +" " +data +'">M</a> ' +
+                                      '<a target="_blank" href="http://www.wikicfp.com/cfp/servlet/tool.search?year=f&q=' +row["Acronym"] +(row["Acronym"] != "" ? "" : " " + data) +'">W</a> ' +
+                                      '<a target="_blank" href="https://www.openresearch.org/mediawiki/index.php?title=Special%3ASearch&go=Go&search=' +row["Acronym"] +(row["Acronym"] != "" ? "" : " " + data) +'">O</a> ' +
+                                      '<a target="_blank" href="https://www.guide2research.com/topconf/?ajax=1&due=0&con=&cat=&k=' +row["Acronym"] +(row["Acronym"] != "" ? "" : " " + data) +'">R</a>',
                         },
                     ],
                     initComplete: function () {},
