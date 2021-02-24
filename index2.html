@@ -164,7 +164,7 @@
                             return;
                         }
 
-                        var select = $('<select style="width:100%" data-placeholder="' + cols[column[0]] + '"><option value=""></option></select>')
+                        var select = $('<select class="filter-table" style="width:100%" data-placeholder="' + cols[column[0]] + '"><option value=""></option></select>')
                             .appendTo($(column.header()).empty())
                             .on("change", function () {
                                 var val = $.fn.dataTable.util.escapeRegex($(this).val());
@@ -197,7 +197,7 @@
                         }
                     });
                     table.draw();
-                    $("select").select2({ dropdownCssClass: "bigdrop",   tags: true,   allowClear: true});
+                    $("select.filter-table").select2({ dropdownCssClass: "bigdrop",   tags: true,   allowClear: true});
                 }
 
                 $.ajax({
