@@ -180,7 +180,7 @@
                                 .each((p, i) => p.split(", ").forEach((q) => (all[q] = 1)));
                             Object.keys(all)
                                 .sort()
-                                .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                                .forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>"));
                         } else {
                             if (cols[column[0]] == "Rank") {
                                 defaultRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
