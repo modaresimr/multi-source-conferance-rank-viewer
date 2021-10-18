@@ -142,12 +142,12 @@
                     p.DeadlineDate = p.events == null ? null : p.events.map(q => new Date(q.submission_deadline)).filter(q => Date.now() < q)
                     p.Deadline= p.DeadlineDate==null?'':p.DeadlineDate.map(d => d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()).join(", ");
                     if (p.Rank == "") p.Rank = "Unranked";
-                    if(p.DeadlineDate!=null)
+                    if(p.DeadlineDate!=null&& p.DeadlineDate.length>0)
                         dataSet.push(p);
                 });
                 function compare(a, b) {
-                    ai = b.DeadlineDate;
-                    bi = b.DeadlineDate;
+                    ai = b.DeadlineDate[0];
+                    bi = b.DeadlineDate[0];
                     if (ai < Date.now()) ai += 1000000000;
                     if (bi < Date.now()) bi += 1000000000;
                     if (ai < bi) return -1;
