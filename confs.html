@@ -185,7 +185,8 @@
                 table.draw();
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
             }
-
+            cfp_dataset=null;
+            conf_dataset=null;
             $.ajax({
                 dataType: "json",
                 url: "https://rank.alimodaresi.ir/core-conf.json",
