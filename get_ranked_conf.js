@@ -45,8 +45,8 @@ var levenshteinRate = (a, b) => levenshtein(a, b) / a.length
 function getRankedConf(cfp_db,core_conf) {
     title2conf = {};
     abbr2conf = {}  
-    full.forEach(p => title2conf[p.title] = p)
-    full.forEach(p => p.abbr.forEach(q => abbr2conf[q] = p))
+    Object.values(cfp_db).forEach(p => title2conf[p.title] = p)
+    Object.values(cfp_db).forEach(p => p.abbr.forEach(q => abbr2conf[q] = p))
     addIfGood = (conf, core) => {
         if (conf == null) return;
         if (levenshteinRate(core.Title, conf.description) < .5) return;
