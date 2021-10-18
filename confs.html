@@ -54,6 +54,7 @@
                 if (data.indexOf('https://') == 0)
                     data = `<a href='${data}' target='_blank'>${data}</a>`
             }
+            return data;
         }
         function format_event(events) {
             // `d` is the original data object for the row
