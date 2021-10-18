@@ -46,26 +46,28 @@
 
             return "<div>" + d + "</div>";
         }
-            function internal_format(data){
-                data=data.replace('T00:00:00', '')
-                if(data.indexOf('/cfp/program')==0)
-                    data="https://www.wikicfp.com"+data;
-                if(data.indexOf('https://')==0)
-                    data=`<a href='${data}' target='_blank'>${data}</a>`
+        function internal_format(data) {
+            if (typeof data == typeof "") {
+                data = data.replace('T00:00:00', '')
+                if (data.indexOf('/cfp/program') == 0)
+                    data = "https://www.wikicfp.com" + data;
+                if (data.indexOf('https://') == 0)
+                    data = `<a href='${data}' target='_blank'>${data}</a>`
             }
-                function format_event(events) {
-                        // `d` is the original data object for the row
-                        var out="";
-                        events.forEach(d=>{
-                        out +=`<h4>${d.summary}</h2>`
-                        out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-                        Object.keys(d).forEach((p) => (out += "<tr><th>" + p + "</th><td>" + internal_format(d[p]) + "</td></tr>"));
-                        
-                        out += "</table>";
-                        
-                        });
-                        return out;
-                    }
+        }
+        function format_event(events) {
+            // `d` is the original data object for the row
+            var out = "";
+            events.forEach(d => {
+                out += `<h4>${d.summary}</h2>`
+                out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+                Object.keys(d).forEach((p) => (out += "<tr><th>" + p + "</th><td>" + internal_format(d[p]) + "</td></tr>"));
+
+                out += "</table>";
+
+            });
+            return out;
+        }
 
         $(document).ready(function () {
             dataSet = [];
@@ -146,9 +148,9 @@
                 data.forEach((p) => {
                     p.Field = p.Field.join(", ");
                     p.DeadlineDate = p.events == null ? null : p.events.map(q => new Date(q.submission_deadline)).filter(q => Date.now() < q)
-                    p.Deadline= p.DeadlineDate==null?'':p.DeadlineDate.map(d => d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()).join(", ");
+                    p.Deadline = p.DeadlineDate == null ? '' : p.DeadlineDate.map(d => d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()).join(", ");
                     if (p.Rank == "") p.Rank = "Unranked";
-                    if(p.DeadlineDate!=null&& p.DeadlineDate.length>0)
+                    if (p.DeadlineDate != null && p.DeadlineDate.length > 0)
                         dataSet.push(p);
                 });
                 function compare(a, b) {
@@ -207,8 +209,8 @@
                 table.draw();
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
             }
-            cfp_dataset=null;
-            conf_dataset=null;
+            cfp_dataset = null;
+            conf_dataset = null;
             $.ajax({
                 dataType: "json",
                 url: "core-conf.json",
