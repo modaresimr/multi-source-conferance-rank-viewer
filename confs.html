@@ -47,6 +47,20 @@
             return "<div>" + d + "</div>";
         }
 
+                function format_event(events) {
+                        // `d` is the original data object for the row
+                        var out="";
+                        events.forEach(d=>{
+                        out +=`<h4>${d.summary}</h2>`
+                        out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+                        Object.keys(d).forEach((p) => (out += "<tr><th>" + p + "</th><td>" + d[p] + "</td></tr>"));
+                        
+                        out += "</table>";
+                        
+                        }
+                        return out;
+                    }
+
         $(document).ready(function () {
             dataSet = [];
 
@@ -102,7 +116,7 @@
                     tr.removeClass("shown");
                 } else {
                     // Open this row
-                    row.child(format(row.data().events) + format(row.data().Info)).show();
+                    row.child(format_event(row.data().events) + format(row.data().Info)).show();
                     tr.addClass("shown");
                 }
             });
@@ -125,15 +139,17 @@
             function process(data) {
                 data.forEach((p) => {
                     p.Field = p.Field.join(", ");
-                    p.Deadline = p.events == null ? '' : p.events.map(q => new Date(q.submission_deadline)).filter(q => Date.now() < q).map(d => d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()).join(", ");
+                    p.DeadlineDate = p.events == null ? null : p.events.map(q => new Date(q.submission_deadline)).filter(q => Date.now() < q)
+                    p.Deadline= p.DeadlineDate==null?'':p.DeadlineDate.map(d => d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear()).join(", ");
                     if (p.Rank == "") p.Rank = "Unranked";
-                    dataSet.push(p);
+                    if(p.DeadlineDate!=null)
+                        dataSet.push(p);
                 });
                 function compare(a, b) {
-                    ai = defaultRanks.indexOf(a.Rank);
-                    bi = defaultRanks.indexOf(b.Rank);
-                    if (ai == -1) ai = 5;
-                    if (bi == -1) bi = 5;
+                    ai = b.DeadlineDate;
+                    bi = b.DeadlineDate;
+                    if (ai < Date.now()) ai += 1000000000;
+                    if (bi < Date.now()) bi += 1000000000;
                     if (ai < bi) return -1;
                     if (ai > bi) return 1;
                     return 0;
@@ -189,7 +205,7 @@
             conf_dataset=null;
             $.ajax({
                 dataType: "json",
-                url: "https://rank.alimodaresi.ir/core-conf.json",
+                url: "core-conf.json",
                 success: (data) => {
                     conf_dataset = data;
                     // process(data);
@@ -208,9 +224,15 @@
             });
             $.ajax({
                 dataType: "json",
-                url: "https://raw.githubusercontent.com/modaresimr/multi-source-conferance-rank-viewer/main/wiki-cfp.json",//"https://rank.alimodaresi.ir/wiki-cfp.json",
+                url: "wiki-cfp.json",//"https://rank.alimodaresi.ir/wiki-cfp.json",
                 success: (data) => {
                     cfp_dataset = data;
+                    Object.keys(cfp_dataset).forEach(q=>{
+                        p=cfp_dataset[q]
+                        p.submission_deadline=new Date(p.submission_deadline);
+                        p.startDate=new Date(p.startDate);
+                        p.endDate=new Date(p.endDate);
+                    });
                     process_cfp();
                 },
             });
