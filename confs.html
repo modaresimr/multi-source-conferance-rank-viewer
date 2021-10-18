@@ -50,8 +50,8 @@
             if (typeof data == typeof "") {
                 data = data.replace('T00:00:00', '')
                 if (data.indexOf('/cfp/program') == 0)
-                    data = "https://www.wikicfp.com" + data;
-                if (data.indexOf('https://') == 0)
+                    data = "http://www.wikicfp.com" + data;
+                if (data.indexOf('https://') == 0|| data.indexOf('http://')==0)
                     data = `<a href='${data}' target='_blank'>${data}</a>`
             }
             return data;
