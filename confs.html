@@ -64,9 +64,9 @@
             }
             return data;
         }
-        function format_obj(obj,key,info) {
-            if(obj[key])
-                return "<dt>" + (info==null?key:info) + "</dt><dd>" + internal_format(obj[key]) + "</dd>"
+        function format_obj(key,val) {
+            if(obj)
+                return "<dt>" + key + "</dt><dd>" + internal_format(val) + "</dd>"
             return '';
         }
         function format_event(events) {
@@ -76,19 +76,19 @@
                 out += `<h4>${d.summary} : ${d.description} : (${internal_format(d.submission_deadline)}): ${Math.max(0,100-d.levDistance*100).toFixed(0)}%</h2>`
                 out += '<dl style="padding-left:50px;">';
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
-                out += format_obj(d, 'abbr')
-                out+=format_obj(d,'startDate')
-                out += format_obj(d, 'identifier', 'WikiCFP')
-                out += format_obj(d, 'source', 'ConfSite')
-                out += format_obj(d, 'locality','Location')
-                out += format_obj(d, 'abstract_registration due')
-                out += format_obj(d, 'submission_deadline')
-                out += format_obj(d, 'notification_due')
-                out += format_obj(d, 'categories')
-                out += format_obj(d, 'parent','Series')
-                out += format_obj(d, 'parentLink', 'Series')
-                out += format_obj(d, 'year')
-                
+                out += format_obj('Abbr',d.abbr)
+                out+=format_obj('Date',d.startDate+" - "+ d.endDate)
+                out += format_obj('Links', `<a href='${d.source}' target='_blank'>ConfSite</a> <a href='${d.identifier}' target='_blank'>WikiCFP</a>` )             
+                if(d.parent)
+                    out += format_obj('Series',`<a href=${d.parentLink}>${d.parent}</a>`)
+                out += format_obj('Location', d.locality)
+                out += format_obj('Abstract Registration Due',d['abstract_registration_due'])
+                out += format_obj('Submission Deadline',d.submission_deadline )
+                out += format_obj('Notification Due',d.submission_deadline)
+                out += format_obj('Categories',d.categories)
+                out += format_obj('Year',d.year)
+                out += format_obj('nth', d.nth)
+        
                 out += "</dl>";
 
             });
