@@ -197,6 +197,7 @@
             function process(data) {
                 data.forEach((p) => {
                     p.Deadline = p.submission_deadline.replace("T00:00:00", '').replace("T23:59:59", '')
+                    p.submission_deadline_date=new Date(p.submission_deadline)
                     p.categories = p.categories.join(", ");
                     p.abbr = p.abbr.join(", ").toUpperCase();
                     
