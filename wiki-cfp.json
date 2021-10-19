@@ -2281,7 +2281,7 @@
 		"startDate": "2021-11-26T00:00:00",
 		"endDate": "2021-11-28T23:59:59",
 		"locality": "Shenzhen, China",
-		"description": "IOP the International Conference on Renewable Energy and Conservation",
+		"description": "the International Conference on Renewable Energy and Conservation",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "IOP--ICREC--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=110076",
@@ -2295,63 +2295,46 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"icrec",
-			"iop--icrec"
+			"icrec"
 		],
 		"nth": "6",
 		"event_id": "110076",
 		"core_confs": [
 			{
-				"CoreId": 374,
+				"CoreId": 2197,
 				"Type": "Conference",
-				"Title": "International Conference on Operations Research",
-				"Acronym": "GOR",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2018",
+				"Title": "The International Conference on Future Networks and Communications",
+				"Acronym": "FNC",
+				"Acronym2": "fnc",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/fnc",
+				"Rank": "Unranked",
+				"Rank Source": "CORE2020",
 				"Field": [
-					"0802 - Computation Theory and Mathematics"
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing",
+					"0899 - Other Information and Computing Sciences",
+					"1005 - Communications Technologies"
 				],
 				"Info": [
 					{
+						"Source": "CORE2020",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
 						"Source": "CORE2018",
-						"Rank": "C",
+						"Rank": "Unranked",
 						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
+							"0805 - Distributed Computing",
+							"0899 - Other Information and Computing Sciences",
+							"1005 - Communications Technologies"
 						],
-						"other": "Removed 2020. not found"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
+						"other": "Add as an unranked conference.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_148.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/FNC.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "28"
+				"probability": "67"
 			}
 		]
 	},
@@ -2361,7 +2344,7 @@
 		"startDate": "2021-11-26T00:00:00",
 		"endDate": "2021-11-28T23:59:59",
 		"locality": "Shenzhen, China",
-		"description": "IOP the International Conference on Renewable Energy and Conservation",
+		"description": "the International Conference on Renewable Energy and Conservation",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ICREC--IOP, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=110077",
@@ -2375,63 +2358,46 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"icrec",
-			"icrec--iop"
+			"icrec"
 		],
 		"nth": "6",
 		"event_id": "110077",
 		"core_confs": [
 			{
-				"CoreId": 374,
+				"CoreId": 2197,
 				"Type": "Conference",
-				"Title": "International Conference on Operations Research",
-				"Acronym": "GOR",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2018",
+				"Title": "The International Conference on Future Networks and Communications",
+				"Acronym": "FNC",
+				"Acronym2": "fnc",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/fnc",
+				"Rank": "Unranked",
+				"Rank Source": "CORE2020",
 				"Field": [
-					"0802 - Computation Theory and Mathematics"
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing",
+					"0899 - Other Information and Computing Sciences",
+					"1005 - Communications Technologies"
 				],
 				"Info": [
 					{
+						"Source": "CORE2020",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
 						"Source": "CORE2018",
-						"Rank": "C",
+						"Rank": "Unranked",
 						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
+							"0805 - Distributed Computing",
+							"0899 - Other Information and Computing Sciences",
+							"1005 - Communications Technologies"
 						],
-						"other": "Removed 2020. not found"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
+						"other": "Add as an unranked conference.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_148.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/FNC.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "28"
+				"probability": "67"
 			}
 		]
 	},
@@ -3034,8 +3000,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"cpees",
-			"iop cpees"
+			"cpees"
 		],
 		"nth": "2",
 		"event_id": "116283",
@@ -31631,7 +31596,7 @@
 		"startDate": "2022-01-06T00:00:00",
 		"endDate": "2022-01-08T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "IOP International Conference on Artificial Intelligence in Education",
+		"description": "International Conference on Artificial Intelligence in Education",
 		"submission_deadline": "2021-11-05T00:00:00",
 		"title": "IOP--ICAIE--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138362",
@@ -31645,8 +31610,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icaie",
-			"iop--icaie"
+			"icaie"
 		],
 		"nth": "2",
 		"event_id": "138362",
@@ -31706,7 +31670,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "94"
+				"probability": "100"
 			}
 		]
 	},
@@ -31716,7 +31680,7 @@
 		"startDate": "2022-01-06T00:00:00",
 		"endDate": "2022-01-08T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "IOP International Conference on Artificial Intelligence in Education",
+		"description": "International Conference on Artificial Intelligence in Education",
 		"submission_deadline": "2021-11-05T00:00:00",
 		"title": "ICAIE--IOP, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138363",
@@ -31730,8 +31694,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icaie",
-			"icaie--iop"
+			"icaie"
 		],
 		"nth": "2",
 		"event_id": "138363",
@@ -31791,7 +31754,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "94"
+				"probability": "100"
 			}
 		]
 	},
@@ -33627,7 +33590,7 @@
 		"startDate": "2022-02-12T00:00:00",
 		"endDate": "2022-02-14T23:59:59",
 		"locality": "Haikou, China",
-		"description": "IOP the International Conference on Aeronautical, Aerospace and Mechanical Engineering",
+		"description": "the International Conference on Aeronautical, Aerospace and Mechanical Engineering",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "AAME--IOP, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138693",
@@ -33641,8 +33604,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"aame",
-			"aame--iop"
+			"aame"
 		],
 		"nth": "5",
 		"event_id": "138693",
@@ -33668,7 +33630,7 @@
 						]
 					}
 				],
-				"probability": "52"
+				"probability": "58"
 			}
 		]
 	},
@@ -33678,7 +33640,7 @@
 		"startDate": "2022-02-12T00:00:00",
 		"endDate": "2022-02-14T23:59:59",
 		"locality": "Haikou, China",
-		"description": "IOP the International Conference on Aeronautical, Aerospace and Mechanical Engineering",
+		"description": "the International Conference on Aeronautical, Aerospace and Mechanical Engineering",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "IOP--AAME--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138694",
@@ -33692,8 +33654,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"aame",
-			"iop--aame"
+			"aame"
 		],
 		"nth": "5",
 		"event_id": "138694",
@@ -33719,7 +33680,7 @@
 						]
 					}
 				],
-				"probability": "52"
+				"probability": "58"
 			}
 		]
 	},
@@ -46883,7 +46844,7 @@
 		"startDate": "2022-02-18T00:00:00",
 		"endDate": "2022-02-20T23:59:59",
 		"locality": "Singapore",
-		"description": "IOP International Conference on Applied Physics and Mathematics",
+		"description": "International Conference on Applied Physics and Mathematics",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "IOP--ICAPM--Ei Compendex, scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=144095",
@@ -46897,8 +46858,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icapm",
-			"iop--icapm"
+			"icapm"
 		],
 		"nth": "12",
 		"event_id": "144095",
@@ -46961,7 +46921,7 @@
 						]
 					}
 				],
-				"probability": "65"
+				"probability": "70"
 			}
 		]
 	},
