@@ -46,7 +46,8 @@ function getRankedConf(cfp_db, core_conf) {
 	Object.values(cfp_db).forEach(p => p.abbr.forEach(q => abbr2conf[q] = p));
 	addIfGood = (conf, core) => {
 		if (conf == null) return;
-		conf.levDistance = levenshteinRate(core.Title, conf.description);
+        conf.levDistance = levenshteinRate(core.Title, conf.description);
+        conf.submission_deadline_date=new Date(conf.submission_deadline)
 		// if ( > 1) return;
 		if (conf.nth != null && conf.nth < 6) return;
 		if (core.events.filter(p => p.event_id == conf.event_id).length > 0) return;
@@ -72,8 +73,8 @@ function getRankedConf(cfp_db, core_conf) {
 		function compare(a, b) {
 			ai = a.levDistance;
 			bi = b.levDistance;
-			if (a.submission_deadline < Date.now()) ai += 1000000000;
-			if (b.submission_deadline < Date.now()) bi += 1000000000;
+			if (a.submission_deadline_date < Date.now()) ai += 1000000000;
+			if (b.submission_deadline_date < Date.now()) bi += 1000000000;
 			if (ai < bi) return -1;
 			if (ai > bi) return 1;
 			return 0;
