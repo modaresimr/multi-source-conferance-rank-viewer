@@ -133,7 +133,7 @@
                 ordering: false,
 
                 columns: [
-                    { data: "Type", width: "40px" },
+                    { data: "eventType", width: "40px" },
                     { data: "description" },
                     { data: "abbr", width: "40px" },
                     { data: "Rank", width: "100px", render: (data, type) => data.split(", ").join("<br>") },
@@ -194,6 +194,7 @@
             var defaultRanks = ["A*", "A", "B", "C"];
             function process(data) {
                 data.forEach((p) => {
+                    p.Deadline=p.submission_deadline.replace("T00:00:00",'').replace("T23:59:59",'')
                     p.categories = p.categories.join(", ");
                     p.Rank = p.core_confs.map(p => (p.Rank == "" ? "Unranked" : p.Rank) + " " + p.propability + "%").join(", ");
                     if (p.core_confs.length > 0 && p.submission_deadline_date > Date.now())
