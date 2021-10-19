@@ -224,7 +224,7 @@
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (["Topic", 'Deadline', "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
-                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) column.search(val ? val + " " : "", true, false).draw();
+                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) column.search(val ? `^${val}|,${val}`: "", true, false,false).draw();
                             else column.search(val ? "^" + val + "$" : "", true, false).draw();
                         });
 
