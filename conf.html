@@ -135,12 +135,12 @@
                 columns: [
                     { data: "eventType", width: "40px" },
                     { data: "description" },
-                    { data: "abbr", width: "70px" , render: (data, type) => data.split(", ").join("<br>")},
+                    { data: "abbr", width: "100px" , render: (data, type) => data.split(", ").join("<br>")},
                     { data: "Rank", width: "100px", render: (data, type) => data.split(", ").join("<br>") },
                     { data: "Deadline", width: "100px" },
                     // { data: "Rank Source", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
-                    { data: "categories", render: (data, type) => data.split(", ").join("<br>") },
+                    { data: "categories", width: "200px", render: (data, type) => data.split(", ").join("<br>") },
                     {
                         data: "Title",
                         width: "70px",
@@ -226,7 +226,7 @@
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (["Topic", 'Deadline', "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
-                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) column.search(val ? `^${val}|,${val}`: "", true, false,false).draw();
+                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) column.search(val ? `^${val} |, ${val} `: "", true, false,false).draw();
                             else column.search(val ? "^" + val + "$" : "", true, false).draw();
                         });
 
