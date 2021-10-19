@@ -117,8 +117,8 @@ function getRankedConf2(cfp_db, core_conf) {
 		if (conf_title != null)
 			conf_title.forEach(p => possible_confs.push(title2conf[p[1]]));
 
-		conf.abbr.forEach(p => {
-			af = abbrfuzzy.get(conf.Acronym.toLowerCase(), null, 0.9);
+		conf.abbr.forEach(abbr => {
+			af = abbrfuzzy.get(abbr, null, 0.9);
 			if (af != null)
 				af.forEach(p=>possible_confs.push(abbr2conf[p[1]]))
 		})
