@@ -79,7 +79,8 @@
             out += format_row(`<th>Type</th><th>Title</th><th>Abbr</th><th>Rank</th><th>Probability</th><th>Topics</th><th>Link</th>`)
             confs.forEach(conf => {
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
-                wikicfp=conf.Links['WikiCFP entry']?'<a href="'+conf.Links['WikiCFP entry']+'">WikiCFP</a>':''
+                wikicfp=conf.Links['WikiCFP entry']?`<a href="${conf.Links['WikiCFP entry']}" target='_blank'>WikiCFP</a>`:''
+                site= conf.Links['site']?`<a href="${conf.Links['site']}" target='_blank'>site</a>`:''
                 out += format_row(
                     `<td>${conf.Type}</td>` +
                     `<td>${conf.Title}</td>` +
@@ -87,7 +88,7 @@
                     `<td>${conf.Rank} (${conf['Rank Source']})</td>` +
                     `<td>${conf.probability}%</td>` +
                     `<td>${conf.Field.join("<br>")}</td>` +
-                    `<td><a href="${conf.Links['site']}" target='_blank'>site</a> ${wikicfp} <a href="http://portal.core.edu.au/conf-ranks/${conf.CoreId}" target='_blank'>core</a></td>`
+                    `<td>${site} ${wikicfp} <a href="http://portal.core.edu.au/conf-ranks/${conf.CoreId}" target='_blank'>core</a></td>`
                 );
 
 
