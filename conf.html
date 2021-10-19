@@ -143,12 +143,12 @@
                     { data: "categories", width: "200px", render: (data, type) => data.split(", ").join("<br>") },
                     {
                         data: "Title",
-                        width: "70px",
+                        width: "100px",
                         render: (data, type, row) =>
                             data == "" ? "" :
                                 // (row["DBLP Source"] == "" ? "" : '<a target="_blank" href="' + row["DBLP Source"] + '">D</a> ') +
                                 '<a target="_blank" href="' + row["source"] + '">Site</a> '+
-                                '<a target="_blank" href="' + row["identifier"] + '">CFP</a> ' +
+                                '<a target="_blank" href="' + row["identifier"] + '">CFP</a> <br>' +
                                 '<a target="_blank" href="https://www.google.com/search?q=' + row["abbr"] + " " + data + '">G</a> ' +
                                 '<a target="_blank" href="https://academic.microsoft.com/search?q=' + row["abbr"] + " " + data + '">M</a> ' 
                                 
