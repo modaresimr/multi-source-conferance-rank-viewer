@@ -86,9 +86,9 @@
                     `<td>${conf.Title}</td>` +
                     `<td>${conf.Acronym} <br> ${conf.Acronym2}</td>` +
                     `<td>${conf.Rank}</td>` +
-                    `<td>${conf.probability}</td>` +
+                    `<td>${conf.probability}%</td>` +
                     `<td>${conf.Field.join("<br>")}</td>` +
-                    `<td><a href="http://portal.core.edu.au/conf-ranks/${conf.CoreId}">core</a></td>`
+                    `<td><a href="http://portal.core.edu.au/conf-ranks/${conf.CoreId}" target='_blank'>core</a></td>`
                 );
 
 
@@ -100,13 +100,13 @@
             // `d` is the original data object for the row
             var out = "";
 
-            out += `<h4>${d.summary} : ${d.description} : (${internal_format(d.submission_deadline)}): ${Math.max(0, 100 - d.levDistance * 100).toFixed(0)}%</h2>`
+            out += `<h4>${d.summary} : ${d.description} : (${internal_format(d.submission_deadline)})</h2>`
             out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
             // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
             out += format_row(format_obj('Abbr', d.abbr) + format_obj('Date', d.startDate + " : " + d.endDate))
 
             out += format_row(format_obj('Links', `<a href='${d.source}' target='_blank'>ConfSite</a> <a href='${d.identifier}' target='_blank'>WikiCFP</a>`) +
-                format_obj('Series', d.parent ? `<a href=${d.parentLink}>${d.parent}</a>` : ''))
+                format_obj('Series', d.parent ? `<a href=${d.parentLink} target='_blank'>${d.parent}</a>` : ''))
             out += format_row(format_obj('Categories', d.categories) + format_obj('Location', d.locality))
             out += format_row(format_obj('Submission Deadline', d.submission_deadline) + format_obj('Abstract Registration Due', d['abstract_registration_due']))
             out += format_row(format_obj('Notification Due', d.submission_deadline) +
