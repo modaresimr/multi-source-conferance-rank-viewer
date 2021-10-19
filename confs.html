@@ -86,7 +86,7 @@
                 out += format_row(format_obj('Categories',d.categories)+format_obj('Location', d.locality))
                 out += format_row(format_obj('Submission Deadline',d.submission_deadline )+format_obj('Abstract Registration Due',d['abstract_registration_due']))
                 out += format_row(format_obj('Notification Due',d.submission_deadline)+
-                       format_obj('Year (nth)',internal_format(d.year)+" ("+internal_format(d.nth)+")" )
+                       format_obj('Year (nth)',internal_format(d.year)+" ("+internal_format(d.nth)+")" ))
         
                 out += "</table>";
 
