@@ -193,7 +193,7 @@
                 updateShare("#q=" + table.search());
             });
 
-            var defaultRanks = ["A*", "A", "B", "C"];
+            var defaultRanks = ["A*|A","A*|A|B","A*", "A", "B", "C"];
             function process(data) {
                 data.forEach((p) => {
                     p.Deadline = p.submission_deadline.replace("T00:00:00", '').replace("T23:59:59", '')
@@ -228,7 +228,10 @@
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (["Topic", 'Deadline', "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
-                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) column.search(val ? `^${val} |, ${val} `: "", true, false,false).draw();
+                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) {
+                                val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
+                                column.search(val ? `^(${val}) |, (${val}) `: "", true, false,false).draw();
+                            }
                             else column.search(val ? "^" + val + "$" : "", true, false).draw();
                         });
 
@@ -254,9 +257,13 @@
                             .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     } else {
                         if (cols[column[0]] == "Rank") {
-                            defaultRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                            var tmp={}
+                            defaultRanks.forEach((d) => {
+                                select.append('<option value="' + d + '">' + d + "</option>")
+                                tmp[d]=1
+                            });
 
-
+                            
                             column
                                 .data()
                                 .unique()
@@ -264,8 +271,9 @@
                                 .each(function (p, j) {
                                     if(p!=null) p.split(', ').forEach(q => {
                                         d = q.split(' ')[0].trim()
-                                        if (defaultRanks.indexOf(d) < 0)
+                                        if (tmp[d]==null)
                                             select.append('<option value="' + d + '">' + d + "</option>");
+                                            tmp[d] = 1
                                     })
                                 });
                         }

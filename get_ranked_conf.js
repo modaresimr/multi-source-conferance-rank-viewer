@@ -49,7 +49,7 @@ function getRankedConf(cfp_db, core_conf) {
         conf.levDistance = levenshteinRate(core.Title, conf.description);
         conf.submission_deadline_date=new Date(conf.submission_deadline)
 		// if ( > 1) return;
-		// if (conf.nth != null && conf.nth < 6) return;
+		if (conf.nth != null && conf.nth < 6) return;
 		if (core.events.filter(p => p.event_id == conf.event_id).length > 0) return;
 		core.events.push(conf);
 	};
@@ -100,7 +100,7 @@ function getRankedConf2(cfp_db, core_conf) {
 		if (core == null) return;
 		
 		// if ( > 1) return;
-		if (conf.nth != null && conf.nth < 6) return;
+		// if (conf.nth != null && conf.nth < 6) return;
 		if (conf.core_confs.filter(p => p.event_id == core.event_id).length > 0) return;
 		
 		conf.submission_deadline_date = new Date(conf.submission_deadline);
