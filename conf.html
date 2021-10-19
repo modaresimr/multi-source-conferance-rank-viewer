@@ -320,13 +320,21 @@
                     //     p.endDate=new Date(p.endDate);
                     // });
                     // process_cfp();
-                    prob=new URLSearchParams(window.location.search).get('prob')
-                    prob=prob==null?10:prob
-                    data2= cfp_dataset.filter(p => p.core_confs.filter(p => p.probability > prob).length > 0);
+                    $('#minProbability').on("input change", function () {
+                        var val=$('#minProbability').val();
+                        data2 = cfp_dataset.filter(p => p.core_confs.filter(p => p.probability > val).length > 0);
+                        dataSet = []
+                        process(data2)
+                    });
+                    var val = $('#minProbability').val();
+                    data2 = cfp_dataset.filter(p => p.core_confs.filter(p => p.probability > val).length > 0);
                     dataSet = []
+                    process(data2)
+                    
                     process(data)
                 },
             });
+            
             // function process_cfp() {
             //     if (cfp_dataset != null && conf_dataset != null) {
             //         var data = getRankedConf2(cfp_dataset, conf_dataset)
@@ -352,6 +360,8 @@
     <div class="container">
         <h1>Smart Conference CFP Search</h1>
         Share this data via direct link <a id="share" href=""></a>
+        Min Probability: <input type="range" min="1" max="100" value="50" class="slider" id="minProbability">
+
     </div>
     <div class="container-fluid">
         <table id="rankTable" class="display" width="100%">
