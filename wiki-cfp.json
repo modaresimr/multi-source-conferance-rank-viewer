@@ -96,7 +96,7 @@
 					"site": "https://www.wikidata.org/entity/Q47449932",
 					"www.aistats.org": "http://www.aistats.org/"
 				},
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -182,7 +182,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1804",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1804"
 				},
-				"probability": "90"
+				"probability": 90
 			}
 		]
 	},
@@ -278,7 +278,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "41"
+				"probability": 41
 			}
 		]
 	},
@@ -375,7 +375,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "12"
+				"probability": 12
 			}
 		]
 	},
@@ -472,7 +472,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -570,7 +570,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1863",
 					"www.iwsec.org": "http://www.iwsec.org/"
 				},
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -622,7 +622,7 @@
 						]
 					}
 				],
-				"probability": "85"
+				"probability": 85
 			}
 		]
 	},
@@ -701,7 +701,7 @@
 						]
 					}
 				],
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -785,7 +785,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -871,7 +871,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "26"
+				"probability": 26
 			}
 		]
 	},
@@ -968,7 +968,7 @@
 					"web page @ googlepages.com": "http://citconference.googlepages.com/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1402"
 				},
-				"probability": "60"
+				"probability": 60
 			}
 		]
 	},
@@ -1064,7 +1064,7 @@
 					"site": "http://www.sinconf.org/",
 					"web page @ sinconf.org": "http://www.sinconf.org/"
 				},
-				"probability": "43"
+				"probability": 43
 			}
 		]
 	},
@@ -1121,7 +1121,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=665",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=665"
 				},
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -1200,7 +1200,7 @@
 						]
 					}
 				],
-				"probability": "72"
+				"probability": 72
 			}
 		]
 	},
@@ -1297,7 +1297,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1322",
 					"ICCSA Home Page": "http://www.iccsa.org/"
 				},
-				"probability": "63"
+				"probability": 63
 			}
 		]
 	},
@@ -1349,7 +1349,7 @@
 						]
 					}
 				],
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -1408,7 +1408,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -1467,7 +1467,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -1594,7 +1594,7 @@
 			"robot vision"
 		],
 		"parent": "International Conference on Image Analysis and Processing",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1380&s=ICIAP&f=International Conference on Image Analysis and Processing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1380",
 		"year": "2021",
 		"abbr": [
 			"iciap"
@@ -1677,7 +1677,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/iciap",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1380"
 				},
-				"probability": "83"
+				"probability": 100
 			}
 		]
 	},
@@ -1760,7 +1760,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "78"
+				"probability": 78
 			}
 		]
 	},
@@ -1840,7 +1840,7 @@
 						]
 					}
 				],
-				"probability": "11"
+				"probability": 11
 			}
 		]
 	},
@@ -1939,7 +1939,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -1990,7 +1990,7 @@
 						]
 					}
 				],
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -2069,7 +2069,7 @@
 						]
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -2178,7 +2178,7 @@
 					"web page @ ieee-ras.org": "https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/icarcv",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1286"
 				},
-				"probability": "41"
+				"probability": 41
 			}
 		]
 	},
@@ -2286,7 +2286,7 @@
 					"International Association for Artificial Intelligence and Law": "http://www.iaail.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1275"
 				},
-				"probability": "59"
+				"probability": 59
 			}
 		]
 	},
@@ -2391,7 +2391,7 @@
 					"web page @ aclweb.org": "https://www.aclweb.org/portal/ijcnlp",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1572"
 				},
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -2487,7 +2487,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "16"
+				"probability": 16
 			}
 		]
 	},
@@ -2578,7 +2578,7 @@
 						]
 					}
 				],
-				"probability": "91"
+				"probability": 90
 			}
 		]
 	},
@@ -2635,7 +2635,7 @@
 						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "89"
+				"probability": 89
 			}
 		]
 	},
@@ -2741,7 +2741,7 @@
 					"web page @ ieee.org": "https://ieeexplore.ieee.org/xpl/conhome/1000618/all-proceedings",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2510"
 				},
-				"probability": "59"
+				"probability": 59
 			}
 		]
 	},
@@ -2793,7 +2793,7 @@
 						]
 					}
 				],
-				"probability": "68"
+				"probability": 68
 			}
 		]
 	},
@@ -2874,7 +2874,7 @@
 						]
 					}
 				],
-				"probability": "11"
+				"probability": 11
 			}
 		]
 	},
@@ -2974,7 +2974,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "91"
+				"probability": 90
 			}
 		]
 	},
@@ -3074,7 +3074,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "64"
+				"probability": 64
 			}
 		]
 	},
@@ -3125,7 +3125,7 @@
 						]
 					}
 				],
-				"probability": "89"
+				"probability": 89
 			}
 		]
 	},
@@ -3211,7 +3211,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "90"
+				"probability": 90
 			}
 		]
 	},
@@ -3309,7 +3309,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -3390,7 +3390,7 @@
 						]
 					}
 				],
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -3449,7 +3449,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -3555,7 +3555,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/ieaaie",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1533"
 				},
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -3624,7 +3624,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "95"
+				"probability": 90
 			}
 		]
 	},
@@ -3649,7 +3649,7 @@
 			"cloud"
 		],
 		"parent": "International Conference on Cloud Computing",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=499&s=CLOUD&f=International Conference on Cloud Computing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=499",
 		"year": "2022",
 		"abbr": [
 			"cloud",
@@ -3735,7 +3735,7 @@
 					"International Association for Artificial Intelligence and Law": "http://www.iaail.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1275"
 				},
-				"probability": "78"
+				"probability": 78
 			}
 		]
 	},
@@ -3845,7 +3845,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -3924,7 +3924,7 @@
 						]
 					}
 				],
-				"probability": "52"
+				"probability": 52
 			}
 		]
 	},
@@ -3976,7 +3976,7 @@
 						]
 					}
 				],
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -4058,7 +4058,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "63"
+				"probability": 63
 			}
 		]
 	},
@@ -4166,7 +4166,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "14"
+				"probability": 14
 			}
 		]
 	},
@@ -4271,7 +4271,7 @@
 					"web page @ computer.org": "http://conferences.computer.org/icsm/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1471"
 				},
-				"probability": "20"
+				"probability": 20
 			}
 		]
 	},
@@ -4329,7 +4329,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=665",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=665"
 				},
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -4428,7 +4428,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "68"
+				"probability": 68
 			}
 		]
 	},
@@ -4529,7 +4529,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1322",
 					"ICCSA Home Page": "http://www.iccsa.org/"
 				},
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -4586,7 +4586,7 @@
 						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "70"
+				"probability": 70
 			}
 		]
 	},
@@ -4643,7 +4643,7 @@
 						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "89"
+				"probability": 89
 			}
 		]
 	},
@@ -4702,7 +4702,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=498",
 					"closer.scitevents.org": "http://closer.scitevents.org/"
 				},
-				"probability": "57"
+				"probability": 57
 			}
 		]
 	},
@@ -4772,7 +4772,7 @@
 						]
 					}
 				],
-				"probability": "12"
+				"probability": 12
 			}
 		]
 	},
@@ -4875,7 +4875,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Conference_on_Computer_Communications",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=6046"
 				},
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -4975,7 +4975,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "10"
+				"probability": 10
 			}
 		]
 	},
@@ -5044,7 +5044,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "95"
+				"probability": 90
 			}
 		]
 	},
@@ -5130,7 +5130,7 @@
 					"web page @ aaai.org": "http://www.aaai.org/Library/ICWSM/icwsm-library.php",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1513"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -5211,7 +5211,7 @@
 						]
 					}
 				],
-				"probability": "53"
+				"probability": 53
 			}
 		]
 	},
@@ -5310,7 +5310,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "78"
+				"probability": 78
 			}
 		]
 	},
@@ -5391,7 +5391,7 @@
 						]
 					}
 				],
-				"probability": "11"
+				"probability": 11
 			}
 		]
 	},
@@ -5500,7 +5500,7 @@
 					"site": "http://www.ieee-security.org/",
 					"IEEE TC on Security and Privacy": "http://www.ieee-security.org/"
 				},
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -5610,7 +5610,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -5690,7 +5690,7 @@
 						]
 					}
 				],
-				"probability": "21"
+				"probability": 21
 			}
 		]
 	},
@@ -5797,7 +5797,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1482",
 					"ICGSE": "https://dblp.uni-trier.de/db/conf/icgse/index.html"
 				},
-				"probability": "16"
+				"probability": 16
 			}
 		]
 	},
@@ -5907,7 +5907,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -5966,7 +5966,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -6017,7 +6017,7 @@
 						]
 					}
 				],
-				"probability": "59"
+				"probability": 59
 			}
 		]
 	},
@@ -6113,7 +6113,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1303",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1303"
 				},
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -6169,7 +6169,7 @@
 					"web page @ ijcci.org": "http://www.ijcci.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1571"
 				},
-				"probability": "30"
+				"probability": 30
 			}
 		]
 	},
@@ -6228,7 +6228,7 @@
 					"site": "http://www.pacbb.net/",
 					"www.pacbb.net": "http://www.pacbb.net/"
 				},
-				"probability": "55"
+				"probability": 55
 			}
 		]
 	},
@@ -6313,7 +6313,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -6338,7 +6338,7 @@
 			"AI"
 		],
 		"parent": "International Conference on Agents and Artificial Intelligence",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1268&s=ICAART&f=International Conference on Agents and Artificial Intelligence",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1268",
 		"year": "2022",
 		"abbr": [
 			"icaart"
@@ -6417,7 +6417,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/ICAART",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1268"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -6442,7 +6442,7 @@
 			"logistics"
 		],
 		"parent": "International Conference on Operations Research and Enterprise Systems",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1441&s=ICORES&f=International Conference on Operations Research and Enterprise Systems",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1441",
 		"year": "2022",
 		"abbr": [
 			"icores"
@@ -6478,7 +6478,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/ICORES",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1441"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -6503,7 +6503,7 @@
 			"knowledge discovery"
 		],
 		"parent": "International Conference on Pattern Recognition Applications and Methods",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1449&s=ICPRAM&f=International Conference on Pattern Recognition Applications and Methods",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1449",
 		"year": "2022",
 		"abbr": [
 			"icpram"
@@ -6539,7 +6539,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/ICPRAM",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1449"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -6564,7 +6564,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Model-Driven Engineering and Software Development",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=33091&s=MODELSWARD&f=International Conference on Model-Driven Engineering and Software Development",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=33091",
 		"year": "2022",
 		"abbr": [
 			"modelsward"
@@ -6600,7 +6600,7 @@
 					"site": "http://www.modelsward.org",
 					"web page @ modelsward.org": "http://www.modelsward.org"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -6625,7 +6625,7 @@
 			"visualization"
 		],
 		"parent": "International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=33096&s=VISIGRAPP&f=International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=33096",
 		"year": "2022",
 		"abbr": [
 			"visigrapp"
@@ -6703,7 +6703,7 @@
 					"web page @ visigrapp.org": "http://www.visigrapp.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=33096"
 				},
-				"probability": "66"
+				"probability": 100
 			}
 		]
 	},
@@ -6728,7 +6728,7 @@
 			"augmented reality"
 		],
 		"parent": "International Conference on Computer Graphics Theory and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1148&s=GRAPP&f=International Conference on Computer Graphics Theory and Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1148",
 		"year": "2022",
 		"abbr": [
 			"grapp"
@@ -6786,7 +6786,7 @@
 						]
 					}
 				],
-				"probability": "73"
+				"probability": 73
 			}
 		]
 	},
@@ -6811,7 +6811,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Information Visualization Theory and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1806&s=IVAPP&f=International Conference on Information Visualization Theory and Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1806",
 		"year": "2022",
 		"abbr": [
 			"ivapp"
@@ -6883,7 +6883,7 @@
 						]
 					}
 				],
-				"probability": "22"
+				"probability": 22
 			}
 		]
 	},
@@ -6940,7 +6940,7 @@
 					"site": "http://www.chira.scitevents.org",
 					"web page @ scitevents.org": "http://www.chira.scitevents.org"
 				},
-				"probability": "66"
+				"probability": 66
 			}
 		]
 	},
@@ -6965,7 +6965,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Computer Vision Theory and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2944&s=VISAPP&f=International Conference on Computer Vision Theory and Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2944",
 		"year": "2022",
 		"abbr": [
 			"visapp"
@@ -7023,7 +7023,7 @@
 						]
 					}
 				],
-				"probability": "79"
+				"probability": 79
 			}
 		]
 	},
@@ -7048,7 +7048,7 @@
 			"sensors"
 		],
 		"parent": "International Conference on Sensor Networks",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2630&s=SENSORNETS&f=International Conference on Sensor Networks",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2630",
 		"year": "2022",
 		"abbr": [
 			"sensornets"
@@ -7111,7 +7111,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "93"
+				"probability": 90
 			}
 		]
 	},
@@ -7167,7 +7167,7 @@
 				"Links": {
 					"site": "https://www.wikidata.org/entity/Q28403921"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -7192,7 +7192,7 @@
 			"health informatics"
 		],
 		"parent": "International Conference on Health Informatics",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1182&s=HEALTHINF&f=International Conference on Health Informatics",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1182",
 		"year": "2022",
 		"abbr": [
 			"healthinf"
@@ -7250,7 +7250,7 @@
 						]
 					}
 				],
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -7336,7 +7336,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "48"
+				"probability": 48
 			}
 		]
 	},
@@ -7415,7 +7415,7 @@
 						]
 					}
 				],
-				"probability": "33"
+				"probability": 33
 			}
 		]
 	},
@@ -7485,7 +7485,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "49"
+				"probability": 49
 			}
 		]
 	},
@@ -7536,7 +7536,7 @@
 						"other": "Rank:"
 					}
 				],
-				"probability": "58"
+				"probability": 58
 			}
 		]
 	},
@@ -7626,7 +7626,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "26"
+				"probability": 26
 			}
 		]
 	},
@@ -7728,7 +7728,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=63",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=63"
 				},
-				"probability": "76"
+				"probability": 76
 			}
 		]
 	},
@@ -7826,7 +7826,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "16"
+				"probability": 16
 			}
 		]
 	},
@@ -7910,7 +7910,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "70"
+				"probability": 70
 			}
 		]
 	},
@@ -7994,7 +7994,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -8100,7 +8100,7 @@
 					"International Association for Artificial Intelligence and Law": "http://www.iaail.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1275"
 				},
-				"probability": "69"
+				"probability": 69
 			}
 		]
 	},
@@ -8198,7 +8198,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1303",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1303"
 				},
-				"probability": "42"
+				"probability": 42
 			}
 		]
 	},
@@ -8300,7 +8300,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "81"
+				"probability": 81
 			}
 		]
 	},
@@ -8352,7 +8352,7 @@
 						]
 					}
 				],
-				"probability": "89"
+				"probability": 89
 			}
 		]
 	},
@@ -8456,7 +8456,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1331",
 					"IEEE Computer Society": "http://www.computer.org/"
 				},
-				"probability": "18"
+				"probability": 18
 			}
 		]
 	},
@@ -8554,7 +8554,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "36"
+				"probability": 36
 			}
 		]
 	},
@@ -8652,7 +8652,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1303",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1303"
 				},
-				"probability": "42"
+				"probability": 42
 			}
 		]
 	},
@@ -8750,7 +8750,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "17"
+				"probability": 17
 			}
 		]
 	},
@@ -8817,7 +8817,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "66"
+				"probability": 66
 			}
 		]
 	},
@@ -8863,7 +8863,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -8971,7 +8971,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "33"
+				"probability": 33
 			}
 		]
 	},
@@ -9028,7 +9028,7 @@
 						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "80"
+				"probability": 80
 			}
 		]
 	},
@@ -9127,7 +9127,7 @@
 					"web page @ sigite.org": "http://www.sigite.org/",
 					"ACM SIGITE": "http://www.sigite.org/"
 				},
-				"probability": "36"
+				"probability": 36
 			}
 		]
 	},
@@ -9240,7 +9240,7 @@
 					"web page @ ksiresearch.org": "http://ksiresearch.org/seke/seke20.html",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2619"
 				},
-				"probability": "47"
+				"probability": 47
 			}
 		]
 	},
@@ -9319,7 +9319,7 @@
 						]
 					}
 				],
-				"probability": "41"
+				"probability": 41
 			}
 		]
 	},
@@ -9417,7 +9417,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "75"
+				"probability": 75
 			}
 		]
 	},
@@ -9468,7 +9468,7 @@
 						"other": "Request National, recommend National given that it has been always held in India(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1079.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4607IndiaHCI.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "48"
+				"probability": 48
 			}
 		]
 	},
@@ -9568,7 +9568,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -9621,7 +9621,7 @@
 						]
 					}
 				],
-				"probability": "69"
+				"probability": 69
 			}
 		]
 	},
@@ -9706,7 +9706,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "55"
+				"probability": 55
 			}
 		]
 	},
@@ -9728,7 +9728,7 @@
 			"web"
 		],
 		"parent": "International World Wide Web Conferences",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=3182&s=WWW&f=International World Wide Web Conferences",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=3182",
 		"year": "2022",
 		"abbr": [
 			"www"
@@ -9826,7 +9826,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/The_Web_Conference",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=3182"
 				},
-				"probability": "94"
+				"probability": 100
 			}
 		]
 	},
@@ -9924,7 +9924,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=476",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=476"
 				},
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -9950,7 +9950,7 @@
 			"artificial intelligence"
 		],
 		"parent": "Database Systems for Advanced Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=650&s=DASFAA&f=Database Systems for Advanced Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=650",
 		"year": "2022",
 		"abbr": [
 			"dasfaa"
@@ -10036,7 +10036,7 @@
 					"web page @ dasfaa.net": "https://www.dasfaa.net/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=650"
 				},
-				"probability": "98"
+				"probability": 100
 			}
 		]
 	},
@@ -10095,7 +10095,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -10195,7 +10195,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "64"
+				"probability": 64
 			}
 		]
 	},
@@ -10308,7 +10308,7 @@
 					"web page @ ksiresearch.org": "http://ksiresearch.org/seke/seke20.html",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2619"
 				},
-				"probability": "13"
+				"probability": 13
 			}
 		]
 	},
@@ -10413,7 +10413,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "78"
+				"probability": 78
 			}
 		]
 	},
@@ -10519,7 +10519,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1421"
 				},
-				"probability": "18"
+				"probability": 18
 			}
 		]
 	},
@@ -10619,7 +10619,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1426",
 					"STAF": "https://dblp.uni-trier.de/db/conf/staf/index.html"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -10671,7 +10671,7 @@
 						]
 					}
 				],
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -10696,7 +10696,7 @@
 			"classification"
 		],
 		"parent": "Industrial Conference on Data Mining",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1336&s=ICDM&f=Industrial Conference on Data Mining",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1336",
 		"year": "2022",
 		"abbr": [
 			"icdm"
@@ -10782,7 +10782,7 @@
 					"web page @ uvm.edu (archived)": "https://web.archive.org/web/*/http://www.cs.uvm.edu/~xwu/icdm.html",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1337"
 				},
-				"probability": "44"
+				"probability": 44
 			}
 		]
 	},
@@ -10807,7 +10807,7 @@
 			"classification"
 		],
 		"parent": "Machine Learning and Data Mining in Pattern Recognition",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2076&s=MLDM&f=Machine Learning and Data Mining in Pattern Recognition",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2076",
 		"year": "2022",
 		"abbr": [
 			"mldm"
@@ -10892,7 +10892,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1421"
 				},
-				"probability": "6"
+				"probability": 6
 			}
 		]
 	},
@@ -10971,7 +10971,7 @@
 						]
 					}
 				],
-				"probability": "33"
+				"probability": 33
 			}
 		]
 	},
@@ -11068,7 +11068,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "21"
+				"probability": 21
 			}
 		]
 	},
@@ -11120,7 +11120,7 @@
 						]
 					}
 				],
-				"probability": "51"
+				"probability": 51
 			}
 		]
 	},
@@ -11146,7 +11146,7 @@
 			"distributed systems"
 		],
 		"parent": "Applications and Theory of Petri Nets",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2348&s=Petri Nets&f=Applications and Theory of Petri Nets",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2348",
 		"year": "2022",
 		"abbr": [
 			"petri nets"
@@ -11228,7 +11228,7 @@
 					"web page @ uni-hamburg.de": "http://www.informatik.uni-hamburg.de/TGI/PetriNets/",
 					"World of Petri Nets": "http://www.informatik.uni-hamburg.de/TGI/PetriNets/"
 				},
-				"probability": "93"
+				"probability": 90
 			}
 		]
 	},
@@ -11251,7 +11251,7 @@
 			"intelligent environments"
 		],
 		"parent": "Intelligent Environments",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1532&s=IE&f=Intelligent Environments",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1532",
 		"year": "2022",
 		"abbr": [
 			"ie"
@@ -11301,7 +11301,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1532",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1532"
 				},
-				"probability": "89"
+				"probability": 100
 			}
 		]
 	},
@@ -11326,7 +11326,7 @@
 			"image processing"
 		],
 		"parent": "Computer Vision and Pattern Recognition",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=628&s=CVPR&f=Computer Vision and Pattern Recognition",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=628",
 		"year": "2022",
 		"abbr": [
 			"cvpr"
@@ -11409,7 +11409,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=628"
 				},
-				"probability": "89"
+				"probability": 100
 			}
 		]
 	},
@@ -11509,7 +11509,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -11617,7 +11617,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -11667,7 +11667,7 @@
 						]
 					}
 				],
-				"probability": "23"
+				"probability": 23
 			}
 		]
 	},
@@ -11743,7 +11743,7 @@
 						]
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -11842,7 +11842,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1385",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1385"
 				},
-				"probability": "22"
+				"probability": 22
 			}
 		]
 	},
@@ -11938,7 +11938,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=102",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=102"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -12037,7 +12037,7 @@
 					"web page @ sigite.org": "http://www.sigite.org/",
 					"ACM SIGITE": "http://www.sigite.org/"
 				},
-				"probability": "28"
+				"probability": 28
 			}
 		]
 	},
@@ -12087,7 +12087,7 @@
 						]
 					}
 				],
-				"probability": "91"
+				"probability": 90
 			}
 		]
 	},
@@ -12166,7 +12166,7 @@
 						]
 					}
 				],
-				"probability": "39"
+				"probability": 39
 			}
 		]
 	},
@@ -12245,7 +12245,7 @@
 						]
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -12269,7 +12269,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Software Reuse",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1481&s=ICSR&f=International Conference on Software Reuse",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1481",
 		"year": "2022",
 		"abbr": [
 			"icsr"
@@ -12351,7 +12351,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1481",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1481"
 				},
-				"probability": "20"
+				"probability": 100
 			}
 		]
 	},
@@ -12456,7 +12456,7 @@
 					"web page @ ieee.org": "https://ieeexplore.ieee.org/xpl/conhome/1000545/all-proceedings",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1448"
 				},
-				"probability": "60"
+				"probability": 60
 			}
 		]
 	},
@@ -12563,7 +12563,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/ieaaie",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1533"
 				},
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -12613,7 +12613,7 @@
 						]
 					}
 				],
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -12707,7 +12707,7 @@
 						]
 					}
 				],
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -12804,7 +12804,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1042",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1042"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -12883,7 +12883,7 @@
 						]
 					}
 				],
-				"probability": "16"
+				"probability": 16
 			}
 		]
 	},
@@ -12989,7 +12989,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/ieaaie",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1533"
 				},
-				"probability": "58"
+				"probability": 58
 			}
 		]
 	},
@@ -13039,7 +13039,7 @@
 						]
 					}
 				],
-				"probability": "35"
+				"probability": 35
 			}
 		]
 	},
@@ -13062,7 +13062,7 @@
 			"optimization"
 		],
 		"parent": "European Conference on Genetic Programming",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=960&s=EuroGP&f=European Conference on Genetic Programming",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=960",
 		"year": "2022",
 		"abbr": [
 			"eurogp"
@@ -13144,7 +13144,7 @@
 					"web page @ genetic-programming.org": "http://www.genetic-programming.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=960"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -13249,7 +13249,7 @@
 					"web page @ aclweb.org": "https://www.aclweb.org/portal/ijcnlp",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1572"
 				},
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -13271,7 +13271,7 @@
 			"information retrieval"
 		],
 		"parent": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2666&s=SIGIR&f=International ACM SIGIR Conference on Research and Development in Information Retrieval",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2666",
 		"year": "2022",
 		"abbr": [
 			"sigir"
@@ -13359,7 +13359,7 @@
 					"web page @ acm.org": "http://www.acm.org/sigir/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2666"
 				},
-				"probability": "89"
+				"probability": 100
 			}
 		]
 	},
@@ -13443,7 +13443,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "40"
+				"probability": 40
 			}
 		]
 	},
@@ -13540,7 +13540,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "57"
+				"probability": 57
 			}
 		]
 	},
@@ -13646,7 +13646,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Association_for_Computational_Linguistics",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=37"
 				},
-				"probability": "25"
+				"probability": 25
 			}
 		]
 	},
@@ -13747,7 +13747,7 @@
 					"site": "https://www.wikidata.org/entity/Q47449932",
 					"www.aistats.org": "http://www.aistats.org/"
 				},
-				"probability": "85"
+				"probability": 85
 			}
 		]
 	},
@@ -13849,7 +13849,7 @@
 					"site": "https://www.wikidata.org/entity/Q105693556",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2993"
 				},
-				"probability": "51"
+				"probability": 51
 			}
 		]
 	},
@@ -13928,7 +13928,7 @@
 						]
 					}
 				],
-				"probability": "16"
+				"probability": 16
 			}
 		]
 	},
@@ -14029,7 +14029,7 @@
 					"web page @ sigite.org": "http://www.sigite.org/",
 					"ACM SIGITE": "http://www.sigite.org/"
 				},
-				"probability": "83"
+				"probability": 83
 			}
 		]
 	},
@@ -14138,7 +14138,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_High_Performance_Computing",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1192"
 				},
-				"probability": "4"
+				"probability": 4
 			}
 		]
 	},
@@ -14241,7 +14241,7 @@
 					"site": "https://www.wikidata.org/entity/Q27725004",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=548"
 				},
-				"probability": "47"
+				"probability": 47
 			}
 		]
 	},
@@ -14325,7 +14325,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -14419,7 +14419,7 @@
 						]
 					}
 				],
-				"probability": "48"
+				"probability": 48
 			}
 		]
 	},
@@ -14527,7 +14527,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1670",
 					"ISAIM Home Page": "http://rutcor.rutgers.edu/~amai/"
 				},
-				"probability": "44"
+				"probability": 44
 			}
 		]
 	},
@@ -14606,7 +14606,7 @@
 						]
 					}
 				],
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -14710,7 +14710,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1331",
 					"IEEE Computer Society": "http://www.computer.org/"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -14810,7 +14810,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "33"
+				"probability": 33
 			}
 		]
 	},
@@ -14894,7 +14894,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "40"
+				"probability": 40
 			}
 		]
 	},
@@ -14973,7 +14973,7 @@
 						]
 					}
 				],
-				"probability": "32"
+				"probability": 32
 			}
 		]
 	},
@@ -15023,7 +15023,7 @@
 						]
 					}
 				],
-				"probability": "23"
+				"probability": 23
 			}
 		]
 	},
@@ -15119,7 +15119,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=102",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=102"
 				},
-				"probability": "27"
+				"probability": 27
 			}
 		]
 	},
@@ -15224,7 +15224,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=628"
 				},
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -15324,7 +15324,7 @@
 					"web page @ keio.ac.jp": "http://www.ozawa.ics.keio.ac.jp/mva/",
 					"IAPR": "http://www.iapr.org/"
 				},
-				"probability": "81"
+				"probability": 81
 			}
 		]
 	},
@@ -15432,7 +15432,7 @@
 					"web page @ ieee-ras.org": "https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/icarcv",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1286"
 				},
-				"probability": "29"
+				"probability": 29
 			}
 		]
 	},
@@ -15526,7 +15526,7 @@
 						]
 					}
 				],
-				"probability": "27"
+				"probability": 27
 			}
 		]
 	},
@@ -15628,7 +15628,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=326",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=326"
 				},
-				"probability": "36"
+				"probability": 36
 			}
 		]
 	},
@@ -15726,7 +15726,7 @@
 					"web page @ googlepages.com": "http://citconference.googlepages.com/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1402"
 				},
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -15805,7 +15805,7 @@
 						]
 					}
 				],
-				"probability": "74"
+				"probability": 74
 			}
 		]
 	},
@@ -15857,7 +15857,7 @@
 						]
 					}
 				],
-				"probability": "33"
+				"probability": 33
 			}
 		]
 	},
@@ -15956,7 +15956,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "83"
+				"probability": 83
 			}
 		]
 	},
@@ -16011,7 +16011,7 @@
 						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "48"
+				"probability": 48
 			}
 		]
 	},
@@ -16114,7 +16114,7 @@
 					"web page @ aclweb.org": "https://www.aclweb.org/portal/ijcnlp",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1572"
 				},
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -16138,7 +16138,7 @@
 			"computing"
 		],
 		"parent": "Mobile Ad Hoc Networking and Computing",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2103&s=MobiHoc&f=Mobile Ad Hoc Networking and Computing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2103",
 		"year": "2022",
 		"abbr": [
 			"mobihoc"
@@ -16219,7 +16219,7 @@
 					"site": "https://www.wikidata.org/entity/Q6053806",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2103"
 				},
-				"probability": "73"
+				"probability": 100
 			}
 		]
 	},
@@ -16329,7 +16329,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Software_Engineering",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1462"
 				},
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -16411,7 +16411,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=3001",
 					"APWeb": "https://dblp.uni-trier.de/db/conf/apweb/index.html"
 				},
-				"probability": "74"
+				"probability": 74
 			}
 		]
 	},
@@ -16530,7 +16530,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Robots_and_Systems",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1660"
 				},
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -16580,7 +16580,7 @@
 						]
 					}
 				],
-				"probability": "39"
+				"probability": 39
 			}
 		]
 	},
@@ -16684,7 +16684,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1331",
 					"IEEE Computer Society": "http://www.computer.org/"
 				},
-				"probability": "76"
+				"probability": 76
 			}
 		]
 	},
@@ -16784,7 +16784,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "51"
+				"probability": 51
 			}
 		]
 	},
@@ -16868,7 +16868,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "68"
+				"probability": 68
 			}
 		]
 	},
@@ -16952,7 +16952,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -17060,7 +17060,7 @@
 					"web page @ uvm.edu (archived)": "https://web.archive.org/web/*/http://www.cs.uvm.edu/~xwu/icdm.html",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1337"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -17160,7 +17160,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1426",
 					"STAF": "https://dblp.uni-trier.de/db/conf/staf/index.html"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -17257,7 +17257,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1490",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1490"
 				},
-				"probability": "46"
+				"probability": 46
 			}
 		]
 	},
@@ -17308,7 +17308,7 @@
 						]
 					}
 				],
-				"probability": "31"
+				"probability": 31
 			}
 		]
 	},
@@ -17365,7 +17365,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1389",
 					"ICINCO Home Page": "http://www.icinco.org/"
 				},
-				"probability": "42"
+				"probability": 42
 			}
 		]
 	},
@@ -17466,7 +17466,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1697",
 					"ISDA Home Page": "http://www.softcomputing.net/isda.html"
 				},
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -17565,7 +17565,7 @@
 					"web page @ sigite.org": "http://www.sigite.org/",
 					"ACM SIGITE": "http://www.sigite.org/"
 				},
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -17670,7 +17670,7 @@
 					"web page @ aclweb.org": "https://www.aclweb.org/portal/ijcnlp",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1572"
 				},
-				"probability": "82"
+				"probability": 82
 			}
 		]
 	},
@@ -17727,7 +17727,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=665",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=665"
 				},
-				"probability": "76"
+				"probability": 76
 			}
 		]
 	},
@@ -17826,7 +17826,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1322",
 					"ICCSA Home Page": "http://www.iccsa.org/"
 				},
-				"probability": "74"
+				"probability": 74
 			}
 		]
 	},
@@ -17929,7 +17929,7 @@
 					"web page @ ieee.org": "https://ieeexplore.ieee.org/xpl/conhome/1000545/all-proceedings",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1448"
 				},
-				"probability": "55"
+				"probability": 55
 			}
 		]
 	},
@@ -18032,7 +18032,7 @@
 					"site": "http://www.acisinternational.org/",
 					"ACIS": "http://www.acisinternational.org/"
 				},
-				"probability": "45"
+				"probability": 45
 			}
 		]
 	},
@@ -18055,7 +18055,7 @@
 			"cyber-physical systems"
 		],
 		"parent": "Real Time Technology and Applications Symposium",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2509&s=RTAS&f=Real Time Technology and Applications Symposium",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2509",
 		"year": "2022",
 		"abbr": [
 			"rtas"
@@ -18137,7 +18137,7 @@
 					"site": "https://dblp.uni-trier.de/db/conf/cpsweek/index.html",
 					"Cyber-Physical Systems Week (CPS Week)": "https://dblp.uni-trier.de/db/conf/cpsweek/index.html"
 				},
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -18162,7 +18162,7 @@
 			"information systems"
 		],
 		"parent": "Australasian Document Computing Symposium",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=58&s=ADCS&f=Australasian Document Computing Symposium",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=58",
 		"year": "2021",
 		"abbr": [
 			"adcs"
@@ -18228,7 +18228,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=58",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=58"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -18328,7 +18328,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1399",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1399"
 				},
-				"probability": "54"
+				"probability": 54
 			}
 		]
 	},
@@ -18353,7 +18353,7 @@
 			"data science"
 		],
 		"parent": "International Joint Conference on Artificial Intelligence",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1567&s=IJCAI&f=International Joint Conference on Artificial Intelligence",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1567",
 		"year": "2022",
 		"abbr": [
 			"ijcai"
@@ -18443,7 +18443,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Joint_Conference_on_Artificial_Intelligence",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1567"
 				},
-				"probability": "97"
+				"probability": 100
 			}
 		]
 	},
@@ -18495,7 +18495,7 @@
 						]
 					}
 				],
-				"probability": "83"
+				"probability": 83
 			}
 		]
 	},
@@ -18575,7 +18575,7 @@
 						]
 					}
 				],
-				"probability": "62"
+				"probability": 62
 			}
 		]
 	},
@@ -18632,7 +18632,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/ICPRAM",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1449"
 				},
-				"probability": "56"
+				"probability": 56
 			}
 		]
 	},
@@ -18654,7 +18654,7 @@
 			"software engineering"
 		],
 		"parent": "European Conference on Object-Oriented Programming",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=817&s=ECOOP&f=European Conference on Object-Oriented Programming",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=817",
 		"year": "2022",
 		"abbr": [
 			"ecoop"
@@ -18740,7 +18740,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/European_Conference_on_Object-Oriented_Programming",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=817"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -18815,7 +18815,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -18894,7 +18894,7 @@
 						]
 					}
 				],
-				"probability": "31"
+				"probability": 31
 			}
 		]
 	},
@@ -18944,7 +18944,7 @@
 						]
 					}
 				],
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -19044,7 +19044,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1277",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1277"
 				},
-				"probability": "35"
+				"probability": 35
 			}
 		]
 	},
@@ -19123,7 +19123,7 @@
 						]
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -19182,7 +19182,7 @@
 					"site": "http://www.pacbb.net/",
 					"www.pacbb.net": "http://www.pacbb.net/"
 				},
-				"probability": "43"
+				"probability": 43
 			}
 		]
 	},
@@ -19205,7 +19205,7 @@
 			"knowledge discovery"
 		],
 		"parent": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2299&s=PAKDD&f=Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2299",
 		"year": "2022",
 		"abbr": [
 			"pakdd"
@@ -19287,7 +19287,7 @@
 				"Links": {
 					"site": "https://www.wikidata.org/entity/Q104417900"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -19337,7 +19337,7 @@
 						]
 					}
 				],
-				"probability": "24"
+				"probability": 24
 			}
 		]
 	},
@@ -19439,7 +19439,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1321",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1321"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -19537,7 +19537,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=476",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=476"
 				},
-				"probability": "88"
+				"probability": 88
 			}
 		]
 	},
@@ -19562,7 +19562,7 @@
 			"data analytics"
 		],
 		"parent": "Intelligent Data Analysis",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1517&s=IDA&f=Intelligent Data Analysis",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1517",
 		"year": "2022",
 		"abbr": [
 			"ida"
@@ -19647,7 +19647,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/ida",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1517"
 				},
-				"probability": "1"
+				"probability": 100
 			}
 		]
 	},
@@ -19705,7 +19705,7 @@
 					"web page @ iotbds.org": "http://www.iotbds.org",
 					"www.iotbds.org": "http://www.iotbds.org"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -19765,7 +19765,7 @@
 					"web page @ complexis.org": "http://www.complexis.org",
 					"www.complexis.org": "http://www.complexis.org"
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -19822,7 +19822,7 @@
 						"other": "Ranked C as requested(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1639.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4605ICT4AWE.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -19847,7 +19847,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Evaluation of Novel Approaches to Software Engineering",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=888&s=ENASE&f=International Conference on Evaluation of Novel Approaches to Software Engineering",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=888",
 		"year": "2022",
 		"abbr": [
 			"enase"
@@ -19926,7 +19926,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=888",
 					"www.enase.org": "http://www.enase.org/"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -19951,7 +19951,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Enterprise Information Systems",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1356&s=ICEIS&f=International Conference on Enterprise Information Systems",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1356",
 		"year": "2022",
 		"abbr": [
 			"iceis"
@@ -20014,7 +20014,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -20072,7 +20072,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -20097,7 +20097,7 @@
 			"services"
 		],
 		"parent": "International Conference on Cloud Computing and Services Science",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=498&s=CLOSER&f=International Conference on Cloud Computing and Services Science",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=498",
 		"year": "2022",
 		"abbr": [
 			"closer"
@@ -20133,7 +20133,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=498",
 					"closer.scitevents.org": "http://closer.scitevents.org/"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -20158,7 +20158,7 @@
 			"computer science"
 		],
 		"parent": "International Conference on Computer Supported Education",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=597&s=CSEDU&f=International Conference on Computer Supported Education",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=597",
 		"year": "2022",
 		"abbr": [
 			"csedu"
@@ -20196,7 +20196,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=597",
 					"www.csedu.org": "http://www.csedu.org/"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -20254,7 +20254,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "85"
+				"probability": 85
 			}
 		]
 	},
@@ -20276,7 +20276,7 @@
 			"computational linguistics"
 		],
 		"parent": "Meeting of the Association for Computational Linguistics",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=37&s=ACL&f=Meeting of the Association for Computational Linguistics",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=37",
 		"year": "2022",
 		"abbr": [
 			"acl"
@@ -20359,7 +20359,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Association_for_Computational_Linguistics",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=37"
 				},
-				"probability": "50"
+				"probability": 100
 			}
 		]
 	},
@@ -20465,7 +20465,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/ieaaie",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1533"
 				},
-				"probability": "41"
+				"probability": 41
 			}
 		]
 	},
@@ -20522,7 +20522,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1389",
 					"ICINCO Home Page": "http://www.icinco.org/"
 				},
-				"probability": "69"
+				"probability": 69
 			}
 		]
 	},
@@ -20622,7 +20622,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -20647,7 +20647,7 @@
 			"knowledge management"
 		],
 		"parent": "Knowledge Science, Engineering and Management",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1923&s=KSEM&f=Knowledge Science, Engineering and Management",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1923",
 		"year": "2022",
 		"abbr": [
 			"ksem"
@@ -20726,7 +20726,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1923",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1923"
 				},
-				"probability": "100"
+				"probability": 100
 			}
 		]
 	},
@@ -20822,7 +20822,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=102",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=102"
 				},
-				"probability": "84"
+				"probability": 84
 			}
 		]
 	},
@@ -20918,7 +20918,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1303",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1303"
 				},
-				"probability": "61"
+				"probability": 61
 			}
 		]
 	},
@@ -20943,7 +20943,7 @@
 			"deep learning"
 		],
 		"parent": "International Conference on Computing: Theory and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1324&s=ICCTA&f=International Conference on Computing: Theory and Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1324",
 		"year": "2021",
 		"abbr": [
 			"iccta"
@@ -21001,7 +21001,7 @@
 						]
 					}
 				],
-				"probability": "97"
+				"probability": 90
 			}
 		]
 	},
@@ -21098,7 +21098,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "74"
+				"probability": 74
 			}
 		]
 	},
@@ -21123,7 +21123,7 @@
 			"information systems"
 		],
 		"parent": "Research Challenges in Information Science",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2466&s=RCIS&f=Research Challenges in Information Science",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2466",
 		"year": "2022",
 		"abbr": [
 			"rcis"
@@ -21201,7 +21201,7 @@
 					"web page @ rcis-conf.com": "http://www.rcis-conf.com/",
 					"RCIS Home Page": "http://www.rcis-conf.com/"
 				},
-				"probability": "98"
+				"probability": 90
 			}
 		]
 	},
@@ -21282,7 +21282,7 @@
 						]
 					}
 				],
-				"probability": "97"
+				"probability": 90
 			}
 		]
 	},
@@ -21307,7 +21307,7 @@
 			"software engineering"
 		],
 		"parent": "Agent and Multi-Agent Systems: Technologies and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=165&s=AMSTA&f=Agent and Multi-Agent Systems: Technologies and Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=165",
 		"year": "2022",
 		"abbr": [
 			"amsta",
@@ -21380,7 +21380,7 @@
 						]
 					}
 				],
-				"probability": "71"
+				"probability": 71
 			}
 		]
 	},
@@ -21404,7 +21404,7 @@
 			"data science"
 		],
 		"parent": "Passive and Active Network Measurement",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2301&s=PAM&f=Passive and Active Network Measurement",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2301",
 		"year": "2022",
 		"abbr": [
 			"pam"
@@ -21484,7 +21484,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -21556,7 +21556,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -21655,7 +21655,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1169",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1169"
 				},
-				"probability": "49"
+				"probability": 49
 			}
 		]
 	},
@@ -21724,7 +21724,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "26"
+				"probability": 26
 			}
 		]
 	},
@@ -21749,7 +21749,7 @@
 			"image processing"
 		],
 		"parent": "International Conference in Central Europe on Computer Graphics and Visualization",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=3157&s=WSCG&f=International Conference in Central Europe on Computer Graphics and Visualization",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=3157",
 		"year": "2022",
 		"abbr": [
 			"wscg"
@@ -21829,7 +21829,7 @@
 					"web page @ wscg.eu": "http://www.wscg.eu/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=3157"
 				},
-				"probability": "96"
+				"probability": 100
 			}
 		]
 	},
@@ -21924,7 +21924,7 @@
 						]
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -22027,7 +22027,7 @@
 				"Links": {
 					"site": "https://www.wikidata.org/entity/Q67385819"
 				},
-				"probability": "50"
+				"probability": 50
 			}
 		]
 	},
@@ -22131,7 +22131,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=282",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=282"
 				},
-				"probability": "63"
+				"probability": 63
 			}
 		]
 	},
@@ -22181,7 +22181,7 @@
 						]
 					}
 				],
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -22279,7 +22279,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "52"
+				"probability": 52
 			}
 		]
 	},
@@ -22378,7 +22378,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=891",
 					"International Federation for Information Technologies and Travel & Tourism (IFITT)": "http://www.ifitt.org/"
 				},
-				"probability": "72"
+				"probability": 72
 			}
 		]
 	},
@@ -22481,7 +22481,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "43"
+				"probability": 43
 			}
 		]
 	},
@@ -22587,7 +22587,7 @@
 					"International Association for Artificial Intelligence and Law": "http://www.iaail.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1275"
 				},
-				"probability": "78"
+				"probability": 78
 			}
 		]
 	},
@@ -22644,7 +22644,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "73"
+				"probability": 73
 			}
 		]
 	},
@@ -22751,7 +22751,7 @@
 					"International Association for Artificial Intelligence and Law": "http://www.iaail.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1275"
 				},
-				"probability": "38"
+				"probability": 38
 			}
 		]
 	},
@@ -22854,7 +22854,7 @@
 					"web page @ ieee.org": "https://ieeexplore.ieee.org/xpl/conhome/1000156/all-proceedings",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1685"
 				},
-				"probability": "72"
+				"probability": 72
 			}
 		]
 	},
@@ -22880,7 +22880,7 @@
 			"5G"
 		],
 		"parent": "Cluster Computing and the Grid",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=388&s=CCGRID&f=Cluster Computing and the Grid",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=388",
 		"year": "2022",
 		"abbr": [
 			"ccgrid"
@@ -22963,7 +22963,7 @@
 					"web page @ buyya.com": "http://www.buyya.com/ccgrid/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=388"
 				},
-				"probability": "69"
+				"probability": 100
 			}
 		]
 	},
@@ -23017,7 +23017,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "20"
+				"probability": 20
 			}
 		]
 	},
@@ -23079,7 +23079,7 @@
 					"web page @ fruct.org": "http://fruct.org/",
 					"fruct.org": "http://fruct.org/"
 				},
-				"probability": "12"
+				"probability": 12
 			}
 		]
 	},
@@ -23104,7 +23104,7 @@
 			"computing"
 		],
 		"parent": "Symposium on the Theory of Computing",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2783&s=STOC&f=Symposium on the Theory of Computing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2783",
 		"year": "2022",
 		"abbr": [
 			"stoc"
@@ -23188,7 +23188,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Symposium_on_Theory_of_Computing",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2783"
 				},
-				"probability": "76"
+				"probability": 100
 			}
 		]
 	},
@@ -23257,7 +23257,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "27"
+				"probability": 27
 			}
 		]
 	},
@@ -23337,7 +23337,7 @@
 						]
 					}
 				],
-				"probability": "7"
+				"probability": 7
 			}
 		]
 	},
@@ -23394,7 +23394,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -23416,7 +23416,7 @@
 			"knowledge management in practi"
 		],
 		"parent": "European Conference on Knowledge Management",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=810&s=ECKM&f=European Conference on Knowledge Management",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=810",
 		"year": "2022",
 		"abbr": [
 			"eckm"
@@ -23479,7 +23479,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "93"
+				"probability": 90
 			}
 		]
 	},
@@ -23537,7 +23537,7 @@
 				"Links": {
 					"site": "https://www.wikidata.org/entity/Q18351895"
 				},
-				"probability": "70"
+				"probability": 70
 			}
 		]
 	},
@@ -23561,7 +23561,7 @@
 			"information science"
 		],
 		"parent": "ACM/IEEE Joint Conference on Digital Libraries",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1880&s=JCDL&f=ACM/IEEE Joint Conference on Digital Libraries",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1880",
 		"year": "2022",
 		"abbr": [
 			"jcdl"
@@ -23622,7 +23622,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/Joint_Conference_on_Digital_Libraries",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1880"
 				},
-				"probability": "76"
+				"probability": 100
 			}
 		]
 	},
@@ -23679,7 +23679,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -23787,7 +23787,7 @@
 					"web page @ springer.com": "https://link.springer.com/conference/ieaaie",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1533"
 				},
-				"probability": "60"
+				"probability": 60
 			}
 		]
 	},
@@ -23813,7 +23813,7 @@
 			"complexity"
 		],
 		"parent": "Latin American Symposium on Theoretical Informatics",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1941&s=LATIN&f=Latin American Symposium on Theoretical Informatics",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1941",
 		"year": "2022",
 		"abbr": [
 			"latin"
@@ -23895,7 +23895,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=1941",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1941"
 				},
-				"probability": "57"
+				"probability": 100
 			}
 		]
 	},
@@ -23954,7 +23954,7 @@
 					"web page @ ijcci.org": "http://www.ijcci.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1571"
 				},
-				"probability": "39"
+				"probability": 39
 			}
 		]
 	},
@@ -24060,7 +24060,7 @@
 					"web page @ ieee.org": "https://ieeexplore.ieee.org/xpl/conhome/1000349/all-proceedings",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1390"
 				},
-				"probability": "81"
+				"probability": 81
 			}
 		]
 	},
@@ -24155,7 +24155,7 @@
 						]
 					}
 				],
-				"probability": "72"
+				"probability": 72
 			}
 		]
 	},
@@ -24241,7 +24241,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "30"
+				"probability": 30
 			}
 		]
 	},
@@ -24309,7 +24309,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "49"
+				"probability": 49
 			}
 		]
 	},
@@ -24359,7 +24359,7 @@
 						]
 					}
 				],
-				"probability": "59"
+				"probability": 59
 			}
 		]
 	},
@@ -24452,7 +24452,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Information_Systems",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1394"
 				},
-				"probability": "75"
+				"probability": 75
 			}
 		]
 	},
@@ -24478,7 +24478,7 @@
 			"computer science"
 		],
 		"parent": "Integration of AI and OR Techniques in Constraint Programming",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=574&s=CPAIOR&f=Integration of AI and OR Techniques in Constraint Programming",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=574",
 		"year": "2022",
 		"abbr": [
 			"cpaior"
@@ -24560,7 +24560,7 @@
 					"site": "http://www.wikicfp.com/cfp/program?id=574",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=574"
 				},
-				"probability": "28"
+				"probability": 100
 			}
 		]
 	},
@@ -24612,7 +24612,7 @@
 						]
 					}
 				],
-				"probability": "86"
+				"probability": 86
 			}
 		]
 	},
@@ -24635,7 +24635,7 @@
 			"network"
 		],
 		"parent": "International Middleware Conference",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2054&s=Middleware&f=International Middleware Conference",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2054",
 		"year": "2022",
 		"abbr": [
 			"middleware"
@@ -24718,7 +24718,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Middleware_Conference",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2054"
 				},
-				"probability": "56"
+				"probability": 100
 			}
 		]
 	},
@@ -24817,7 +24817,7 @@
 					"web page @ itcc.info": "http://www.itcc.info/",
 					"ITCC Home Page": "http://www.itcc.info/"
 				},
-				"probability": "27"
+				"probability": 27
 			}
 		]
 	},
@@ -24916,7 +24916,7 @@
 					"site": "https://dblp.uni-trier.de/db/conf/icse/index.html",
 					"ICSE": "https://dblp.uni-trier.de/db/conf/icse/index.html"
 				},
-				"probability": "96"
+				"probability": 90
 			}
 		]
 	},
@@ -24969,7 +24969,7 @@
 						]
 					}
 				],
-				"probability": "52"
+				"probability": 52
 			}
 		]
 	},
@@ -25070,7 +25070,7 @@
 					"web page @ googlepages.com": "http://citconference.googlepages.com/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1402"
 				},
-				"probability": "60"
+				"probability": 60
 			}
 		]
 	},
@@ -25179,7 +25179,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1421"
 				},
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -25280,7 +25280,7 @@
 					"web page @ googlepages.com": "http://citconference.googlepages.com/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1402"
 				},
-				"probability": "60"
+				"probability": 60
 			}
 		]
 	},
@@ -25334,7 +25334,7 @@
 						"other": "Request National, recommend National given that it has been always held in India(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1079.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4607IndiaHCI.pdf\">Decision</a>)"
 					}
 				],
-				"probability": "67"
+				"probability": 67
 			}
 		]
 	},
@@ -25387,7 +25387,7 @@
 						]
 					}
 				],
-				"probability": "28"
+				"probability": 28
 			}
 		]
 	},
@@ -25488,7 +25488,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "3"
+				"probability": 3
 			}
 		]
 	},
@@ -25575,7 +25575,7 @@
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=40",
 					"acml-conf.org": "http://acml-conf.org"
 				},
-				"probability": "18"
+				"probability": 18
 			}
 		]
 	},
@@ -25600,7 +25600,7 @@
 			"cloud computing"
 		],
 		"parent": "International Conference on Communications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1294&s=ICC&f=International Conference on Communications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1294",
 		"year": "2022",
 		"abbr": [
 			"icc"
@@ -25667,7 +25667,7 @@
 					"web page @ ieee-icc.org": "http://www.ieee-icc.org/",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1294"
 				},
-				"probability": "79"
+				"probability": 100
 			}
 		]
 	},
@@ -25740,7 +25740,7 @@
 						]
 					}
 				],
-				"probability": "79"
+				"probability": 79
 			}
 		]
 	},
@@ -25826,7 +25826,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "8"
+				"probability": 8
 			}
 		]
 	},
@@ -25878,7 +25878,7 @@
 						]
 					}
 				],
-				"probability": "1"
+				"probability": 1
 			}
 		]
 	},
@@ -25974,7 +25974,7 @@
 						]
 					}
 				],
-				"probability": "76"
+				"probability": 76
 			}
 		]
 	},
@@ -26072,7 +26072,7 @@
 				"Links": {
 					"site": null
 				},
-				"probability": "100"
+				"probability": 90
 			}
 		]
 	},
@@ -26179,7 +26179,7 @@
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Intelligent_Tutoring_Systems",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1795"
 				},
-				"probability": "76"
+				"probability": 76
 			}
 		]
 	},
@@ -26283,7 +26283,7 @@
 					"Twitter microblog": "https://twitter.com/naaclhlt",
 					"Wikipedia article": "https://en.wikipedia.org/wiki/North_American_Chapter_of_the_Association_for_Computational_Linguistics"
 				},
-				"probability": "63"
+				"probability": 63
 			}
 		]
 	}
