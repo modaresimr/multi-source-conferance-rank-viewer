@@ -61,10 +61,10 @@
             var out = "";
             events.forEach(d => {
                 out += `<h4>${d.summary}</h2>`
-                out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-                Object.keys(d).forEach((p) => (out += "<tr><th>" + p + "</th><td>" + internal_format(d[p]) + "</td></tr>"));
+                out += '<div style="padding-left:50px;">';
+                Object.keys(d).forEach((p) => (out += "<div style='width:40%;display:inline-block'><b>" + p + "</b><span>" + internal_format(d[p]) + "</span></div>"));
 
-                out += "</table>";
+                out += "</div>";
 
             });
             return out;
