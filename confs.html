@@ -55,8 +55,10 @@
             return "<div>" + d + "</div>";
         }
         function internal_format(data) {
+            if (data==null)return '';
             if (typeof data == typeof "") {
                 data = data.replace('T00:00:00', '')
+                data = data.replace('T23:59:59', '')
                 if (data.indexOf('/cfp/program') == 0)
                     data = "http://www.wikicfp.com" + data;
                 if (data.indexOf('https://') == 0|| data.indexOf('http://')==0)
@@ -65,31 +67,28 @@
             return data;
         }
         function format_obj(key,val) {
-            if(val)
-                return "<dt>" + key + "</dt><dd>" + internal_format(val) + "</dd>"
-            return '';
+            return "<th>" + key + "</th><td>" + internal_format(val) + "</td>"
+        }
+        function format_row(item){
+            return '<tr>'+item+"</tr>"
         }
         function format_event(events) {
             // `d` is the original data object for the row
             var out = "";
             events.forEach(d => {
                 out += `<h4>${d.summary} : ${d.description} : (${internal_format(d.submission_deadline)}): ${Math.max(0,100-d.levDistance*100).toFixed(0)}%</h2>`
-                out += '<dl style="padding-left:50px;">';
+                out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
-                out += format_obj('Abbr',d.abbr)
-                out+=format_obj('Date',d.startDate+" - "+ d.endDate)
-                out += format_obj('Links', `<a href='${d.source}' target='_blank'>ConfSite</a> <a href='${d.identifier}' target='_blank'>WikiCFP</a>` )             
-                if(d.parent)
-                    out += format_obj('Series',`<a href=${d.parentLink}>${d.parent}</a>`)
-                out += format_obj('Location', d.locality)
-                out += format_obj('Abstract Registration Due',d['abstract_registration_due'])
-                out += format_obj('Submission Deadline',d.submission_deadline )
-                out += format_obj('Notification Due',d.submission_deadline)
-                out += format_obj('Categories',d.categories)
-                out += format_obj('Year',d.year)
-                out += format_obj('nth', d.nth)
+                out +=format_row(format_obj('Abbr',d.abbr)+format_obj('Date',d.startDate+" : "+ d.endDate))
+                
+                out += format_row(format_obj('Links', `<a href='${d.source}' target='_blank'>ConfSite</a> <a href='${d.identifier}' target='_blank'>WikiCFP</a>`) +
+                                    format_obj('Series',d.parent?`<a href=${d.parentLink}>${d.parent}</a>`:''))
+                out += format_row(format_obj('Categories',d.categories)+format_obj('Location', d.locality))
+                out += format_row(format_obj('Submission Deadline',d.submission_deadline )+format_obj('Abstract Registration Due',d['abstract_registration_due']))
+                out += format_row(format_obj('Notification Due',d.submission_deadline)+
+                       format_obj('Year (nth)',internal_format(d.year)+" ("+internal_format(d.nth)+")" )
         
-                out += "</dl>";
+                out += "</table>";
 
             });
             return out;
