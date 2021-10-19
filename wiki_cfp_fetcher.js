@@ -92,7 +92,7 @@ function fillDetails(all, processed, callback) {
         }
         var link = all[indx].cfpLink
         var event_id = all[indx].event_id
-        if (processed[event_id] == null) {
+        if (processed[event_id] == null||['1','2','3'].indexOf(processed[event_id].nth)>=0) {
             newi++;
             getDetail(link, res => {
                 processed[event_id] = res
@@ -122,7 +122,7 @@ function getDetail(link, callback) {
         data.slice(1).each((p,q) => {
             title = $('span[property="v:summary"]', q)[0].attribs['content'];
             date = $('span[property="v:startDate"]', q)[0].attribs['content'];
-            obj[title.toLowerCase().replace(' ', '_')] = date
+            obj[title.toLowerCase().replace(/[ ]/g, '_')] = date
         });
         obj.call = $($('div.cfp')[0]).text();
         $('div[xmlns\\:dc] span').each((p,q) => obj[q.attribs['property'].replace('dc:', '')] = q.attribs['content']);
@@ -130,7 +130,7 @@ function getDetail(link, callback) {
         parent = $("a[href*='/cfp/program']");
         if (parent.length > 0) {
             obj.parent = $(parent[0]).text();
-            obj.parentLink = $(parent[0]).attr('href');
+            obj.parentLink = "http://www.wikicfp.com"+$(parent[0]).attr('href');
         }
 
 
@@ -142,46 +142,49 @@ function getDetail(link, callback) {
             let abbr = /.*s=(.*)&.*/.exec(obj.parentLink)
             if (abbr != null) obj.abbr.add(abbr[1].toLowerCase());
         }
+        let nth = /(\d*1st|\d*2nd|\d*3rd|\d+th)/i.exec(obj.description + " " + obj.call);
+        if (nth != null) obj.nth = nth[0].replace(/(st|nd|rd|th)/, '')
+
+        let re = /([ ]*(\d*1st|\d*2nd|\d*3rd|\d+th|19\d{2}|20\d{2})[ ]*)+/gi;
+        obj.description = obj.description.replace(re, ' ')
 
         abbr_regex = /\((.+)\)/
         abbr = abbr_regex.exec(obj.description)
         if (abbr != null) {
-            obj.abbr.add(abbr[1].toLowerCase());
-            obj.description.replace(abbr_regex, '')
+            obj.abbr.add(abbr[1].toLowerCase().replace(/[- ]*$/g,''));
+            obj.description=obj.description.replace(abbr_regex, '')
         }
 
         obj.abbr.add(obj.title.toLowerCase());
-        obj.abbr.add(obj.title.replace(/(IEEE|ACM)[ -]+/i, '').toLowerCase())
+        repeated_rg=/[^ -]+(IEEE|ACM|shanghai|Ei[ -]Compendex|Scopus|[ -])+[ -$]+/ig;
+        obj.abbr.add(obj.title.replace(repeated_rg, ' ').toLowerCase())
 
-        obj.description = obj.description.replace(obj.title + ":", '').replace(/^the /i, '');
+        obj.description = obj.description.replace(obj.title + ":", '').replace(/[^ -]+the /i, '').replace(repeated_rg, ' ');
+
         obj.event_id = /eventid=(\d+)/.exec(obj.identifier)[1]
-        let nth = /(1st|2nd|3rd|\d+th)/i.exec(obj.description + " " + obj.call);
-        if (nth != null) obj.nth = nth[0].replace(/(st|nd|rd|th)/, '')
-
-        let re = /([ ]*(1st|2nd|3rd|\d+th|19\d{2}|20\d{2})[ ]*)+/gi;
-        obj.description = obj.description.replace(re, '')
+        
 
         regex = new RegExp("(" + Object.keys(first).join("|") + ")?[ -]?(" + Object.keys(last).join("|") + ")", 'i')
         re = regex.exec(obj.description)
         if (re != null) {
             num = re[1] == null ? 0 : first[re[1]]
             num += re[2] == null ? 0 : last[re[2]]
-            obj.description = obj.description.replace(regex, '')
+            obj.description = obj.description.replace(regex, ' ')
             obj.nth = num
         }
-        obj.description = obj.description.trim();
+        obj.description = obj.description.replace(/[ ]+/g,' ').trim();
         obj.abbr=Array.from(obj.abbr) 
         // console.log(obj);
         callback(obj)
     }).catch(function (err) {
-        // Crawling failed...
+        console.error(err)
     });
 }
 
 
 exports.fetch = function (processed, cats, callback) {
     cats.forEach(cat => {
-        getInfo(cat, 1, 3, all => {
+        getInfo(cat, 1, 20, all => {
             fillDetails(all, processed, res => {
                 console.log(cat + ' finished')
                 callback(processed);
@@ -199,7 +202,7 @@ exports.fetchSync = function (processed, cats, callback) {
             return;
         }
         var cat = cats[indx]
-        getInfo(cat, 1, 3, all => {
+        getInfo(cat, 1, 20, all => {
             fillDetails(all, processed, res => {
                 console.log(cat + ' finished')
                 callback(processed);

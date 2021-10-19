@@ -1,4 +1,6 @@
-var levenshtein = function(a, b) {
+require('./fuzzyset.js');
+
+var levenshtein = function (a, b) {
 	if (a.length == 0) return b.length;
 	if (b.length == 0) return a.length;
 
@@ -86,12 +88,14 @@ function getRankedConf(cfp_db, core_conf) {
 }
 
 
-function getRankedConf2(cfp_db, core_conf) {
+var getRankedConf2 =function(cfp_db, core_conf) {
 	title2conf = {};
 	abbr2conf = {};
-	
+	useless = /International|Conference| on | the /gi
+	space = /[ ]+/gi
+	removeuseless=s=>s.replace(useless,' ').replace(space,' ')
 	core_conf.forEach(p => {
-		title2conf[p.Title] = p;
+		title2conf[removeuseless(p.Title)] = p;
 		if (p.Acronym.length > 0)
 			abbr2conf[p.Acronym] = p
 		if (p.Acronym2.length > 0) abbr2conf[p.Acronym2] = p;
@@ -103,17 +107,16 @@ function getRankedConf2(cfp_db, core_conf) {
 		// if (conf.nth != null && conf.nth < 6) return;
 		if (conf.core_confs.filter(p => p.event_id == core.event_id).length > 0) return;
 		
-		conf.submission_deadline_date = new Date(conf.submission_deadline);
 		core2 = { ...core };
-		core2.probability = probability(core.Title, conf.description);
+		core2.probability = probability(removeuseless(core.Title),removeuseless(conf.description));
 		conf.core_confs.push(core2);
 	};
 	fuzzy = FuzzySet(Object.keys(title2conf), false);
 	abbrfuzzy = FuzzySet(Object.keys(abbr2conf), false);
-	Object.values(cfp_db).forEach(conf => {
+	cfp_db.forEach(conf => {
 		conf.core_confs = [];
 		possible_confs = [];
-		conf_title = fuzzy.get(conf.description, null, 0.8);
+		conf_title = fuzzy.get(removeuseless(conf.description), null, 0.8);
 		if (conf_title != null)
 			conf_title.forEach(p => possible_confs.push(title2conf[p[1]]));
 
@@ -134,6 +137,10 @@ function getRankedConf2(cfp_db, core_conf) {
 		}
 
 		conf.core_confs.sort(compare);
+		
+
 	});
-	return Object.values(cfp_db).filter(p => p.core_confs.length > 0);
+	return cfp_db.filter(p => p.core_confs.length > 0);
 }
+exports.getRankedConf2=getRankedConf2;
+
