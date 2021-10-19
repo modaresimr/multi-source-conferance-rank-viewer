@@ -79,8 +79,10 @@
             out += format_row(`<th>Type</th><th>Title</th><th>Abbr</th><th>Rank</th><th>Probability</th><th>Topics</th><th>Link</th>`)
             confs.forEach(conf => {
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
-                wikicfp=conf.Links['WikiCFP entry']?`<a href="${conf.Links['WikiCFP entry']}" target='_blank'>WikiCFP</a>`:''
-                site= conf.Links['site']?`<a href="${conf.Links['site']}" target='_blank'>site</a>`:''
+
+                var wikicfp = conf.Links && conf.Links['WikiCFP entry'] ? `<a href="${conf.Links['WikiCFP entry']}" target='_blank'>WikiCFP</a>` : ''
+                var site = conf.Links && conf.Links['site'] ? `<a href="${conf.Links['site']}" target='_blank'>site</a>` : ''
+
                 out += format_row(
                     `<td>${conf.Type}</td>` +
                     `<td>${conf.Title}</td>` +
@@ -130,14 +132,14 @@
                 "language": {
                     "emptyTable": "data is loading... please wait"
                 },
-                "order": [[ 4, "asc" ]],
+                "order": [[4, "asc"]],
                 //"deferRender": true,
                 // ordering: false,
 
                 columns: [
                     { data: "eventType", width: "40px" },
                     { data: "description" },
-                    { data: "abbr", width: "100px" , render: (data, type) => data.split(", ").join("<br>")},
+                    { data: "abbr", width: "100px", render: (data, type) => data.split(", ").join("<br>") },
                     { data: "Rank", width: "100px", render: (data, type) => data.split(", ").join("<br>") },
                     { data: "Deadline", width: "100px" },
                     // { data: "Rank Source", width: "60px" },
@@ -149,11 +151,11 @@
                         render: (data, type, row) =>
                             data == "" ? "" :
                                 // (row["DBLP Source"] == "" ? "" : '<a target="_blank" href="' + row["DBLP Source"] + '">D</a> ') +
-                                '<a target="_blank" href="' + row["source"] + '">Site</a> '+
+                                '<a target="_blank" href="' + row["source"] + '">Site</a> ' +
                                 '<a target="_blank" href="' + row["identifier"] + '">CFP</a> <br>' +
                                 '<a target="_blank" href="https://www.google.com/search?q=' + row["abbr"] + " " + data + '">G</a> ' +
-                                '<a target="_blank" href="https://academic.microsoft.com/search?q=' + row["abbr"] + " " + data + '">M</a> ' 
-                                
+                                '<a target="_blank" href="https://academic.microsoft.com/search?q=' + row["abbr"] + " " + data + '">M</a> '
+
                         // '<a target="_blank" href="https://www.openresearch.org/mediawiki/index.php?title=Special%3ASearch&go=Go&search=' + row["Acronym"] + (row["Acronym"] != "" ? "" : " " + data) + '">O</a> ' +
                         // '<a target="_blank" href="https://www.guide2research.com/topconf/?ajax=1&due=0&con=&cat=&k=' + row["Acronym"] + (row["Acronym"] != "" ? "" : " " + data) + '">R</a>',
                     },
@@ -195,14 +197,14 @@
                 updateShare("#q=" + table.search());
             });
 
-            var defaultRanks = ["A*|A","A*|A|B","A*", "A", "B", "C"];
+            var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
             function process(data) {
                 data.forEach((p) => {
                     p.Deadline = p.submission_deadline.replace("T00:00:00", '').replace("T23:59:59", '')
-                    p.submission_deadline_date=new Date(p.submission_deadline)
+                    p.submission_deadline_date = new Date(p.submission_deadline)
                     p.categories = p.categories.join(", ");
                     p.abbr = p.abbr.join(", ").toUpperCase();
-                    
+
                     p.Rank = p.core_confs.map(p => (p.Rank == "" ? "Unranked" : p.Rank) + " " + p.probability + "%").join(", ");
                     if (p.core_confs.length > 0 && p.submission_deadline_date > Date.now())
                         dataSet.push(p);
@@ -233,7 +235,7 @@
                             if (["Topic", 'Deadline', "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
                             else if (["Rank"].indexOf(cols[column[0]]) >= 0) {
                                 val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
-                                column.search(val ? `^(${val}) |, (${val}) `: "", true, false,false).draw();
+                                column.search(val ? `^(${val}) |, (${val}) ` : "", true, false, false).draw();
                             }
                             else column.search(val ? "^" + val + "$" : "", true, false).draw();
                         });
@@ -260,23 +262,23 @@
                             .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     } else {
                         if (cols[column[0]] == "Rank") {
-                            var tmp={}
+                            var tmp = {}
                             defaultRanks.forEach((d) => {
                                 select.append('<option value="' + d + '">' + d + "</option>")
-                                tmp[d]=1
+                                tmp[d] = 1
                             });
 
-                            
+
                             column
                                 .data()
                                 .unique()
                                 .sort()
                                 .each(function (p, j) {
-                                    if(p!=null) p.split(', ').forEach(q => {
+                                    if (p != null) p.split(', ').forEach(q => {
                                         d = q.split(' ')[0].trim()
-                                        if (tmp[d]==null)
+                                        if (tmp[d] == null)
                                             select.append('<option value="' + d + '">' + d + "</option>");
-                                            tmp[d] = 1
+                                        tmp[d] = 1
                                     })
                                 });
                         }
