@@ -27,6 +27,14 @@
         .bigdrop {
             min-width: 500px !important;
         }
+        dl dt{
+           display:inline-block;
+           width:20%; 
+        }
+        dl dd{
+           display:inline-block;
+           width:30%; 
+        }
     </style>
     <script>
         function format(d) {
@@ -52,7 +60,7 @@
                 if (data.indexOf('/cfp/program') == 0)
                     data = "http://www.wikicfp.com" + data;
                 if (data.indexOf('https://') == 0|| data.indexOf('http://')==0)
-                    data = `<a href='${data}' target='_blank'>${data}</a>`
+                    data = `<a href='${data}' target='_blank'>link</a>`
             }
             return data;
         }
@@ -61,10 +69,10 @@
             var out = "";
             events.forEach(d => {
                 out += `<h4>${d.summary}</h2>`
-                out += '<div style="padding-left:50px;">';
-                Object.keys(d).forEach((p) => (out += "<div style='width:40%;display:inline-block'><b>" + p + "</b><span>" + internal_format(d[p]) + "</span></div>"));
+                out += '<dl style="padding-left:50px;">';
+                Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
 
-                out += "</div>";
+                out += "</dl>";
 
             });
             return out;
@@ -90,7 +98,7 @@
                     { data: "Title" },
                     { data: "Acronym", width: "40px" },
                     { data: "Rank", width: "40px" },
-                    { data: "Deadline", width: "100px", render: (data, type) => data.split(", ").join("<br>") },
+                    { data: "Deadline", width: "150px", render: (data, type) => data.split(", ").join("<br>") },
                     // { data: "Rank Source", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
                     { data: "Field", render: (data, type) => data.split(", ").join("<br>") },
