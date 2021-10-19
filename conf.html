@@ -80,8 +80,8 @@
             confs.forEach(conf => {
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
 
-                var wikicfp = conf.Links && conf.Links['WikiCFP entry'] ? `<a href="${conf.Links['WikiCFP entry']}" target='_blank'>WikiCFP</a>` : ''
-                var site = conf.Links && conf.Links['site'] ? `<a href="${conf.Links['site']}" target='_blank'>site</a>` : ''
+                var wikicfp = (conf.Links && conf.Links['WikiCFP entry']) ? `<a href="${conf.Links['WikiCFP entry']}" target='_blank'>WikiCFP</a>` : ''
+                var site = (conf.Links && conf.Links['site']) ? `<a href="${conf.Links['site']}" target='_blank'>site</a>` : ''
 
                 out += format_row(
                     `<td>${conf.Type}</td>` +
@@ -320,6 +320,9 @@
                     //     p.endDate=new Date(p.endDate);
                     // });
                     // process_cfp();
+                    prob=new URLSearchParams(window.location.search).get('prob')
+                    prob=prob==null?10:prob
+                    data2= cfp_dataset.filter(p => p.core_confs.filter(p => p.probability > prob).length > 0);
                     dataSet = []
                     process(data)
                 },
