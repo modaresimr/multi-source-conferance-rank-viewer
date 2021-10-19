@@ -4290,7 +4290,7 @@
 		"startDate": "2010-11-11T00:00:00",
 		"endDate": "2010-11-13T23:59:59",
 		"locality": "Madrid, Spain",
-		"description": "InternationalConference on Science in Society,",
+		"description": "InternationalConference on Science in Society",
 		"title": "Science in Society Conference",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=9868",
 		"source": "http://science-society.com/Conference-2010/",
@@ -4365,7 +4365,7 @@
 						]
 					}
 				],
-				"probability": "74"
+				"probability": "77"
 			}
 		]
 	},
@@ -10230,7 +10230,7 @@
 		"startDate": "2015-07-06T00:00:00",
 		"endDate": "2015-07-10T23:59:59",
 		"locality": "Daejeon, South Korea",
-		"description": "FPSAC/  Formal Power Series and Algebraic  Séries Formelles et Combinatoire Algébrique",
+		"description": "Formal Power Series and Algebraic  Séries Formelles et Combinatoire Algébrique",
 		"title": "FPSAC / SFCA",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=39975",
 		"source": "http://www.fpsac.org/",
@@ -10301,7 +10301,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "13"
+				"probability": "30"
 			}
 		]
 	},
@@ -12557,7 +12557,7 @@
 		"startDate": "2016-07-04T00:00:00",
 		"endDate": "2016-07-09T23:59:59",
 		"locality": "Costaballena Cadiz",
-		"description": "editionof the international conference Computational and Mathematical Methods in Science and Eng.",
+		"description": "editionof the international conference Computational and Mathematical Methods in Science and Eng",
 		"title": "CMMSE",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=52205",
 		"source": "http://cmmse.usal.es/cmmse2016/",
@@ -13709,7 +13709,7 @@
 		"startDate": "2020-07-03T00:00:00",
 		"endDate": "2020-07-08T23:59:59",
 		"locality": "Rota- Cadiz",
-		"description": "editionof the international conference Computational and Mathematical Methods in Science and Eng.",
+		"description": "editionof the international conference Computational and Mathematical Methods in Science and Eng",
 		"title": "CMMSE",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=59300",
 		"source": "http://cmmse.usal.es/cmmse2020/",
@@ -30563,7 +30563,7 @@
 		"startDate": "2021-10-07T00:00:00",
 		"endDate": "2021-10-09T23:59:59",
 		"locality": "Ho Chi Minh City",
-		"description": "[ATC'21]CfP || Submission Deadline: May  || Ho Chi Minh   October 7-9,",
+		"description": "[ATC'21]CfP || Submission Deadline: May  || Ho Chi Minh   October 7-9",
 		"notification_due": "2021-07-01T00:00:00",
 		"final_version_due": "2021-07-15T00:00:00",
 		"title": "ATC",
@@ -44489,7 +44489,7 @@
 		"startDate": "2022-01-15T00:00:00",
 		"endDate": "2022-01-16T23:59:59",
 		"locality": "NIT WARANGAL, India",
-		"description": "InternationalConference on Advances in Distributed Computing and Machine Learning -",
+		"description": "InternationalConference on Advances in Distributed Computing and Machine Learning",
 		"submission_deadline": "2022-07-31T00:00:00",
 		"notification_due": "2022-10-15T00:00:00",
 		"final_version_due": "2022-10-30T00:00:00",
@@ -44573,7 +44573,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "59"
+				"probability": "63"
 			}
 		]
 	},
@@ -81409,7 +81409,7 @@
 		"startDate": "2022-05-16T00:00:00",
 		"endDate": "2022-05-19T23:59:59",
 		"locality": "Taormina",
-		"description": "CCGridThe 2  International Symposium on  Cloud and Internet Computing",
+		"description": "CCGridThe  International Symposium on  Cloud and Internet Computing",
 		"abstract_registration_due": "2021-11-24T00:00:00",
 		"submission_deadline": "2021-12-01T00:00:00",
 		"notification_due": "2022-02-04T00:00:00",
@@ -81495,7 +81495,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "58"
+				"probability": "62"
 			}
 		]
 	},
@@ -81505,7 +81505,7 @@
 		"startDate": "2021-12-16T00:00:00",
 		"endDate": "2021-12-17T23:59:59",
 		"locality": "University of Stuttgart",
-		"description": "Culture and/as Intelligent Systems,",
+		"description": "Culture and/as Intelligent Systems",
 		"submission_deadline": "2021-10-29T00:00:00",
 		"title": "IRIS",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147834",
@@ -85135,7 +85135,7 @@
 		"startDate": "2021-11-20T00:00:00",
 		"endDate": "2021-11-21T23:59:59",
 		"locality": "Zurich, Switzerland",
-		"description": "InternationalConference on  Image Processing and Pattern Recognition .",
+		"description": "InternationalConference on  Image Processing and Pattern Recognition",
 		"submission_deadline": "2021-10-23T00:00:00",
 		"notification_due": "2021-11-05T00:00:00",
 		"final_version_due": "2021-11-10T00:00:00",
@@ -85218,7 +85218,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "47"
+				"probability": "51"
 			}
 		]
 	},
