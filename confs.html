@@ -65,7 +65,7 @@
             return data;
         }
         function format_obj(key,val) {
-            if(obj)
+            if(val)
                 return "<dt>" + key + "</dt><dd>" + internal_format(val) + "</dd>"
             return '';
         }
@@ -205,7 +205,7 @@
                         .appendTo($(column.header()).empty())
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
-                            if (["Topic", "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
+                            if (["Topic",'Deadline', "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
                             else column.search(val ? "^" + val + "$" : "", true, false).draw();
                         });
 
@@ -215,6 +215,16 @@
                             .data()
                             .unique()
                             .each((p, i) => p.split(", ").forEach((q) => (all[q] = 1)));
+                        Object.keys(all)
+                            .sort()
+                            //.forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>")});
+                            .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    }else if (cols[column[0]] == "Deadline") {
+                        var all = {};
+                        column
+                            .data()
+                            .unique()
+                            .each((p, i) => p.split(", ").forEach((q) => (all[q.slice(0,7)] = 1)));
                         Object.keys(all)
                             .sort()
                             //.forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>")});
