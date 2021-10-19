@@ -38,7 +38,7 @@ var levenshtein = function(a, b) {
 	return row[a.length];
 };
 var levenshteinRate = (a, b) => levenshtein(a, b) / a.length;
-var probability=(a,b)=>(Math.max(0,1-levenshtein(a, b) / a.length)*100).toFixed(0)
+var probability=(a,b)=>(Math.max(0.01,1-levenshtein(a, b) / a.length)*100).toFixed(0)
 function getRankedConf(cfp_db, core_conf) {
 	title2conf = {};
 	abbr2conf = {};
