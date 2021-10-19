@@ -49,7 +49,7 @@ function getRankedConf(cfp_db, core_conf) {
         conf.levDistance = levenshteinRate(core.Title, conf.description);
         conf.submission_deadline_date=new Date(conf.submission_deadline)
 		// if ( > 1) return;
-		if (conf.nth != null && conf.nth < 6) return;
+		// if (conf.nth != null && conf.nth < 6) return;
 		if (core.events.filter(p => p.event_id == conf.event_id).length > 0) return;
 		core.events.push(conf);
 	};
@@ -113,7 +113,7 @@ function getRankedConf2(cfp_db, core_conf) {
 	Object.values(cfp_db).forEach(conf => {
 		conf.core_confs = [];
 		possible_confs = [];
-		conf_title = fuzzy.get(conf.title, null, 0.8);
+		conf_title = fuzzy.get(conf.description, null, 0.8);
 		if (conf_title != null)
 			conf_title.forEach(p => possible_confs.push(title2conf[p[1]]));
 
