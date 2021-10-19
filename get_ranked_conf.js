@@ -38,7 +38,7 @@ var levenshtein = function(a, b) {
 	return row[a.length];
 };
 var levenshteinRate = (a, b) => levenshtein(a, b) / a.length;
-var propability=(a,b)=>(Math.max(0,1-levenshtein(a, b) / a.length)*100).toFixed(0)
+var probability=(a,b)=>(Math.max(0,1-levenshtein(a, b) / a.length)*100).toFixed(0)
 function getRankedConf(cfp_db, core_conf) {
 	title2conf = {};
 	abbr2conf = {};
@@ -105,7 +105,7 @@ function getRankedConf2(cfp_db, core_conf) {
 		
 		conf.submission_deadline_date = new Date(conf.submission_deadline);
 		core2 = { ...core };
-		core2.propability = propability(core.Title, conf.description);
+		core2.probability = probability(core.Title, conf.description);
 		conf.core_confs.push(core2);
 	};
 	fuzzy = FuzzySet(Object.keys(title2conf), false);
@@ -126,8 +126,8 @@ function getRankedConf2(cfp_db, core_conf) {
 		possible_confs.forEach(p=>addIfGood(p,conf))
 
 		function compare(a, b) {
-			ai = a.propability;
-			bi = b.propability;
+			ai = a.probability;
+			bi = b.probability;
 			if (ai < bi) return 1;
 			if (ai > bi) return -1;
 			return 0;
