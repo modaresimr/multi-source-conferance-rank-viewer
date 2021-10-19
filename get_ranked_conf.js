@@ -46,9 +46,10 @@ function getRankedConf(cfp_db, core_conf) {
 	Object.values(cfp_db).forEach(p => p.abbr.forEach(q => abbr2conf[q] = p));
 	addIfGood = (conf, core) => {
 		if (conf == null) return;
-		if (levenshteinRate(core.Title, conf.description) > 0.9) return;
+		conf.levDistance = levenshteinRate(core.Title, conf.description);
+		// if ( > 1) return;
 		if (conf.nth != null && conf.nth < 6) return;
-		if (core.events.filter(p => p.identifier == conf.identifier).length > 0) return;
+		if (core.events.filter(p => p.event_id == conf.event_id).length > 0) return;
 		core.events.push(conf);
 	};
 	fuzzy = FuzzySet(Object.keys(title2conf), false);
@@ -68,6 +69,17 @@ function getRankedConf(cfp_db, core_conf) {
 		//     addIfGood(abbr2conf[core.Acronym2.toLowerCase()], core)
 		// }
 		if (conf_title != null) addIfGood(title2conf[conf_title[1]], core);
+		function compare(a, b) {
+			ai = a.levDistance;
+			bi = b.levDistance;
+			if (a.submission_deadline < Date.now()) ai += 1000000000;
+			if (b.submission_deadline < Date.now()) bi += 1000000000;
+			if (ai < bi) return -1;
+			if (ai > bi) return 1;
+			return 0;
+		}
+
+		core.events.sort(compare);
 	});
 	return core_conf.filter(p => p.events.length > 0);
 }
