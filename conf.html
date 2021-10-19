@@ -127,10 +127,12 @@
             table = $("#rankTable").DataTable({
                 data: dataSet,
                 dom: '<"top"f>it<"bottom"lrp><"clear">',
-
+                "language": {
+                    "emptyTable": "data is loading... please wait"
+                },
                 "order": [[ 5, "asc" ]],
                 //"deferRender": true,
-                ordering: false,
+                // ordering: false,
 
                 columns: [
                     { data: "eventType", width: "40px" },
