@@ -151,10 +151,8 @@
                     relatedDeadlines= p.events == null ? [] : p.events.filter(q => Date.now() < q.submission_deadline_date)
                     p.DeadlineDate = relatedDeadlines.map(p=>p.submission_deadline_date) 
                     p.Deadline =  relatedDeadlines.map(p => p.submission_deadline.replace('T00:00:00',"")+" "+(p.levDistance*100).toFixed(0)+"%").join(", ");
-                    if(p.DeadlineDate.length>0)
-                        p.Deadline = relatedDeadlines.map(p => p.summary+":"+p.submission_deadline.replace('T00:00:00', "")).join(", ");
                     if (p.Rank == "") p.Rank = "Unranked";
-                    if (p.DeadlineDate != null && p.DeadlineDate.length > 0)
+                    if (relatedDeadlines.length > 0)
                         dataSet.push(p);
                 });
                 function compare(a, b) {
