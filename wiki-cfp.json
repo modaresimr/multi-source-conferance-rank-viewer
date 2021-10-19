@@ -2281,7 +2281,7 @@
 		"startDate": "2021-11-26T00:00:00",
 		"endDate": "2021-11-28T23:59:59",
 		"locality": "Shenzhen, China",
-		"description": "the International Conference on Renewable Energy and Conservation",
+		"description": "International Conference on Renewable Energy and Conservation",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "IOP--ICREC--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=110076",
@@ -2301,40 +2301,68 @@
 		"event_id": "110076",
 		"core_confs": [
 			{
-				"CoreId": 2197,
+				"CoreId": 936,
 				"Type": "Conference",
-				"Title": "The International Conference on Future Networks and Communications",
-				"Acronym": "FNC",
-				"Acronym2": "fnc",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/fnc",
-				"Rank": "Unranked",
+				"Title": "International Conference on Compiler Construction",
+				"Acronym": "CC",
+				"Acronym2": "cc",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cc",
+				"Rank": "A",
 				"Rank Source": "CORE2020",
 				"Field": [
 					"4606 - Distributed computing and systems software",
-					"0805 - Distributed Computing",
-					"0899 - Other Information and Computing Sciences",
-					"1005 - Communications Technologies"
+					"0803 - Computer Software"
 				],
 				"Info": [
 					{
 						"Source": "CORE2020",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
 							"4606 - Distributed computing and systems software"
 						]
 					},
 					{
 						"Source": "CORE2018",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
-							"0805 - Distributed Computing",
-							"0899 - Other Information and Computing Sciences",
-							"1005 - Communications Technologies"
-						],
-						"other": "Add as an unranked conference.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_148.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/FNC.pdf\">Decision</a>)"
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
 					}
 				],
-				"probability": "67"
+				"probability": "59"
 			}
 		]
 	},
@@ -2344,7 +2372,7 @@
 		"startDate": "2021-11-26T00:00:00",
 		"endDate": "2021-11-28T23:59:59",
 		"locality": "Shenzhen, China",
-		"description": "the International Conference on Renewable Energy and Conservation",
+		"description": "International Conference on Renewable Energy and Conservation",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ICREC--IOP, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=110077",
@@ -2364,40 +2392,68 @@
 		"event_id": "110077",
 		"core_confs": [
 			{
-				"CoreId": 2197,
+				"CoreId": 936,
 				"Type": "Conference",
-				"Title": "The International Conference on Future Networks and Communications",
-				"Acronym": "FNC",
-				"Acronym2": "fnc",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/fnc",
-				"Rank": "Unranked",
+				"Title": "International Conference on Compiler Construction",
+				"Acronym": "CC",
+				"Acronym2": "cc",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cc",
+				"Rank": "A",
 				"Rank Source": "CORE2020",
 				"Field": [
 					"4606 - Distributed computing and systems software",
-					"0805 - Distributed Computing",
-					"0899 - Other Information and Computing Sciences",
-					"1005 - Communications Technologies"
+					"0803 - Computer Software"
 				],
 				"Info": [
 					{
 						"Source": "CORE2020",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
 							"4606 - Distributed computing and systems software"
 						]
 					},
 					{
 						"Source": "CORE2018",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
-							"0805 - Distributed Computing",
-							"0899 - Other Information and Computing Sciences",
-							"1005 - Communications Technologies"
-						],
-						"other": "Add as an unranked conference.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_148.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/FNC.pdf\">Decision</a>)"
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
 					}
 				],
-				"probability": "67"
+				"probability": "59"
 			}
 		]
 	},
@@ -9915,8 +9971,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"iccip",
-			"iccip and"
+			"iccip"
 		],
 		"nth": "7",
 		"event_id": "126241",
@@ -9995,8 +10050,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"iccip",
-			"iccip and"
+			"iccip"
 		],
 		"nth": "7",
 		"event_id": "126242",
@@ -10113,7 +10167,7 @@
 		"startDate": "2021-12-10T00:00:00",
 		"endDate": "2021-12-12T23:59:59",
 		"locality": "Shenzhen, China",
-		"description": "The International Conference on Telecommunications and Communication Engineering",
+		"description": "International Conference on Telecommunications and Communication Engineering",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ACM--ICTCE--EI Compendex, SCOPUS",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=126614",
@@ -10153,7 +10207,7 @@
 						]
 					}
 				],
-				"probability": "33"
+				"probability": "31"
 			}
 		]
 	},
@@ -10163,7 +10217,7 @@
 		"startDate": "2021-12-10T00:00:00",
 		"endDate": "2021-12-12T23:59:59",
 		"locality": "Shenzhen, China",
-		"description": "The International Conference on Telecommunications and Communication Engineering",
+		"description": "International Conference on Telecommunications and Communication Engineering",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ACM--ICTCE--EI, SCOPUS",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=126615",
@@ -10203,7 +10257,7 @@
 						]
 					}
 				],
-				"probability": "33"
+				"probability": "31"
 			}
 		]
 	},
@@ -12115,8 +12169,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"nlpir",
-			"nlpir and"
+			"nlpir"
 		],
 		"nth": "5",
 		"event_id": "129501",
@@ -12207,8 +12260,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"nlpir",
-			"nlpir and"
+			"nlpir"
 		],
 		"nth": "5",
 		"event_id": "129502",
@@ -12473,7 +12525,7 @@
 		"startDate": "2021-12-17T00:00:00",
 		"endDate": "2021-12-19T23:59:59",
 		"locality": "Xi'an, China",
-		"description": "the International Conference on Electronics and Communication Engineering",
+		"description": "International Conference on Electronics and Communication Engineering",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "IEEE--ICECE--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=129698",
@@ -12542,7 +12594,7 @@
 						]
 					}
 				],
-				"probability": "36"
+				"probability": "44"
 			}
 		]
 	},
@@ -12552,7 +12604,7 @@
 		"startDate": "2021-12-17T00:00:00",
 		"endDate": "2021-12-19T23:59:59",
 		"locality": "Xi'an, China",
-		"description": "the International Conference on Electronics and Communication Engineering",
+		"description": "International Conference on Electronics and Communication Engineering",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ICECE--IEEE, Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=129699",
@@ -12566,8 +12618,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"icece",
-			"icece and"
+			"icece"
 		],
 		"nth": "4",
 		"event_id": "129699",
@@ -12622,7 +12673,7 @@
 						]
 					}
 				],
-				"probability": "36"
+				"probability": "44"
 			}
 		]
 	},
@@ -19497,7 +19548,7 @@
 		"startDate": "2021-12-22T00:00:00",
 		"endDate": "2021-12-25T23:59:59",
 		"locality": "Guangzhou, China",
-		"description": "The International Conference on Information Technology: IoT and Smart City",
+		"description": "International Conference on Information Technology: IoT and Smart City",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "ACM--ICIT--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134265",
@@ -19517,25 +19568,33 @@
 		"event_id": "134265",
 		"core_confs": [
 			{
-				"CoreId": 1084,
+				"CoreId": 1083,
 				"Type": "Conference",
-				"Title": "International Conference on Information Technology Interfaces",
-				"Acronym": "ITI",
+				"Title": "International Conference on Information Technology and Applications",
+				"Acronym": "ICITA",
 				"Acronym2": "",
 				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2018",
+				"Rank": "Australasian C",
+				"Rank Source": "CORE2020",
 				"Field": [
+					"4601 - Applied computing",
 					"08 - Information and Computing Sciences"
 				],
 				"Info": [
+					{
+						"Source": "CORE2020",
+						"Rank": "Australasian C",
+						"Field Of Research": [
+							"4601 - Applied computing"
+						],
+						"other": "Ranked as C due to no dblp link and consequent inability to access data."
+					},
 					{
 						"Source": "CORE2018",
 						"Rank": "C",
 						"Field Of Research": [
 							"08 - Information and Computing Sciences"
-						],
-						"other": "Removed 2020. discontinued"
+						]
 					},
 					{
 						"Source": "CORE2017",
@@ -19564,9 +19623,14 @@
 						"Field Of Research": [
 							"08 - Information and Computing Sciences"
 						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
 					}
 				],
-				"probability": "67"
+				"probability": "76"
 			}
 		]
 	},
@@ -19576,7 +19640,7 @@
 		"startDate": "2021-12-22T00:00:00",
 		"endDate": "2021-12-25T23:59:59",
 		"locality": "Guangzhou, China",
-		"description": "The International Conference on Information Technology: IoT and Smart City",
+		"description": "International Conference on Information Technology: IoT and Smart City",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "ICIT--ACM, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134266",
@@ -19596,25 +19660,33 @@
 		"event_id": "134266",
 		"core_confs": [
 			{
-				"CoreId": 1084,
+				"CoreId": 1083,
 				"Type": "Conference",
-				"Title": "International Conference on Information Technology Interfaces",
-				"Acronym": "ITI",
+				"Title": "International Conference on Information Technology and Applications",
+				"Acronym": "ICITA",
 				"Acronym2": "",
 				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2018",
+				"Rank": "Australasian C",
+				"Rank Source": "CORE2020",
 				"Field": [
+					"4601 - Applied computing",
 					"08 - Information and Computing Sciences"
 				],
 				"Info": [
+					{
+						"Source": "CORE2020",
+						"Rank": "Australasian C",
+						"Field Of Research": [
+							"4601 - Applied computing"
+						],
+						"other": "Ranked as C due to no dblp link and consequent inability to access data."
+					},
 					{
 						"Source": "CORE2018",
 						"Rank": "C",
 						"Field Of Research": [
 							"08 - Information and Computing Sciences"
-						],
-						"other": "Removed 2020. discontinued"
+						]
 					},
 					{
 						"Source": "CORE2017",
@@ -19643,9 +19715,14 @@
 						"Field Of Research": [
 							"08 - Information and Computing Sciences"
 						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
 					}
 				],
-				"probability": "67"
+				"probability": "76"
 			}
 		]
 	},
@@ -19655,7 +19732,7 @@
 		"startDate": "2021-12-22T00:00:00",
 		"endDate": "2021-12-25T23:59:59",
 		"locality": "Guangzhou, China",
-		"description": "The International Conference on Video and Image Processing",
+		"description": "International Conference on Video and Image Processing",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ACM--ICVIP--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134267",
@@ -19675,13 +19752,13 @@
 		"event_id": "134267",
 		"core_confs": [
 			{
-				"CoreId": 654,
+				"CoreId": 1060,
 				"Type": "Conference",
-				"Title": "IEEE International Conference on Image Processing",
-				"Acronym": "ICIP",
-				"Acronym2": "icip",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icip",
-				"Rank": "B",
+				"Title": "International Conference on Image and Signal Processing",
+				"Acronym": "ICISP",
+				"Acronym2": "icisp",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icisp",
+				"Rank": "C",
 				"Rank Source": "CORE2020",
 				"Field": [
 					"4603 - Computer vision and multimedia computation",
@@ -19690,53 +19767,49 @@
 				"Info": [
 					{
 						"Source": "CORE2020",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"4603 - Computer vision and multimedia computation"
 						]
 					},
 					{
 						"Source": "CORE2018",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
 					},
 					{
 						"Source": "CORE2017",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
 					},
 					{
 						"Source": "CORE2014",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
-						]
+						],
+						"other": "Reviewed 2014. No change.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/ICISP2014.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/ICISP.pdf\">Decision</a>)"
 					},
 					{
 						"Source": "CORE2013",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
 					},
 					{
 						"Source": "ERA2010",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
 					}
 				],
-				"probability": "71"
+				"probability": "80"
 			}
 		]
 	},
@@ -19746,7 +19819,7 @@
 		"startDate": "2021-12-22T00:00:00",
 		"endDate": "2021-12-25T23:59:59",
 		"locality": "Guangzhou, China",
-		"description": "The International Conference on Video and Image Processing",
+		"description": "International Conference on Video and Image Processing",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ICVIP--ACM, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134268",
@@ -19766,13 +19839,13 @@
 		"event_id": "134268",
 		"core_confs": [
 			{
-				"CoreId": 654,
+				"CoreId": 1060,
 				"Type": "Conference",
-				"Title": "IEEE International Conference on Image Processing",
-				"Acronym": "ICIP",
-				"Acronym2": "icip",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icip",
-				"Rank": "B",
+				"Title": "International Conference on Image and Signal Processing",
+				"Acronym": "ICISP",
+				"Acronym2": "icisp",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icisp",
+				"Rank": "C",
 				"Rank Source": "CORE2020",
 				"Field": [
 					"4603 - Computer vision and multimedia computation",
@@ -19781,53 +19854,49 @@
 				"Info": [
 					{
 						"Source": "CORE2020",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"4603 - Computer vision and multimedia computation"
 						]
 					},
 					{
 						"Source": "CORE2018",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
 					},
 					{
 						"Source": "CORE2017",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
 					},
 					{
 						"Source": "CORE2014",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
-						]
+						],
+						"other": "Reviewed 2014. No change.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/ICISP2014.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/ICISP.pdf\">Decision</a>)"
 					},
 					{
 						"Source": "CORE2013",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
 					},
 					{
 						"Source": "ERA2010",
-						"Rank": "B",
+						"Rank": "C",
 						"Field Of Research": [
 							"0801 - Artificial Intelligence and Image Processing"
 						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
 					}
 				],
-				"probability": "71"
+				"probability": "80"
 			}
 		]
 	},
@@ -19837,7 +19906,7 @@
 		"startDate": "2021-11-20T00:00:00",
 		"endDate": "2021-11-22T23:59:59",
 		"locality": "Tokyo, Japan",
-		"description": "The International Conference on Artificial Intelligence Technology",
+		"description": "International Conference on Artificial Intelligence Technology",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "IEEE--CAIT--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134270",
@@ -19911,7 +19980,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "75"
+				"probability": "81"
 			}
 		]
 	},
@@ -19921,7 +19990,7 @@
 		"startDate": "2021-11-20T00:00:00",
 		"endDate": "2021-11-22T23:59:59",
 		"locality": "Tokyo, Japan",
-		"description": "The International Conference on Artificial Intelligence Technology",
+		"description": "International Conference on Artificial Intelligence Technology",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "CAIT--IEEE, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134271",
@@ -19995,7 +20064,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "75"
+				"probability": "81"
 			}
 		]
 	},
@@ -20005,7 +20074,7 @@
 		"startDate": "2021-11-20T00:00:00",
 		"endDate": "2021-11-22T23:59:59",
 		"locality": "Tokyo, Japan",
-		"description": "The International Conference on Computational Intelligence and Intelligent Systems",
+		"description": "International Conference on Computational Intelligence and Intelligent Systems",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ACM--CIIS--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134272",
@@ -20079,7 +20148,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "26"
+				"probability": "34"
 			}
 		]
 	},
@@ -20089,7 +20158,7 @@
 		"startDate": "2021-11-20T00:00:00",
 		"endDate": "2021-11-22T23:59:59",
 		"locality": "Tokyo, Japan",
-		"description": "The International Conference on Computational Intelligence and Intelligent Systems",
+		"description": "International Conference on Computational Intelligence and Intelligent Systems",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "CIIS--ACM, Scopus & Ei",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=134273",
@@ -20163,7 +20232,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "26"
+				"probability": "34"
 			}
 		]
 	},
@@ -20187,8 +20256,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"cvci",
-			"cvci and"
+			"cvci"
 		],
 		"nth": "3",
 		"event_id": "134278",
@@ -20275,8 +20343,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"cvci",
-			"cvci and"
+			"cvci"
 		],
 		"nth": "3",
 		"event_id": "134279",
@@ -20363,8 +20430,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"aibc",
-			"aibc and"
+			"aibc"
 		],
 		"nth": "3",
 		"event_id": "134280",
@@ -20458,8 +20524,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"aibc",
-			"aibc and"
+			"aibc"
 		],
 		"nth": "3",
 		"event_id": "134281",
@@ -21538,8 +21603,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmip",
-			"icmip and"
+			"icmip"
 		],
 		"nth": "7",
 		"event_id": "134404",
@@ -21626,8 +21690,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmip",
-			"icmip and"
+			"icmip"
 		],
 		"nth": "7",
 		"event_id": "134405",
@@ -22208,8 +22271,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccde",
-			"iccde and"
+			"iccde"
 		],
 		"nth": "8",
 		"event_id": "134768",
@@ -22300,8 +22362,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"icvrt",
-			"icvrt and"
+			"icvrt"
 		],
 		"nth": "4",
 		"event_id": "134769",
@@ -22374,8 +22435,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"icvrt",
-			"icvrt and"
+			"icvrt"
 		],
 		"nth": "4",
 		"event_id": "134775",
@@ -22535,8 +22595,7 @@
 		],
 		"year": "2021",
 		"abbr": [
-			"vsip",
-			"vsip and"
+			"vsip"
 		],
 		"nth": "3",
 		"event_id": "134789",
@@ -23838,8 +23897,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icemat",
-			"icemat and"
+			"icemat"
 		],
 		"nth": "4",
 		"event_id": "134946",
@@ -23926,8 +23984,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icemat",
-			"icemat and"
+			"icemat"
 		],
 		"nth": "4",
 		"event_id": "134947",
@@ -24952,8 +25009,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"mlhmi",
-			"mlhmi and"
+			"mlhmi"
 		],
 		"nth": "3",
 		"event_id": "135142",
@@ -25014,8 +25070,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"mlhmi",
-			"mlhmi and"
+			"mlhmi"
 		],
 		"nth": "3",
 		"event_id": "135143",
@@ -26791,7 +26846,7 @@
 		"startDate": "2022-01-07T00:00:00",
 		"endDate": "2022-01-09T23:59:59",
 		"locality": "Wuhan, China",
-		"description": "the International Conference on Management Engineering, Software Engineering and Service Sciences",
+		"description": "International Conference on Management Engineering, Software Engineering and Service Sciences",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ACM--ICMSS--EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=136931",
@@ -26880,7 +26935,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "39"
+				"probability": "45"
 			}
 		]
 	},
@@ -26890,7 +26945,7 @@
 		"startDate": "2022-01-07T00:00:00",
 		"endDate": "2022-01-09T23:59:59",
 		"locality": "Wuhan, China",
-		"description": "the International Conference on Management Engineering, Software Engineering and Service Sciences",
+		"description": "International Conference on Management Engineering, Software Engineering and Service Sciences",
 		"submission_deadline": "2021-10-20T00:00:00",
 		"title": "ICMSS--ACM, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=136932",
@@ -26979,7 +27034,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "39"
+				"probability": "45"
 			}
 		]
 	},
@@ -26989,7 +27044,7 @@
 		"startDate": "2022-02-18T00:00:00",
 		"endDate": "2022-02-20T23:59:59",
 		"locality": "Guangzhou, China",
-		"description": "the International Conference on Big Data Management",
+		"description": "International Conference on Big Data Management",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "ACM--ICBDM--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=136933",
@@ -27072,7 +27127,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "82"
+				"probability": "90"
 			}
 		]
 	},
@@ -27082,7 +27137,7 @@
 		"startDate": "2022-02-18T00:00:00",
 		"endDate": "2022-02-20T23:59:59",
 		"locality": "Guangzhou, China",
-		"description": "the International Conference on Big Data Management",
+		"description": "International Conference on Big Data Management",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "ICBDM--ACM, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=136934",
@@ -27165,7 +27220,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "82"
+				"probability": "90"
 			}
 		]
 	},
@@ -27189,8 +27244,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmlc",
-			"icmlc and"
+			"icmlc"
 		],
 		"nth": "14",
 		"event_id": "136936",
@@ -27281,8 +27335,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmlc",
-			"icmlc and"
+			"icmlc"
 		],
 		"nth": "14",
 		"event_id": "136938",
@@ -28817,7 +28870,7 @@
 		"startDate": "2022-01-07T00:00:00",
 		"endDate": "2022-01-09T23:59:59",
 		"locality": "Beijing Forestry University, China",
-		"description": "The International Conference on Image and Graphics Processing",
+		"description": "International Conference on Image and Graphics Processing",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "ACM--ICIGP--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=137993",
@@ -28894,7 +28947,7 @@
 						]
 					}
 				],
-				"probability": "67"
+				"probability": "76"
 			}
 		]
 	},
@@ -28904,7 +28957,7 @@
 		"startDate": "2022-01-07T00:00:00",
 		"endDate": "2022-01-09T23:59:59",
 		"locality": "Beijing Forestry University, China",
-		"description": "The International Conference on Image and Graphics Processing",
+		"description": "International Conference on Image and Graphics Processing",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "ICIGP--ACM, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=137994",
@@ -28981,7 +29034,7 @@
 						]
 					}
 				],
-				"probability": "67"
+				"probability": "76"
 			}
 		]
 	},
@@ -29179,8 +29232,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icgda",
-			"icgda and"
+			"icgda"
 		],
 		"nth": "5",
 		"event_id": "137997",
@@ -29259,8 +29311,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icgda",
-			"icgda and"
+			"icgda"
 		],
 		"nth": "5",
 		"event_id": "137998",
@@ -29339,8 +29390,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icsse",
-			"icsse and"
+			"icsse"
 		],
 		"event_id": "137999",
 		"nth": null,
@@ -29432,8 +29482,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icsse",
-			"icsse and"
+			"icsse"
 		],
 		"event_id": "138000",
 		"nth": null,
@@ -29852,7 +29901,7 @@
 		"startDate": "2022-01-21T00:00:00",
 		"endDate": "2022-01-24T23:59:59",
 		"locality": "Sanya, China",
-		"description": "KEM The International Conference on Advanced Energy Materials",
+		"description": "International Conference on Advanced Energy Materials",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "KEM--ICAEM--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138046",
@@ -29866,8 +29915,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icaem",
-			"kem--icaem"
+			"icaem"
 		],
 		"nth": "5",
 		"event_id": "138046",
@@ -29895,7 +29943,7 @@
 						]
 					}
 				],
-				"probability": "58"
+				"probability": "72"
 			}
 		]
 	},
@@ -29905,7 +29953,7 @@
 		"startDate": "2022-01-21T00:00:00",
 		"endDate": "2022-01-24T23:59:59",
 		"locality": "Sanya, China",
-		"description": "KEM The International Conference on Advanced Energy Materials",
+		"description": "International Conference on Advanced Energy Materials",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "KEM--ICAEM--EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138047",
@@ -29919,8 +29967,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icaem",
-			"kem--icaem"
+			"icaem"
 		],
 		"nth": "5",
 		"event_id": "138047",
@@ -29948,7 +29995,7 @@
 						]
 					}
 				],
-				"probability": "58"
+				"probability": "72"
 			}
 		]
 	},
@@ -29958,7 +30005,7 @@
 		"startDate": "2022-01-21T00:00:00",
 		"endDate": "2022-01-24T23:59:59",
 		"locality": "Sanya, China",
-		"description": "KEM The International Conference on Advanced Materials Research SCI",
+		"description": "International Conference on Advanced Materials Research SCI",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "KEM--ICAMR--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138048",
@@ -29972,8 +30019,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icamr",
-			"kem--icamr"
+			"icamr"
 		],
 		"nth": "12",
 		"event_id": "138048",
@@ -30001,7 +30047,7 @@
 						]
 					}
 				],
-				"probability": "65"
+				"probability": "79"
 			}
 		]
 	},
@@ -30011,7 +30057,7 @@
 		"startDate": "2022-01-21T00:00:00",
 		"endDate": "2022-01-24T23:59:59",
 		"locality": "Sanya, China",
-		"description": "KEM The International Conference on Advanced Materials Research SCI",
+		"description": "International Conference on Advanced Materials Research SCI",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "ICAMR--KEM, EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138049",
@@ -30025,8 +30071,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icamr",
-			"icamr--kem"
+			"icamr"
 		],
 		"nth": "12",
 		"event_id": "138049",
@@ -30054,7 +30099,111 @@
 						]
 					}
 				],
-				"probability": "65"
+				"probability": "79"
+			}
+		]
+	},
+	{
+		"summary": "KEM--ICCBM--EI and Scopus 2022",
+		"eventType": "Conference",
+		"startDate": "2022-01-21T00:00:00",
+		"endDate": "2022-01-24T23:59:59",
+		"locality": "Sanya, China",
+		"description": "International Conference on Civil and Building Materials",
+		"submission_deadline": "2021-10-25T00:00:00",
+		"title": "KEM--ICCBM--EI and Scopus",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138050",
+		"source": "http://iccbm.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"civil engineering",
+			"engineering",
+			"nanotechnology",
+			"materials science"
+		],
+		"year": "2022",
+		"abbr": [
+			"iccbm"
+		],
+		"nth": "6",
+		"event_id": "138050",
+		"core_confs": [
+			{
+				"CoreId": 940,
+				"Type": "Conference",
+				"Title": "International Conference on Composite Materials",
+				"Acronym": "",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "A",
+				"Rank Source": "ERA2010",
+				"Field": [
+					"0910 - Manufacturing Engineering",
+					"0913 - Mechanical Engineering"
+				],
+				"Info": [
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0910 - Manufacturing Engineering",
+							"0913 - Mechanical Engineering"
+						]
+					}
+				],
+				"probability": "66"
+			}
+		]
+	},
+	{
+		"summary": "ICCBM--KEM, EI Compendex and Scopus 2022",
+		"eventType": "Conference",
+		"startDate": "2022-01-21T00:00:00",
+		"endDate": "2022-01-24T23:59:59",
+		"locality": "Sanya, China",
+		"description": "International Conference on Civil and Building Materials",
+		"submission_deadline": "2021-10-25T00:00:00",
+		"title": "ICCBM--KEM, EI Compendex and Scopus",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138051",
+		"source": "http://iccbm.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"materials",
+			"architecture",
+			"manufacturing",
+			"design"
+		],
+		"year": "2022",
+		"abbr": [
+			"iccbm"
+		],
+		"nth": "6",
+		"event_id": "138051",
+		"core_confs": [
+			{
+				"CoreId": 940,
+				"Type": "Conference",
+				"Title": "International Conference on Composite Materials",
+				"Acronym": "",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "A",
+				"Rank Source": "ERA2010",
+				"Field": [
+					"0910 - Manufacturing Engineering",
+					"0913 - Mechanical Engineering"
+				],
+				"Info": [
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0910 - Manufacturing Engineering",
+							"0913 - Mechanical Engineering"
+						]
+					}
+				],
+				"probability": "66"
 			}
 		]
 	},
@@ -30246,8 +30395,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmlt",
-			"icmlt and"
+			"icmlt"
 		],
 		"nth": "7",
 		"event_id": "138054",
@@ -30338,8 +30486,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmlt",
-			"icmlt and"
+			"icmlt"
 		],
 		"nth": "7",
 		"event_id": "138055",
@@ -32915,8 +33062,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"ic4e",
-			"ic4e and"
+			"ic4e"
 		],
 		"nth": "13",
 		"event_id": "138683",
@@ -32966,8 +33112,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"ic4e",
-			"ic4e and"
+			"ic4e"
 		],
 		"nth": "13",
 		"event_id": "138684",
@@ -33087,7 +33232,7 @@
 		"startDate": "2022-01-08T00:00:00",
 		"endDate": "2022-01-10T23:59:59",
 		"locality": "Bangkok, Thailand",
-		"description": "KEM The International Conference on Composite Materials and Material Engineering",
+		"description": "International Conference on Composite Materials and Material Engineering",
 		"submission_deadline": "2021-11-10T00:00:00",
 		"title": "ICCMME--KEM, SCOPUS, Ei",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138686",
@@ -33101,8 +33246,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccmme",
-			"iccmme--kem"
+			"iccmme"
 		],
 		"nth": "7",
 		"event_id": "138686",
@@ -33130,7 +33274,7 @@
 						]
 					}
 				],
-				"probability": "30"
+				"probability": "47"
 			}
 		]
 	},
@@ -33140,7 +33284,7 @@
 		"startDate": "2022-01-08T00:00:00",
 		"endDate": "2022-01-10T23:59:59",
 		"locality": "Bangkok, Thailand",
-		"description": "KEM The International Conference on Composite Materials and Material Engineering",
+		"description": "International Conference on Composite Materials and Material Engineering",
 		"submission_deadline": "2021-11-10T00:00:00",
 		"title": "KEM--ICCMME--SCOPUS, Ei Compendex",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138687",
@@ -33154,8 +33298,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccmme",
-			"kem--iccmme"
+			"iccmme"
 		],
 		"nth": "7",
 		"event_id": "138687",
@@ -33183,7 +33326,7 @@
 						]
 					}
 				],
-				"probability": "30"
+				"probability": "47"
 			}
 		]
 	},
@@ -33287,8 +33430,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccmb",
-			"iccmb and"
+			"iccmb"
 		],
 		"nth": "5",
 		"event_id": "138689",
@@ -33590,7 +33732,7 @@
 		"startDate": "2022-02-12T00:00:00",
 		"endDate": "2022-02-14T23:59:59",
 		"locality": "Haikou, China",
-		"description": "the International Conference on Aeronautical, Aerospace and Mechanical Engineering",
+		"description": "International Conference on Aeronautical, Aerospace and Mechanical Engineering",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "AAME--IOP, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138693",
@@ -33630,7 +33772,7 @@
 						]
 					}
 				],
-				"probability": "58"
+				"probability": "64"
 			}
 		]
 	},
@@ -33640,7 +33782,7 @@
 		"startDate": "2022-02-12T00:00:00",
 		"endDate": "2022-02-14T23:59:59",
 		"locality": "Haikou, China",
-		"description": "the International Conference on Aeronautical, Aerospace and Mechanical Engineering",
+		"description": "International Conference on Aeronautical, Aerospace and Mechanical Engineering",
 		"submission_deadline": "2021-11-15T00:00:00",
 		"title": "IOP--AAME--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138694",
@@ -33680,7 +33822,7 @@
 						]
 					}
 				],
-				"probability": "58"
+				"probability": "64"
 			}
 		]
 	},
@@ -35249,7 +35391,7 @@
 		"startDate": "2022-01-15T00:00:00",
 		"endDate": "2022-01-17T23:59:59",
 		"locality": "Haikou, China",
-		"description": "The International Conference on Machine Learning and Soft Computing",
+		"description": "International Conference on Machine Learning and Soft Computing",
 		"submission_deadline": "2021-11-05T00:00:00",
 		"title": "ACM--ICMLSC--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138983",
@@ -35330,7 +35472,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "48"
+				"probability": "57"
 			}
 		]
 	},
@@ -35340,7 +35482,7 @@
 		"startDate": "2022-01-15T00:00:00",
 		"endDate": "2022-01-17T23:59:59",
 		"locality": "Haikou, China",
-		"description": "The International Conference on Machine Learning and Soft Computing",
+		"description": "International Conference on Machine Learning and Soft Computing",
 		"submission_deadline": "2021-11-05T00:00:00",
 		"title": "ICMLSC--ACM, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=138984",
@@ -35421,7 +35563,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "48"
+				"probability": "57"
 			}
 		]
 	},
@@ -39680,7 +39822,7 @@
 		"startDate": "2022-04-22T00:00:00",
 		"endDate": "2022-04-24T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "the International Conference on Cloud Computing and Big Data Analytics",
+		"description": "International Conference on Cloud Computing and Big Data Analytics",
 		"submission_deadline": "2021-12-05T00:00:00",
 		"title": "IEEE ICCCBDA--Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=143059",
@@ -39694,8 +39836,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icccbda",
-			"icccbda and"
+			"icccbda"
 		],
 		"nth": "7",
 		"event_id": "143059",
@@ -39763,7 +39904,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "58"
+				"probability": "65"
 			}
 		]
 	},
@@ -39773,7 +39914,7 @@
 		"startDate": "2022-04-22T00:00:00",
 		"endDate": "2022-04-24T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "the International Conference on Cloud Computing and Big Data Analytics",
+		"description": "International Conference on Cloud Computing and Big Data Analytics",
 		"submission_deadline": "2021-12-05T00:00:00",
 		"title": "IEEE ICCCBDA--Scopus and Ei Compendex",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=143061",
@@ -39787,8 +39928,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icccbda",
-			"icccbda and"
+			"icccbda"
 		],
 		"nth": "7",
 		"event_id": "143061",
@@ -39856,7 +39996,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "58"
+				"probability": "65"
 			}
 		]
 	},
@@ -40038,8 +40178,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"dsde",
-			"dsde and"
+			"dsde"
 		],
 		"nth": "5",
 		"event_id": "143066",
@@ -40130,8 +40269,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"dsde",
-			"dsde and"
+			"dsde"
 		],
 		"nth": "5",
 		"event_id": "143067",
@@ -42352,8 +42490,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icfcc",
-			"icfcc and"
+			"icfcc"
 		],
 		"nth": "14",
 		"event_id": "143477",
@@ -42416,8 +42553,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icfcc",
-			"icfcc and"
+			"icfcc"
 		],
 		"nth": "14",
 		"event_id": "143478",
@@ -43590,8 +43726,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"cees",
-			"cees and"
+			"cees"
 		],
 		"nth": "4",
 		"event_id": "143495",
@@ -43682,8 +43817,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"cees",
-			"cees and"
+			"cees"
 		],
 		"nth": "4",
 		"event_id": "143496",
@@ -46690,7 +46824,7 @@
 		"startDate": "2022-03-25T00:00:00",
 		"endDate": "2022-03-27T23:59:59",
 		"locality": "University of Cambridge, Cambridge, UK",
-		"description": "the International Conference on Information Management",
+		"description": "International Conference on Information Management",
 		"submission_deadline": "2021-11-05T00:00:00",
 		"title": "ICIM--IEEE, Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=144093",
@@ -46757,7 +46891,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "79"
+				"probability": "86"
 			}
 		]
 	},
@@ -46767,7 +46901,7 @@
 		"startDate": "2022-03-25T00:00:00",
 		"endDate": "2022-03-27T23:59:59",
 		"locality": "University of Cambridge, Cambridge, UK",
-		"description": "the International Conference on Information Management",
+		"description": "International Conference on Information Management",
 		"submission_deadline": "2021-11-05T00:00:00",
 		"title": "IEEE--ICIM--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=144094",
@@ -46834,7 +46968,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "79"
+				"probability": "86"
 			}
 		]
 	},
@@ -46945,8 +47079,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmsce",
-			"icmsce and"
+			"icmsce"
 		],
 		"nth": "5",
 		"event_id": "144096",
@@ -47032,8 +47165,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmsce",
-			"icmsce and"
+			"icmsce"
 		],
 		"nth": "5",
 		"event_id": "144097",
@@ -47119,8 +47251,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icris",
-			"icris and"
+			"icris"
 		],
 		"nth": "4",
 		"event_id": "144098",
@@ -47204,8 +47335,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icris",
-			"icris and"
+			"icris"
 		],
 		"nth": "4",
 		"event_id": "144099",
@@ -47289,8 +47419,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icsrt",
-			"icsrt and"
+			"icsrt"
 		],
 		"nth": "5",
 		"event_id": "144101",
@@ -47379,8 +47508,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icsrt",
-			"icsrt and"
+			"icsrt"
 		],
 		"nth": "5",
 		"event_id": "144102",
@@ -47643,8 +47771,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmimt",
-			"icmimt and"
+			"icmimt"
 		],
 		"nth": "13",
 		"event_id": "144105",
@@ -49042,8 +49169,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"bdet",
-			"bdet and"
+			"bdet"
 		],
 		"nth": "4",
 		"event_id": "144200",
@@ -49097,8 +49223,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"bdet",
-			"bdet and"
+			"bdet"
 		],
 		"nth": "4",
 		"event_id": "144201",
@@ -53531,8 +53656,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"itcc",
-			"itcc and"
+			"itcc"
 		],
 		"nth": "4",
 		"event_id": "146253",
@@ -53611,8 +53735,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"itcc",
-			"itcc and"
+			"itcc"
 		],
 		"nth": "4",
 		"event_id": "146254",
@@ -53691,8 +53814,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iecc",
-			"iecc and"
+			"iecc"
 		],
 		"nth": "4",
 		"event_id": "146257",
@@ -53783,8 +53905,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iecc",
-			"iecc and"
+			"iecc"
 		],
 		"nth": "4",
 		"event_id": "146258",
@@ -54075,8 +54196,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccems",
-			"iccems and"
+			"iccems"
 		],
 		"nth": "7",
 		"event_id": "146263",
@@ -54155,8 +54275,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccems",
-			"iccems and"
+			"iccems"
 		],
 		"nth": "7",
 		"event_id": "146264",
@@ -55171,7 +55290,7 @@
 		"startDate": "2022-08-26T00:00:00",
 		"endDate": "2022-08-29T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "the International Symposium on Microwave, Antenna, Propagation and EMC Technologies for Wireless Communications",
+		"description": "International Symposium on Microwave, Antenna, Propagation and EMC Technologies for Wireless Communications",
 		"submission_deadline": "2022-03-10T00:00:00",
 		"title": "IEEE MAPE--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146379",
@@ -55211,7 +55330,7 @@
 						]
 					}
 				],
-				"probability": "10"
+				"probability": "16"
 			}
 		]
 	},
@@ -55221,7 +55340,7 @@
 		"startDate": "2022-08-26T00:00:00",
 		"endDate": "2022-08-29T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "the International Symposium on Microwave, Antenna, Propagation and EMC Technologies for Wireless Communications",
+		"description": "International Symposium on Microwave, Antenna, Propagation and EMC Technologies for Wireless Communications",
 		"submission_deadline": "2022-03-10T00:00:00",
 		"title": "IEEE MAPE--EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146380",
@@ -55261,7 +55380,7 @@
 						]
 					}
 				],
-				"probability": "10"
+				"probability": "16"
 			}
 		]
 	},
@@ -55335,8 +55454,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccre",
-			"iccre and"
+			"iccre"
 		],
 		"nth": "7",
 		"event_id": "146383",
@@ -55476,7 +55594,7 @@
 		"startDate": "2022-04-22T00:00:00",
 		"endDate": "2022-04-24T23:59:59",
 		"locality": "Chongqing, China",
-		"description": "the International Conference on Energy, Electrical and Power Engineering",
+		"description": "International Conference on Energy, Electrical and Power Engineering",
 		"submission_deadline": "2021-12-05T00:00:00",
 		"title": "IEEE--CEEPE--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146386",
@@ -55516,7 +55634,7 @@
 						]
 					}
 				],
-				"probability": "34"
+				"probability": "43"
 			}
 		]
 	},
@@ -55526,7 +55644,7 @@
 		"startDate": "2022-04-22T00:00:00",
 		"endDate": "2022-04-24T23:59:59",
 		"locality": "Chongqing, China",
-		"description": "the International Conference on Energy, Electrical and Power Engineering",
+		"description": "International Conference on Energy, Electrical and Power Engineering",
 		"submission_deadline": "2021-12-05T00:00:00",
 		"title": "CEEPE--IEEE, Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146387",
@@ -55540,8 +55658,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"ceepe",
-			"ceepe and"
+			"ceepe"
 		],
 		"nth": "5",
 		"event_id": "146387",
@@ -55567,7 +55684,7 @@
 						]
 					}
 				],
-				"probability": "34"
+				"probability": "43"
 			}
 		]
 	},
@@ -56070,8 +56187,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icisdm",
-			"icisdm and"
+			"icisdm"
 		],
 		"nth": "6",
 		"event_id": "146558",
@@ -56156,8 +56272,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icisdm",
-			"icisdm and"
+			"icisdm"
 		],
 		"nth": "6",
 		"event_id": "146559",
@@ -56228,7 +56343,7 @@
 		"startDate": "2022-05-27T00:00:00",
 		"endDate": "2022-05-29T23:59:59",
 		"locality": "Silicon Valley, CA, USA",
-		"description": "the International Conference on Knowledge Management Systems",
+		"description": "International Conference on Knowledge Management Systems",
 		"submission_deadline": "2022-01-10T00:00:00",
 		"title": "ACM--ICKMS--Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146561",
@@ -56242,86 +56357,29 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"ickms",
-			"ickms and"
+			"ickms"
 		],
 		"nth": "5",
 		"event_id": "146561",
 		"core_confs": [
 			{
-				"CoreId": 25,
+				"CoreId": 2050,
 				"Type": "Conference",
-				"Title": "ACM International Conference on Information and Knowledge Management",
-				"Acronym": "CIKM",
-				"Acronym2": "cikm",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cikm",
+				"Title": "International Conference on Multi Agent Systems",
+				"Acronym": "ICMAS",
+				"Acronym2": "",
+				"DBLP Source": "",
 				"Rank": "A",
-				"Rank Source": "CORE2020",
-				"Field": [
-					"4605 - Data management and data science",
-					"4602 - Artificial intelligence",
-					"0806 - Information Systems",
-					"0801 - Artificial Intelligence and Image Processing",
-					"0807 - Library and Information Studies"
-				],
+				"Rank Source": "CORE2008",
+				"Field": [],
 				"Info": [
-					{
-						"Source": "CORE2020",
-						"Rank": "A",
-						"Field Of Research": [
-							"4605 - Data management and data science",
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0801 - Artificial Intelligence and Image Processing",
-							"0807 - Library and Information Studies"
-						],
-						"other": "Data provided as a comparator for SIGSPATIAL. Remains as A.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_175.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/CIKM.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0807 - Library and Information Studies"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0807 - Library and Information Studies"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0807 - Library and Information Studies"
-						],
-						"other": "Field of Research 0807 added(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2013/0807FOR.pdf\">Data</a>)"
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
 					{
 						"Source": "CORE2008",
 						"Rank": "A",
 						"Field Of Research": []
 					}
 				],
-				"probability": "60"
+				"probability": "70"
 			}
 		]
 	},
@@ -56331,7 +56389,7 @@
 		"startDate": "2022-05-27T00:00:00",
 		"endDate": "2022-05-29T23:59:59",
 		"locality": "Silicon Valley, CA, USA",
-		"description": "the International Conference on Knowledge Management Systems",
+		"description": "International Conference on Knowledge Management Systems",
 		"submission_deadline": "2022-01-10T00:00:00",
 		"title": "ICKMS--ACM, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146562",
@@ -56351,79 +56409,23 @@
 		"event_id": "146562",
 		"core_confs": [
 			{
-				"CoreId": 25,
+				"CoreId": 2050,
 				"Type": "Conference",
-				"Title": "ACM International Conference on Information and Knowledge Management",
-				"Acronym": "CIKM",
-				"Acronym2": "cikm",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cikm",
+				"Title": "International Conference on Multi Agent Systems",
+				"Acronym": "ICMAS",
+				"Acronym2": "",
+				"DBLP Source": "",
 				"Rank": "A",
-				"Rank Source": "CORE2020",
-				"Field": [
-					"4605 - Data management and data science",
-					"4602 - Artificial intelligence",
-					"0806 - Information Systems",
-					"0801 - Artificial Intelligence and Image Processing",
-					"0807 - Library and Information Studies"
-				],
+				"Rank Source": "CORE2008",
+				"Field": [],
 				"Info": [
-					{
-						"Source": "CORE2020",
-						"Rank": "A",
-						"Field Of Research": [
-							"4605 - Data management and data science",
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0801 - Artificial Intelligence and Image Processing",
-							"0807 - Library and Information Studies"
-						],
-						"other": "Data provided as a comparator for SIGSPATIAL. Remains as A.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_175.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/CIKM.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0807 - Library and Information Studies"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0807 - Library and Information Studies"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0807 - Library and Information Studies"
-						],
-						"other": "Field of Research 0807 added(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2013/0807FOR.pdf\">Data</a>)"
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "A",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
 					{
 						"Source": "CORE2008",
 						"Rank": "A",
 						"Field Of Research": []
 					}
 				],
-				"probability": "60"
+				"probability": "70"
 			}
 		]
 	},
@@ -56433,7 +56435,7 @@
 		"startDate": "2022-05-20T00:00:00",
 		"endDate": "2022-05-23T23:59:59",
 		"locality": "Beijing, China",
-		"description": "the International Conference on Distance Education and Learning",
+		"description": "International Conference on Distance Education and Learning",
 		"submission_deadline": "2021-12-30T00:00:00",
 		"title": "ACM--ICDEL--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146563",
@@ -56509,7 +56511,7 @@
 						]
 					}
 				],
-				"probability": "54"
+				"probability": "61"
 			}
 		]
 	},
@@ -56808,8 +56810,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iciss",
-			"iciss and"
+			"iciss"
 		],
 		"nth": "5",
 		"event_id": "146568",
@@ -56894,8 +56895,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iciss",
-			"iciss and"
+			"iciss"
 		],
 		"nth": "5",
 		"event_id": "146569",
@@ -57542,7 +57542,7 @@
 		"startDate": "2022-03-04T00:00:00",
 		"endDate": "2022-03-06T23:59:59",
 		"locality": "Xi'an, China",
-		"description": "The International Conference on Informatics, Environment, Energy and Applications",
+		"description": "International Conference on Informatics, Environment, Energy and Applications",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "ACM--IEEA--EI Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146577",
@@ -57624,7 +57624,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "66"
+				"probability": "72"
 			}
 		]
 	},
@@ -57634,7 +57634,7 @@
 		"startDate": "2022-03-04T00:00:00",
 		"endDate": "2022-03-06T23:59:59",
 		"locality": "Xi'an, China",
-		"description": "The International Conference on Informatics, Environment, Energy and Applications",
+		"description": "International Conference on Informatics, Environment, Energy and Applications",
 		"submission_deadline": "2021-10-25T00:00:00",
 		"title": "IEEA--ACM, EI, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146578",
@@ -57716,7 +57716,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "66"
+				"probability": "72"
 			}
 		]
 	},
@@ -61313,7 +61313,7 @@
 		"startDate": "2022-03-18T00:00:00",
 		"endDate": "2022-03-20T23:59:59",
 		"locality": "Barcelona, Spain",
-		"description": "KEM International Conference on Key Engineering Materials",
+		"description": "International Conference on Key Engineering Materials",
 		"submission_deadline": "2021-10-30T00:00:00",
 		"title": "ICKEM--KEM, Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146931",
@@ -61327,8 +61327,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"ickem",
-			"ickem--kem and"
+			"ickem"
 		],
 		"nth": "12",
 		"event_id": "146931",
@@ -61395,7 +61394,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "59"
+				"probability": "68"
 			}
 		]
 	},
@@ -61405,7 +61404,7 @@
 		"startDate": "2022-03-18T00:00:00",
 		"endDate": "2022-03-20T23:59:59",
 		"locality": "Barcelona, Spain",
-		"description": "KEM International Conference on Key Engineering Materials",
+		"description": "International Conference on Key Engineering Materials",
 		"submission_deadline": "2021-10-30T00:00:00",
 		"title": "KEM--ICKEM--Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146932",
@@ -61419,8 +61418,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"ickem",
-			"kem--ickem and"
+			"ickem"
 		],
 		"nth": "12",
 		"event_id": "146932",
@@ -61487,7 +61485,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "59"
+				"probability": "68"
 			}
 		]
 	},
@@ -61497,7 +61495,7 @@
 		"startDate": "2022-04-22T00:00:00",
 		"endDate": "2022-04-25T23:59:59",
 		"locality": "Wuhan, China",
-		"description": "The International Conference on Computer and Communication Systems",
+		"description": "International Conference on Computer and Communication Systems",
 		"submission_deadline": "2021-11-01T00:00:00",
 		"title": "ICCCS--IEEE, Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146935",
@@ -61517,36 +61515,61 @@
 		"event_id": "146935",
 		"core_confs": [
 			{
-				"CoreId": 2213,
+				"CoreId": 2038,
 				"Type": "Conference",
-				"Title": "The International Conference on Verification and Evaluation of Computer and Communication Systems",
-				"Acronym": "VECoS",
-				"Acronym2": "vecos",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/vecos",
-				"Rank": "Unranked",
+				"Title": "International Conference on Computer Communication and Networks",
+				"Acronym": "ICCCN",
+				"Acronym2": "icccn",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icccn",
+				"Rank": "A",
 				"Rank Source": "CORE2020",
 				"Field": [
-					"4612 - Software engineering",
-					"0803 - Computer Software"
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
 				],
 				"Info": [
 					{
 						"Source": "CORE2020",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
-							"4612 - Software engineering"
+							"4606 - Distributed computing and systems software"
 						]
 					},
 					{
 						"Source": "CORE2018",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
-							"0803 - Computer Software"
-						],
-						"other": "Requested add as an unranked conference. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_43.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/VECoS.pdf\">Decision</a>)"
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
 					}
 				],
-				"probability": "68"
+				"probability": "78"
 			}
 		]
 	},
@@ -61556,7 +61579,7 @@
 		"startDate": "2022-04-22T00:00:00",
 		"endDate": "2022-04-25T23:59:59",
 		"locality": "Wuhan, China",
-		"description": "The International Conference on Computer and Communication Systems",
+		"description": "International Conference on Computer and Communication Systems",
 		"submission_deadline": "2021-11-01T00:00:00",
 		"title": "IEEE--ICCCS--Ei Compendex, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146936",
@@ -61576,36 +61599,61 @@
 		"event_id": "146936",
 		"core_confs": [
 			{
-				"CoreId": 2213,
+				"CoreId": 2038,
 				"Type": "Conference",
-				"Title": "The International Conference on Verification and Evaluation of Computer and Communication Systems",
-				"Acronym": "VECoS",
-				"Acronym2": "vecos",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/vecos",
-				"Rank": "Unranked",
+				"Title": "International Conference on Computer Communication and Networks",
+				"Acronym": "ICCCN",
+				"Acronym2": "icccn",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icccn",
+				"Rank": "A",
 				"Rank Source": "CORE2020",
 				"Field": [
-					"4612 - Software engineering",
-					"0803 - Computer Software"
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
 				],
 				"Info": [
 					{
 						"Source": "CORE2020",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
-							"4612 - Software engineering"
+							"4606 - Distributed computing and systems software"
 						]
 					},
 					{
 						"Source": "CORE2018",
-						"Rank": "Unranked",
+						"Rank": "A",
 						"Field Of Research": [
-							"0803 - Computer Software"
-						],
-						"other": "Requested add as an unranked conference. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_43.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/VECoS.pdf\">Decision</a>)"
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
 					}
 				],
-				"probability": "68"
+				"probability": "78"
 			}
 		]
 	},
@@ -63768,8 +63816,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"iccsn",
-			"iccsn and"
+			"iccsn"
 		],
 		"nth": "14",
 		"event_id": "147669",
@@ -63853,8 +63900,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icwoc",
-			"icwoc and"
+			"icwoc"
 		],
 		"nth": "10",
 		"event_id": "147674",
@@ -64012,8 +64058,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmet",
-			"icmet and"
+			"icmet"
 		],
 		"nth": "13",
 		"event_id": "147676",
@@ -64063,8 +64108,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmet",
-			"icmet and"
+			"icmet"
 		],
 		"nth": "13",
 		"event_id": "147682",
@@ -64258,7 +64302,7 @@
 		"startDate": "2022-05-27T00:00:00",
 		"endDate": "2022-05-30T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "The International Conference on Artificial Intelligence and Big Data",
+		"description": "International Conference on Artificial Intelligence and Big Data",
 		"submission_deadline": "2021-12-10T00:00:00",
 		"title": "IEEE--ICAIBD--Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147685",
@@ -64272,8 +64316,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icaibd",
-			"icaibd and"
+			"icaibd"
 		],
 		"nth": "5",
 		"event_id": "147685",
@@ -64342,7 +64385,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "81"
+				"probability": "88"
 			}
 		]
 	},
@@ -64352,7 +64395,7 @@
 		"startDate": "2022-05-27T00:00:00",
 		"endDate": "2022-05-30T23:59:59",
 		"locality": "Chengdu, China",
-		"description": "The International Conference on Artificial Intelligence and Big Data",
+		"description": "International Conference on Artificial Intelligence and Big Data",
 		"submission_deadline": "2021-12-10T00:00:00",
 		"title": "ICAIBD--IEEE, Ei and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147686",
@@ -64366,8 +64409,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icaibd",
-			"icaibd and"
+			"icaibd"
 		],
 		"nth": "5",
 		"event_id": "147686",
@@ -64436,7 +64478,7 @@
 						"Field Of Research": []
 					}
 				],
-				"probability": "81"
+				"probability": "88"
 			}
 		]
 	},
@@ -65019,8 +65061,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmsc",
-			"icmsc and"
+			"icmsc"
 		],
 		"nth": "6",
 		"event_id": "147752",
@@ -65070,8 +65111,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmsc",
-			"icmsc and"
+			"icmsc"
 		],
 		"nth": "6",
 		"event_id": "147753",
@@ -65371,8 +65411,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmesm",
-			"icmesm and"
+			"icmesm"
 		],
 		"nth": "7",
 		"event_id": "147758",
@@ -65463,8 +65502,7 @@
 		],
 		"year": "2022",
 		"abbr": [
-			"icmesm",
-			"icmesm and"
+			"icmesm"
 		],
 		"nth": "7",
 		"event_id": "147759",
