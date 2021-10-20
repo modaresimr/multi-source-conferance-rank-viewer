@@ -103,8 +103,8 @@
                     { data: "SJR", width: "60px" },
                     { data: "H index", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
-                    { data: "Topic", render: (data, type) => data.map(p=>p.join("<br>") },
-                    { data: "CatRank", render: (data, type) => data.map(p => p.join("<br>") },
+                    { data: "Topic", render: (data, type) => data.map(p=>p.join("<br>")) },
+                    { data: "CatRank", render: (data, type) => data.map(p => p.join("<br>")) },
                     {
                         data: "Title",
                         width: "70px",
@@ -246,7 +246,7 @@
 
                     $.ajax({
                         dataType: "json",
-                        url: "scimagojr_journal_2020",
+                        url: "scimagojr_journal_2020.json",
                         success: (data) => {
                             jnl_dataset = data;
                             process(data);
