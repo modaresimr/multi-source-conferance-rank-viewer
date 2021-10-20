@@ -69,7 +69,7 @@
                             (data && row?.['Links']?.['site']) ? `<a href=${row['Links']['site']} target='_blank'>${data}</a>` : data
                     },
                     { data: "Acronym", width: "40px" },
-                    { data: "Rank", width: "40px" },
+                    { data: "Rank", width: "70px" },
                     { data: "Rank Source", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
                     { data: "Field", render: (data, type) => data.split(", ").join("<br>") },
@@ -86,7 +86,7 @@
                             return (jnl ? `<a target="_blank" href="https://www.scimagojr.com/journalsearch.php?q=${slug}">S</a> ` : '') +
                                 ( wikicfp? `<a href=${wikicfp} target='_blank'>W</a> ` :'') +
                                 (row["DBLP Source"] == "" ? "" : '<a target="_blank" href="' + row["DBLP Source"] + '">D</a> ') +
-                                (jnl ? `<a target="_blank" href="https://www.research.com/journal/${slug}">R</a>' ` : '') +
+                                (jnl ? `<a target="_blank" href="https://www.research.com/journal/${slug}">R</a> ` : '') +
                                 `<a target="_blank" href="https://www.google.com/search?q=${row['Acronym']} ${data}">G</a> ` +
                                 `<a target="_blank" href="https://academic.microsoft.com/search?q=${row['Acronym']} ${data}}">M</a> ` +
                                 `<a target="_blank" href="https://www.openresearch.org/mediawiki/index.php?title=Special%3ASearch&go=Go&search=${row["Acronym"]||data}">O</a> `
