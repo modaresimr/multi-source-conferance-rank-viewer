@@ -34,7 +34,7 @@
         function format_scimag(confs){
             var out = "";
             out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-            out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>H</th><th>Probability</th><th>Topics</th><th>Link</th>`)
+            out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>H-index</th><th>Probability</th><th>Topics</th><th>Link</th>`)
             confs.forEach(conf => {
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
 
@@ -48,7 +48,7 @@
                     `<td>${conf.SOURCETITLE}</td>` +
                     `<td>Q${conf.CUARTIL}</td>` +
                     `<td>${conf.SJR}</td>` +
-                    `<td>${conf.H} <br> ${conf.Acronym2}</td>` +
+                    `<td>${conf.H}</td>` +
                     `<td>${conf.probability}%</td>` +
                     `<td>${topic}</td>` +
                     `<td> <a href="https://www.scimagojr.com/journalsearch.php?q=${conf.SOURCEID}&tip=sid&clean=0" target='_blank'>scisite</a></td>`
