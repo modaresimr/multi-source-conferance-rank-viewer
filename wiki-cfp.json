@@ -3678,6 +3678,8 @@
 		],
 		"nth": "11TH",
 		"event_id": "142971",
+		"parent": "Symposium on Information and Communication Technology",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2733",
 		"core_confs": [
 			{
 				"CoreId": 1387,
