@@ -134,7 +134,7 @@
                 },
                 "order": [[4, "asc"]],
                 //"deferRender": true,
-                // ordering: false,
+                ordering: false,
 
                 columns: [
                     { data: "eventType", width: "40px" },
@@ -223,7 +223,8 @@
                 cols = ["Type", "Title", "Abbri.", "Rank", "Deadline", "Topic", "Link"];
                 table.columns().every(function () {
                     var column = this;
-                    if (["Link"].indexOf(cols[column[0]]) >= 0) {
+                    
+                    if (["Link",'Deadline'].indexOf(cols[column[0]]) >= 0) {
                         $("<td>" + cols[column[0]] + "</td>").appendTo($(column.header()).empty());
                         return;
                     }
@@ -284,7 +285,7 @@
                         }
                     }
                 });
-                table.draw();
+                table.order([cols.indexOf('Deadline'), 'asc']).draw();
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
             }
             cfp_dataset = null;
