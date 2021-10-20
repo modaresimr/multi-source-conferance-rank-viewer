@@ -40,7 +40,7 @@ var levenshtein = function (a, b) {
 	return row[a.length];
 };
 var levenshteinRate = (a, b) => levenshtein(a, b) / a.length;
-var probability=(a,b)=>(Math.max(0.01,1-levenshtein(a, b) / a.length)*100).toFixed(0)
+var probability=(a,b)=>(a&&b)?(Math.max(0.01,1-levenshtein(a, b) / a.length)*100).toFixed(0):-1
 function getRankedConf(cfp_db, core_conf) {
 	title2conf = {};
 	abbr2conf = {};
@@ -91,6 +91,11 @@ function getRankedConf(cfp_db, core_conf) {
 var getRankedConf2 =function(cfp_db, core_conf) {
 	title2conf = {};
 	abbr2conf = {};
+	site2conf = {};
+	cfp2conf = {};
+
+	cfpregex = /http:\/\/www\.wikicfp\.com\/cfp\/program\?id=\d+/gi
+	cfpclean=/\&.+/gi
 	useless = /International|Conference| on | the /gi
 	space = /[ ]+/gi
 	removeuseless=s=>s.replace(useless,' ').replace(space,' ')
@@ -99,34 +104,51 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 		if (p.Acronym.length > 0)
 			abbr2conf[p.Acronym] = p
 		if (p.Acronym2.length > 0) abbr2conf[p.Acronym2] = p;
+		if (p.Links) {
+			if (p.Links['site']) site2conf[p.Links['site']] = p;
+
+			if (p.Links['WikiCFP entry']) {
+				cfp2conf[p.Links['WikiCFP entry'].replace(cfpclean,'')] = p;
+			}
+		}
+		
 	});
-	addIfGood = (core, conf) => {
+	addIfGood = (core, conf,prob) => {
 		if (core == null) return;
 		
 		// if ( > 1) return;
 		// if (conf.nth != null && conf.nth < 6) return;
-		if (conf.core_confs.filter(p => p.event_id == core.event_id).length > 0) return;
+		if (conf.core_confs.filter(p => p.CoreId == core.CoreId).length > 0) return;
 		
 		core2 = { ...core };
-		core2.probability = probability(removeuseless(core.Title),removeuseless(conf.description));
+		if (prob != null)
+			core2.probability = prob;
+		else {
+			core2.probability = probability(removeuseless(core.Title), removeuseless(conf.description));
+			pa = Math.max([core.Acronym, core.Acronym2].map(x => Math.max(conf.abbr.map(y => probability(x, y)))))
+			if (pa > 0) core2.probability = (core2.probability + pa) / 2;
+			core2.probability=Math.min(90,core2.probability)
+		}
 		conf.core_confs.push(core2);
 	};
 	fuzzy = FuzzySet(Object.keys(title2conf), false);
 	abbrfuzzy = FuzzySet(Object.keys(abbr2conf), false);
 	cfp_db.forEach(conf => {
 		conf.core_confs = [];
-		possible_confs = [];
+		addIfGood(site2conf[conf.source], conf, 100);
+		if(conf.parentLink)
+			conf.parentLink=conf.parentLink.replace(cfpclean,'');
+		addIfGood(cfp2conf[conf.parentLink], conf,100);
 		conf_title = fuzzy.get(removeuseless(conf.description), null, 0.8);
 		if (conf_title != null)
-			conf_title.forEach(p => possible_confs.push(title2conf[p[1]]));
-
+			conf_title.forEach(p => addIfGood(title2conf[p[1]],conf));
+		
 		conf.abbr.forEach(abbr => {
 			af = abbrfuzzy.get(abbr, null, 0.9);
 			if (af != null)
-				af.forEach(p=>possible_confs.push(abbr2conf[p[1]]))
-		})
+				af.forEach(p=>addIfGood(abbr2conf[p[1]], conf));
 
-		possible_confs.forEach(p=>addIfGood(p,conf))
+		})
 
 		function compare(a, b) {
 			ai = a.probability;
@@ -135,10 +157,9 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 			if (ai > bi) return -1;
 			return 0;
 		}
-
 		conf.core_confs.sort(compare);
-		
-
+		if (conf.core_confs.length > 1 && conf.core_confs[0].probability > 95)
+			conf.core_confs = [conf.core_confs[0]]	
 	});
 	return cfp_db.filter(p => p.core_confs.length > 0);
 }
