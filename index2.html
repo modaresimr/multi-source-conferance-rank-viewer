@@ -28,6 +28,34 @@
         }
     </style>
     <script>
+        function format_scimag(d){
+            var out = "";
+            out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+            out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>H</th><th>Probability</th><th>Topics</th><th>Link</th>`)
+            confs.forEach(conf => {
+                // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
+
+                
+                topic=''
+                Object.keys(conf.Topic).forEach(p=>{
+                    topic+=scimagojr_info['area'][p]+"<br>"
+                    conf.Topic[p].forEach(q=>topic+= "---"+scimagojr_info['category'][q] + "<br>")
+                })
+                out += format_row(
+                    `<td>${conf.SOURCETITLE}</td>` +
+                    `<td>Q${conf.CUARTIL}</td>` +
+                    `<td>${conf.SJR}</td>` +
+                    `<td>${conf.H} <br> ${conf.Acronym2}</td>` +
+                    `<td>${conf.probability}%</td>` +
+                    `<td>${topic}</td>` +
+                    `<td> <a href="https://www.scimagojr.com/journalsearch.php?q=${conf.SOURCEID}&tip=sid&clean=0" target='_blank'>scisite</a></td>`
+                );
+
+
+            })
+            out += "</table>";
+            return out;
+        }
         function format(d) {
             // `d` is the original data object for the row
             if (Array.isArray(d)) {
@@ -71,6 +99,15 @@
                     { data: "Acronym", width: "40px" },
                     { data: "Rank", width: "70px" },
                     { data: "Rank Source", width: "60px" },
+                    {
+                        data: "Title", width: "100px", render: (data, type, row) => {
+
+                            if (row['Scimagojr']?.length) {
+                                row['Scimagojr'].map(p => `<a href='https://www.scimagojr.com/journalsearch.php?q=${p.SOURCEID}&tip=sid&clean=0' title=${p.SOURCETITLE} >Q${p.CUARTIL} ${p.probability}</a>%`).join('<br>')
+                            }
+                            return '';
+                        }
+                    },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
                     { data: "Field", render: (data, type) => data.split(", ").join("<br>") },
                     {
@@ -114,7 +151,7 @@
                     tr.removeClass("shown");
                 } else {
                     // Open this row
-                    row.child(format(row.data().Info)).show();
+                    row.child(format_scimag(row.data().Scimagojr)+format(row.data().Info)).show();
                     tr.addClass("shown");
                 }
             });
@@ -133,7 +170,8 @@
                 updateShare("#q=" + table.search());
             });
 
-            var defaultRanks = ["A*", "A", "B", "C"];
+            var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
+            var scimagRanks=['Q1|Q2','Q1|Q2|Q3','Q1','Q2','Q3','Q4']
             function process(data) {
                 data.forEach((p) => {
                     p.Field = p.Field.join(", ");
@@ -153,7 +191,7 @@
                 dataSet.sort(compare);
                 table.clear();
                 table.rows.add(dataSet);
-                cols = ["Type", "Title", "Abbri.", "Rank", "Source", "Topic", "Link"];
+                cols = ["Type", "Title", "Abbri.", "Rank", "Source",'Scimagojr', "Topic", "Link"];
                 table.columns().every(function () {
                     var column = this;
                     if (["Link"].indexOf(cols[column[0]]) >= 0) {
@@ -166,6 +204,13 @@
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (["Topic", "Title", "Abbri."].indexOf(cols[column[0]]) >= 0) column.search(val ? val : "", true, false).draw();
+                            else if (["Rank"].indexOf(cols[column[0]]) >= 0) {
+                                val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
+                                column.search(val ? `^(${val})$` : "", true, false, false).draw();
+                            } else if (["Scimagojr"].indexOf(cols[column[0]]) >= 0) {
+                                val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
+                                column.search(val ? `^(${val}) |, (${val}) ` : "", true, false, false).draw();
+                            }
                             else column.search(val ? "^" + val + "$" : "", true, false).draw();
                         });
 
@@ -182,7 +227,7 @@
                     } else {
                         if (cols[column[0]] == "Rank") {
                             defaultRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
-                        }
+                    
 
                         column
                             .data()
@@ -191,6 +236,9 @@
                             .each(function (d, j) {
                                 if (defaultRanks.indexOf(d) < 0) select.append('<option value="' + d + '">' + d + "</option>");
                             });
+                        }else if (cols[column[0]] == "Scimagojr") {
+                            scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                        }
                     }
                 });
                 table.draw();
@@ -205,15 +253,22 @@
                     process(data);
                 },
             });
-
             $.ajax({
                 dataType: "json",
-                url: "core-jnls.json",
+                url: 'scimagojr_info.json',
                 success: (data) => {
-                    jnl_dataset = data;
-                    process(data);
-                },
-            });
+                    scimagojr_info = data;
+                    $.ajax({
+                        dataType: "json",
+                        url: "core-jnls.json",
+                        success: (data) => {
+                            jnl_dataset = data;
+                            process(data);
+                        },
+                    });                },
+
+            })
+            
         });
 
         function updateShare(search) {
