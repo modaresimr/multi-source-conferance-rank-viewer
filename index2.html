@@ -232,13 +232,13 @@
                             defaultRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     
 
-                        column
-                            .data()
-                            .unique()
-                            .sort()
-                            .each(function (d, j) {
-                                if (defaultRanks.indexOf(d) < 0) select.append('<option value="' + d + '">' + d + "</option>");
-                            });
+                        // column
+                        //     .data()
+                        //     .unique()
+                        //     .sort()
+                        //     .each(function (d, j) {
+                        //         if (defaultRanks.indexOf(d) < 0) select.append('<option value="' + d + '">' + d + "</option>");
+                        //     });
                         }else if (cols[column[0]] == "Scimagojr") {
                             scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                         }
