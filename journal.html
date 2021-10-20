@@ -29,20 +29,20 @@
     </style>
     <script>
         function format_row(item) {
-                return '<tr>' + item + "</tr>"
-            }
-        function format_scimag(confs){
+            return '<tr>' + item + "</tr>"
+        }
+        function format_scimag(confs) {
             var out = "";
             out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
             out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>H-index</th><th>Probability</th><th>Topics</th><th>Link</th>`)
             confs.forEach(conf => {
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
 
-                
-                topic=''
-                Object.keys(conf.Topic).forEach(p=>{
-                    topic+=scimagojr_info['area'][p]+"<br>"
-                    conf.Topic[p].forEach(q=>topic+= "└─"+scimagojr_info['category'][q] + "<br>")
+
+                topic = ''
+                Object.keys(conf.Topic).forEach(p => {
+                    topic += scimagojr_info['area'][p] + "<br>"
+                    conf.Topic[p].forEach(q => topic += "└─" + scimagojr_info['category'][q] + "<br>")
                 })
                 out += format_row(
                     `<td>${conf.SOURCETITLE}</td>` +
@@ -98,19 +98,19 @@
                         render: (data, type, row) =>
                             (data && row?.['Links']?.['site']) ? `<a href=${row['Links']['site']} target='_blank'>${data}</a>` : data
                     },
-                   
+
                     { data: "Rank", width: "70px" },
                     { data: "SJR", width: "60px" },
                     { data: "H index", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
-                    { data: "Topic", render: (data, type) => data.map(p=>p.join("<br>")) },
+                    { data: "Topic", render: (data, type) => data.map(p => p.join("<br>")) },
                     { data: "CatRank", render: (data, type) => data.map(p => p.join("<br>")) },
                     {
                         data: "Title",
                         width: "70px",
-                        render: (data, type, row) =>{
-                            if(data=='')return '';
-                            return `<a href="https://www.scimagojr.com/journalsearch.php?q=${conf.Sourceid}&tip=sid&clean=0" target='_blank'>scisite</a>`                             
+                        render: (data, type, row) => {
+                            if (data == '') return '';
+                            return `<a href="https://www.scimagojr.com/journalsearch.php?q=${conf.Sourceid}&tip=sid&clean=0" target='_blank'>scisite</a>`
 
                         },
                     },
@@ -133,23 +133,23 @@
                     tr.removeClass("shown");
                 } else {
                     // Open this row
-                    row.child(format_scimag(row.data().Scimagojr)+format(row.data().Info)).show();
+                    row.child(format_scimag(row.data().Scimagojr) + format(row.data().Info)).show();
                     tr.addClass("shown");
                 }
             });
-            function format_all(d){
-                var out='<table>'
-                    keys=Arrays.from(Object.keys(d));
-                    col=2
-                    for(var i=0;i<keys.length; i+=col){
-                        out+="<tr>"
-                        for(var j=0;j<col && i+j< keys.length;j++){
-                            p=keys[i]
-                            out += `<th>${p}</th><td>${d[p]}</td>`
-                        }
-                        out+="</tr>"
+            function format_all(d) {
+                var out = '<table>'
+                keys = Arrays.from(Object.keys(d));
+                col = 2
+                for (var i = 0; i < keys.length; i += col) {
+                    out += "<tr>"
+                    for (var j = 0; j < col && i + j < keys.length; j++) {
+                        p = keys[i]
+                        out += `<th>${p}</th><td>${d[p]}</td>`
                     }
-                 out='</table>'
+                    out += "</tr>"
+                }
+                out = '</table>'
             }
 
             function hashfunc() {
@@ -167,15 +167,15 @@
             });
 
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
-            var scimagRanks=['Q1|Q2','Q1|Q2|Q3','Q1','Q2','Q3','Q4']
+            var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
             function process(data) {
                 data.forEach((p) => {
-                     c_q=p.Topic.map(p=>{
-                     var res=p.split(/(.*)\W+\((Q[1-4])\)|(.*)/);
-                     return (res[1]||res[3],res[2]);
+                    c_q = p.Topic.map(p => {
+                        var res = p.split(/(.*)\W+\((Q[1-4])\)|(.*)/);
+                        return (res[1] || res[3], res[2]);
                     });
-                    P.Topic= c_q.map(p=>p[0])
-                    P.CatRank = c_q.map(p => p[1]||'--')
+                    P.Topic = c_q.map(p => p[0])
+                    P.CatRank = c_q.map(p => p[1] || '--')
                     if (p.Rank == "") p.Rank = "--";
                     dataSet.push(p);
                 });
@@ -192,10 +192,10 @@
                 dataSet.sort(compare);
                 table.clear();
                 table.rows.add(dataSet);
-                cols = ["Type", "Title", "Rank",'SJR','H index', "Topic",'CatRank', "Link"];
+                cols = ["Type", "Title", "Rank", 'SJR', 'H index', "Topic", 'CatRank', "Link"];
                 table.columns().every(function () {
                     var column = this;
-                    if (["Link",'SJR','H index'].indexOf(cols[column[0]]) >= 0) {
+                    if (["Link", 'SJR', 'H index'].indexOf(cols[column[0]]) >= 0) {
                         $("<td>" + cols[column[0]] + "</td>").appendTo($(column.header()).empty());
                         return;
                     }
@@ -205,11 +205,11 @@
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (["Topic", "Title"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
-                            else if (["Rank",'CatRank'].indexOf(cols[column[0]]) >= 0) {
+                            else if (["Rank", 'CatRank'].indexOf(cols[column[0]]) >= 0) {
                                 val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
                                 column.search(val ? `^(${val}) |, (${val}) ` : "", true, false, false).draw();
                             }
-                            else column.search(val ? "^(" + val.replaceAll('\\', '') + ")$" : "", true, false,false).draw();
+                            else column.search(val ? "^(" + val.replaceAll('\\', '') + ")$" : "", true, false, false).draw();
                         });
 
                     if (cols[column[0]] == "Topic") {
@@ -223,37 +223,36 @@
                             //.forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>")});
                             .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     } else if (cols[column[0]] == "Rank") {
-                            scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                        scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     }
 
-                    
+
                     else if (cols[column[0]] == "CatRank") {
-                            scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
-                    }else{
+                        scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    } else {
                         column
-                        .data()
-                        .unique()
-                        .sort()
-                        .each(function (d, j) {
-                            select.append('<option value="' + d + '">' + d + "</option>");
-                        });
+                            .data()
+                            .unique()
+                            .sort()
+                            .each(function (d, j) {
+                                select.append('<option value="' + d + '">' + d + "</option>");
+                            });
                     }
-                    
+
                 });
                 table.draw();
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
             }
 
-                    $.ajax({
-                        dataType: "json",
-                        url: "scimagojr_journal_2020.json",
-                        success: (data) => {
-                            jnl_dataset = data;
-                            process(data);
-                        },
-
+            $.ajax({
+                dataType: "json",
+                url: "scimagojr_journal_2020.json",
+                success: (data) => {
+                    jnl_dataset = data;
+                    process(data);
+                },error: (data)=>alert('error '+data)
             })
-            
+
         });
 
         function updateShare(search) {
