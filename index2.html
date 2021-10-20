@@ -227,22 +227,23 @@
                             .sort()
                             //.forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>")});
                             .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
-                    } else {
-                        if (cols[column[0]] == "Rank") {
+                    } else if (cols[column[0]] == "Rank") {
                             defaultRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
-                    
-
-                        // column
-                        //     .data()
-                        //     .unique()
-                        //     .sort()
-                        //     .each(function (d, j) {
-                        //         if (defaultRanks.indexOf(d) < 0) select.append('<option value="' + d + '">' + d + "</option>");
-                        //     });
-                        }else if (cols[column[0]] == "Scimagojr") {
-                            scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
-                        }
                     }
+
+                    
+                    else if (cols[column[0]] == "Scimagojr") {
+                            scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    }else{
+                        column
+                        .data()
+                        .unique()
+                        .sort()
+                        .each(function (d, j) {
+                            select.append('<option value="' + d + '">' + d + "</option>");
+                        });
+                    }
+                    
                 });
                 table.draw();
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
