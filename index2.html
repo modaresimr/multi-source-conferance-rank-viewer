@@ -106,7 +106,7 @@
                         data: "Title", width: "100px", render: (data, type, row) => {
 
                             if (row['Scimagojr']?.length) {
-                                return row['Scimagojr'].map(p => `<a href='https://www.scimagojr.com/journalsearch.php?q=${p.SOURCEID}&tip=sid&clean=0' title=${p.SOURCETITLE} >Q${p.CUARTIL} ${p.probability}%</a>`).join('<br>')
+                                return row['Scimagojr'].map(p => `<a href='https://www.scimagojr.com/journalsearch.php?q=${p.SOURCEID}&tip=sid&clean=0' title='${p.SOURCETITLE}' >Q${p.CUARTIL} ${p.probability}%</a>`).join('<br>')
                             }
                             return '';
                         }
