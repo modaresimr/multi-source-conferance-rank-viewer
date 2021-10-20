@@ -100,6 +100,8 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 	space = /[ ]+/gi
 	removeuseless=s=>s.replace(useless,' ').replace(space,' ')
 	core_conf.forEach(p => {
+		if (p['Rank Source'] != "CORE2021") return;
+
 		title2conf[removeuseless(p.Title)] = p;
 		if (p.Acronym.length > 0)
 			abbr2conf[p.Acronym] = p
@@ -108,7 +110,8 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 			if (p.Links['site']) site2conf[p.Links['site']] = p;
 
 			if (p.Links['WikiCFP entry']) {
-				cfp2conf[p.Links['WikiCFP entry'].replace(cfpclean,'')] = p;
+				p.Links['WikiCFP entry']=p.Links['WikiCFP entry'].replace(cfpclean, '');
+				cfp2conf[p.Links['WikiCFP entry']] = p;
 			}
 		}
 		
@@ -127,7 +130,9 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 			core2.probability = probability(removeuseless(core.Title), removeuseless(conf.description));
 			pa = Math.max([core.Acronym, core.Acronym2].map(x => Math.max(conf.abbr.map(y => probability(x, y)))))
 			if (pa > 0) core2.probability = (core2.probability + pa) / 2;
-			core2.probability=Math.min(90,core2.probability)
+			core2.probability = Math.min(90, core2.probability)
+			if (core2.Links&&core2.Links['WikiCFP entry'] && core2.Links['WikiCFP entry'] != conf.parentLink)
+				return;
 		}
 		conf.core_confs.push(core2);
 	};
