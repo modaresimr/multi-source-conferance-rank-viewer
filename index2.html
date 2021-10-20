@@ -83,8 +83,7 @@
                             wikicfp=row?.['Links']?.['WikiCFP entry']
                             if(!jnl &&!wikicfp)
                                 wikicfp=`http://www.wikicfp.com/cfp/servlet/tool.search?year=f&q=${row["Acronym"] || data}`
-                            return 
-                                (jnl ? `<a target="_blank" href="https://www.scimagojr.com/journalsearch.php?q=${slug}">S</a> ` : '') +
+                            return (jnl ? `<a target="_blank" href="https://www.scimagojr.com/journalsearch.php?q=${slug}">S</a> ` : '') +
                                 ( wikicfp? `<a href=${wikicfp} target='_blank'>W</a> ` :'') +
                                 (row["DBLP Source"] == "" ? "" : '<a target="_blank" href="' + row["DBLP Source"] + '">D</a> ') +
                                 (jnl ? `<a target="_blank" href="https://www.research.com/journal/${slug}">R</a>' ` : '') +
