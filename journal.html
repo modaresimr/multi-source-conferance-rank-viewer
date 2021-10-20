@@ -91,7 +91,6 @@
                 //	"order": [[ 3, "asc" ]],
                 //"deferRender": true,
                 ordering: false,
-                ["Type", "Title", "Rank", 'SJR', 'H index', "Topic", "Link"];
                 columns: [
                     { data: "Type", width: "40px" },
                     {
@@ -104,7 +103,8 @@
                     { data: "SJR", width: "60px" },
                     { data: "H index", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
-                    { data: "Topic", render: (data, type) => data.map(p=>p.split(' (Q')[0]).join("<br>") },
+                    { data: "Topic", render: (data, type) => data.map(p=>p.join("<br>") },
+                    { data: "CatRank", render: (data, type) => data.map(p => p.join("<br>") },
                     {
                         data: "Title",
                         width: "70px",
