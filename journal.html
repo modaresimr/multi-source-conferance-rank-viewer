@@ -157,9 +157,9 @@
                                 
                             }
                             link+=format_a('spr', 'https://www.springer.com/gp/search?facet-type=type__journal&query=' + data)
-                            return format_a('scimagojr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) +
-                                link+
-                                format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug)+
+                            return format_a('scimagojr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`)+"<br>" +
+                                (link?link + "<br>":'')+
+                                format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug) +
                                 format_a('scirev',`https://scirev.org/journal/${slug.toLowerCase()}/`)
 
                         },
