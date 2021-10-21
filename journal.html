@@ -125,7 +125,7 @@
                         
                         orderable: false,
                         className: 'select-checkbox',
-                        targets: 0, width: "80px"
+                        width: "80px",
                     },
                     { data: "Type", width: "40px" },
                     {
@@ -321,7 +321,7 @@
                     var body = $(table.table().body());
 
                     body.find('td span').removeClass('bold');
-                    sear= table.columns(cols.indexOf('Topic')).search()?.[0]
+                    var sear= table.columns(cols.indexOf('Topic')).search()?.[0]
                     if(sear)
                         body.find(`td span:contains('${sear}')`).addClass('bold');
                     
