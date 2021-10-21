@@ -106,11 +106,12 @@
                 var title = $(this).text();
                 //$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
             });
+            cols = ['Select', "Type", "Title", "Rank", 'SJR', 'Hindex', "Topic", "Link"];
             table = $("#rankTable").DataTable({
                 data: dataSet,
                 dom: '<"top"f>it<"bottom"lrp><"clear">',
 
-                "order": [[3, "dsc"]],
+                "order": [[cols.indexOf('SJR'), "dsc"]],
                 //"deferRender": true,
                 // ordering: false,
                 select: {
@@ -253,7 +254,7 @@
                 dataSet.sort(compare);
                 table.clear();
                 table.rows.add(dataSet);
-                cols = ['Select',"Type", "Title", "Rank", 'SJR', 'Hindex', "Topic", "Link"];
+                
                 table.columns().every(function () {
                     var column = this;
                     if (["Link", 'SJR', 'Hindex'].indexOf(cols[column[0]]) >= 0) {
