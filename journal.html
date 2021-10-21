@@ -26,10 +26,16 @@
         .bigdrop {
             min-width: 500px !important;
         }
+        .bold{
+            font-weight:bold;
+        }
     </style>
     <script>
         function format_row(item) {
             return '<tr>' + item + "</tr>"
+        }
+        function format_a(text,link) {
+            return `<a href="${link}" target="_blank">${text}</a> `
         }
         function format_scimag(confs) {
             var out = "";
@@ -51,7 +57,7 @@
                     `<td>${conf.H}</td>` +
                     `<td>${conf.probability}%</td>` +
                     `<td>${topic}</td>` +
-                    `<td> <a href="https://www.scimagojr.com/journalsearch.php?q=${conf.SOURCEID}&tip=sid&clean=0" target='_blank'>scisite</a></td>`
+                    `<td> ${format_a('scisite',"https://www.scimagojr.com/journalsearch.php?q=${conf.SOURCEID}&tip=sid&clean=0")}</td>`
                 );
 
 
@@ -88,29 +94,45 @@
                 data: dataSet,
                 dom: '<"top"f>it<"bottom"lrp><"clear">',
 
-                //	"order": [[ 3, "asc" ]],
+                "order": [[3, "dsc"]],
                 //"deferRender": true,
-                ordering: false,
+                // ordering: false,
                 columns: [
                     { data: "Type", width: "40px" },
                     {
-                        data: "Title",
+                        data: "Title", orderable: false,
                         render: (data, type, row) =>
-                            (data && row?.['Links']?.['site']) ? `<a href=${row['Links']['site']} target='_blank'>${data}</a>` : data
+                            (data && row?.['Links']?.['site']) ? format_a(data,row['Links']['site']) : data
                     },
 
-                    { data: "Rank", width: "70px" },
+                    { data: "Rank", width: "70px", orderable: false },
                     { data: "SJR", width: "60px" },
                     { data: "H index", width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
-                    { data: "Topic", render: (data, type) => data.map(p => p.join("<br>")) },
-                    { data: "CatRank", render: (data, type) => data.map(p => p.join("<br>")) },
-                    {
-                        data: "Title",
+                    { data: "Categories", orderable: false },
+                    // { data: "CatRank", render: (data, type) => data.join("<br>") },
+                    {//Link 
+                        data: "Title", orderable: false,
                         width: "70px",
                         render: (data, type, row) => {
                             if (data == '') return '';
-                            return `<a href="https://www.scimagojr.com/journalsearch.php?q=${conf.Sourceid}&tip=sid&clean=0" target='_blank'>scisite</a>`
+                            slug = data.replace(/ /g, '-').replace(/[^\w-]+/g, '')
+                            
+                            link='';
+                            if(row['Issn']){
+                                link+= row['Issn'].split(', ')
+                                    .map(p => {
+                                        issn2=`${p.slice(0, 4)}-${p.slice(4, 8)}`
+                                        return  format_a('els', `https://journalinsights.elsevier.com/journals/`+issn2)
+                                                
+                                    }).join(' ')
+                                
+                            }
+                            link+=format_a('spr', 'https://www.springer.com/gp/search?facet-type=type__journal&query=' + data)
+                            return format_a('scimagojr',"https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0") +
+                                link+
+                                format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug)+
+                                format_a('scirev','https://scirev.org/journal/'+slug.toLowerCase())
 
                         },
                     },
@@ -133,23 +155,26 @@
                     tr.removeClass("shown");
                 } else {
                     // Open this row
-                    row.child(format_scimag(row.data().Scimagojr) + format(row.data().Info)).show();
+                    row.child(format_all(row.data())).show();
                     tr.addClass("shown");
                 }
             });
             function format_all(d) {
                 var out = '<table>'
-                keys = Arrays.from(Object.keys(d));
-                col = 2
+                keys = Array.from(Object.keys(d));
+                keys = keys.filter(el => ['Rank', 'Topic'].indexOf(el) < 0);
+
+                col = 3
                 for (var i = 0; i < keys.length; i += col) {
                     out += "<tr>"
                     for (var j = 0; j < col && i + j < keys.length; j++) {
-                        p = keys[i]
+                        p = keys[i + j]
                         out += `<th>${p}</th><td>${d[p]}</td>`
                     }
                     out += "</tr>"
                 }
-                out = '</table>'
+                out += '</table>'
+                return out
             }
 
             function hashfunc() {
@@ -168,14 +193,17 @@
 
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
             var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
+            var alltopics = new Set()
             function process(data) {
                 data.forEach((p) => {
-                    c_q = p.Topic.map(p => {
-                        var res = p.split(/(.*)\W+\((Q[1-4])\)|(.*)/);
-                        return (res[1] || res[3], res[2]);
+                    c_q = p.Categories.split(';').map(p => {
+                        var res = p.split(/(.*)\W+\((Q[1-4])\)\W*|(.*)/);
+                        return [res[1] || res[3], p];
                     });
-                    P.Topic = c_q.map(p => p[0])
-                    P.CatRank = c_q.map(p => p[1] || '--')
+                    p.Categories = p.Categories.split(';').map(z=>`<span>${z.trim()}</span>`).join('<br>')
+                    c_q.forEach(p => p.forEach(z=>alltopics.add(z.trim())))
+
+                    p.Rank = p['SJR Best Quartile']
                     if (p.Rank == "") p.Rank = "--";
                     dataSet.push(p);
                 });
@@ -192,10 +220,10 @@
                 dataSet.sort(compare);
                 table.clear();
                 table.rows.add(dataSet);
-                cols = ["Type", "Title", "Rank", 'SJR', 'H index', "Topic", 'CatRank', "Link"];
+                cols = ["Type", "Title", "Rank", 'SJR', 'Hindex', "Topic", "Link"];
                 table.columns().every(function () {
                     var column = this;
-                    if (["Link", 'SJR', 'H index'].indexOf(cols[column[0]]) >= 0) {
+                    if (["Link", 'SJR', 'Hindex'].indexOf(cols[column[0]]) >= 0) {
                         $("<td>" + cols[column[0]] + "</td>").appendTo($(column.header()).empty());
                         return;
                     }
@@ -204,21 +232,22 @@
                         .appendTo($(column.header()).empty())
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
-                            if (["Topic", "Title"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
-                            else if (["Rank", 'CatRank'].indexOf(cols[column[0]]) >= 0) {
-                                val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
-                                column.search(val ? `^(${val}) |, (${val}) ` : "", true, false, false).draw();
+                            if (["Title"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
+                            if (["Topic"].indexOf(cols[column[0]]) >= 0) {
+                                column.search(val ? val : "", true, false).draw();
+                                // $(`td span`).removeClass('bold')
+                                // $(`td span:contains("${val}")`).addClass('bold')
                             }
+                            // else if (["Rank"].indexOf(cols[column[0]]) >= 0) {
+                            //     val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
+                            //     column.search(val ? `^(${val})$` : "", true, false, false).draw();
+                            // }
                             else column.search(val ? "^(" + val.replaceAll('\\', '') + ")$" : "", true, false, false).draw();
                         });
 
                     if (cols[column[0]] == "Topic") {
                         var all = {};
-                        column
-                            .data()
-                            .unique()
-                            .each((p, i) => p.forEach((q) => (all[q.split(' (Q')[0]] = 1)));
-                        Object.keys(all)
+                        Array.from(alltopics)
                             .sort()
                             //.forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>")});
                             .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
@@ -240,17 +269,26 @@
                     }
 
                 });
+                table.on('draw', function () {
+                    var body = $(table.table().body());
+
+                    body.find('td span').removeClass('bold');
+                    if(table.columns(5).search()?.[0])
+                        body.find(`td span:contains('${table.columns(5).search()[0]}')`).addClass('bold');
+                    
+                });
                 table.draw();
+                
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
             }
 
             $.ajax({
                 dataType: "json",
-                url: "scimagojr_journal_2020.json",
+                url: "https://rank.alimodaresi.ir/scimagojr_journal_2020.json",
                 success: (data) => {
                     jnl_dataset = data;
                     process(data);
-                },error: (data)=>alert('error '+data)
+                }, error: (a, b, c, d) => console.log('error ', a, b, c, d)
             })
 
         });
