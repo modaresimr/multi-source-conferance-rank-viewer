@@ -15,7 +15,8 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
-
+<script src="https://cdn.datatables.net/select/1.2.2/js/dataTables.select.min.js"></script>
+<link href="https://cdn.datatables.net/select/1.2.2/css/select.dataTables.min.css" rel="stylesheet">
     <style>
         table.dataTable thead th,
         table.dataTable thead td {
@@ -28,6 +29,21 @@
         }
         .bold{
             font-weight:bold;
+        }
+        label.rowselector{
+            cursor:pointer;
+        }
+        label.rowselector .tik{
+            display:none;
+        }
+        label.rowselector .untik{
+            display:block;
+        }
+        .selected label.rowselector .tik{
+            display:block;
+        }
+        .selected label.rowselector .untik{
+            display:none;
         }
     </style>
     <script>
@@ -97,7 +113,20 @@
                 "order": [[3, "dsc"]],
                 //"deferRender": true,
                 // ordering: false,
+                select: {
+                    style: 'multi',
+                    selector: 'td:first-child'
+                },
                 columns: [
+                    // { data: "Sourceid", width: "40px" , render: (data, type, row) => {
+                    //         return `<label class="rowselector"><span class='tik'>✓</span><span class='untik'>✗</span></label>`
+                    // }},
+                    {
+                        
+                        orderable: false,
+                        className: 'select-checkbox',
+                        targets: 0, width: "80px"
+                    },
                     { data: "Type", width: "40px" },
                     {
                         data: "Title", orderable: false,
@@ -120,11 +149,9 @@
                             
                             link='';
                             if(row['Issn']){
-                                link+= row['Issn'].split(', ')
+                                link+= row['Issn']
                                     .map(p => {
-                                        issn2=`${p.slice(0, 4)}-${p.slice(4, 8)}`
-                                        return  format_a('els', `https://journalinsights.elsevier.com/journals/`+issn2)
-                                                
+                                        return  format_a('els', `https://journalinsights.elsevier.com/journals/`+p) 
                                     }).join(' ')
                                 
                             }
@@ -145,7 +172,12 @@
             $(".dataTables_filter input").attr("placeholder", "Search any topic, conference journal, etc.");
 
             //$("div.toolbar").html('<input type="search" class="" placeholder="" aria-controls="rankTable" style="width: 100%;">'
+            $("#rankTable tbody").on( 'click', 'label', function () {
+                    $(this).parent().parent().toggleClass('selected');
+            });
             $("#rankTable tbody").on("click", "td", function () {
+                if($(this).hasClass('select-checkbox'))
+                    return;
                 var tr = $(this).closest("tr");
                 var row = table.row(tr);
 
@@ -200,6 +232,7 @@
                         var res = p.split(/(.*)\W+\((Q[1-4])\)\W*|(.*)/);
                         return [res[1] || res[3], p];
                     });
+                    p.Issn= p.Issn?.split(',').map(q=>`${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
                     p.Categories = p.Categories.split(';').map(z=>`<span>${z.trim()}</span>`).join('<br>')
                     c_q.forEach(p => p.forEach(z=>alltopics.add(z.trim())))
 
@@ -220,7 +253,7 @@
                 dataSet.sort(compare);
                 table.clear();
                 table.rows.add(dataSet);
-                cols = ["Type", "Title", "Rank", 'SJR', 'Hindex', "Topic", "Link"];
+                cols = ['Select',"Type", "Title", "Rank", 'SJR', 'Hindex', "Topic", "Link"];
                 table.columns().every(function () {
                     var column = this;
                     if (["Link", 'SJR', 'Hindex'].indexOf(cols[column[0]]) >= 0) {
@@ -233,11 +266,24 @@
                         .on("change", function () {
                             var val = $.fn.dataTable.util.escapeRegex($(this).val());
                             if (["Title"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
-                            if (["Topic"].indexOf(cols[column[0]]) >= 0) {
+                            else if (["Topic"].indexOf(cols[column[0]]) >= 0) {
                                 column.search(val ? val : "", true, false).draw();
                                 // $(`td span`).removeClass('bold')
                                 // $(`td span:contains("${val}")`).addClass('bold')
+                            }else if (["Select"].indexOf(cols[column[0]]) >= 0) {        
+                                if('✓' == val){
+                                    $.fn.dataTable.ext.search.push(
+                                        function (settings, data, dataIndex) {
+                                            return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                                        }
+                                    );
+                                    table.draw();
+                                }else {//if ('✗' == val) {
+                                    $.fn.dataTable.ext.search.pop();
+                                    table.draw();
+                                }
                             }
+
                             // else if (["Rank"].indexOf(cols[column[0]]) >= 0) {
                             //     val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
                             //     column.search(val ? `^(${val})$` : "", true, false, false).draw();
@@ -253,6 +299,8 @@
                             .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     } else if (cols[column[0]] == "Rank") {
                         scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    } else if (cols[column[0]] == "Select") {
+                        ['✓'].forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
                     }
 
 
@@ -273,8 +321,9 @@
                     var body = $(table.table().body());
 
                     body.find('td span').removeClass('bold');
-                    if(table.columns(5).search()?.[0])
-                        body.find(`td span:contains('${table.columns(5).search()[0]}')`).addClass('bold');
+                    sear= table.columns(cols.indexOf('Topic')).search()?.[0]
+                    if(sear)
+                        body.find(`td span:contains('${sear}')`).addClass('bold');
                     
                 });
                 table.draw();
