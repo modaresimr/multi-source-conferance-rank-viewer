@@ -260,6 +260,25 @@
                         $("<td>" + cols[column[0]] + "</td>").appendTo($(column.header()).empty());
                         return;
                     }
+                    if (["Select"].indexOf(cols[column[0]]) >= 0) {
+                        $("<input class='filter-table' type='checkbox'/>").appendTo($(column.header()).empty()).on('change',(ev)=>{
+                            var val = ev.target.checked;
+                            console.log(val);
+                            if (val) {
+                                $.fn.dataTable.ext.search.push(
+                                    function (settings, data, dataIndex) {
+                                        return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                                    }
+                                );
+                                table.draw();
+                            } else {//if ('✗' == val) {
+                                $.fn.dataTable.ext.search.pop();
+                                table.draw();
+                            }
+                        }
+                        );
+                        return;
+                    }
 
                     var select = $('<select class="filter-table" style="width:100%" data-placeholder="' + cols[column[0]] + '"><option value=""></option></select>')
                         .appendTo($(column.header()).empty())
