@@ -113,7 +113,7 @@
                 var title = $(this).text();
                 //$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
             });
-            cols = ['Select', "Type", "Title", "Rank", 'SJR', 'Hindex', 'CS', 'SNIP', "Topic", "Link"];
+            cols = ['Select', "Type", "Title", "Rank", 'SJR', 'Hindex', 'CS', 'SNIP', "Topic",'Rev1', 'RevF','AR', "Link"];
             table = $("#rankTable").DataTable({
                 data: dataSet,
                 dom: '<"top"f>it<"bottom"lrp><"clear">',
@@ -159,6 +159,9 @@
                     { data: 'SNIP', width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
                     { data: "Categories", orderable: false },
+                    { data: "Rev1", orderable: true , width: "60px"},
+                    { data: "RevF", orderable: true , width: "60px"},
+                    { data: "AR", orderable: true, width: "60px" },
                     // { data: "CatRank", render: (data, type) => data.join("<br>") },
                     {//Link 
                         data: "Title", orderable: false,
@@ -263,6 +266,9 @@
                     p.CiteScore = p.CiteScore ?? 0
                     p.SNIP = p.SNIP ?? 0
                     p.SJR = p.SJR?.replaceAll(',', '.') ?? 0
+                    p.Rev1=p.Review?.[2020]?.First??''
+                    p.RevF = p.Review?.[2020]?.Final??''
+                    p.AR = p.Acceptance?.[2020]?.Rate ?? ''
                     p.Issn = p.Issn?.split(',').map(q => `${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
                     p.Categories = p.Categories.split(';').map(z => `<span>${z.trim()}</span>`).join('<br>')
                     c_q.forEach(p => p.forEach(z => alltopics.add(z.trim())))
@@ -287,7 +293,7 @@
 
                 table.columns().every(function () {
                     var column = this;
-                    if (["Link", 'SJR', 'Hindex', 'CS', 'SNIP'].indexOf(cols[column[0]]) >= 0) {
+                    if (["Link", 'SJR', 'Hindex', 'CS', 'SNIP','Rev1','RevF','AR'].indexOf(cols[column[0]]) >= 0) {
                         $("<span>" + cols[column[0]] + "</span>").appendTo($(column.header()).empty());
                         return;
                     }
