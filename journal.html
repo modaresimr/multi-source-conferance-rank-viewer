@@ -382,6 +382,9 @@
                         body.find(`td span:contains('${sear}')`).addClass('bold');
 
                 });
+                $.fn.dataTable.ext.type.order['num-pre'] = function (d) {
+                    return d == '~' ? Infinity : d;
+                }
                 table.draw();
 
                 $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
