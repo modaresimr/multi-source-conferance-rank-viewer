@@ -216,11 +216,13 @@
             function format_all(d) {
                 var out = '<table>'
                 keys = Array.from(Object.keys(d));
-                keys = keys.filter(el => ['Rank', 'Categories', 'Title', 'Topic', 'Scope'].indexOf(el) < 0);
+                keys = keys.filter(el => ['Percentile','Rank','Links', 'Categories', 'Title', 'Topic', 'Scope'].indexOf(el) < 0);
 
                 col = 4
-                out += format_row(`<th>Topic</th><td colspan="${col * 2 - 1}">${d['Topic']}</td>`)
+                out += format_row(`<th>Title</th><td colspan="${col * 2 - 1}">${d['Title']}</td>`)
+                out += format_row(`<th>Links</th><td colspan="${col * 2 - 1}">${Object.keys(d['Links']).map(p=>format_a(p, d['Links'][p]))}</td>`)
                 out += format_row(`<th>Categories</th><td colspan="${col * 2 - 1}">${d['Categories']}</td>`)
+                out += format_row(`<th>Scope</th><td colspan="${col * 2 - 1}">${d['Scope']}</td>`)
                 for (var i = 0; i < keys.length; i += col) {
                     out += "<tr>"
                     for (var j = 0; j < col && i + j < keys.length; j++) {
@@ -229,7 +231,7 @@
                     }
                     out += "</tr>"
                 }
-                out += format_row(`<th>Scope</th><td colspan="${col * 2 - 1}">${d['Scope']}</td>`)
+                
                 out += '</table>'
                 return out
             }
