@@ -159,9 +159,9 @@
                     { data: 'SNIP', width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
                     { data: "Categories", orderable: false },
-                    { data: "Rev1", orderable: true , width: "60px", "type": "num"},
-                    { data: "RevF", orderable: true , width: "60px", "type": "num"},
-                    { data: "AR", orderable: true, width: "60px" , "type": "num"},
+                    { data: "Rev1", orderable: true , width: "60px", "type": "ali"},
+                    { data: "RevF", orderable: true , width: "60px", "type": "ali"},
+                    { data: "AR", orderable: true, width: "60px" , "type": "ali"},
                     // { data: "CatRank", render: (data, type) => data.join("<br>") },
                     {//Link 
                         data: "Title", orderable: false,
@@ -268,7 +268,8 @@
                     p.SJR = p.SJR?.replaceAll(',', '.') ?? 0
                     p.Rev1=Number(p.Review?.[2020]?.First?? 0)|| '~'
                     p.RevF = Number(p.Review?.[2020]?.Final ?? 0) || '~'
-                    p.AR = Number(p.Acceptance?.[2020]?.Rate ?? 0) || '~'
+                    console.log(p.Acceptance)
+                    p.AR = Number(p.Acceptance?.[2020]?.Rate ?? 0) || ''
                     p.Issn = p.Issn?.split(',').map(q => `${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
                     p.Categories = p.Categories.split(';').map(z => `<span>${z.trim()}</span>`).join('<br>')
                     c_q.forEach(p => p.forEach(z => alltopics.add(z.trim())))
@@ -382,8 +383,31 @@
                         body.find(`td span:contains('${sear}')`).addClass('bold');
 
                 });
+                
                 $.fn.dataTable.ext.type.order['num-pre'] = function (d) {
-                    return d == '~' ? Infinity : d;
+                    return d=='~'?Infinity:d;
+                }
+                $.fn.dataTable.ext.type.order['ali-asc'] = function (a,b) {
+                    if (a == '~')
+                        return 1;
+                    else if (b == '~')
+                        return -1;
+                    else {
+                        var ia = parseInt(a);
+                        var ib = parseInt(b);
+                        return (ia > ib) ? 1 : ((ia < ib) ? -1 : 0);
+                    }
+                }
+                $.fn.dataTable.ext.type.order['ali-desc'] = function (a, b) {
+                    if (a == '~')
+                        return 1;
+                    else if (b == '~')
+                        return -1;
+                    else {
+                        var ia = parseInt(a);
+                        var ib = parseInt(b);
+                        return (ia > ib) ? -1 : ((ia < ib) ? 1 : 0);
+                    }
                 }
                 table.draw();
 
