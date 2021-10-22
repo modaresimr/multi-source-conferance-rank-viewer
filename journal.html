@@ -51,7 +51,7 @@
             return '<tr>' + item + "</tr>"
         }
         function format_a(text,link) {
-            return `<a href="${link}" target="_blank">${text}</a> `
+            return `<a href='${link}' target="_blank">${text}</a> `
         }
         function format_scimag(confs) {
             var out = "";
@@ -132,7 +132,7 @@
                     {
                         data: "Title", orderable: false,
                         render: (data, type, row) =>
-                            (data) ? format_a(data, document.location.href.split("#")[0] + "#q='"+data+"'") : data
+                            (data) ? format_a(data, document.location.href.split("#")[0] + '#q="'+data+'"') : data
                     },
 
                     { data: "Rank", width: "70px", orderable: false },
