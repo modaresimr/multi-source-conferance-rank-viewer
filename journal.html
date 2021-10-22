@@ -97,8 +97,9 @@
             }
 
             if (typeof d == "object") {
-                var out = "";
-                Object.keys(d).forEach((p) => (out += "<th>" + p + "</th><td>" + d[p] + "</td>"));
+                var out = "<table>";
+                Object.keys(d).forEach((p) => (out += "<tr><th>" + p + "</th><td>" + format(d[p]) + "</td></tr>"));
+                out+="</table>"
                 return out;
             }
 
@@ -227,7 +228,7 @@
                     out += "<tr>"
                     for (var j = 0; j < col && i + j < keys.length; j++) {
                         p = keys[i + j]
-                        out += `<th>${p}</th><td>${d[p]}</td>`
+                        out += `<th>${p}</th><td>${format(d[p])}</td>`
                     }
                     out += "</tr>"
                 }
