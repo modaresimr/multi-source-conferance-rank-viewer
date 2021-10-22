@@ -266,9 +266,9 @@
                     p.CiteScore = p.CiteScore ?? 0
                     p.SNIP = p.SNIP ?? 0
                     p.SJR = p.SJR?.replaceAll(',', '.') ?? 0
-                    p.Rev1=p.Review?.[2020]?.First?? '~'
-                    p.RevF = p.Review?.[2020]?.Final?? '~'
-                    p.AR = p.Acceptance?.[2020]?.Rate ?? '~'
+                    p.Rev1=Number(Np.Review?.[2020]?.First?? 0)|| '~'
+                    p.RevF = Number(p.Review?.[2020]?.Final ?? 0) || '~'
+                    p.AR = Number(p.Acceptance?.[2020]?.Rate ?? 0) || '~'
                     p.Issn = p.Issn?.split(',').map(q => `${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
                     p.Categories = p.Categories.split(';').map(z => `<span>${z.trim()}</span>`).join('<br>')
                     c_q.forEach(p => p.forEach(z => alltopics.add(z.trim())))
