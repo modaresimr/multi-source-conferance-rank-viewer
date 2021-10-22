@@ -160,8 +160,8 @@
                             }
                             link+=format_a('spr', 'https://www.springer.com/gp/search?facet-type=type__journal&query=' + data)
                             return format_a('sjr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) +
-                                    format_a('sps', `https://www.scopus.com/sourceid/${row['Sourceid']}`)+"<br>" +
-                                (link?link + "<br>":'')+
+                                    format_a('sps', `https://www.scopus.com/sourceid/${row['Sourceid']}`)+ //"<br>" +
+                                (link?link /*+ "<br>"*/:'')+
                                 format_a('IEEE','https://ieeexplore.ieee.org/browse/periodicals/title?queryText='+data)+
                                 format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug) +
                                 format_a('scirev',`https://scirev.org/journal/${slug.toLowerCase()}/`)
@@ -199,9 +199,11 @@
             function format_all(d) {
                 var out = '<table>'
                 keys = Array.from(Object.keys(d));
-                keys = keys.filter(el => ['Rank', 'Topic'].indexOf(el) < 0);
-
-                col = 3
+                keys = keys.filter(el => ['Rank','Categories','Title', 'Topic','Scope'].indexOf(el) < 0);
+                
+                col = 4
+                out = format_row(`<th>Topic</th><td colspan="${col*2-1}">${d['Topic']}</td>`)
+                out = format_row(`<th>Categories</th><td colspan="${col * 2 - 1}">${d['Categories']}</td>`)
                 for (var i = 0; i < keys.length; i += col) {
                     out += "<tr>"
                     for (var j = 0; j < col && i + j < keys.length; j++) {
@@ -210,6 +212,7 @@
                     }
                     out += "</tr>"
                 }
+                out = format_row(`<th>Scope</th><td colspan="${col * 2 - 1}">${d['Scope']}</td>`)
                 out += '</table>'
                 return out
             }
@@ -239,6 +242,7 @@
                     });
                     p.CiteScore=p.CiteScore??0
                     p.SNIP = p.SNIP ?? 0
+                    p.SJR = p.SRJ?.replaceAll(',','.') ?? 0
                     p.Issn= p.Issn?.split(',').map(q=>`${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
                     p.Categories = p.Categories.split(';').map(z=>`<span>${z.trim()}</span>`).join('<br>')
                     c_q.forEach(p => p.forEach(z=>alltopics.add(z.trim())))
@@ -359,7 +363,7 @@
 
             $.ajax({
                 dataType: "json",
-                url: "https://rank.alimodaresi.ir/scimagojr_journal_2020_cs.json",
+                url: "https://rank.alimodaresi.ir/scimagojr_journal_2020_cs_link.json",
                 success: (data) => {
                     jnl_dataset = data;
                     process(data);
