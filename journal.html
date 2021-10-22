@@ -162,7 +162,7 @@
                             return format_a('sjr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) +
                                     format_a('sps', `https://www.scopus.com/sourceid/${row['Sourceid']}`)+"<br>" +
                                 (link?link + "<br>":'')+
-                                format_a('IEEE','https://ieeexplore.ieee.org/browse/periodicals/title?queryText='+data)
+                                format_a('IEEE','https://ieeexplore.ieee.org/browse/periodicals/title?queryText='+data)+
                                 format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug) +
                                 format_a('scirev',`https://scirev.org/journal/${slug.toLowerCase()}/`)
 
