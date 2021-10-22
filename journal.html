@@ -145,11 +145,11 @@
                         // (data && row['Links']?.['Homepage']) ? format_a(data, document.location.href.split("#")[0] + '#q="' + data + '"') : data
                     },
 
-                    { data: "Rank", width: "70px", orderable: false },
-                    {
-                        data: "SJR", width: "60px", render: (data, type, row) =>
+                    { data: "Rank", width: "70px", orderable: false, render: (data, type, row) =>
                             (data) ? format_a(data, `https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) : data
-                    },
+                     },
+                    {
+                        data: "SJR", width: "60px"},
                     { data: "H index", width: "60px" },
                     {
                         data: 'CiteScore', width: "60px", render: (data, type, row) =>
