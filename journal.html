@@ -219,8 +219,8 @@
                 keys = keys.filter(el => ['Rank', 'Categories', 'Title', 'Topic', 'Scope'].indexOf(el) < 0);
 
                 col = 4
-                out = format_row(`<th>Topic</th><td colspan="${col * 2 - 1}">${d['Topic']}</td>`)
-                out = format_row(`<th>Categories</th><td colspan="${col * 2 - 1}">${d['Categories']}</td>`)
+                out += format_row(`<th>Topic</th><td colspan="${col * 2 - 1}">${d['Topic']}</td>`)
+                out += format_row(`<th>Categories</th><td colspan="${col * 2 - 1}">${d['Categories']}</td>`)
                 for (var i = 0; i < keys.length; i += col) {
                     out += "<tr>"
                     for (var j = 0; j < col && i + j < keys.length; j++) {
@@ -229,7 +229,7 @@
                     }
                     out += "</tr>"
                 }
-                out = format_row(`<th>Scope</th><td colspan="${col * 2 - 1}">${d['Scope']}</td>`)
+                out += format_row(`<th>Scope</th><td colspan="${col * 2 - 1}">${d['Scope']}</td>`)
                 out += '</table>'
                 return out
             }
