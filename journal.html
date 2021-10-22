@@ -132,7 +132,7 @@
                     {
                         data: "Title", orderable: false,
                         render: (data, type, row) =>
-                            (data) ? format_a(data, document.location.href.split("#")[0] + '#q="'+data+'"') : data
+                            (data) ? format_a(data, document.location.href.split("#")[0] + "#q='"+data+"'") : data
                     },
 
                     { data: "Rank", width: "70px", orderable: false },
