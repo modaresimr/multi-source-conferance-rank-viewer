@@ -106,7 +106,7 @@
                 var title = $(this).text();
                 //$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
             });
-            cols = ['Select', "Type", "Title", "Rank", 'SJR', 'Hindex','CS','SNIF', "Topic", "Link"];
+            cols = ['Select', "Type", "Title", "Rank", 'SJR', 'Hindex','CS','SNIP', "Topic", "Link"];
             table = $("#rankTable").DataTable({
                 data: dataSet,
                 dom: '<"top"f>it<"bottom"lrp><"clear">',
@@ -139,7 +139,7 @@
                     { data: "SJR", width: "60px" },
                     { data: "H index", width: "60px" },
                     {data: 'CiteScore',width: "60px"},
-                    { data: 'SNIF', width: "60px" },
+                    { data: 'SNIP', width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
                     { data: "Categories", orderable: false },
                     // { data: "CatRank", render: (data, type) => data.join("<br>") },
@@ -159,8 +159,8 @@
                                 
                             }
                             link+=format_a('spr', 'https://www.springer.com/gp/search?facet-type=type__journal&query=' + data)
-                            return format_a('sjr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`)
-                            format_a('sps', `https://www.scopus.com/sourceid/${row['Sourceid']}`)+"<br>" +
+                            return format_a('sjr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) +
+                                    format_a('sps', `https://www.scopus.com/sourceid/${row['Sourceid']}`)+"<br>" +
                                 (link?link + "<br>":'')+
                                 format_a('IEEE','https://ieeexplore.ieee.org/browse/periodicals/title?queryText='+data)
                                 format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug) +
@@ -261,7 +261,7 @@
                 
                 table.columns().every(function () {
                     var column = this;
-                    if (["Link", 'SJR', 'Hindex','CS','SNIF'].indexOf(cols[column[0]]) >= 0) {
+                    if (["Link", 'SJR', 'Hindex','CS','SNIP'].indexOf(cols[column[0]]) >= 0) {
                         $("<span>" + cols[column[0]] + "</span>").appendTo($(column.header()).empty());
                         return;
                     }
