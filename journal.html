@@ -237,6 +237,8 @@
                         var res = p.split(/(.*)\W+\((Q[1-4])\)\W*|(.*)/);
                         return [res[1] || res[3], p];
                     });
+                    p.CiteScore=p.CiteScore??0
+                    p.SNIP = p.SNIP ?? 0
                     p.Issn= p.Issn?.split(',').map(q=>`${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
                     p.Categories = p.Categories.split(';').map(z=>`<span>${z.trim()}</span>`).join('<br>')
                     c_q.forEach(p => p.forEach(z=>alltopics.add(z.trim())))
