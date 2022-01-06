@@ -16,7 +16,14 @@ Object.values(wiki_cfp).forEach(p => {
         p.abbr = Array.from(new Set(p.abbr.filter(q => q.length >= 2)));
         p.description = p.description.replace(repeated_rg, ' ').replace(begin_end, ' ').replace(/[ ]+/g, ' ').trim();
         if (exists[p.source]) {
-            res[exists[p.source]]=p
+            parentLink = res[exists[p.source]].parentLink;;
+            parent = res[exists[p.source]].parent;
+            if (parentLink && p.parentLink == null) {
+                p.parent = parent
+                p.parentLink = parentLink
+            }
+            res[exists[p.source]] = p //todo merge
+            
         } else {
             exists[p.source] = res.length
             res.push(p);

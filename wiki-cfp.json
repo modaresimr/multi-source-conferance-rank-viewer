@@ -192,108 +192,6 @@
 		]
 	},
 	{
-		"summary": "ISC HPC 2021",
-		"eventType": "Conference",
-		"startDate": "2021-06-24T00:00:00",
-		"endDate": "2021-07-02T23:59:59",
-		"locality": "Digital",
-		"description": "ISC HIGH PERFORMANCE DIGITAL",
-		"abstract_registration_due": "2020-12-14T00:00:00",
-		"submission_deadline": "2021-12-21T00:00:00",
-		"notification_due": "2021-03-02T00:00:00",
-		"final_version_due": "2021-04-25T00:00:00",
-		"title": "ISC HPC",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=117209",
-		"source": "https://www.isc-hpc.com/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"high performance computing",
-			"storage",
-			"data analytics",
-			"ai / machine learning"
-		],
-		"year": "2021",
-		"abbr": [
-			"isc hpc"
-		],
-		"event_id": "117209",
-		"core_confs": [
-			{
-				"CoreId": 1340,
-				"Type": "Conference",
-				"Title": "ISC High Performance (was International Supercomputing Conference)",
-				"Acronym": "ISC",
-				"Acronym2": "supercomputer",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/supercomputer",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4606 - Distributed computing and systems software",
-					"0805 - Distributed Computing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					}
-				],
-				"Links": {
-					"site": "https://www.isc-hpc.com/",
-					"web page @ isc-hpc.com": "https://www.isc-hpc.com/",
-					"web page @ supercomp.de (archived)": "https://web.archive.org/web/*/http://www.supercomp.de/",
-					"Wikipedia article": "https://en.wikipedia.org/wiki/ISC_High_Performance",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1681"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
 		"summary": "ICIAP 2021",
 		"eventType": "Conference",
 		"startDate": "2022-05-23T00:00:00",
@@ -402,35 +300,97 @@
 		]
 	},
 	{
-		"summary": "AIBD 2022",
+		"summary": "GRAPH-HOC 2022",
 		"eventType": "Conference",
-		"startDate": "2022-01-22T00:00:00",
-		"endDate": "2022-01-23T23:59:59",
-		"locality": "Zurich, Switzerland",
-		"description": "International Conference on Artificial Intelligence and Big Data",
-		"submission_deadline": "2021-12-11T00:00:00",
-		"notification_due": "2021-12-30T00:00:00",
-		"final_version_due": "2022-01-08T00:00:00",
-		"title": "AIBD",
+		"description": "International Journal on Applications of Graph Theory in Wireless Ad hoc Networks and Sensor Networks",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-02-08T00:00:00",
+		"final_version_due": "2022-02-16T00:00:00",
+		"title": "GRAPH-HOC",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=125911",
-		"source": "https://acsty2022.org/aibd/index",
+		"source": "http://airccse.org/journal/graphhoc/GRAPH-HOC.html",
 		"publisher": "WikiCFP",
 		"categories": [
-			"artificial intelligence",
-			"big data",
-			"robotics",
-			"cloud"
+			"sensor networks",
+			"networks",
+			"sensors",
+			"algorithms"
 		],
 		"parent": "International Conference on Cloud Computing",
 		"parentLink": "http://www.wikicfp.com/cfp/program?id=499",
 		"year": "2022",
 		"abbr": [
 			"cloud",
-			"aibd"
+			"graph-hoc"
 		],
-		"nth": "3",
 		"event_id": "125911",
 		"core_confs": [
+			{
+				"CoreId": 1878,
+				"Type": "Conference",
+				"Title": "Workshop on Applications of Graph Theory in Wireless Ad hoc Networks and Sensor Networks",
+				"Acronym": "Graph-hoc",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					}
+				],
+				"probability": 90
+			},
 			{
 				"CoreId": 631,
 				"Type": "Conference",
@@ -500,105 +460,6 @@
 					"site": null
 				},
 				"probability": 1
-			}
-		]
-	},
-	{
-		"summary": "AdNLP 2022",
-		"eventType": "Conference",
-		"startDate": "2022-03-19T00:00:00",
-		"endDate": "2022-03-20T23:59:59",
-		"locality": "Vienna, Austria",
-		"description": "International conference on Advanced Natural Language Processing",
-		"submission_deadline": "2021-12-11T00:00:00",
-		"notification_due": "2022-02-11T00:00:00",
-		"final_version_due": "2022-02-19T00:00:00",
-		"title": "AdNLP",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=127572",
-		"source": "https://icaita2022.org/adnlp/index",
-		"publisher": "WikiCFP",
-		"categories": [
-			"NLP",
-			"machine learning",
-			"ontology",
-			"text mining"
-		],
-		"year": "2022",
-		"abbr": [
-			"adnlp"
-		],
-		"nth": "3",
-		"event_id": "127572",
-		"core_confs": [
-			{
-				"CoreId": 1188,
-				"Type": "Conference",
-				"Title": "International Conference on Recent Advances in Natural Language Processing",
-				"Acronym": "RANLP",
-				"Acronym2": "ranlp",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/ranlp",
-				"Rank": "National: bulgaria",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National: bulgaria",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "National: bulgaria",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						],
-						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 77
 			}
 		]
 	},
@@ -709,7 +570,7 @@
 		"endDate": "2022-03-20T23:59:59",
 		"locality": "Singapore",
 		"description": "International Conference on Machine Learning and Human-Computer Interaction",
-		"submission_deadline": "2022-01-05T00:00:00",
+		"submission_deadline": "2022-02-05T00:00:00",
 		"title": "MLHMI--Ei Compendex and Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=135143",
 		"source": "http://www.mlhmi.org",
@@ -750,288 +611,6 @@
 					}
 				],
 				"probability": 48
-			}
-		]
-	},
-	{
-		"summary": "IEEE-CECIT 2021",
-		"eventType": "Conference",
-		"startDate": "2021-12-27T00:00:00",
-		"endDate": "2021-12-29T23:59:59",
-		"locality": "Sanya, China",
-		"description": "International Conference on Electronics, Communications and Information Technology",
-		"submission_deadline": "2021-12-18T00:00:00",
-		"title": "IEEE-CECIT",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=137243",
-		"source": "http://www.cecit.net",
-		"publisher": "WikiCFP",
-		"categories": [
-			"electronics",
-			"communications",
-			"wireless communication",
-			"information technology"
-		],
-		"year": "2021",
-		"abbr": [
-			"cecit"
-		],
-		"nth": "2",
-		"event_id": "137243",
-		"core_confs": [
-			{
-				"CoreId": 2180,
-				"Type": "Conference",
-				"Title": "International Conference on the Quality of Information and Communications Technology",
-				"Acronym": "QUATIC",
-				"Acronym2": "quatic",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/quatic",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4612 - Software engineering",
-					"0803 - Computer Software",
-					"0806 - Information Systems"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						],
-						"other": "Requested uprank from C to B, leave as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1314.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4612QUATIC.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software",
-							"0806 - Information Systems"
-						],
-						"other": "Requested addition at rank B. Added at rank C.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddRankedRequest_218.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/QUATIC.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 51
-			},
-			{
-				"CoreId": 2211,
-				"Type": "Conference",
-				"Title": "International Conference: Sciences of Electronics, Technologies of information and Telecommunication",
-				"Acronym": "SETIT",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "Unranked",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"46 - Information and Computing Sciences",
-					"08 - Information and Computing Sciences",
-					"10 - Technology",
-					"09 - Engineering"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "Unranked",
-						"Field Of Research": [
-							"46 - Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "Unranked",
-						"Field Of Research": [
-							"46 - Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "Unranked",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences",
-							"10 - Technology",
-							"09 - Engineering"
-						],
-						"other": "Add as an unranked conference.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_163.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/SETIT.pdf\">Decision</a>)"
-					}
-				],
-				"probability": 40
-			}
-		]
-	},
-	{
-		"summary": "IEEE-CISNS 2021",
-		"eventType": "Conference",
-		"startDate": "2021-12-27T00:00:00",
-		"endDate": "2021-12-29T23:59:59",
-		"locality": "Sanya, China",
-		"description": "International Conference on Information System and Network Security",
-		"submission_deadline": "2021-12-18T00:00:00",
-		"title": "IEEE-CISNS",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=137244",
-		"source": "http://www.cisns.org",
-		"publisher": "WikiCFP",
-		"categories": [
-			"information system",
-			"network security",
-			"computer science",
-			"information technology"
-		],
-		"year": "2021",
-		"abbr": [
-			"cisns"
-		],
-		"nth": "2",
-		"event_id": "137244",
-		"core_confs": [
-			{
-				"CoreId": 1200,
-				"Type": "Conference",
-				"Title": "International Conference on Security of Information and Networks",
-				"Acronym": "SIN",
-				"Acronym2": "sin",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/sin",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4604 - Cybersecurity and privacy",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					}
-				],
-				"Links": {
-					"site": "http://www.sinconf.org/",
-					"web page @ sinconf.org": "http://www.sinconf.org/"
-				},
-				"probability": 24
-			},
-			{
-				"CoreId": 1146,
-				"Type": "Conference",
-				"Title": "International Conference on network and System Security",
-				"Acronym": "NSS",
-				"Acronym2": "nss",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/nss",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4604 - Cybersecurity and privacy",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						],
-						"other": "provided as Comparator. Retain B.(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1511_603.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4604NSS.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 21
 			}
 		]
 	},
@@ -1360,103 +939,6 @@
 		]
 	},
 	{
-		"summary": "CIFEr 2022",
-		"eventType": "Conference",
-		"startDate": "2022-05-04T00:00:00",
-		"endDate": "2022-05-05T23:59:59",
-		"locality": "Helsinki, Finland",
-		"description": "Computational Intelligence for Financial Engineering and Economics",
-		"submission_deadline": "2021-12-08T00:00:00",
-		"notification_due": "2022-01-31T00:00:00",
-		"final_version_due": "2022-02-14T00:00:00",
-		"title": "CIFEr",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=140565",
-		"source": "https://cifer.risklab.fi/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"computational intelligence",
-			"financial engineering",
-			"demand forecasting",
-			"asset allocation"
-		],
-		"year": "2022",
-		"abbr": [
-			"cifer"
-		],
-		"event_id": "140565",
-		"core_confs": [
-			{
-				"CoreId": 733,
-				"Type": "Conference",
-				"Title": "IEEE Symposium on Computational Intelligence for Financial Engineering",
-				"Acronym": "IEEE CIFEr",
-				"Acronym2": "cifer",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cifer",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4601 - Applied computing",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4601 - Applied computing"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4601 - Applied computing"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 57
-			}
-		]
-	},
-	{
 		"summary": "ICAIR 2022",
 		"eventType": "Conference",
 		"startDate": "2022-07-14T00:00:00",
@@ -1564,7 +1046,7 @@
 		"endDate": "2022-03-20T23:59:59",
 		"locality": "Chongqing, China",
 		"description": "International Conference on Information Communication and Software Engineering",
-		"submission_deadline": "2021-12-15T00:00:00",
+		"submission_deadline": "2022-01-15T00:00:00",
 		"title": "ICICSE--IEEE, Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=143052",
 		"source": "http://www.icse.org/",
@@ -1645,61 +1127,6 @@
 						"Field Of Research": [
 							"0805 - Distributed Computing"
 						]
-					}
-				],
-				"probability": 48
-			}
-		]
-	},
-	{
-		"summary": "CSTE--Ei, Scopus 2022",
-		"eventType": "Conference",
-		"startDate": "2022-05-06T00:00:00",
-		"endDate": "2022-05-08T23:59:59",
-		"locality": "Xi'an, China",
-		"description": "International Conference on Computer Science and Technologies in Education",
-		"submission_deadline": "2021-12-10T00:00:00",
-		"title": "CSTE--Ei, Scopus",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=144017",
-		"source": "http://cste.net/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"computer engineering",
-			"artificial intelligence",
-			"learning",
-			"e-education"
-		],
-		"year": "2022",
-		"abbr": [
-			"cste"
-		],
-		"nth": "4",
-		"event_id": "144017",
-		"core_confs": [
-			{
-				"CoreId": 2229,
-				"Type": "Conference",
-				"Title": "Computer Sciences and Information Technologies",
-				"Acronym": "CSIT",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "National",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"4612 - Software engineering",
-					"4605 - Data management and data science"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National",
-						"Field Of Research": [
-							"4602 - Artificial intelligence",
-							"4612 - Software engineering",
-							"4605 - Data management and data science"
-						],
-						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
 					}
 				],
 				"probability": 48
@@ -1818,7 +1245,7 @@
 		"endDate": "2022-05-15T23:59:59",
 		"locality": "Tokyo, Japan",
 		"description": "International Conference on Information Technology and Education Technology",
-		"submission_deadline": "2022-01-05T00:00:00",
+		"submission_deadline": "2022-02-05T00:00:00",
 		"title": "ITET--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=144303",
 		"source": "http://www.itet.net",
@@ -2657,65 +2084,6 @@
 		]
 	},
 	{
-		"summary": "ICBCB--Ei, Scopus 2022",
-		"eventType": "Conference",
-		"startDate": "2022-05-13T00:00:00",
-		"endDate": "2022-05-15T23:59:59",
-		"locality": "Hangzhou, China",
-		"description": "International Conference on Bioinformatics and Computational Biology",
-		"submission_deadline": "2021-12-20T00:00:00",
-		"title": "ICBCB--Ei, Scopus",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146376",
-		"source": "http://www.icbcb.org",
-		"publisher": "WikiCFP",
-		"categories": [
-			"artificial intelligence",
-			"information science",
-			"computational intelligence",
-			"computing"
-		],
-		"year": "2022",
-		"abbr": [
-			"icbcb"
-		],
-		"nth": "10",
-		"event_id": "146376",
-		"core_confs": [
-			{
-				"CoreId": 2224,
-				"Type": "Conference",
-				"Title": "International Conference on Practical Applications of Computational Biology & Bioinformatics",
-				"Acronym": "PACBB",
-				"Acronym2": "pacbb",
-				"DBLP Source": "https://dblp.org/db/conf/pacbb",
-				"Rank": "National(Spain)",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"4611 - Machine learning",
-					"4699 - Other information and computing sciences"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National(Spain)",
-						"Field Of Research": [
-							"4602 - Artificial intelligence",
-							"4611 - Machine learning",
-							"4699 - Other information and computing sciences"
-						],
-						"other": "Request C, but assessed as National, since almost always held in Spain(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1343.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602PACBB.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": "http://www.pacbb.net/",
-					"www.pacbb.net": "http://www.pacbb.net/"
-				},
-				"probability": 43
-			}
-		]
-	},
-	{
 		"summary": "ICFEC 2022",
 		"eventType": "Conference",
 		"startDate": "2022-05-16T00:00:00",
@@ -2770,110 +2138,6 @@
 					"site": null
 				},
 				"probability": 85
-			}
-		]
-	},
-	{
-		"summary": "ARIN 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-18T00:00:00",
-		"endDate": "2022-06-19T23:59:59",
-		"locality": "Sydney, Australia",
-		"description": "International Conference on Artificial Intelligence",
-		"submission_deadline": "2021-12-18T00:00:00",
-		"notification_due": "2022-03-18T00:00:00",
-		"final_version_due": "2022-03-26T00:00:00",
-		"title": "ARIN",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146828",
-		"source": "https://csita2022.org/arin/index",
-		"publisher": "WikiCFP",
-		"categories": [
-			"artificial intelligence",
-			"fuzzy systems",
-			"data mining",
-			"soft computing"
-		],
-		"year": "2022",
-		"abbr": [
-			"arin"
-		],
-		"nth": "8",
-		"event_id": "146828",
-		"core_confs": [
-			{
-				"CoreId": 909,
-				"Type": "Conference",
-				"Title": "International Conference on Artificial Intelligence",
-				"Acronym": "IC-AI",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "National: USA",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"4611 - Machine learning",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National: USA",
-						"Field Of Research": [
-							"4602 - Artificial intelligence",
-							"4611 - Machine learning"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "National: USA",
-						"Field Of Research": [
-							"4602 - Artificial intelligence",
-							"4611 - Machine learning"
-						],
-						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "C",
-						"Field Of Research": []
-					}
-				],
-				"probability": 90
 			}
 		]
 	},
@@ -3080,103 +2344,6 @@
 					}
 				],
 				"probability": 54
-			}
-		]
-	},
-	{
-		"summary": "IEEE DSC 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-22T00:00:00",
-		"endDate": "2022-06-24T23:59:59",
-		"locality": "Edinburgh, Scotland",
-		"description": "Conference on Dependable and Secure Computing",
-		"submission_deadline": "2021-12-31T00:00:00",
-		"notification_due": "2022-03-31T00:00:00",
-		"final_version_due": "2022-04-30T00:00:00",
-		"title": "IEEE DSC",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=146997",
-		"source": "https://attend.ieee.org/dsc-2022/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"security",
-			"computing",
-			"computer security",
-			"privacy"
-		],
-		"year": "2022",
-		"abbr": [
-			"dsc"
-		],
-		"event_id": "146997",
-		"core_confs": [
-			{
-				"CoreId": 992,
-				"Type": "Conference",
-				"Title": "International Conference on Dependable, Autonomic and Secure Computing",
-				"Acronym": "DASC",
-				"Acronym2": "dasc",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/dasc",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4604 - Cybersecurity and privacy",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 74
 			}
 		]
 	},
@@ -3487,108 +2654,13 @@
 		]
 	},
 	{
-		"summary": "ISPR 2022",
-		"eventType": "Conference",
-		"startDate": "2022-03-24T00:00:00",
-		"endDate": "2022-03-26T23:59:59",
-		"locality": "Hammamet - Tunisia",
-		"description": "International Conference on Intelligent Systems and Patterns Recognition",
-		"submission_deadline": "2021-12-31T00:00:00",
-		"notification_due": "2022-01-31T00:00:00",
-		"final_version_due": "2022-02-28T00:00:00",
-		"title": "ISPR",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147532",
-		"source": "https://ispr2022.sciencesconf.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"artificial intelligence",
-			"patterns recognition",
-			"intelligent systems",
-			"machine learning"
-		],
-		"year": "2022",
-		"abbr": [
-			"ispr"
-		],
-		"event_id": "147532",
-		"nth": 2,
-		"core_confs": [
-			{
-				"CoreId": 132,
-				"Type": "Conference",
-				"Title": "Annual International Workshop on Presence",
-				"Acronym": "ISPR",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4607 - Graphics, augmented reality and games",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"probability": 1
-			}
-		]
-	},
-	{
 		"summary": "EEIT--Ei, Scopus 2022",
 		"eventType": "Conference",
 		"startDate": "2022-05-06T00:00:00",
 		"endDate": "2022-05-08T23:59:59",
 		"locality": "Nanjing, China",
 		"description": "International Conference on Engineering Education and Information Technology",
-		"submission_deadline": "2021-12-25T00:00:00",
+		"submission_deadline": "2022-01-30T00:00:00",
 		"title": "EEIT--Ei, Scopus",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147664",
 		"source": "http://www.eeit.net",
@@ -3686,7 +2758,7 @@
 		"endDate": "2022-05-08T23:59:59",
 		"locality": "Nanjing, China",
 		"description": "Information Communication Technologies Conference",
-		"submission_deadline": "2021-12-25T00:00:00",
+		"submission_deadline": "2022-01-30T00:00:00",
 		"title": "ICTC--IEEE, Scopus, Ei",
 		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147666",
 		"source": "http://www.ictc.net/",
@@ -3941,6 +3013,108 @@
 		]
 	},
 	{
+		"summary": "Paneled Scaffolding 2023",
+		"eventType": "Conference",
+		"description": "Reflecting on Building and Sustaining Comics Studies Programs, Library Collections, and Journals",
+		"submission_deadline": "2023-02-01T00:00:00",
+		"title": "Paneled Scaffolding",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153590",
+		"source": "",
+		"publisher": "WikiCFP",
+		"categories": [
+			"academic publishing",
+			"humanities",
+			"popular culture",
+			"comics and graphic novels"
+		],
+		"year": "2023",
+		"abbr": [
+			"paneled scaffolding"
+		],
+		"event_id": "153590",
+		"parent": "International Conference on Database Theory",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1341",
+		"core_confs": [
+			{
+				"CoreId": 989,
+				"Type": "Conference",
+				"Title": "International Conference on Database Theory",
+				"Acronym": "ICDT",
+				"Acronym2": "icdt",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icdt",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4605 - Data management and data science",
+					"0804 - Data Format"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4605 - Data management and data science"
+						],
+						"other": "Retained A rank as requested(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1641.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4605ICDT.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4605 - Data management and data science"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": [
+							"0804 - Data Format"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0804 - Data Format"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0804 - Data Format"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0804 - Data Format"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0804 - Data Format"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://alpha.luc.ac.be/~lucp1080/icdt/",
+					"ICDT Council": "http://alpha.luc.ac.be/~lucp1080/icdt/",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1341"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
 		"summary": "ACM-SYSTOR 2022",
 		"eventType": "Conference",
 		"startDate": "2022-06-13T00:00:00",
@@ -3995,63 +3169,6 @@
 					"site": "https://www.wikidata.org/entity/Q18351895"
 				},
 				"probability": 70
-			}
-		]
-	},
-	{
-		"summary": "NetSoft 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-27T00:00:00",
-		"endDate": "2022-07-01T23:59:59",
-		"locality": "Milan, Italy",
-		"description": "International Conference on Network Softwarization",
-		"submission_deadline": "2021-12-15T00:00:00",
-		"notification_due": "2022-03-15T00:00:00",
-		"final_version_due": "2022-04-25T00:00:00",
-		"title": "NetSoft",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=148617",
-		"source": "https://netsoft2022.ieee-netsoft.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"networking",
-			"communications",
-			"SDN",
-			"nfv"
-		],
-		"year": "2022",
-		"abbr": [
-			"netsoft"
-		],
-		"event_id": "148617",
-		"core_confs": [
-			{
-				"CoreId": 2245,
-				"Type": "Conference",
-				"Title": "International Conference on Network Softwarization",
-				"Acronym": "NetSoft",
-				"Acronym2": "",
-				"DBLP Source": "https://dblp.org/db/conf/netsoft/",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4606 - Distributed computing and systems software",
-					"4612 - Software engineering"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software",
-							"4612 - Software engineering"
-						],
-						"other": "Requested A, ranked as B(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1014.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4606NetSoft.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 90
 			}
 		]
 	},
@@ -5178,212 +4295,6 @@
 		]
 	},
 	{
-		"summary": "EASE 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-13T00:00:00",
-		"endDate": "2022-06-15T23:59:59",
-		"locality": "Gothenburg, Sweden",
-		"description": "International Conference on Evaluation and Assessment in Software",
-		"abstract_registration_due": "2021-12-06T00:00:00",
-		"submission_deadline": "2021-12-12T00:00:00",
-		"notification_due": "2022-02-03T00:00:00",
-		"final_version_due": "2022-02-15T00:00:00",
-		"title": "EASE",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=149403",
-		"source": "https://conf.researchr.org/home/ease-2022",
-		"publisher": "WikiCFP",
-		"categories": [
-			"software engineering",
-			"computer science",
-			"empirical"
-		],
-		"year": "2022",
-		"abbr": [
-			"ease"
-		],
-		"nth": "24",
-		"event_id": "149403",
-		"core_confs": [
-			{
-				"CoreId": 1022,
-				"Type": "Conference",
-				"Title": "International Conference on Evaluation and Assessment in Software Engineering",
-				"Acronym": "EASE",
-				"Acronym2": "ease",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/ease",
-				"Rank": "A",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4612 - Software engineering",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "A",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						],
-						"other": "Asked for A, left at A(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1336.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4612EASE.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "A",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						],
-						"other": "Poor data provided as a comparator. Eventually left as A.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_235.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/EASE.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 76
-			}
-		]
-	},
-	{
-		"summary": "DAS 2022",
-		"eventType": "Conference",
-		"startDate": "2022-05-22T00:00:00",
-		"endDate": "2022-05-25T23:59:59",
-		"locality": "La Rochelle, France + Online",
-		"description": "DAS IAPR International Workshop on Document Analysis Systems",
-		"submission_deadline": "2022-01-04T00:00:00",
-		"notification_due": "2022-03-08T00:00:00",
-		"final_version_due": "2022-04-01T00:00:00",
-		"title": "DAS",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=149413",
-		"source": "https://das2022.univ-lr.fr/?utm_source=wikicfp&utm_medium=web&utm_campaign=cfp1",
-		"publisher": "WikiCFP",
-		"categories": [
-			"document analysis",
-			"computer vision",
-			"natural language processing",
-			"machine learning"
-		],
-		"parent": "Document Analysis Systems",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=647",
-		"year": "2022",
-		"abbr": [
-			"das"
-		],
-		"nth": "15",
-		"event_id": "149413",
-		"core_confs": [
-			{
-				"CoreId": 1998,
-				"Type": "Conference",
-				"Title": "International Workshop on Document Analysis Systems",
-				"Acronym": "DAS",
-				"Acronym2": "das",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/das",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4605 - Data management and data science",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4605 - Data management and data science"
-						],
-						"other": "Comparator retaining rank B(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1713_1023.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4605DAS.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4605 - Data management and data science"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						],
-						"other": "Field of Research 0801 added.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2013/DAS-CORES-Application.pdf\">Data</a>)"
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://www.wikicfp.com/cfp/program?id=647",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=647"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
 		"summary": "ICVR--IEEE, Ei, Scopus 2022",
 		"eventType": "Conference",
 		"startDate": "2022-05-26T00:00:00",
@@ -5627,201 +4538,6 @@
 		]
 	},
 	{
-		"summary": "ICAISE--Ei, Scopus 2022",
-		"eventType": "Conference",
-		"startDate": "2022-05-06T00:00:00",
-		"endDate": "2022-05-08T23:59:59",
-		"locality": "Xi'an, China",
-		"description": "International Conference on Artificial Intelligence and Software Engineering",
-		"submission_deadline": "2021-12-10T00:00:00",
-		"title": "ICAISE--Ei, Scopus",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=149633",
-		"source": "http://www.icaise.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"intelligent systems",
-			"computer engineering",
-			"machine learning",
-			"systems engineering"
-		],
-		"year": "2022",
-		"abbr": [
-			"icaise"
-		],
-		"event_id": "149633",
-		"core_confs": [
-			{
-				"CoreId": 1214,
-				"Type": "Conference",
-				"Title": "International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing",
-				"Acronym": "SNPD",
-				"Acronym2": "snpd",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/snpd",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4612 - Software engineering",
-					"4602 - Artificial intelligence",
-					"4606 - Distributed computing and systems software",
-					"08 - Information and Computing Sciences"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4612 - Software engineering",
-							"4602 - Artificial intelligence",
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4612 - Software engineering",
-							"4602 - Artificial intelligence",
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences"
-						]
-					}
-				],
-				"Links": {
-					"site": "http://www.acisinternational.org/",
-					"ACIS": "http://www.acisinternational.org/"
-				},
-				"probability": 38
-			}
-		]
-	},
-	{
-		"summary": "ICIMP--EI Compendex and Scopus 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-10T00:00:00",
-		"endDate": "2022-06-12T23:59:59",
-		"locality": "Rome, Italy",
-		"description": "The International Conference on Information Management and Processing",
-		"submission_deadline": "2022-01-05T00:00:00",
-		"title": "ICIMP--EI Compendex and Scopus",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=149635",
-		"source": "http://www.icimp.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"information management",
-			"information science",
-			"big data",
-			"cloud computing"
-		],
-		"year": "2022",
-		"abbr": [
-			"icimp"
-		],
-		"nth": "5",
-		"event_id": "149635",
-		"core_confs": [
-			{
-				"CoreId": 1107,
-				"Type": "Conference",
-				"Title": "International Conference on Internet Monitoring and Protection",
-				"Acronym": "ICIMP",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4604 - Cybersecurity and privacy",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					}
-				],
-				"probability": 37
-			}
-		]
-	},
-	{
 		"summary": "AIME 2022",
 		"eventType": "Conference",
 		"startDate": "2022-06-14T00:00:00",
@@ -5986,6 +4702,114 @@
 					"site": null
 				},
 				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "ISORC 2022",
+		"eventType": "Conference",
+		"startDate": "2022-05-17T00:00:00",
+		"endDate": "2022-05-19T23:59:59",
+		"locality": "Västerås Sweden",
+		"description": "International Symposium on Object/Component/Service-Oriented Real-Time Distributed Computing",
+		"submission_deadline": "2022-01-23T00:00:00",
+		"notification_due": "2022-04-04T00:00:00",
+		"final_version_due": "2022-04-30T00:00:00",
+		"title": "ISORC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=149724",
+		"source": "https://isorc2022.github.io/cfp.html",
+		"publisher": "WikiCFP",
+		"categories": [
+			"real-time",
+			"distributed",
+			"software",
+			"computing"
+		],
+		"parent": "International Symposium on Object/Component/Service-Oriented Real-Time Distributed Computing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1736",
+		"year": "2022",
+		"abbr": [
+			"isorc"
+		],
+		"nth": "24",
+		"event_id": "149724",
+		"core_confs": [
+			{
+				"CoreId": 703,
+				"Type": "Conference",
+				"Title": "IEEE International Symposium on Real-Time Distributed Computing",
+				"Acronym": "ISORC",
+				"Acronym2": "isorc",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/isorc",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						],
+						"other": "Requested as B, retained as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1667.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4606ISORC.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "https://ieeexplore.ieee.org/xpl/conhome/1000514/all-proceedings",
+					"web page @ ieee.org": "https://ieeexplore.ieee.org/xpl/conhome/1000514/all-proceedings",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1736"
+				},
+				"probability": 100
 			}
 		]
 	},
@@ -7942,101 +6766,6 @@
 		]
 	},
 	{
-		"summary": "ISPR 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-18T00:00:00",
-		"endDate": "2022-06-19T23:59:59",
-		"locality": "Sydney, Australia",
-		"description": "International Conference on Image and Signal Processing",
-		"submission_deadline": "2021-12-18T00:00:00",
-		"notification_due": "2022-03-18T00:00:00",
-		"final_version_due": "2022-03-26T00:00:00",
-		"title": "ISPR",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=150707",
-		"source": "https://csita2022.org/ispr/index",
-		"publisher": "WikiCFP",
-		"categories": [
-			"image processing",
-			"signal processing",
-			"pattern recognition",
-			"visualization"
-		],
-		"year": "2022",
-		"abbr": [
-			"ispr"
-		],
-		"nth": "8",
-		"event_id": "150707",
-		"core_confs": [
-			{
-				"CoreId": 132,
-				"Type": "Conference",
-				"Title": "Annual International Workshop on Presence",
-				"Acronym": "ISPR",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4607 - Graphics, augmented reality and games",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"probability": 8
-			}
-		]
-	},
-	{
 		"summary": "NAMSP 2022",
 		"eventType": "Conference",
 		"startDate": "2022-06-23T00:00:00",
@@ -8578,104 +7307,207 @@
 		]
 	},
 	{
-		"summary": "EGPGV 2022",
+		"summary": "EuroPLoP 2022",
 		"eventType": "Conference",
-		"startDate": "2022-06-13T00:00:00",
-		"endDate": "2022-06-13T23:59:59",
-		"locality": "Rome, Italy",
-		"description": "Eurographics Workshop on Parallel Graphics and Visualization",
-		"abstract_registration_due": "2021-12-06T00:00:00",
-		"submission_deadline": "2021-12-13T00:00:00",
-		"notification_due": "2022-01-22T00:00:00",
-		"title": "EGPGV",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=151323",
-		"source": "https://www.egpgv.org/2022/",
+		"startDate": "2022-07-06T00:00:00",
+		"endDate": "2022-07-10T23:59:59",
+		"locality": "Irsee, Germany",
+		"description": "European Conference on Pattern Languages of Programs",
+		"submission_deadline": "2022-02-20T00:00:00",
+		"notification_due": "2022-05-25T00:00:00",
+		"final_version_due": "2022-09-30T00:00:00",
+		"title": "EuroPLoP",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=151202",
+		"source": "https://europlop.net/2022/cfp",
 		"publisher": "WikiCFP",
 		"categories": [
-			"graphics",
-			"parallel",
-			"visualization",
-			"gpu"
+			"patterns",
+			"software",
+			"design patterns",
+			"systems"
 		],
-		"parent": "Eurographics Workshop on Parallel Graphics and Visualization",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=858",
+		"parent": "European Conference on Pattern Languages of Programs",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=971",
 		"year": "2022",
 		"abbr": [
-			"egpgv"
+			"europlop"
 		],
-		"event_id": "151323",
+		"nth": "25",
+		"event_id": "151202",
 		"core_confs": [
 			{
-				"CoreId": 460,
+				"CoreId": 490,
 				"Type": "Conference",
-				"Title": "Eurographics Symposium on Parallel Graphics and Visualization",
-				"Acronym": "EGPGV",
-				"Acronym2": "egpgv",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/egpgv",
-				"Rank": "B",
+				"Title": "European Conference on Pattern Languages of Programs",
+				"Acronym": "EuroPLop",
+				"Acronym2": "europlop",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/europlop",
+				"Rank": "National: Germany",
 				"Rank Source": "CORE2021",
 				"Field": [
-					"4607 - Graphics, augmented reality and games",
-					"0801 - Artificial Intelligence and Image Processing"
+					"4612 - Software engineering",
+					"0803 - Computer Software"
 				],
 				"Info": [
 					{
 						"Source": "CORE2021",
-						"Rank": "B",
+						"Rank": "National: Germany",
 						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
+							"4612 - Software engineering"
 						]
 					},
 					{
 						"Source": "CORE2020",
-						"Rank": "B",
+						"Rank": "National: Germany",
 						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
+							"4612 - Software engineering"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
 					},
 					{
 						"Source": "CORE2018",
 						"Rank": "B",
 						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
+							"0803 - Computer Software"
 						]
 					},
 					{
 						"Source": "CORE2017",
 						"Rank": "B",
 						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
+							"0803 - Computer Software"
 						]
 					},
 					{
 						"Source": "CORE2014",
 						"Rank": "B",
 						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
+							"0803 - Computer Software"
 						]
 					},
 					{
 						"Source": "CORE2013",
 						"Rank": "B",
 						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
+							"0803 - Computer Software"
 						]
 					},
 					{
 						"Source": "ERA2010",
 						"Rank": "B",
 						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
+							"0803 - Computer Software"
 						]
 					}
 				],
 				"Links": {
-					"site": "https://www.egpgv.org/",
-					"web page @ egpgv.org": "https://www.egpgv.org/",
-					"web page @ eg.org": "http://diglib.eg.org/handle/10.2312/353",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=858"
+					"site": "http://hillside.net/europlop/",
+					"web page @ hillside.net": "http://hillside.net/europlop/",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=971"
 				},
 				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "EAI SecureComm 2022",
+		"eventType": "Conference",
+		"startDate": "2022-10-17T00:00:00",
+		"endDate": "2022-10-19T23:59:59",
+		"locality": "Kansas City, United States",
+		"description": "EAI International Conference on Security and Privacy in Communication Networks",
+		"submission_deadline": "2022-04-03T00:00:00",
+		"notification_due": "2022-06-19T00:00:00",
+		"final_version_due": "2022-08-07T00:00:00",
+		"title": "EAI SecureComm",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=151203",
+		"source": "https://securecomm.eai-conferences.org/2022/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"security and privacy",
+			"secure communications",
+			"security",
+			"secure networking"
+		],
+		"year": "2022",
+		"abbr": [
+			"eai securecomm"
+		],
+		"nth": "18",
+		"event_id": "151203",
+		"core_confs": [
+			{
+				"CoreId": 1198,
+				"Type": "Conference",
+				"Title": "International Conference on Security and Privacy for Communication Networks",
+				"Acronym": "SecureComm",
+				"Acronym2": "securecomm",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/securecomm",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4604 - Cybersecurity and privacy",
+					"0803 - Computer Software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						],
+						"other": "Provided as Comparator. Reranked C.(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1511_605.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4604SecureComm.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "B",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						],
+						"other": "duplicates in DB, ranked A, B(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2017/SecureComm2017.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2017/SecureComm.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					}
+				],
+				"Links": {
+					"site": "http://www.securecomm.org/",
+					"web page @ securecomm.org": "http://www.securecomm.org/",
+					"www.securecomm.org": "http://www.securecomm.org/"
+				},
+				"probability": 88
 			}
 		]
 	},
@@ -9053,81 +7885,6 @@
 					"site": null
 				},
 				"probability": 28
-			}
-		]
-	},
-	{
-		"summary": "ARIA 2021",
-		"eventType": "Conference",
-		"startDate": "2021-12-23T00:00:00",
-		"endDate": "2021-12-24T23:59:59",
-		"locality": "Sydney, Australia",
-		"description": "International Conference on Artificial Intelligence Applications",
-		"submission_deadline": "2021-12-11T00:00:00",
-		"notification_due": "2021-12-18T00:00:00",
-		"final_version_due": "2021-12-20T00:00:00",
-		"title": "ARIA",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152067",
-		"source": "https://cst2021.org/aria/index",
-		"publisher": "WikiCFP",
-		"categories": [
-			"artificial intelligence",
-			"computer science",
-			"machine learning",
-			"engineering"
-		],
-		"year": "2021",
-		"abbr": [
-			"aria"
-		],
-		"nth": "8",
-		"event_id": "152067",
-		"core_confs": [
-			{
-				"CoreId": 2186,
-				"Type": "Conference",
-				"Title": "Artificial Intelligence Applications and Innovations",
-				"Acronym": "AIAI",
-				"Acronym2": "ifip12",
-				"DBLP Source": "https://dblp.org/db/conf/ifip12",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4601 - Applied computing",
-					"4602 - Artificial intelligence",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4601 - Applied computing",
-							"4602 - Artificial intelligence"
-						],
-						"other": "Request B, but assessed as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1281.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602AIAI.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "Regional",
-						"Field Of Research": [
-							"4601 - Applied computing",
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "Regional",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						],
-						"other": "Requested add as an unranked conference. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_195.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/AIAI.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 67
 			}
 		]
 	},
@@ -9774,6 +8531,254 @@
 		]
 	},
 	{
+		"summary": "ICIMP 2022",
+		"eventType": "Conference",
+		"startDate": "2022-06-26T00:00:00",
+		"endDate": "2022-06-30T23:59:59",
+		"locality": "Porto, Portugal",
+		"description": "The International Conference on Internet Monitoring and Protection",
+		"submission_deadline": "2022-03-12T00:00:00",
+		"notification_due": "2022-04-19T00:00:00",
+		"final_version_due": "2022-05-10T00:00:00",
+		"title": "ICIMP",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152663",
+		"source": "https://www.iaria.org/conferences2022/ICIMP22.html",
+		"publisher": "WikiCFP",
+		"categories": [
+			"cyber fraud",
+			"security",
+			"monitoring",
+			"biometric"
+		],
+		"year": "2022",
+		"abbr": [
+			"icimp"
+		],
+		"event_id": "152663",
+		"nth": null,
+		"core_confs": [
+			{
+				"CoreId": 1107,
+				"Type": "Conference",
+				"Title": "International Conference on Internet Monitoring and Protection",
+				"Acronym": "ICIMP",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4604 - Cybersecurity and privacy",
+					"0803 - Computer Software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					}
+				],
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "INFOCOMP  2022",
+		"eventType": "Conference",
+		"startDate": "2022-06-26T00:00:00",
+		"endDate": "2022-06-30T23:59:59",
+		"locality": "Porto, Portugal",
+		"description": "The International Conference on Advanced Communications and Computation",
+		"submission_deadline": "2022-03-12T00:00:00",
+		"notification_due": "2022-04-19T00:00:00",
+		"final_version_due": "2022-05-10T00:00:00",
+		"title": "INFOCOMP ",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152666",
+		"source": "https://www.iaria.org/conferences2022/INFOCOMP22.html",
+		"publisher": "WikiCFP",
+		"categories": [
+			"communication",
+			"biometrics",
+			"modeling",
+			"computation"
+		],
+		"year": "2022",
+		"abbr": [
+			"infocomp"
+		],
+		"event_id": "152666",
+		"nth": null,
+		"core_confs": [
+			{
+				"CoreId": 2172,
+				"Type": "Conference",
+				"Title": "International Conference on Advanced Communications and Computation",
+				"Acronym": "INFOCOMP",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "Unranked",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"46 - Information and Computing Sciences",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"46 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"46 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						],
+						"other": "Added as uranked. Requested A but request arrived after deadline with no comparators. (<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/INFOCOMP2014.pdf\">Data</a>)"
+					}
+				],
+				"probability": 90
+			},
+			{
+				"CoreId": 887,
+				"Type": "Conference",
+				"Title": "International Conference on Advanced Computing and Communications",
+				"Acronym": "AdCom",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: India",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: India",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: India",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 61
+			}
+		]
+	},
+	{
 		"summary": "ACCSE 2022",
 		"eventType": "Conference",
 		"startDate": "2022-06-26T00:00:00",
@@ -9862,7 +8867,7 @@
 		"endDate": "2022-07-22T23:59:59",
 		"locality": "Shenzhen, China",
 		"description": "International Symposium on Networks, Computers and Communications",
-		"submission_deadline": "2022-01-03T00:00:00",
+		"submission_deadline": "2022-01-23T00:00:00",
 		"notification_due": "2022-05-01T00:00:00",
 		"final_version_due": "2022-06-05T00:00:00",
 		"title": "IEEE-ISNCC",
@@ -9871,7 +8876,7 @@
 		"publisher": "WikiCFP",
 		"categories": [
 			"computers and communications",
-			"machine learning",
+			"wireless communications",
 			"artificial intelligence",
 			"security"
 		],
@@ -9879,7 +8884,7 @@
 		"abbr": [
 			"isncc"
 		],
-		"nth": "3",
+		"nth": "1",
 		"event_id": "152706",
 		"core_confs": [
 			{
@@ -9929,191 +8934,6 @@
 					"www.isncc-conf.org": "http://www.isncc-conf.org/"
 				},
 				"probability": 90
-			}
-		]
-	},
-	{
-		"summary": "ACIIDS 2022",
-		"eventType": "Conference",
-		"startDate": "2022-06-06T00:00:00",
-		"endDate": "2022-06-09T23:59:59",
-		"locality": "Almaty, Kazakhstan",
-		"description": "Asian Conference on Intelligent Information and Database Systems",
-		"submission_deadline": "2021-12-15T00:00:00",
-		"notification_due": "2022-02-01T00:00:00",
-		"final_version_due": "2022-02-15T00:00:00",
-		"title": "ACIIDS",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152708",
-		"source": "https://aciids.pwr.edu.pl/2022/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"computational intelligence",
-			"intelligent databases",
-			"autonomic computing",
-			"data mining"
-		],
-		"parent": "Asian Conference on Intelligent Information and Database Systems",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=30",
-		"year": "2022",
-		"abbr": [
-			"aciids"
-		],
-		"nth": "14",
-		"event_id": "152708",
-		"core_confs": [
-			{
-				"CoreId": 2188,
-				"Type": "Conference",
-				"Title": "Asian Conference on Intelligent Information and Database Systems",
-				"Acronym": "ACIIDS",
-				"Acronym2": "aciids",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/aciids",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4605 - Data management and data science",
-					"4602 - Artificial intelligence",
-					"0806 - Information Systems",
-					"0801 - Artificial Intelligence and Image Processing",
-					"0807 - Library and Information Studies"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4605 - Data management and data science",
-							"4602 - Artificial intelligence"
-						],
-						"other": "Ranked B as requested(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1309.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4605ACIIDS.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "Unranked",
-						"Field Of Research": [
-							"4605 - Data management and data science",
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "Unranked",
-						"Field Of Research": [
-							"0806 - Information Systems",
-							"0801 - Artificial Intelligence and Image Processing",
-							"0807 - Library and Information Studies"
-						],
-						"other": "Requested add as an unranked conference. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_7.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/ACIIDS.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": "http://www.wikicfp.com/cfp/program?id=30",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=30"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
-		"summary": "7th INDIA 2022",
-		"eventType": "Conference",
-		"startDate": "2022-02-25T00:00:00",
-		"endDate": "2022-02-26T23:59:59",
-		"locality": "Hyderabad, Telangana, India",
-		"description": "International Conference on Information System Design and Intelligent Applications",
-		"submission_deadline": "2022-01-05T00:00:00",
-		"notification_due": "2022-01-10T00:00:00",
-		"final_version_due": "2022-01-31T00:00:00",
-		"title": "7th INDIA",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152716",
-		"source": "http://www.india-conference.in/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"machine learning",
-			"AI",
-			"computer network",
-			"sensor"
-		],
-		"year": "2022",
-		"abbr": [
-			"7th india"
-		],
-		"nth": null,
-		"event_id": "152716",
-		"core_confs": [
-			{
-				"CoreId": 1391,
-				"Type": "Conference",
-				"Title": "International Symposium on Innovations in Intelligent Systems and Applications",
-				"Acronym": "INISTA",
-				"Acronym2": "inista",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/inista",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"4601 - Applied computing",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4602 - Artificial intelligence",
-							"4601 - Applied computing"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4602 - Artificial intelligence",
-							"4601 - Applied computing"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"Links": {
-					"site": "http://www.inista.org",
-					"web page @ inista.org": "http://www.inista.org",
-					"www.inista.org": "http://www.inista.org/"
-				},
-				"probability": 42
 			}
 		]
 	},
@@ -10325,6 +9145,2765 @@
 					}
 				],
 				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "IFIP SEC 2022",
+		"eventType": "Conference",
+		"startDate": "2022-06-13T00:00:00",
+		"endDate": "2022-06-17T23:59:59",
+		"locality": "Copenhagen, Denmark",
+		"description": "The International Conference on ICT Systems Security and Privacy Protection",
+		"submission_deadline": "2022-01-15T00:00:00",
+		"notification_due": "2022-03-08T00:00:00",
+		"final_version_due": "2022-04-01T00:00:00",
+		"title": "IFIP SEC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152841",
+		"source": "https://ifipsec2022.compute.dtu.dk/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"security",
+			"privacy"
+		],
+		"year": "2022",
+		"abbr": [
+			"ifip sec"
+		],
+		"nth": "37",
+		"event_id": "152841",
+		"core_confs": [
+			{
+				"CoreId": 804,
+				"Type": "Conference",
+				"Title": "IFIP Information Security & Privacy Conference",
+				"Acronym": "IFIP SEC",
+				"Acronym2": "sec",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/sec",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4604 - Cybersecurity and privacy",
+					"0804 - Data Format",
+					"0806 - Information Systems"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						],
+						"other": "provided as Comparator. Retain B.(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1518_638.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4604IFIP-SEC.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "B",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0804 - Data Format",
+							"0806 - Information Systems"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0804 - Data Format",
+							"0806 - Information Systems"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "B",
+						"Field Of Research": [
+							"0804 - Data Format",
+							"0806 - Information Systems"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0804 - Data Format",
+							"0806 - Information Systems"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0804 - Data Format",
+							"0806 - Information Systems"
+						]
+					}
+				],
+				"Links": {
+					"site": "http://www.tc11.uni-frankfurt.de/",
+					"IFIP TC11: Security and Protection in Information Processing Systems": "http://www.ifiptc11.org/"
+				},
+				"probability": 28
+			}
+		]
+	},
+	{
+		"summary": "DCAI 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-13T00:00:00",
+		"endDate": "2022-07-15T23:59:59",
+		"locality": "L'Aquila (near Rome), Italy",
+		"description": "International Conference on Distributed Computing and Artificial Intelligence",
+		"submission_deadline": "2022-04-22T00:00:00",
+		"notification_due": "2022-05-30T00:00:00",
+		"final_version_due": "2022-06-17T00:00:00",
+		"title": "DCAI",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152888",
+		"source": "https://www.dcai-conference.net/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"distributed algorithms",
+			"distributed databases",
+			"cloud computing",
+			"distributed architectures"
+		],
+		"parent": "Distributed Computing and Artificial Intelligence",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=665",
+		"year": "2022",
+		"abbr": [
+			"dcai"
+		],
+		"nth": "19",
+		"event_id": "152888",
+		"core_confs": [
+			{
+				"CoreId": 2225,
+				"Type": "Conference",
+				"Title": "International Conference on Distributed Computing and Artificial Intelligence",
+				"Acronym": "DCAI",
+				"Acronym2": "dcai",
+				"DBLP Source": "https://dblp.org/db/conf/dcai",
+				"Rank": "National(Spain)",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4606 - Distributed computing and systems software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National(Spain)",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4606 - Distributed computing and systems software"
+						],
+						"other": "Request C, but assessed as National, since almost always held in Spain(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1428.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602DCAI.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": "http://www.wikicfp.com/cfp/program?id=665",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=665"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "ICCCI 2022",
+		"eventType": "Conference",
+		"startDate": "2022-09-28T00:00:00",
+		"endDate": "2022-09-30T23:59:59",
+		"locality": "Hammamet, Tunisia",
+		"description": "International Conference on Computational Collective Intelligence",
+		"submission_deadline": "2022-03-01T00:00:00",
+		"notification_due": "2022-04-15T00:00:00",
+		"final_version_due": "2022-05-01T00:00:00",
+		"title": "ICCCI",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152890",
+		"source": "https://iccci.pwr.edu.pl/2022/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computational intelligence",
+			"machine learning",
+			"ensemble learning",
+			"knowledge representation"
+		],
+		"parent": "International Conference on Computational Collective Intelligence",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1302",
+		"year": "2022",
+		"abbr": [
+			"iccci"
+		],
+		"nth": "14",
+		"event_id": "152890",
+		"core_confs": [
+			{
+				"CoreId": 942,
+				"Type": "Conference",
+				"Title": "International Conference on Computational Collective Intelligence",
+				"Acronym": "ICCCI",
+				"Acronym2": "iccci",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/iccci",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4606 - Distributed computing and systems software",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4606 - Distributed computing and systems software"
+						],
+						"other": "Request for rank B accepted(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1310.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602ICCCI.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"Links": {
+					"site": "http://www.wikicfp.com/cfp/program?id=1302",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1302"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "SEAA 2022",
+		"eventType": "Conference",
+		"startDate": "2022-08-31T00:00:00",
+		"endDate": "2022-09-02T23:59:59",
+		"locality": "Gran Canaria, Spain",
+		"description": "Euromicro Conference on Software Engineering and Advanced Applications",
+		"submission_deadline": "2022-04-01T00:00:00",
+		"notification_due": "2022-05-15T00:00:00",
+		"final_version_due": "2022-06-15T00:00:00",
+		"title": "SEAA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152894",
+		"source": "https://dsd-seaa2022.iuma.ulpgc.es/#venue",
+		"publisher": "WikiCFP",
+		"categories": [
+			"software engineering"
+		],
+		"parent": "Software Engineering and Advanced Applications",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2600",
+		"year": "2022",
+		"abbr": [
+			"seaa"
+		],
+		"nth": "48",
+		"event_id": "152894",
+		"core_confs": [
+			{
+				"CoreId": 464,
+				"Type": "Conference",
+				"Title": "Euromicro Conference on Software Engineering and Advanced Applications",
+				"Acronym": "SEAA",
+				"Acronym2": "euromicro",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/euromicro",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4612 - Software engineering",
+					"4601 - Applied computing",
+					"0803 - Computer Software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4612 - Software engineering",
+							"4601 - Applied computing"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "B",
+						"Field Of Research": [
+							"4612 - Software engineering",
+							"4601 - Applied computing"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						],
+						"other": "Duplicate entries existed, B, C"
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					}
+				],
+				"Links": {
+					"site": "http://www.euromicro.org/",
+					"web page @ euromicro.org": "http://www.euromicro.org/",
+					"EUROMICRO Home Page": "http://www.euromicro.org/"
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "HIPS 2022",
+		"eventType": "Conference",
+		"startDate": "2022-05-30T00:00:00",
+		"endDate": "2022-05-30T23:59:59",
+		"locality": "Lyon, France",
+		"description": "High-Level Parallel Programming Models and Supportive Environments",
+		"submission_deadline": "2022-01-28T00:00:00",
+		"notification_due": "2022-03-04T00:00:00",
+		"final_version_due": "2022-03-15T00:00:00",
+		"title": "HIPS",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152985",
+		"source": "https://hips2022.github.io",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science"
+		],
+		"parent": "High-Level Parallel Programming Models and Supportive Environments",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1194",
+		"year": "2022",
+		"abbr": [
+			"hips"
+		],
+		"nth": "27",
+		"event_id": "152985",
+		"core_confs": [
+			{
+				"CoreId": 1487,
+				"Type": "Conference",
+				"Title": "International Workshop on High-Level Parallel Programming Models and Supportive Environments",
+				"Acronym": "HIPS",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					}
+				],
+				"probability": 87
+			}
+		]
+	},
+	{
+		"summary": "cogsci 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-27T00:00:00",
+		"endDate": "2022-07-30T23:59:59",
+		"locality": "Toronto, Canada",
+		"description": "Cognitive Science Society",
+		"submission_deadline": "2022-02-01T00:00:00",
+		"notification_due": "2022-04-09T00:00:00",
+		"final_version_due": "2022-05-11T00:00:00",
+		"title": "cogsci",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=152997",
+		"source": "https://cognitivesciencesociety.org/submissions/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"cognitive science",
+			"cognition across diverse popu",
+			"cognition within diverse socie",
+			"global challenges for cognitiv"
+		],
+		"year": "2022",
+		"abbr": [
+			"cogsci"
+		],
+		"event_id": "152997",
+		"core_confs": [
+			{
+				"CoreId": 120,
+				"Type": "Conference",
+				"Title": "Annual Conference of the Cognitive Science Society",
+				"Acronym": "CogSci",
+				"Acronym2": "cogsci",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cogsci",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://cognitivesciencesociety.org/",
+					"web page @ cognitivesciencesociety.org": "http://cognitivesciencesociety.org/"
+				},
+				"probability": 71
+			}
+		]
+	},
+	{
+		"summary": "FMVIP 2022",
+		"eventType": "Conference",
+		"startDate": "2022-11-18T00:00:00",
+		"endDate": "2022-11-20T23:59:59",
+		"locality": "Chengdu",
+		"description": "International Conference on Frontiers of Machine Vision and Image Processing",
+		"submission_deadline": "2022-05-20T00:00:00",
+		"title": "FMVIP",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153001",
+		"source": "http://fmvip2022.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer vision",
+			"image processing",
+			"signal processing",
+			"communications"
+		],
+		"year": "2022",
+		"abbr": [
+			"fmvip"
+		],
+		"nth": "2",
+		"event_id": "153001",
+		"core_confs": [
+			{
+				"CoreId": 1321,
+				"Type": "Conference",
+				"Title": "International Machine Vision and Image Processing Conference",
+				"Acronym": "IMVIP",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: ireland",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4603 - Computer vision and multimedia computation",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: ireland",
+						"Field Of Research": [
+							"4603 - Computer vision and multimedia computation"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: ireland",
+						"Field Of Research": [
+							"4603 - Computer vision and multimedia computation"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"probability": 62
+			}
+		]
+	},
+	{
+		"summary": "IEEE CogSIMA 2022",
+		"eventType": "Conference",
+		"startDate": "2022-06-06T00:00:00",
+		"endDate": "2022-06-10T23:59:59",
+		"locality": "University of Salerno, Italy",
+		"description": "Conference on Cognitive and Computational Aspects of Situation Management",
+		"submission_deadline": "2022-01-24T00:00:00",
+		"notification_due": "2022-02-28T00:00:00",
+		"final_version_due": "2022-03-31T00:00:00",
+		"title": "IEEE CogSIMA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153011",
+		"source": "http://cogsima2022.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"situation management",
+			"artificial intelligence",
+			"situation awareness",
+			"cognitive science"
+		],
+		"year": "2022",
+		"abbr": [
+			"cogsima"
+		],
+		"event_id": "153011",
+		"core_confs": [
+			{
+				"CoreId": 2184,
+				"Type": "Conference",
+				"Title": "IEEE Conference on Cognitive and Computational Aspects of Situation Management",
+				"Acronym": "CogSIMA",
+				"Acronym2": "cogsima",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cogsima",
+				"Rank": "National:USA",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0801 - Artificial Intelligence and Image Processing",
+					"1702 - Cognitive Science"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National:USA",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National:USA",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "National:USA",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing",
+							"1702 - Cognitive Science"
+						],
+						"Requested as National": "USA. Approved. (Data) (Decision)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "PAAMS 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-13T00:00:00",
+		"endDate": "2022-07-15T23:59:59",
+		"locality": "L'Aquila, Italy",
+		"description": "International Conference on Practical Applications of Agents and Multi-Agent Systems",
+		"submission_deadline": "2022-04-22T00:00:00",
+		"notification_due": "2022-05-30T00:00:00",
+		"final_version_due": "2022-06-17T00:00:00",
+		"title": "PAAMS",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153037",
+		"source": "https://paams.net/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"multiagents",
+			"agents"
+		],
+		"parent": "Practical Applications of Agents and Multi-Agent Systems",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2284",
+		"year": "2022",
+		"abbr": [
+			"paams"
+		],
+		"nth": "20",
+		"event_id": "153037",
+		"core_confs": [
+			{
+				"CoreId": 2171,
+				"Type": "Conference",
+				"Title": "Practical Applications of Agents and Multiagent Systems",
+				"Acronym": "PAAMS",
+				"Acronym2": "paams",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/paams",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4601 - Applied computing",
+					"08 - Information and Computing Sciences",
+					"0805 - Distributed Computing",
+					"1702 - Cognitive Science",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4601 - Applied computing"
+						],
+						"other": "Request for rank B accepted(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1512.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602PAAMS.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4601 - Applied computing"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences",
+							"0805 - Distributed Computing",
+							"1702 - Cognitive Science"
+						],
+						"other": "Request to be added at rank B. Already in DB as unranked. Decision to rank as C.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddRankedRequest_136.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/PAAMS.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						],
+						"other": "Added as uranked. Requested A* but request arrived after deadline with no comparators. Not A*(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/PAAMS2014.pdf\">Data</a>)"
+					}
+				],
+				"Links": {
+					"site": "http://www.paams.net/",
+					"web page @ paams.net": "http://www.paams.net/",
+					"www.paams.net": "http://www.paams.net/"
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "AdNLP 2022",
+		"eventType": "Conference",
+		"startDate": "2022-03-19T00:00:00",
+		"endDate": "2022-03-20T23:59:59",
+		"locality": "Vienna, Austria",
+		"description": "International conference on Advanced Natural Language Processing",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-02-11T00:00:00",
+		"final_version_due": "2022-02-19T00:00:00",
+		"title": "AdNLP",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153042",
+		"source": "https://icaita2022.org/adnlp/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"artificial intelligence",
+			"NLP",
+			"natural language processing",
+			"machine learning"
+		],
+		"year": "2022",
+		"abbr": [
+			"adnlp"
+		],
+		"nth": "3",
+		"event_id": "153042",
+		"core_confs": [
+			{
+				"CoreId": 1188,
+				"Type": "Conference",
+				"Title": "International Conference on Recent Advances in Natural Language Processing",
+				"Acronym": "RANLP",
+				"Acronym2": "ranlp",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/ranlp",
+				"Rank": "National: bulgaria",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: bulgaria",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: bulgaria",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 77
+			}
+		]
+	},
+	{
+		"summary": "ACSTY 2022",
+		"eventType": "Conference",
+		"startDate": "2022-01-22T00:00:00",
+		"endDate": "2022-01-23T23:59:59",
+		"locality": "Zurich, Switzerland",
+		"description": "International Conference on Advances in Computer Science and Information Technology",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-01-13T00:00:00",
+		"final_version_due": "2022-01-15T00:00:00",
+		"title": "ACSTY",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153043",
+		"source": "https://acsty2022.org/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"artificial intelligence",
+			"engineering",
+			"machine learning",
+			"robotics"
+		],
+		"year": "2022",
+		"abbr": [
+			"acsty"
+		],
+		"nth": "8",
+		"event_id": "153043",
+		"core_confs": [
+			{
+				"CoreId": 2229,
+				"Type": "Conference",
+				"Title": "Computer Sciences and Information Technologies",
+				"Acronym": "CSIT",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4612 - Software engineering",
+					"4605 - Data management and data science"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4612 - Software engineering",
+							"4605 - Data management and data science"
+						],
+						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
+					}
+				],
+				"probability": 63
+			}
+		]
+	},
+	{
+		"summary": "ECRTS 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-05T00:00:00",
+		"endDate": "2022-07-08T23:59:59",
+		"locality": "Modena, Italy",
+		"description": "Euromicro Conference on Real-Time Systems",
+		"submission_deadline": "2022-02-02T00:00:00",
+		"notification_due": "2022-04-13T00:00:00",
+		"final_version_due": "2022-05-05T00:00:00",
+		"title": "ECRTS",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153046",
+		"source": "https://www.ecrts.org",
+		"publisher": "WikiCFP",
+		"categories": [
+			"real-time systems",
+			"embedded systems",
+			"cyber-physical systems"
+		],
+		"parent": "Euromicro Conference on Real-Time Systems",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=820",
+		"year": "2022",
+		"abbr": [
+			"ecrts"
+		],
+		"nth": "34",
+		"event_id": "153046",
+		"core_confs": [
+			{
+				"CoreId": 463,
+				"Type": "Conference",
+				"Title": "Euromicro Conference on Real-Time Systems",
+				"Acronym": "ECRTS",
+				"Acronym2": "ecrts",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/ecrts",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"1005 - Communications Technologies"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": [
+							"1005 - Communications Technologies"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"1005 - Communications Technologies"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"1005 - Communications Technologies"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"1005 - Communications Technologies"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"1005 - Communications Technologies"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://www.ecrts.org/",
+					"web page @ ecrts.org": "http://www.ecrts.org/",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=820"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "CONCUR 2022",
+		"eventType": "Conference",
+		"startDate": "2022-09-12T00:00:00",
+		"endDate": "2022-09-17T23:59:59",
+		"locality": "Warsaw, Poland",
+		"description": "International Conference on Concurrency Theory",
+		"abstract_registration_due": "2022-04-18T00:00:00",
+		"submission_deadline": "2022-04-25T00:00:00",
+		"notification_due": "2022-06-25T00:00:00",
+		"final_version_due": "2022-07-09T00:00:00",
+		"title": "CONCUR",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153149",
+		"source": "https://concur2022.mimuw.edu.pl/call-for-papers/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"concurrency",
+			"theory",
+			"logic"
+		],
+		"parent": "International Conference on Concurrency Theory",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=554",
+		"year": "2022",
+		"abbr": [
+			"concur"
+		],
+		"nth": "33",
+		"event_id": "153149",
+		"core_confs": [
+			{
+				"CoreId": 973,
+				"Type": "Conference",
+				"Title": "International Conference on Concurrency Theory",
+				"Acronym": "CONCUR",
+				"Acronym2": "concur",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/concur",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "https://link.springer.com/conference/concur",
+					"web page @ springer.com": "https://link.springer.com/conference/concur",
+					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Concurrency_Theory",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=554"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "PDCTA 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-30T00:00:00",
+		"endDate": "2022-07-31T23:59:59",
+		"locality": "London, United Kingdom",
+		"description": "International Conference on Parallel, Distributed Computing Technologies and Applications",
+		"submission_deadline": "2022-01-15T00:00:00",
+		"notification_due": "2022-03-26T00:00:00",
+		"final_version_due": "2022-04-04T00:00:00",
+		"title": "PDCTA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153580",
+		"source": "https://ccsit2022.org/pdcta/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"distributed computing",
+			"parallel computing",
+			"computing",
+			"algorithms"
+		],
+		"year": "2022",
+		"abbr": [
+			"pdcta"
+		],
+		"nth": "11",
+		"event_id": "153580",
+		"core_confs": [
+			{
+				"CoreId": 1162,
+				"Type": "Conference",
+				"Title": "International Conference on Parallel and Distributed Computing, Applications and Technologies",
+				"Acronym": "PDCAT",
+				"Acronym2": "pdcat",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/pdcat",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						],
+						"other": "Provided as B comparator, reranked as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1018_781.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4606PDCAT.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "B",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						],
+						"other": "Data provided as a comparator, but not reviewed.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_242.pdf\">Data</a>)"
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "B",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 59
+			}
+		]
+	},
+	{
+		"summary": "QUATIC 2022",
+		"eventType": "Conference",
+		"startDate": "2022-09-12T00:00:00",
+		"endDate": "2022-09-14T23:59:59",
+		"locality": "Talavera de la Reina, Spain",
+		"description": "International Conference on the Quality of Information and Communications Technology",
+		"submission_deadline": "2022-04-08T00:00:00",
+		"notification_due": "2022-05-16T00:00:00",
+		"final_version_due": "2022-05-31T00:00:00",
+		"title": "QUATIC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153294",
+		"source": "https://2022.quatic.org/call-for-papers",
+		"publisher": "WikiCFP",
+		"categories": [
+			"stem",
+			"computer science",
+			"information technology",
+			"QUATIC"
+		],
+		"parent": "Quality of Information and Communications Technology",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2453",
+		"year": "2022",
+		"abbr": [
+			"quatic"
+		],
+		"nth": "15",
+		"event_id": "153294",
+		"core_confs": [
+			{
+				"CoreId": 2180,
+				"Type": "Conference",
+				"Title": "International Conference on the Quality of Information and Communications Technology",
+				"Acronym": "QUATIC",
+				"Acronym2": "quatic",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/quatic",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4612 - Software engineering",
+					"0803 - Computer Software",
+					"0806 - Information Systems"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4612 - Software engineering"
+						],
+						"other": "Requested uprank from C to B, leave as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1314.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4612QUATIC.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4612 - Software engineering"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software",
+							"0806 - Information Systems"
+						],
+						"other": "Requested addition at rank B. Added at rank C.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddRankedRequest_218.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/QUATIC.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "AISCA 2022",
+		"eventType": "Conference",
+		"startDate": "2022-01-29T00:00:00",
+		"endDate": "2022-01-30T23:59:59",
+		"locality": "Copenhagen, Denmark",
+		"description": "International Conference on Artificial Intelligence, Soft Computing And Applications",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-01-20T00:00:00",
+		"final_version_due": "2022-01-24T00:00:00",
+		"title": "AISCA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153332",
+		"source": "https://aisca2022.org/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"artificial intelligence",
+			"soft computing",
+			"bioinformatics",
+			"engineering"
+		],
+		"year": "2022",
+		"abbr": [
+			"aisca"
+		],
+		"nth": "6",
+		"event_id": "153332",
+		"core_confs": [
+			{
+				"CoreId": 2186,
+				"Type": "Conference",
+				"Title": "Artificial Intelligence Applications and Innovations",
+				"Acronym": "AIAI",
+				"Acronym2": "ifip12",
+				"DBLP Source": "https://dblp.org/db/conf/ifip12",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4601 - Applied computing",
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4601 - Applied computing",
+							"4602 - Artificial intelligence"
+						],
+						"other": "Request B, but assessed as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1281.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602AIAI.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "Regional",
+						"Field Of Research": [
+							"4601 - Applied computing",
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "Regional",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						],
+						"other": "Requested add as an unranked conference. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_195.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/AIAI.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 60
+			}
+		]
+	},
+	{
+		"summary": "SSS 2022",
+		"eventType": "Conference",
+		"startDate": "2022-11-15T00:00:00",
+		"endDate": "2022-11-17T23:59:59",
+		"locality": "Clermont-Ferrand (France)",
+		"description": "The International Symposium on Stabilization, Safety, and Security of Distributed Systems",
+		"submission_deadline": "2022-04-15T00:00:00",
+		"notification_due": "2022-05-20T00:00:00",
+		"final_version_due": "2022-06-01T00:00:00",
+		"title": "SSS",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153348",
+		"source": "https://sss2022.limos.fr/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"distributed systems",
+			"distributed computing",
+			"autonomic computing",
+			"robots"
+		],
+		"year": "2022",
+		"abbr": [
+			"sss"
+		],
+		"nth": "24",
+		"event_id": "153348",
+		"core_confs": [
+			{
+				"CoreId": 1794,
+				"Type": "Conference",
+				"Title": "Symposium on Stabilization, Safety, and Security of Distributed Systems",
+				"Acronym": "SSS",
+				"Acronym2": "sss",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/sss",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4604 - Cybersecurity and privacy",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4604 - Cybersecurity and privacy"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "ICCS 2022",
+		"eventType": "Conference",
+		"startDate": "2022-09-12T00:00:00",
+		"endDate": "2022-09-15T23:59:59",
+		"locality": "Münster, Germany",
+		"description": "International Conference on Conceptual Structures",
+		"abstract_registration_due": "2022-03-11T00:00:00",
+		"submission_deadline": "2022-03-18T00:00:00",
+		"notification_due": "2022-05-30T00:00:00",
+		"final_version_due": "2022-06-13T00:00:00",
+		"title": "ICCS",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153351",
+		"source": "https://iccs-conference.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"mathematics",
+			"conceptual structures",
+			"philosophy"
+		],
+		"parent": "International Conference on Conceptual Structures",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1321",
+		"year": "2022",
+		"abbr": [
+			"iccs"
+		],
+		"nth": "27",
+		"event_id": "153351",
+		"core_confs": [
+			{
+				"CoreId": 972,
+				"Type": "Conference",
+				"Title": "International Conference on Conceptual Structures",
+				"Acronym": "ICCS",
+				"Acronym2": "iccs",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/iccs",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4613 - Theory of computation",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4613 - Theory of computation"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "B",
+						"Field Of Research": [
+							"4613 - Theory of computation"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://www.wikicfp.com/cfp/program?id=1321",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1321"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "SODAA 2022",
+		"eventType": "Conference",
+		"description": "SI: System Optimizations for DSP and AI Applications in Journal of Signal Processing Systems",
+		"submission_deadline": "2022-04-15T00:00:00",
+		"notification_due": "2022-07-15T00:00:00",
+		"final_version_due": "2022-10-15T00:00:00",
+		"title": "SODAA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153370",
+		"source": "https://www.springer.com/journal/11265/updates/19966794",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"signal processing",
+			"artificial intelligence",
+			"optimization"
+		],
+		"year": "2022",
+		"abbr": [
+			"sodaa"
+		],
+		"event_id": "153370",
+		"core_confs": [
+			{
+				"CoreId": 80,
+				"Type": "Conference",
+				"Title": "ACM/SIAM Symposium on Discrete Algorithms",
+				"Acronym": "SODA",
+				"Acronym2": "soda",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/soda",
+				"Rank": "A*",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4613 - Theory of computation",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A*",
+						"Field Of Research": [
+							"4613 - Theory of computation"
+						],
+						"other": "Provided as comparator, retain A*(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1174_662.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4613SODA.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A*",
+						"Field Of Research": [
+							"4613 - Theory of computation"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A*",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A*",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A*",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A*",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A*",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "https://dl.acm.org/conference/soda",
+					"web page @ acm.org": "https://dl.acm.org/conference/soda",
+					"Wikipedia article": "https://en.wikipedia.org/wiki/Symposium_on_Discrete_Algorithms"
+				},
+				"probability": 1
+			}
+		]
+	},
+	{
+		"summary": "AITC--ACM, Ei and Scopus 2022",
+		"eventType": "Conference",
+		"startDate": "2022-08-04T00:00:00",
+		"endDate": "2022-08-06T23:59:59",
+		"locality": "Dalian, China",
+		"description": "International Artificial Intelligence Technology Conference",
+		"submission_deadline": "2022-03-20T00:00:00",
+		"title": "AITC--ACM, Ei and Scopus",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153390",
+		"source": "http://www.aitc.org",
+		"publisher": "WikiCFP",
+		"categories": [
+			"intelligent systems",
+			"systems engineering",
+			"automation",
+			"control"
+		],
+		"year": "2022",
+		"abbr": [
+			"aitc"
+		],
+		"nth": "4",
+		"event_id": "153390",
+		"core_confs": [
+			{
+				"CoreId": 909,
+				"Type": "Conference",
+				"Title": "International Conference on Artificial Intelligence",
+				"Acronym": "IC-AI",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: USA",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4611 - Machine learning",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 50
+			}
+		]
+	},
+	{
+		"summary": "AIAP 2022",
+		"eventType": "Conference",
+		"startDate": "2022-02-26T00:00:00",
+		"endDate": "2022-02-27T23:59:59",
+		"locality": "Vancouver, Canada",
+		"description": "International Conference on Artificial Intelligence and Applications",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-01-29T00:00:00",
+		"final_version_due": "2022-02-05T00:00:00",
+		"title": "AIAP",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153408",
+		"source": "https://ccseit2022.org/aiap/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"artificial intelligence",
+			"computer science",
+			"machine learning",
+			"engineering"
+		],
+		"year": "2022",
+		"abbr": [
+			"aiap"
+		],
+		"nth": "9",
+		"event_id": "153408",
+		"core_confs": [
+			{
+				"CoreId": 2186,
+				"Type": "Conference",
+				"Title": "Artificial Intelligence Applications and Innovations",
+				"Acronym": "AIAI",
+				"Acronym2": "ifip12",
+				"DBLP Source": "https://dblp.org/db/conf/ifip12",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4601 - Applied computing",
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4601 - Applied computing",
+							"4602 - Artificial intelligence"
+						],
+						"other": "Request B, but assessed as C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1281.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602AIAI.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "Regional",
+						"Field Of Research": [
+							"4601 - Applied computing",
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "Regional",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						],
+						"other": "Requested add as an unranked conference. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_195.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/AIAI.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 62
+			}
+		]
+	},
+	{
+		"summary": "CoSIT 2022",
+		"eventType": "Conference",
+		"startDate": "2022-05-28T00:00:00",
+		"endDate": "2022-05-29T23:59:59",
+		"locality": "Vancouver, Canada",
+		"description": "International Conference on Computer Science and Information Technology",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-02-15T00:00:00",
+		"final_version_due": "2022-02-23T00:00:00",
+		"title": "CoSIT",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153410",
+		"source": "https://cosit2022.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"artificial intelligence",
+			"security",
+			"software engineering"
+		],
+		"year": "2022",
+		"abbr": [
+			"cosit"
+		],
+		"nth": "9",
+		"event_id": "153410",
+		"core_confs": [
+			{
+				"CoreId": 2229,
+				"Type": "Conference",
+				"Title": "Computer Sciences and Information Technologies",
+				"Acronym": "CSIT",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4612 - Software engineering",
+					"4605 - Data management and data science"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4612 - Software engineering",
+							"4605 - Data management and data science"
+						],
+						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
+					}
+				],
+				"probability": 89
+			}
+		]
+	},
+	{
+		"summary": "iFM 2022",
+		"eventType": "Conference",
+		"startDate": "2022-06-07T00:00:00",
+		"endDate": "2022-06-10T23:59:59",
+		"locality": "Lugano, Switzerland",
+		"description": "International Conference on integrated Formal Methods",
+		"abstract_registration_due": "2022-01-14T00:00:00",
+		"submission_deadline": "2022-01-21T00:00:00",
+		"notification_due": "2022-03-18T00:00:00",
+		"final_version_due": "2022-04-15T00:00:00",
+		"title": "iFM",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153412",
+		"source": "https://ifm22.si.usi.ch/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"formal methods",
+			"verification",
+			"testing",
+			"software engineering"
+		],
+		"parent": "Integrated Formal Methods",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1544",
+		"year": "2022",
+		"abbr": [
+			"ifm"
+		],
+		"event_id": "153412",
+		"core_confs": [
+			{
+				"CoreId": 842,
+				"Type": "Conference",
+				"Title": "Integrated Formal Methods",
+				"Acronym": "IFM",
+				"Acronym2": "ifm",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/ifm",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4612 - Software engineering",
+					"4613 - Theory of computation",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4612 - Software engineering",
+							"4613 - Theory of computation"
+						],
+						"other": "Comparator, leave as B(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1681_967.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4612IFM.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "B",
+						"Field Of Research": [
+							"4612 - Software engineering",
+							"4613 - Theory of computation"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "B",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://www.wikicfp.com/cfp/program?id=1544",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1544"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "MIS4TEL 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-13T00:00:00",
+		"endDate": "2022-07-15T23:59:59",
+		"locality": "L'Aquila (Italy) / hybrid",
+		"description": "International Conference on Methodologies and Intelligent Systems for Technology Enhanced Learning",
+		"submission_deadline": "2022-04-22T00:00:00",
+		"notification_due": "2022-05-30T00:00:00",
+		"final_version_due": "2022-06-17T00:00:00",
+		"title": "MIS4TEL",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153447",
+		"source": "https://www.mis4tel-conference.net/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"technologies",
+			"methodologies",
+			"learning analytics"
+		],
+		"year": "2022",
+		"abbr": [
+			"mis4tel"
+		],
+		"nth": "12",
+		"event_id": "153447",
+		"core_confs": [
+			{
+				"CoreId": 2269,
+				"Type": "Conference",
+				"Title": "International Conference in Methodologies and Intelligent Systems for Technology Enhanced Learning",
+				"Acronym": "MIS4TEL",
+				"Acronym2": "mis4tel",
+				"DBLP Source": "https://dblp.org/db/conf/mis4tel",
+				"Rank": "Unranked",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4601 - Applied computing",
+					"4608 - Human-centred computing",
+					"4602 - Artificial intelligence"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "Unranked",
+						"Field Of Research": [
+							"4601 - Applied computing",
+							"4608 - Human-centred computing",
+							"4602 - Artificial intelligence"
+						],
+						"other": "Requested NEW but as it is older than 5 years, added as unranked.(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1671.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4607MIS4TEL.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "Springer - ICISAT 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-22T00:00:00",
+		"endDate": "2022-07-23T23:59:59",
+		"locality": "Istanbul",
+		"description": "Springer International Conference on Information Systems and Advanced Technologies",
+		"abstract_registration_due": "2022-01-10T00:00:00",
+		"submission_deadline": "2022-01-20T00:00:00",
+		"notification_due": "2022-02-20T00:00:00",
+		"final_version_due": "2022-03-10T00:00:00",
+		"title": "Springer - ICISAT",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153450",
+		"source": "http://www.ijist.net/ICISAT-2022/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"is",
+			"AI",
+			"decision",
+			"computing"
+		],
+		"year": "2022",
+		"abbr": [
+			"springer icisat",
+			"icisat"
+		],
+		"nth": "12",
+		"event_id": "153450",
+		"core_confs": [
+			{
+				"CoreId": 2181,
+				"Type": "Conference",
+				"Title": "World Conference on Information Systems and Technologies",
+				"Acronym": "WorldCIST",
+				"Acronym2": "worldcist",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/worldcist",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"46 - Information and Computing Sciences",
+					"0806 - Information Systems",
+					"0803 - Computer Software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"46 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"46 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0806 - Information Systems",
+							"0803 - Computer Software"
+						],
+						"other": "Request to add at rank C. Approved.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddRankedRequest_174.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/WorldCIST.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 62
+			}
+		]
+	},
+	{
+		"summary": "ACIA 2022",
+		"eventType": "Conference",
+		"startDate": "2022-02-26T00:00:00",
+		"endDate": "2022-02-27T23:59:59",
+		"locality": "Raipur, India",
+		"description": "International Applied Computational Intelligence and Analytics",
+		"submission_deadline": "2022-01-25T00:00:00",
+		"notification_due": "2022-02-05T00:00:00",
+		"final_version_due": "2022-02-10T00:00:00",
+		"title": "ACIA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153477",
+		"source": "https://www.cicict.org/acia-2022",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computational intelligence",
+			"machine learning",
+			"internet of things",
+			"big data analytics"
+		],
+		"year": "2022",
+		"abbr": [
+			"acia"
+		],
+		"event_id": "153477",
+		"core_confs": [
+			{
+				"CoreId": 1352,
+				"Type": "Conference",
+				"Title": "International Symposium on Applied Computational Intelligence and Informatics",
+				"Acronym": "SACI",
+				"Acronym2": "saci",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/saci",
+				"Rank": "National: Romania",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: Romania",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: Romania",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 74
+			}
+		]
+	},
+	{
+		"summary": "ICAITA 2022",
+		"eventType": "Conference",
+		"startDate": "2022-03-19T00:00:00",
+		"endDate": "2022-03-20T23:59:59",
+		"locality": "Vienna, Austria",
+		"description": "International Conference on Advanced Information Technologies and Applications",
+		"submission_deadline": "2022-01-08T00:00:00",
+		"notification_due": "2022-02-11T00:00:00",
+		"final_version_due": "2022-02-19T00:00:00",
+		"title": "ICAITA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153484",
+		"source": "https://icaita2022.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"engineering",
+			"data mining",
+			"artificial intelligence"
+		],
+		"year": "2022",
+		"abbr": [
+			"icaita"
+		],
+		"nth": "11",
+		"event_id": "153484",
+		"core_confs": [
+			{
+				"CoreId": 1083,
+				"Type": "Conference",
+				"Title": "International Conference on Information Technology and Applications",
+				"Acronym": "ICITA",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "Australasian C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4601 - Applied computing",
+					"08 - Information and Computing Sciences"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "Australasian C",
+						"Field Of Research": [
+							"4601 - Applied computing"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "Australasian C",
+						"Field Of Research": [
+							"4601 - Applied computing"
+						],
+						"other": "Ranked as C due to no dblp link and consequent inability to access data."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 70
+			}
+		]
+	},
+	{
+		"summary": "TASE 2022",
+		"eventType": "Conference",
+		"startDate": "2022-07-08T00:00:00",
+		"endDate": "2022-07-10T23:59:59",
+		"locality": "Cluj-Napoca, Romania",
+		"description": "Theoretical Aspects of Software Engineering",
+		"abstract_registration_due": "2022-01-31T00:00:00",
+		"submission_deadline": "2022-02-13T00:00:00",
+		"notification_due": "2022-04-10T00:00:00",
+		"final_version_due": "2022-05-01T00:00:00",
+		"title": "TASE",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153572",
+		"source": "https://www.cs.ubbcluj.ro/tase2022/index.html",
+		"publisher": "WikiCFP",
+		"categories": [
+			"formal methods",
+			"verification",
+			"cyber-physical systems",
+			"software engineering"
+		],
+		"parent": "Theoretical Aspects of Software Engineering",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=2829",
+		"year": "2022",
+		"abbr": [
+			"tase"
+		],
+		"nth": "16",
+		"event_id": "153572",
+		"core_confs": [
+			{
+				"CoreId": 1427,
+				"Type": "Conference",
+				"Title": "International Symposium on Theoretical Aspects of Software Engineering",
+				"Acronym": "TASE",
+				"Acronym2": "tase",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/tase",
+				"Rank": "National: China",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4612 - Software engineering",
+					"0803 - Computer Software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: China",
+						"Field Of Research": [
+							"4612 - Software engineering"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: China",
+						"Field Of Research": [
+							"4612 - Software engineering"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0803 - Computer Software"
+						]
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 80
+			}
+		]
+	},
+	{
+		"summary": "FMICS 2022",
+		"eventType": "Conference",
+		"startDate": "2022-09-14T00:00:00",
+		"endDate": "2022-09-16T23:59:59",
+		"locality": "Warsaw, Poland",
+		"description": "International Conference on Formal Methods for Industrial Critical Systems",
+		"abstract_registration_due": "2022-05-05T00:00:00",
+		"submission_deadline": "2022-05-12T00:00:00",
+		"notification_due": "2022-06-24T00:00:00",
+		"final_version_due": "2022-07-05T00:00:00",
+		"title": "FMICS",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153588",
+		"source": "https://fmics2022.fsa.win.tue.nl/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"formal methods",
+			"verification",
+			"embedded systems",
+			"distributed systems"
+		],
+		"parent": "Formal Methods for Industrial Critical Systems",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=1054",
+		"year": "2022",
+		"abbr": [
+			"fmics"
+		],
+		"event_id": "153588",
+		"core_confs": [
+			{
+				"CoreId": 839,
+				"Type": "Conference",
+				"Title": "Int. Workshop on Formal Methods for Industrial Critical Systems",
+				"Acronym": "FMICS",
+				"Acronym2": "fmics",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/fmics",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4612 - Software engineering",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4612 - Software engineering"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4612 - Software engineering"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://www.inrialpes.fr/vasy/fmics/",
+					"web page @ inrialpes.fr": "http://www.inrialpes.fr/vasy/fmics/",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1054",
+					"FMICS Home Page": "http://www.inrialpes.fr/vasy/fmics/"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "cluster 2022",
+		"eventType": "Conference",
+		"startDate": "2022-09-06T00:00:00",
+		"endDate": "2022-09-09T23:59:59",
+		"locality": "Heidelberg, Germany",
+		"description": "Cluster Conference",
+		"submission_deadline": "2022-05-13T00:00:00",
+		"notification_due": "2022-07-04T00:00:00",
+		"title": "cluster",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=153606",
+		"source": "https://clustercomp.org/2022/",
+		"publisher": "WikiCFP",
+		"categories": [],
+		"parent": "International Conference on Cluster Computing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=503",
+		"year": "2022",
+		"abbr": [
+			"cluster"
+		],
+		"nth": "24",
+		"event_id": "153606",
+		"core_confs": [
+			{
+				"CoreId": 632,
+				"Type": "Conference",
+				"Title": "IEEE International Conference on Cluster Computing",
+				"Acronym": "CLUSTER",
+				"Acronym2": "cluster",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/cluster",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "A",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://www.clustercomp.org/",
+					"web page @ clustercomp.org": "http://www.clustercomp.org/",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=503"
+				},
+				"probability": 100
 			}
 		]
 	}
