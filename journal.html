@@ -268,6 +268,7 @@
                     p.CiteScore = p.CiteScore ?? 0
                     p.SNIP = p.SNIP ?? 0
                     p.SJR = p.SJR?.replaceAll(',', '.') ?? 0
+                    p.aut = p.aut??''
                     p.Rev1=Number(p.Review?.[2020]?.First?? 0)|| '~'
                     p.RevF = Number(p.Review?.[2020]?.Final ?? 0) || '~'
                     console.log(p.Acceptance)
