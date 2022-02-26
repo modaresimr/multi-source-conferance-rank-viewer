@@ -62,7 +62,7 @@
         function format_scimag(confs) {
             var out = "";
             out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
-            out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>H-index</th><th>Probability</th><th>Topics</th><th>Link</th>`)
+            out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>AUT</th><th>H-index</th><th>Probability</th><th>Topics</th><th>Link</th>`)
             confs.forEach(conf => {
                 // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
 
@@ -76,6 +76,7 @@
                     `<td>${conf.SOURCETITLE}</td>` +
                     `<td>Q${conf.CUARTIL}</td>` +
                     `<td>${conf.SJR}</td>` +
+                    `<td>${conf.aut}</td>` +
                     `<td>${conf.H}</td>` +
                     `<td>${conf.probability}%</td>` +
                     `<td>${topic}</td>` +
@@ -113,7 +114,7 @@
                 var title = $(this).text();
                 //$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
             });
-            cols = ['Select', "Type", "Title", "Rank", 'SJR', 'Hindex', 'CS', 'SNIP', "Topic",'Rev1', 'RevF','AR', "Link"];
+            cols = ['Select', "Type", "Title", "Rank", 'SJR','aut', 'Hindex', 'CS', 'SNIP', "Topic",'Rev1', 'RevF','AR', "Link"];
             table = $("#rankTable").DataTable({
                 data: dataSet,
                 dom: '<"top"f>it<"bottom"lrp><"clear">',
@@ -151,6 +152,7 @@
                         data: "SJR", width: "60px", render: (data, type, row) =>
                             (data) ? format_a(data, `https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) : data
                     },
+                    { data: "aut", width: "70px", orderable: false },
                     { data: "H index", width: "60px" },
                     {
                         data: 'CiteScore', width: "60px", render: (data, type, row) =>
@@ -294,7 +296,7 @@
 
                 table.columns().every(function () {
                     var column = this;
-                    if (["Link", 'SJR', 'Hindex', 'CS', 'SNIP','Rev1','RevF','AR'].indexOf(cols[column[0]]) >= 0) {
+                    if (["Link", 'SJR','aut', 'Hindex', 'CS', 'SNIP','Rev1','RevF','AR'].indexOf(cols[column[0]]) >= 0) {
                         $("<span>" + cols[column[0]] + "</span>").appendTo($(column.header()).empty());
                         return;
                     }
@@ -416,7 +418,7 @@
 
             $.ajax({
                 dataType: "json",
-                url: "https://rank.alimodaresi.ir/scimagojr_journal_2020_cs_link.json",
+                url: "https://rank.alimodaresi.ir/scimagojr_journal_2020_cs_link_aut.json",
                 success: (data) => {
                     jnl_dataset = data;
                     process(data);
