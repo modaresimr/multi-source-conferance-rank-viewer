@@ -1,0 +1,89 @@
+<html>
+   <head>
+      <title>Smart Conference and Journal Search from multiple source</title>
+   </head>
+   <body>
+      <div style="position:sticky;top:0px">
+         <form action="/#">
+            <input id="search" placeholder="type conference or journal name" autofocus style="width:70%">
+            <button id="myBtn" type="submit" submitter onclick="event.preventDefault();search2();">Search</button>
+            
+         </form>
+         <div id="toc"></div>
+      </div>
+      <a href="index2.html">smart conference and journal search</a>
+      <div id="iframes"></div>
+      <script type="text/javascript">
+         
+         
+         var input = document.getElementById("search");
+         
+         
+         // Execute a function when the user releases a key on the keyboard
+         input.addEventListener("keyup", function(event) {
+           // Number 13 is the "Enter" key on the keyboard
+           if (event.keyCode === 13) {
+             // Cancel the default action, if needed
+             event.preventDefault();
+             // Trigger the button element with a click
+             document.getElementById("myBtn").click();
+           }
+         });
+         
+         websites={              "smart":"index2.html#q=SEARCHKEY",
+                                 //"core-conf":"http://portal.core.edu.au/conf-ranks/?search=SEARCHKEY&by=all&source=all&sort=atitle&page=1",
+                                 //"core-jnl":"http://portal.core.edu.au/jnl-ranks/?search=SEARCHKEY&by=all&source=all&sort=atitle&page=1",
+                                 "conferenceranks":"http://www.conferenceranks.com/?searchall=SEARCHKEY#data",
+                                 "scimagojr":"https://www.scimagojr.com/journalsearch.php?q=SEARCHKEY",
+                                 "guide2research":"http://www.guide2research.com/topconf/?ajax=1&k=SEARCHKEY&due=0&con=&cat=",
+                                 "WikiCFP":"http://www.wikicfp.com/cfp/servlet/tool.search?q=SEARCHKEY&year=t",
+                                 "openresearch":"https://www.openresearch.org/mediawiki/index.php?search=SEARCHKEY&title=Special%3ASearch&go=Go", 
+                                 }
+         function search2(){
+             var input = document.getElementById("search");
+             window.location.hash="#name="+input.value
+             //alert(input.value);
+             list=document.getElementById("iframes")
+             toc=document.getElementById("toc")
+             while (list.hasChildNodes()) {
+               list.removeChild(list.firstChild);
+             }
+
+             while (toc.hasChildNodes()) {
+               toc.removeChild(toc.firstChild);
+             }
+
+             keys=Object.keys(websites)
+             for(i=0;i< keys.length;i++){
+
+                     var e = document.createElement('iframe');
+                     e.src=websites[keys[i]].replace('SEARCHKEY',input.value)
+                     e.style="width:100%"
+                     e.height=500
+                     list.appendChild(e)
+
+                     var b = document.createElement('button');
+                     b.innerText=keys[i];
+                     b.index=i
+                     b.addEventListener("click", function(){
+                             list.childNodes[this.index].scrollIntoView();
+                             window.scrollBy(0, -30);
+                     });
+                     toc.appendChild(b);
+             }
+
+         }
+         function hashfunc(){
+            params = new URLSearchParams(
+               window.location.hash.substr(1), // skip the first char (#)
+            );
+            if(params.get('name')!=null){
+               input.value=params.get('name');
+               search2()
+            }
+         }
+         window.addEventListener("hashchange", hashfunc, false);
+         hashfunc()
+      </script>
+   </body>
+</html>

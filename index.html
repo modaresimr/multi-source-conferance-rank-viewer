@@ -1,89 +1,72 @@
 <html>
-   <head>
-      <title>Smart Conference and Journal Search from multiple source</title>
-   </head>
-   <body>
-      <div style="position:sticky;top:0px">
-         <form action="/#">
-            <input id="search" placeholder="type conference or journal name" autofocus style="width:70%">
-            <button id="myBtn" type="submit" submitter onclick="event.preventDefault();search2();">Search</button>
-            
-         </form>
-         <div id="toc"></div>
+
+<head>
+   <title>Smart Conference and Journal Search from multiple source</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/admin-lte@3.2.0/dist/css/adminlte.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="row">
+      <div class="col-lg-3 col-6">
+
+         <div class="small-box bg-info">
+            <div class="inner">
+               <h3>Journals</h3>
+               <p>Response time and rank</p>
+            </div>
+            <div class="icon">
+               <i class="fa-solid fa-book"></i>
+            </div>
+            <a href="journal.html" class="small-box-footer">Open page <i class="fas fa-arrow-circle-right"></i></a>
+         </div>
       </div>
-      <a href="index2.html">smart conference and journal search</a>
-      <div id="iframes"></div>
-      <script type="text/javascript">
-         
-         
-         var input = document.getElementById("search");
-         
-         
-         // Execute a function when the user releases a key on the keyboard
-         input.addEventListener("keyup", function(event) {
-           // Number 13 is the "Enter" key on the keyboard
-           if (event.keyCode === 13) {
-             // Cancel the default action, if needed
-             event.preventDefault();
-             // Trigger the button element with a click
-             document.getElementById("myBtn").click();
-           }
-         });
-         
-         websites={              "smart":"index2.html#q=SEARCHKEY",
-                                 //"core-conf":"http://portal.core.edu.au/conf-ranks/?search=SEARCHKEY&by=all&source=all&sort=atitle&page=1",
-                                 //"core-jnl":"http://portal.core.edu.au/jnl-ranks/?search=SEARCHKEY&by=all&source=all&sort=atitle&page=1",
-                                 "conferenceranks":"http://www.conferenceranks.com/?searchall=SEARCHKEY#data",
-                                 "scimagojr":"https://www.scimagojr.com/journalsearch.php?q=SEARCHKEY",
-                                 "guide2research":"http://www.guide2research.com/topconf/?ajax=1&k=SEARCHKEY&due=0&con=&cat=",
-                                 "WikiCFP":"http://www.wikicfp.com/cfp/servlet/tool.search?q=SEARCHKEY&year=t",
-                                 "openresearch":"https://www.openresearch.org/mediawiki/index.php?search=SEARCHKEY&title=Special%3ASearch&go=Go", 
-                                 }
-         function search2(){
-             var input = document.getElementById("search");
-             window.location.hash="#name="+input.value
-             //alert(input.value);
-             list=document.getElementById("iframes")
-             toc=document.getElementById("toc")
-             while (list.hasChildNodes()) {
-               list.removeChild(list.firstChild);
-             }
 
-             while (toc.hasChildNodes()) {
-               toc.removeChild(toc.firstChild);
-             }
+      <div class="col-lg-3 col-6">
 
-             keys=Object.keys(websites)
-             for(i=0;i< keys.length;i++){
+         <div class="small-box bg-success">
+            <div class="inner">
+               <h3>Conference<sup style="font-size: 20px"></sup></h3>
+               <p>Conference Deadlines and Rank</p>
+            </div>
+            <div class="icon">
+               <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="conf.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+         </div>
+      </div>
 
-                     var e = document.createElement('iframe');
-                     e.src=websites[keys[i]].replace('SEARCHKEY',input.value)
-                     e.style="width:100%"
-                     e.height=500
-                     list.appendChild(e)
+      <div class="col-lg-3 col-6">
 
-                     var b = document.createElement('button');
-                     b.innerText=keys[i];
-                     b.index=i
-                     b.addEventListener("click", function(){
-                             list.childNodes[this.index].scrollIntoView();
-                             window.scrollBy(0, -30);
-                     });
-                     toc.appendChild(b);
-             }
+         <div class="small-box bg-warning">
+            <div class="inner">
+               <h3>44</h3>
+               <p>User Registrations</p>
+            </div>
+            <div class="icon">
+               <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+         </div>
+      </div>
 
-         }
-         function hashfunc(){
-            params = new URLSearchParams(
-               window.location.hash.substr(1), // skip the first char (#)
-            );
-            if(params.get('name')!=null){
-               input.value=params.get('name');
-               search2()
-            }
-         }
-         window.addEventListener("hashchange", hashfunc, false);
-         hashfunc()
-      </script>
-   </body>
+      <div class="col-lg-3 col-6">
+
+         <div class="small-box bg-danger">
+            <div class="inner">
+               <h3>65</h3>
+               <p>Unique Visitors</p>
+            </div>
+            <div class="icon">
+               <i class="ion ion-pie-graph"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+         </div>
+      </div>
+
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2.0/dist/js/adminlte.min.js"></script>
+</body>
+
 </html>
