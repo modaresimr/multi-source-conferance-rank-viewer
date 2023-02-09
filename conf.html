@@ -210,8 +210,8 @@
                     p.submission_deadline_date = new Date(p.submission_deadline)
                     p.Topics = p.categories.join(", ");
                     p.Abbriv = p.abbr.join(", ").toUpperCase();
-                    prob=p.probability>91?'': '<i class="fa-solid fa-triangle-exclamation" style="color:'+(p.probability>=80? 'yellow':'red') +'" title="The rank may be incorrect."></i>'
-                    p.Rank = p.core_confs.map(p => (p.Rank == "" ? "Unranked" : p.Rank) + " " + prob ).join(", ");
+                    
+                    p.Rank = p.core_confs.map(p => (p.Rank == "" ? "Unranked" : p.Rank) + (p.probability>91?' ': ' <i class="fa-solid fa-triangle-exclamation" style="color:'+(p.probability>=80? 'yellow':'red') +'" title="The rank may be incorrect."></i>') ).join(", ");
                     if (p.core_confs.length > 0 && p.submission_deadline_date > Date.now())
                         dataSet.push(p);
                 });
