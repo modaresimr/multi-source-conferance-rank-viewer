@@ -144,7 +144,7 @@
                     { data: "Rank", width: "100px", render: (data, type) => data.split(", ").join("<br>") },
                     { data: "Deadline", width: "100px" ,
                         render: (data,type,row)=>{
-                            date=data.replaceAll("-")
+                            date=data.replaceAll("-",'')
                             return data == "" ? "" : `<a target="_blank" href="https://calendar.google.com/calendar/u/0/r/eventedit?text=${row['description']}&dates=${date}T000000Z/${date}T230000Z&details=For+details,+link+here:+http://rank.modaresi.eu.org/conf.html%23q=${row['description']}&sf=true&output=xml">${data} <i class="fa-solid fa-calendar-plus"></i></a>`
                         }
                     },
