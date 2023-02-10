@@ -40,7 +40,8 @@ var levenshtein = function (a, b) {
 	return row[a.length];
 };
 var levenshteinRate = (a, b) => levenshtein(a, b) / a.length;
-var probability=(a,b)=>(a&&b)?(Math.max(0.01,1-levenshtein(a, b) / a.length)*100).toFixed(0):-1
+var probability=(a,b)=>(a&&b)?Math.ceil(Math.max(0.01,1-levenshtein(a, b) / a.length)*100):-1
+// var probability=(a,b)=>(a&&b)?1:0
 function getRankedConf(cfp_db, core_conf) {
 	title2conf = {};
 	abbr2conf = {};
@@ -128,8 +129,11 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 			core2.probability = prob;
 		else {
 			core2.probability = probability(removeuseless(core.Title), removeuseless(conf.description));
-			pa = Math.max([core.Acronym, core.Acronym2].map(x => Math.max(conf.abbr.map(y => probability(x, y)))))
-			if (pa > 0) core2.probability = (core2.probability + pa) / 2;
+			
+			
+			acronym_prob=[core.Acronym, core.Acronym2].map(x => Math.max(...conf.abbr.map(y => probability(x, y))))			
+			pa = Math.max(...acronym_prob)
+			if (pa > 0) core2.probability = Math.ceil((core2.probability + pa) / 2);
 			core2.probability = Math.min(90, core2.probability)
 			if (core2.Links&&core2.Links['WikiCFP entry'] && core2.Links['WikiCFP entry'] != conf.parentLink)
 				return;
@@ -150,6 +154,7 @@ var getRankedConf2 =function(cfp_db, core_conf) {
 		
 		conf.abbr.forEach(abbr => {
 			af = abbrfuzzy.get(abbr, null, 0.9);
+			// if (abbr=='secrypt') console.log(af)
 			if (af != null)
 				af.forEach(p=>addIfGood(abbr2conf[p[1]], conf));
 

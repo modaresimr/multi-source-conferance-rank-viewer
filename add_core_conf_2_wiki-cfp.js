@@ -12,7 +12,7 @@ Object.values(wiki_cfp).forEach(p => {
 	delete p.call;
     if (new Date(p.submission_deadline) > Date.now()) {
         p.abbr=p.abbr.map(q =>
-            q.replace(repeated_rg, ' ').replace(begin_end, ' ').replace(/[ ]+/g, ' ').trim());
+            q.replace(repeated_rg, ' ').replace(begin_end, ' ').replace(/[ ]+/g, ' ').trim().split(" ")).flat();
         p.abbr = Array.from(new Set(p.abbr.filter(q => q.length >= 2)));
         p.description = p.description.replace(repeated_rg, ' ').replace(begin_end, ' ').replace(/[ ]+/g, ' ').trim();
         if (exists[p.source]) {
