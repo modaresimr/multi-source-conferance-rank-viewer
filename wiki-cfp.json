@@ -103,100 +103,6 @@
 		]
 	},
 	{
-		"summary": "ICICSE 2023",
-		"eventType": "Conference",
-		"startDate": "2023-04-07T00:00:00",
-		"endDate": "2023-04-09T23:59:59",
-		"locality": "Chongqing, China",
-		"description": "the International Conference on Information Communication and Software Engineering",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"title": "ICICSE",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=163565",
-		"source": "http://www.icse.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"signal processing",
-			"networking",
-			"information science",
-			"wireless communication"
-		],
-		"year": "2023",
-		"abbr": [
-			"icicse"
-		],
-		"nth": "3",
-		"event_id": "163565",
-		"core_confs": [
-			{
-				"CoreId": 1106,
-				"Type": "Conference",
-				"Title": "International Conference on Internet Computing in Science and Engineering",
-				"Acronym": "ICICSE",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4606 - Distributed computing and systems software",
-					"0805 - Distributed Computing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						],
-						"other": "Data provided as a comparator for EATIS. Remains as C.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_60.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/ICICSE.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					}
-				],
-				"probability": 41
-			}
-		]
-	},
-	{
 		"summary": "IFToMM WC 2023",
 		"eventType": "Conference",
 		"startDate": "2023-11-05T00:00:00",
@@ -1156,60 +1062,6 @@
 		]
 	},
 	{
-		"summary": "ICISPP 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-08T00:00:00",
-		"endDate": "2023-07-10T23:59:59",
-		"locality": "Wuxi, China",
-		"description": "International Conference on Information Security and Privacy Protection",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"title": "ICISPP",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=169320",
-		"source": "http://icispp.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"big data",
-			"data mining",
-			"information science",
-			"information security"
-		],
-		"year": "2023",
-		"abbr": [
-			"icispp"
-		],
-		"nth": "4",
-		"event_id": "169320",
-		"core_confs": [
-			{
-				"CoreId": 2234,
-				"Type": "Conference",
-				"Title": "International Conference on Information Systems Security and Privacy",
-				"Acronym": "ICISSP",
-				"Acronym2": "icissp",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icissp",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4604 - Cybersecurity and privacy"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						],
-						"other": "Request to Add as Rank B. Added Rank C (<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1518.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4604ICISSP.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": "https://www.wikidata.org/entity/Q28403921"
-				},
-				"probability": 54
-			}
-		]
-	},
-	{
 		"summary": "SOMET 2023",
 		"eventType": "Conference",
 		"startDate": "2023-09-20T00:00:00",
@@ -1312,108 +1164,6 @@
 					"site": null
 				},
 				"probability": 58
-			}
-		]
-	},
-	{
-		"summary": "TASE 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-04T00:00:00",
-		"endDate": "2023-07-06T23:59:59",
-		"locality": "Bristol, UK",
-		"description": "Theoretical Aspects of Software Engineering",
-		"abstract_registration_due": "2023-02-03T00:00:00",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"notification_due": "2023-04-10T00:00:00",
-		"final_version_due": "2023-05-01T00:00:00",
-		"title": "TASE",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=169508",
-		"source": "https://bristolpl.github.io/tase2023/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"formal methods",
-			"cyber physical systems",
-			"model checking",
-			"software engineering"
-		],
-		"parent": "Theoretical Aspects of Software Engineering",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2829",
-		"year": "2023",
-		"abbr": [
-			"tase"
-		],
-		"nth": "17",
-		"event_id": "169508",
-		"core_confs": [
-			{
-				"CoreId": 1427,
-				"Type": "Conference",
-				"Title": "International Symposium on Theoretical Aspects of Software Engineering",
-				"Acronym": "TASE",
-				"Acronym2": "tase",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/tase",
-				"Rank": "National: China",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4612 - Software engineering",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National: China",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "National: China",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						],
-						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 80
 			}
 		]
 	},
@@ -1866,107 +1616,6 @@
 					"site": null
 				},
 				"probability": 1
-			}
-		]
-	},
-	{
-		"summary": "SACI 2023",
-		"eventType": "Conference",
-		"startDate": "2023-05-23T00:00:00",
-		"endDate": "2023-05-26T23:59:59",
-		"locality": "Timisoara, Romania",
-		"description": "International Symposium on Applied Computational Intelligence and Informatics",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"notification_due": "2023-03-28T00:00:00",
-		"final_version_due": "2023-04-25T00:00:00",
-		"title": "SACI",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=169776",
-		"source": "http://conf.uni-obuda.hu/saci2023/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"computational intelligence",
-			"intelligent mechatronics",
-			"intelligent robotics",
-			"informatics"
-		],
-		"parent": "Symposium on Applied Computational Intelligence and Informatics",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2526",
-		"year": "2023",
-		"abbr": [
-			"saci"
-		],
-		"nth": "17",
-		"event_id": "169776",
-		"core_confs": [
-			{
-				"CoreId": 1352,
-				"Type": "Conference",
-				"Title": "International Symposium on Applied Computational Intelligence and Informatics",
-				"Acronym": "SACI",
-				"Acronym2": "saci",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/saci",
-				"Rank": "National: Romania",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National: Romania",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "National: Romania",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						],
-						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 90
 			}
 		]
 	},
@@ -2537,97 +2186,6 @@
 		]
 	},
 	{
-		"summary": "Euro-Par 2023",
-		"eventType": "Conference",
-		"startDate": "2023-08-28T00:00:00",
-		"endDate": "2023-09-01T23:59:59",
-		"locality": "St. Raphael Resort, Limassol, Cyprus",
-		"description": "European Conference on Parallel Processing",
-		"abstract_registration_due": "2023-02-17T00:00:00",
-		"submission_deadline": "2023-02-24T00:00:00",
-		"notification_due": "2023-04-30T00:00:00",
-		"final_version_due": "2023-06-02T00:00:00",
-		"title": "Euro-Par",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170034",
-		"source": "http://2023.euro-par.org",
-		"publisher": "WikiCFP",
-		"categories": [
-			"parallel computing",
-			"distributed computing"
-		],
-		"parent": "European Conference on Parallel Processing",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=967",
-		"year": "2023",
-		"abbr": [
-			"euro-par"
-		],
-		"nth": "29",
-		"event_id": "170034",
-		"core_confs": [
-			{
-				"CoreId": 2022,
-				"Type": "Conference",
-				"Title": "International European Conference on Parallel and Distributed Computing (was International Conference on Parallel Processing)",
-				"Acronym": "EuroPar",
-				"Acronym2": "europar",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/europar",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4606 - Distributed computing and systems software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						],
-						"other": "Requested to retain A, reanked as B(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1625.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Extra_info_1916.pdf\">Extra Data 1</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4606EuroPar.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "A",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "A",
-						"Field Of Research": []
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A",
-						"Field Of Research": []
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A",
-						"Field Of Research": []
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A",
-						"Field Of Research": []
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://www.euro-par.org/",
-					"web page @ euro-par.org": "http://www.euro-par.org/",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=967"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
 		"summary": "CollaborateCom  2023",
 		"eventType": "Conference",
 		"startDate": "2023-10-04T00:00:00",
@@ -2908,6 +2466,97 @@
 		]
 	},
 	{
+		"summary": "Euro-Par 2023",
+		"eventType": "Conference",
+		"startDate": "2023-08-28T00:00:00",
+		"endDate": "2023-09-01T23:59:59",
+		"locality": "St. Raphael Resort, Limassol, Cyprus",
+		"description": "European Conference on Parallel Processing",
+		"abstract_registration_due": "2023-02-17T00:00:00",
+		"submission_deadline": "2023-02-24T00:00:00",
+		"notification_due": "2023-04-30T00:00:00",
+		"final_version_due": "2023-06-02T00:00:00",
+		"title": "Euro-Par",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170034",
+		"source": "http://2023.euro-par.org",
+		"publisher": "WikiCFP",
+		"categories": [
+			"parallel computing",
+			"distributed computing"
+		],
+		"parent": "European Conference on Parallel Processing",
+		"parentLink": "http://www.wikicfp.com/cfp/program?id=967",
+		"year": "2023",
+		"abbr": [
+			"euro-par"
+		],
+		"nth": "29",
+		"event_id": "170034",
+		"core_confs": [
+			{
+				"CoreId": 2022,
+				"Type": "Conference",
+				"Title": "International European Conference on Parallel and Distributed Computing (was International Conference on Parallel Processing)",
+				"Acronym": "EuroPar",
+				"Acronym2": "europar",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/europar",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						],
+						"other": "Requested to retain A, reanked as B(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1625.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Extra_info_1916.pdf\">Extra Data 1</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4606EuroPar.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "A",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "A",
+						"Field Of Research": []
+					}
+				],
+				"Links": {
+					"site": "http://www.euro-par.org/",
+					"web page @ euro-par.org": "http://www.euro-par.org/",
+					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=967"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
 		"summary": "IEEE CiSt 2023",
 		"eventType": "Conference",
 		"startDate": "2023-12-16T00:00:00",
@@ -3018,226 +2667,6 @@
 					}
 				],
 				"probability": 89
-			}
-		]
-	},
-	{
-		"summary": "GECCO 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-15T00:00:00",
-		"endDate": "2023-07-19T23:59:59",
-		"locality": "Lisbon",
-		"description": "Genetic and Evolutionary Computation Conference",
-		"abstract_registration_due": "2023-02-03T00:00:00",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"notification_due": "2023-03-31T00:00:00",
-		"title": "GECCO",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170128",
-		"source": "https://gecco-2023.sigevo.org/HomePage",
-		"publisher": "WikiCFP",
-		"categories": [
-			"genetic computation",
-			"evolutionary computation"
-		],
-		"parent": "Genetic and Evolutionary Computation Conference",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1121",
-		"year": "2023",
-		"abbr": [
-			"gecco"
-		],
-		"event_id": "170128",
-		"core_confs": [
-			{
-				"CoreId": 556,
-				"Type": "Conference",
-				"Title": "Genetic and Evolutionary Computations",
-				"Acronym": "GECCO",
-				"Acronym2": "gecco",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/gecco",
-				"Rank": "A",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"08 - Information and Computing Sciences",
-					"09 - Engineering"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "A",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						],
-						"other": "Request to retain A accepted(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1384.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602GECCO.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "A",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "A",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences",
-							"09 - Engineering"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences",
-							"09 - Engineering"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences",
-							"09 - Engineering"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences",
-							"09 - Engineering"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "A",
-						"Field Of Research": [
-							"08 - Information and Computing Sciences",
-							"09 - Engineering"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "B",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://www.sigevo.org/",
-					"web page @ sigevo.org": "https://sig.sigevo.org/index.html/tiki-index.php?page=GECCOs",
-					"Wikipedia article": "https://en.wikipedia.org/wiki/Genetic_and_Evolutionary_Computation_Conference",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1121"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
-		"summary": "COLT 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-19T00:00:00",
-		"endDate": "2023-07-22T23:59:59",
-		"locality": "Bangalore",
-		"description": "Computational Learning Theory",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"notification_due": "2023-05-15T00:00:00",
-		"title": "COLT",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170131",
-		"source": "http://www.learningtheory.org/colt2023",
-		"publisher": "WikiCFP",
-		"categories": [
-			"machine learning",
-			"theory"
-		],
-		"parent": "Computational Learning Theory",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=536",
-		"year": "2023",
-		"abbr": [
-			"colt"
-		],
-		"nth": "36",
-		"event_id": "170131",
-		"core_confs": [
-			{
-				"CoreId": 124,
-				"Type": "Conference",
-				"Title": "Conference on Learning Theory",
-				"Acronym": "COLT",
-				"Acronym2": "colt",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/colt",
-				"Rank": "A*",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4611 - Machine learning",
-					"4602 - Artificial intelligence",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "A*",
-						"Field Of Research": [
-							"4611 - Machine learning",
-							"4602 - Artificial intelligence"
-						],
-						"other": "Identified for review but retained rank of A*(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Higherrank_1088.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4611COLT.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "A*",
-						"Field Of Research": [
-							"4611 - Machine learning",
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "A*",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A*",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A*",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A*",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "A",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A*",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "https://www.learningtheory.org/",
-					"web page @ learningtheory.org": "https://www.learningtheory.org/",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=536"
-				},
-				"probability": 100
 			}
 		]
 	},
@@ -4402,65 +3831,6 @@
 					"web page @ springer.com": "https://link.springer.com/conference/concur",
 					"Wikipedia article": "https://en.wikipedia.org/wiki/International_Conference_on_Concurrency_Theory",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=554"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
-		"summary": "ECMFA 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-17T00:00:00",
-		"endDate": "2023-07-21T23:59:59",
-		"locality": "Leicester",
-		"description": "European Conference on Modelling Foundations and Applications",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"notification_due": "2023-03-23T00:00:00",
-		"final_version_due": "2023-04-28T00:00:00",
-		"title": "ECMFA",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170587",
-		"source": "https://conf.researchr.org/home/ecmfa-2023",
-		"publisher": "WikiCFP",
-		"categories": [
-			"model-driven engineering",
-			"model transformation",
-			"domain-specific languages",
-			"software engineering"
-		],
-		"parent": "European Conference on Modelling Foundations and Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=813",
-		"year": "2023",
-		"abbr": [
-			"ecmfa"
-		],
-		"nth": "19",
-		"event_id": "170587",
-		"core_confs": [
-			{
-				"CoreId": 2287,
-				"Type": "Conference",
-				"Title": "European Conference on Modelling Foundations and Applications",
-				"Acronym": "ECMFA",
-				"Acronym2": "ecmdafa",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/ecmdafa",
-				"Rank": "NEW",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4612 - Software engineering"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "NEW",
-						"Field Of Research": [
-							"4612 - Software engineering"
-						],
-						"other": "Requested add at B, add as NEW(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1000.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4612ECMFA.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": "https://www.wikidata.org/entity/Q105695536",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=813"
 				},
 				"probability": 100
 			}
@@ -7496,101 +6866,6 @@
 					"web page @ esweek.org": "https://www.esweek.org/codes/about"
 				},
 				"probability": 58
-			}
-		]
-	},
-	{
-		"summary": "HCW 2023",
-		"eventType": "Conference",
-		"startDate": "2023-05-15T00:00:00",
-		"endDate": "2023-05-15T23:59:59",
-		"locality": "St. Petersburg, Florida, USA",
-		"description": "Heterogeneity in Computing Workshop",
-		"submission_deadline": "2023-02-10T00:00:00",
-		"notification_due": "2023-02-28T00:00:00",
-		"final_version_due": "2023-03-07T00:00:00",
-		"title": "HCW",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=171049",
-		"source": "https://hcw-ipdps.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"parallel computing",
-			"distributed computing",
-			"heterogeneity",
-			"HPC"
-		],
-		"year": "2023",
-		"abbr": [
-			"hcw"
-		],
-		"nth": "37",
-		"event_id": "171049",
-		"core_confs": [
-			{
-				"CoreId": 579,
-				"Type": "Conference",
-				"Title": "Heterogeneity in Computing Workshop",
-				"Acronym": "HCW",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4606 - Distributed computing and systems software",
-					"0805 - Distributed Computing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4606 - Distributed computing and systems software"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0805 - Distributed Computing"
-						]
-					}
-				],
-				"probability": 90
 			}
 		]
 	},

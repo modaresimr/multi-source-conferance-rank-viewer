@@ -1,5 +1,6 @@
 #!/bin/bash
-
+cd $( dirname -- "$0"; )
+echo $(pwd)
 node wiki_cfp_main.js
 node add_core_conf_2_wiki-cfp.js
 git add wiki-cfp.json
