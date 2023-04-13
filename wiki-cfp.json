@@ -361,109 +361,6 @@
 		]
 	},
 	{
-		"summary": "KES 2023",
-		"eventType": "Conference",
-		"startDate": "2023-09-06T00:00:00",
-		"endDate": "2023-09-08T23:59:59",
-		"locality": "Athens, Greece",
-		"description": "International Conference on Knowledge Based and Intelligent information and Engineering Systems",
-		"submission_deadline": "2023-04-03T00:00:00",
-		"title": "KES",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=147097",
-		"source": "http://kes2023.kesinternational.org/submission.php",
-		"publisher": "WikiCFP",
-		"categories": [
-			"computer science",
-			"artificial intelligence",
-			"engineering",
-			"security"
-		],
-		"year": "2023",
-		"abbr": [
-			"kes"
-		],
-		"nth": "27",
-		"event_id": "147097",
-		"core_confs": [
-			{
-				"CoreId": 1113,
-				"Type": "Conference",
-				"Title": "International Conference on Knowledge-Based and Intelligent Information and Engineering Systems",
-				"Acronym": "KES",
-				"Acronym2": "kes",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/kes",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"0806 - Information Systems"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "B",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://www.kesinternational.org/",
-					"web page @ kesinternational.org": "http://www.kesinternational.org/",
-					"KES International": "http://www.kesinternational.org/"
-				},
-				"probability": 90
-			}
-		]
-	},
-	{
 		"summary": "IFToMM WC 2023",
 		"eventType": "Conference",
 		"startDate": "2023-11-05T00:00:00",
@@ -569,128 +466,31 @@
 		]
 	},
 	{
-		"summary": "EEIT 2023",
+		"summary": "IEEE JCC 2023",
 		"eventType": "Conference",
-		"startDate": "2023-05-17T00:00:00",
-		"endDate": "2023-05-19T23:59:59",
-		"locality": "Nanjing, China",
-		"description": "International Conference on Engineering Education and Information Technology",
-		"submission_deadline": "2023-04-05T00:00:00",
-		"title": "EEIT",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=165450",
-		"source": "http://www.eeit.net",
-		"publisher": "WikiCFP",
-		"categories": [
-			"communications",
-			"image processing",
-			"information science",
-			"higher education"
-		],
-		"year": "2023",
-		"abbr": [
-			"eeit"
-		],
-		"nth": "3",
-		"event_id": "165450",
-		"core_confs": [
-			{
-				"CoreId": 834,
-				"Type": "Conference",
-				"Title": "Informing Science and Information Technology Education",
-				"Acronym": "InSITE",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4608 - Human-centred computing",
-					"0899 - Other Information and Computing Sciences"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4608 - Human-centred computing"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "C",
-						"Field Of Research": [
-							"4608 - Human-centred computing"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "C",
-						"Field Of Research": [
-							"0899 - Other Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "C",
-						"Field Of Research": [
-							"0899 - Other Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0899 - Other Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0899 - Other Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0899 - Other Information and Computing Sciences"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "B",
-						"Field Of Research": []
-					}
-				],
-				"probability": 27
-			}
-		]
-	},
-	{
-		"summary": "Law and Food 2023",
-		"eventType": "Conference",
-		"startDate": "2023-03-31T00:00:00",
-		"endDate": "2023-05-31T23:59:59",
-		"description": "Call for book chapters for an edited collection on Law, Policy, and Late-Night Food",
-		"submission_deadline": "2023-05-31T00:00:00",
-		"title": "Law and Food",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172924",
+		"startDate": "2023-07-17T00:00:00",
+		"endDate": "2023-07-20T23:59:59",
+		"locality": "Athens, Greece",
+		"description": "JCC International Conference on JointCloud Computing",
+		"abstract_registration_due": "2023-03-31T00:00:00",
+		"submission_deadline": "2023-04-21T00:00:00",
+		"notification_due": "2023-05-15T00:00:00",
+		"final_version_due": "2023-05-22T00:00:00",
+		"title": "IEEE JCC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173000",
 		"source": "",
 		"publisher": "WikiCFP",
 		"categories": [
-			"law",
-			"policy",
-			"urban",
-			"food"
+			"cloud computing",
+			"edge computing",
+			"hybrid cloud"
 		],
 		"year": "2023",
 		"abbr": [
-			"law",
-			"and",
-			"food"
+			"jcc"
 		],
-		"nth": "31",
-		"event_id": "172924",
+		"nth": "14",
+		"event_id": "173000",
 		"parent": "International Conference on Natural Language Generation",
 		"parentLink": "http://www.wikicfp.com/cfp/program?id=1613",
 		"core_confs": [
@@ -1229,6 +1029,63 @@
 					}
 				],
 				"probability": 17
+			}
+		]
+	},
+	{
+		"summary": "COMSCI 2023",
+		"eventType": "Conference",
+		"startDate": "2023-07-15T00:00:00",
+		"endDate": "2023-07-16T23:59:59",
+		"locality": "Virtual Conference",
+		"description": "International Conference on Computer Science and Information Technology",
+		"submission_deadline": "2023-04-15T00:00:00",
+		"notification_due": "2023-05-18T00:00:00",
+		"final_version_due": "2023-05-25T00:00:00",
+		"title": "COMSCI",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170110",
+		"source": "http://comsci2023.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"artificial intelligence",
+			"engineering",
+			"information technology"
+		],
+		"year": "2023",
+		"abbr": [
+			"comsci"
+		],
+		"nth": "2",
+		"event_id": "170110",
+		"core_confs": [
+			{
+				"CoreId": 2229,
+				"Type": "Conference",
+				"Title": "Computer Sciences and Information Technologies",
+				"Acronym": "CSIT",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4612 - Software engineering",
+					"4605 - Data management and data science"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4612 - Software engineering",
+							"4605 - Data management and data science"
+						],
+						"other": "Request Regional, but assessed as National(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Add_1061.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602CSIT.pdf\">Decision</a>)"
+					}
+				],
+				"probability": 46
 			}
 		]
 	},
@@ -1903,114 +1760,6 @@
 		]
 	},
 	{
-		"summary": "ICANN 2023",
-		"eventType": "Conference",
-		"startDate": "2023-09-23T00:00:00",
-		"endDate": "2023-09-26T23:59:59",
-		"locality": "Heraklion, Crete, Greece",
-		"description": "International Conference on Artificial Neural Networks",
-		"submission_deadline": "2023-04-09T00:00:00",
-		"notification_due": "2023-06-30T00:00:00",
-		"final_version_due": "2023-07-20T00:00:00",
-		"title": "ICANN",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170596",
-		"source": "https://e-nns.org/icann2023",
-		"publisher": "WikiCFP",
-		"categories": [
-			"neural networks",
-			"artificial intelligence",
-			"machine learning",
-			"brain-inspired computing"
-		],
-		"parent": "International Conference on Artificial Neural Networks",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=1281",
-		"year": "2023",
-		"abbr": [
-			"icann"
-		],
-		"nth": "32",
-		"event_id": "170596",
-		"core_confs": [
-			{
-				"CoreId": 915,
-				"Type": "Conference",
-				"Title": "International Conference on Artificial Neural Networks",
-				"Acronym": "ICANN",
-				"Acronym2": "icann",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icann",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4611 - Machine learning",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4611 - Machine learning"
-						],
-						"other": "Identified for review. Reranked to C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1545_857.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4611ICANN.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4611 - Machine learning"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "B",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://www.e-nns.org/",
-					"European Neural Network Society": "http://www.e-nns.org/",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=1281"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
 		"summary": "ATVA 2023",
 		"eventType": "Conference",
 		"startDate": "2023-10-24T00:00:00",
@@ -2287,173 +2036,6 @@
 					"computationalcreativity.net": "http://computationalcreativity.net/"
 				},
 				"probability": 38
-			}
-		]
-	},
-	{
-		"summary": "CICM 2023",
-		"eventType": "Conference",
-		"startDate": "2023-09-04T00:00:00",
-		"endDate": "2023-09-08T23:59:59",
-		"locality": "Cambridge, UK",
-		"description": "Conference on Intelligent Computer Mathematics",
-		"abstract_registration_due": "2023-03-27T00:00:00",
-		"submission_deadline": "2023-04-03T00:00:00",
-		"notification_due": "2023-05-13T00:00:00",
-		"final_version_due": "2023-06-05T00:00:00",
-		"title": "CICM",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170715",
-		"source": "https://cicm-conference.org/2023",
-		"publisher": "WikiCFP",
-		"categories": [
-			"mathematics",
-			"computer science",
-			"computer algebra",
-			"mathematical knowledge"
-		],
-		"year": "2023",
-		"abbr": [
-			"cicm"
-		],
-		"nth": "16",
-		"event_id": "170715",
-		"core_confs": [
-			{
-				"CoreId": 2292,
-				"Type": "Conference",
-				"Title": "Conference on Intelligent Computer Mathematics",
-				"Acronym": "CICM",
-				"Acronym2": "mkm",
-				"DBLP Source": "https://dblp.org/db/conf/mkm",
-				"Rank": "C",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4613 - Theory of computation",
-					"4612 - Software engineering",
-					"4602 - Artificial intelligence"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "C",
-						"Field Of Research": [
-							"4613 - Theory of computation",
-							"4612 - Software engineering",
-							"4602 - Artificial intelligence"
-						],
-						"other": "Request to add with rank B, added with rank C(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1681.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4613CICM.pdf\">Decision</a>)"
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 51
-			}
-		]
-	},
-	{
-		"summary": "SEAA 2023",
-		"eventType": "Conference",
-		"startDate": "2023-09-06T00:00:00",
-		"endDate": "2023-09-08T23:59:59",
-		"locality": "Durres, Albania",
-		"description": "Euromicro Conference on Software Engineering and Advanced",
-		"submission_deadline": "2023-04-03T00:00:00",
-		"notification_due": "2023-05-15T00:00:00",
-		"final_version_due": "2023-05-29T00:00:00",
-		"title": "SEAA",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=170725",
-		"source": "https://dsd-seaa2023.com/seaa/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"software engineering",
-			"advanced applications",
-			"information technology",
-			"software systems"
-		],
-		"parent": "Software Engineering and Advanced Applications",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2600",
-		"year": "2023",
-		"abbr": [
-			"seaa"
-		],
-		"nth": "49",
-		"event_id": "170725",
-		"core_confs": [
-			{
-				"CoreId": 464,
-				"Type": "Conference",
-				"Title": "Euromicro Conference on Software Engineering and Advanced Applications",
-				"Acronym": "SEAA",
-				"Acronym2": "euromicro",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/euromicro",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4612 - Software engineering",
-					"4601 - Applied computing",
-					"0803 - Computer Software"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4612 - Software engineering",
-							"4601 - Applied computing"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4612 - Software engineering",
-							"4601 - Applied computing"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						],
-						"other": "Duplicate entries existed, B, C"
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "C",
-						"Field Of Research": [
-							"0803 - Computer Software"
-						]
-					}
-				],
-				"Links": {
-					"site": "http://www.euromicro.org/",
-					"web page @ euromicro.org": "http://www.euromicro.org/",
-					"EUROMICRO Home Page": "http://www.euromicro.org/"
-				},
-				"probability": 39
 			}
 		]
 	},
@@ -4012,62 +3594,6 @@
 		]
 	},
 	{
-		"summary": "Energy Informatics 2023",
-		"eventType": "Conference",
-		"startDate": "2023-10-04T00:00:00",
-		"endDate": "2023-10-06T23:59:59",
-		"locality": "Vienna",
-		"description": "The DACH+ Conference on Energy Informatics",
-		"submission_deadline": "2023-04-09T00:00:00",
-		"notification_due": "2023-06-12T00:00:00",
-		"final_version_due": "2023-07-02T00:00:00",
-		"title": "Energy Informatics",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=171554",
-		"source": "http://www.energy-informatics2023.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"energy",
-			"informatics",
-			"electrical engineering",
-			"power engineering"
-		],
-		"year": "2023",
-		"abbr": [
-			"energy",
-			"informatics"
-		],
-		"nth": "12",
-		"event_id": "171554",
-		"core_confs": [
-			{
-				"CoreId": 2296,
-				"Type": "Conference",
-				"Title": "IEEE International Scientific Conference on Informatics",
-				"Acronym": "Informatics",
-				"Acronym2": "",
-				"DBLP Source": "",
-				"Rank": "National:Slovakia",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4613 - Theory of computation",
-					"4612 - Software engineering"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National:Slovakia",
-						"Field Of Research": [
-							"4613 - Theory of computation",
-							"4612 - Software engineering"
-						],
-						"requested add unranked, tagged National": "Slovakia (Data) (Decision)"
-					}
-				],
-				"probability": 66
-			}
-		]
-	},
-	{
 		"summary": "ICAAI 2023",
 		"eventType": "Conference",
 		"startDate": "2023-10-13T00:00:00",
@@ -4428,214 +3954,6 @@
 		]
 	},
 	{
-		"summary": "IEEE CISOSE 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-17T00:00:00",
-		"endDate": "2023-07-20T23:59:59",
-		"locality": "Athens, Greece",
-		"description": "International Congress on Intelligent and Service-Oriented Systems Engineering",
-		"abstract_registration_due": "2023-03-31T00:00:00",
-		"submission_deadline": "2023-04-07T00:00:00",
-		"title": "IEEE CISOSE",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=171719",
-		"source": "https://ieee-cisose-congress.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"machine learning",
-			"artificial intelligence",
-			"big data",
-			"cloud computing"
-		],
-		"year": "2023",
-		"abbr": [
-			"cisose"
-		],
-		"nth": "14",
-		"event_id": "171719",
-		"core_confs": [
-			{
-				"CoreId": 1097,
-				"Type": "Conference",
-				"Title": "International Conference on Intelligent Systems and Knowledge Engineering",
-				"Acronym": "ISKE",
-				"Acronym2": "iske",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/iske",
-				"Rank": "National: China",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "National: China",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "National: China",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						],
-						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					}
-				],
-				"Links": {
-					"site": null
-				},
-				"probability": 27
-			}
-		]
-	},
-	{
-		"summary": "DBSec 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-19T00:00:00",
-		"endDate": "2023-07-21T23:59:59",
-		"locality": "Sophia Antipolis, France",
-		"description": "Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy",
-		"abstract_registration_due": "2023-03-31T00:00:00",
-		"submission_deadline": "2023-04-07T00:00:00",
-		"notification_due": "2023-05-24T00:00:00",
-		"final_version_due": "2023-05-31T00:00:00",
-		"title": "DBSec",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=171737",
-		"source": "http://www.dbsec2023.unimol.it",
-		"publisher": "WikiCFP",
-		"categories": [
-			"security",
-			"privacy"
-		],
-		"parent": "Database Security",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=661",
-		"year": "2023",
-		"abbr": [
-			"dbsec",
-			"dbsec'23"
-		],
-		"nth": "37",
-		"event_id": "171737",
-		"core_confs": [
-			{
-				"CoreId": 2067,
-				"Type": "Conference",
-				"Title": "IFIP WG 11.3 Working Conference on Data and Applications Security (also known as DBSEC)",
-				"Acronym": "DBSEC",
-				"Acronym2": "dbsec",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/dbsec",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4604 - Cybersecurity and privacy",
-					"0803 - Computer Software",
-					"0805 - Distributed Computing",
-					"1005 - Communications Technologies"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4604 - Cybersecurity and privacy"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0803 - Computer Software",
-							"0805 - Distributed Computing",
-							"1005 - Communications Technologies"
-						],
-						"other": "Data provided as a comparator. Rank changed from A to B.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_143.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/DBSEC.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software",
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software",
-							"0805 - Distributed Computing"
-						],
-						"other": "reviewed 2014. No change(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/DBSEC2014.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/DBSEC.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "A",
-						"Field Of Research": [
-							"0803 - Computer Software",
-							"0805 - Distributed Computing"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://seclab.dti.unimi.it/~ifip113/",
-					"web page @ unimi.it": "http://seclab.dti.unimi.it/~ifip113/",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=661",
-					"Home Page of the IFIP WG 11.3 - Database Security": "http://spdp.di.unimi.it/~ifip113/"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
 		"summary": "PRDC 2023",
 		"eventType": "Conference",
 		"startDate": "2023-10-24T00:00:00",
@@ -4960,10 +4278,10 @@
 		"source": "http://crum-workshop.github.io",
 		"publisher": "WikiCFP",
 		"categories": [
-			"user modeling",
+			"computer science",
 			"adaptive systems",
 			"hypermedia",
-			"human-computer interaction"
+			"HCI"
 		],
 		"year": "2023",
 		"abbr": [
@@ -5348,112 +4666,6 @@
 					}
 				],
 				"probability": 26
-			}
-		]
-	},
-	{
-		"summary": "KES - IS 45 2023",
-		"eventType": "Conference",
-		"startDate": "2023-09-06T00:00:00",
-		"endDate": "2023-09-08T23:59:59",
-		"locality": "Athens, Greece",
-		"description": "Intelligent Critical Infrastructures",
-		"submission_deadline": "2023-04-03T00:00:00",
-		"notification_due": "2023-05-08T00:00:00",
-		"final_version_due": "2023-05-29T00:00:00",
-		"title": "KES - IS 45",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172024",
-		"source": "http://kes2023.kesinternational.org/cms/userfiles/is45.pdf",
-		"publisher": "WikiCFP",
-		"categories": [
-			"critical infrastructures",
-			"artificial intelligence",
-			"digital twins",
-			"resilience strategies"
-		],
-		"year": "2023",
-		"abbr": [
-			"kes",
-			"is",
-			"45"
-		],
-		"event_id": "172024",
-		"core_confs": [
-			{
-				"CoreId": 1113,
-				"Type": "Conference",
-				"Title": "International Conference on Knowledge-Based and Intelligent Information and Engineering Systems",
-				"Acronym": "KES",
-				"Acronym2": "kes",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/kes",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4602 - Artificial intelligence",
-					"0806 - Information Systems"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4602 - Artificial intelligence"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0806 - Information Systems"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "B",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "http://www.kesinternational.org/",
-					"web page @ kesinternational.org": "http://www.kesinternational.org/",
-					"KES International": "http://www.kesinternational.org/"
-				},
-				"probability": 66
 			}
 		]
 	},
@@ -6926,112 +6138,6 @@
 				"Links": {
 					"site": "http://www.wikicfp.com/cfp/program?id=630",
 					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=630"
-				},
-				"probability": 100
-			}
-		]
-	},
-	{
-		"summary": "SCA 2023",
-		"eventType": "Conference",
-		"startDate": "2023-08-04T00:00:00",
-		"endDate": "2023-08-08T23:59:59",
-		"locality": "Los Angeles, USA",
-		"description": "Symposium on Computer Animation",
-		"submission_deadline": "2023-04-05T00:00:00",
-		"notification_due": "2023-05-15T00:00:00",
-		"final_version_due": "2023-07-03T00:00:00",
-		"title": "SCA",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172333",
-		"source": "http://computeranimation.org/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"animation",
-			"computer graphics"
-		],
-		"parent": "Symposium on Computer Animation",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2566",
-		"year": "2023",
-		"abbr": [
-			"sca"
-		],
-		"nth": "22",
-		"event_id": "172333",
-		"core_confs": [
-			{
-				"CoreId": 42,
-				"Type": "Conference",
-				"Title": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation",
-				"Acronym": "SCA",
-				"Acronym2": "sca",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/sca",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4607 - Graphics, augmented reality and games",
-					"0801 - Artificial Intelligence and Image Processing"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						],
-						"other": "Provided as B comparator, retain B(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1009_1109.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4607SCA.pdf\">Decision</a>)"
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0801 - Artificial Intelligence and Image Processing"
-						]
-					},
-					{
-						"Source": "CORE2008",
-						"Rank": "A",
-						"Field Of Research": []
-					}
-				],
-				"Links": {
-					"site": "https://dl.acm.org/conference/sca/proceedings",
-					"web page @ acm.org": "https://dl.acm.org/conference/sca/proceedings",
-					"WikiCFP entry": "http://www.wikicfp.com/cfp/program?id=2566"
 				},
 				"probability": 100
 			}
@@ -8844,106 +7950,6 @@
 		]
 	},
 	{
-		"summary": "SGP 2023",
-		"eventType": "Conference",
-		"startDate": "2023-07-03T00:00:00",
-		"endDate": "2023-07-05T23:59:59",
-		"locality": "Genova, Italy",
-		"description": "Symposium on Geometry Processing",
-		"abstract_registration_due": "2023-04-07T00:00:00",
-		"submission_deadline": "2023-04-12T00:00:00",
-		"notification_due": "2023-05-31T00:00:00",
-		"final_version_due": "2023-06-20T00:00:00",
-		"title": "SGP",
-		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172649",
-		"source": "https://sgp2023.github.io/",
-		"publisher": "WikiCFP",
-		"categories": [
-			"geometry processing",
-			"computer graphics"
-		],
-		"parent": "Symposium on Geometry Processing",
-		"parentLink": "http://www.wikicfp.com/cfp/program?id=2651",
-		"year": "2023",
-		"abbr": [
-			"sgp"
-		],
-		"event_id": "172649",
-		"core_confs": [
-			{
-				"CoreId": 1784,
-				"Type": "Conference",
-				"Title": "Symposium on Geometry Processing",
-				"Acronym": "SGP",
-				"Acronym2": "sgp",
-				"DBLP Source": "https://dblp.uni-trier.de/db/conf/sgp",
-				"Rank": "B",
-				"Rank Source": "CORE2021",
-				"Field": [
-					"4607 - Graphics, augmented reality and games",
-					"0802 - Computation Theory and Mathematics"
-				],
-				"Info": [
-					{
-						"Source": "CORE2021",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2020",
-						"Rank": "B",
-						"Field Of Research": [
-							"4607 - Graphics, augmented reality and games"
-						]
-					},
-					{
-						"Source": "CORE2018",
-						"Rank": "B",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2017",
-						"Rank": "B",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2014",
-						"Rank": "B",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "CORE2013",
-						"Rank": "B",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					},
-					{
-						"Source": "ERA2010",
-						"Rank": "B",
-						"Field Of Research": [
-							"0802 - Computation Theory and Mathematics"
-						]
-					}
-				],
-				"Links": {
-					"site": "http://www.geometryprocessing.org/",
-					"web page @ geometryprocessing.org": "http://www.geometryprocessing.org/",
-					"SGP Home Page": "http://www.geometryprocessing.org/"
-				},
-				"probability": 90
-			}
-		]
-	},
-	{
 		"summary": "CIMPS 2023",
 		"eventType": "Conference",
 		"startDate": "2023-10-18T00:00:00",
@@ -9139,6 +8145,101 @@
 					}
 				],
 				"probability": 27
+			}
+		]
+	},
+	{
+		"summary": "GRAPH-HOC 2023",
+		"eventType": "Conference",
+		"startDate": "2023-06-17T00:00:00",
+		"endDate": "2023-06-18T23:59:59",
+		"locality": "Sydney, Australia",
+		"description": "International Conference on Applications of Graph Theory in Wireless Ad hoc Networks and Sensor Networks",
+		"submission_deadline": "2023-04-15T00:00:00",
+		"notification_due": "2023-05-20T00:00:00",
+		"final_version_due": "2023-05-27T00:00:00",
+		"title": "GRAPH-HOC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172715",
+		"source": "https://cseit2023.org/graphhoc/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"graph theory",
+			"wireless ad hoc networks",
+			"data gathering",
+			"data mining"
+		],
+		"year": "2023",
+		"abbr": [
+			"graph-hoc"
+		],
+		"nth": "15",
+		"event_id": "172715",
+		"core_confs": [
+			{
+				"CoreId": 1878,
+				"Type": "Conference",
+				"Title": "Workshop on Applications of Graph Theory in Wireless Ad hoc Networks and Sensor Networks",
+				"Acronym": "Graph-hoc",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0802 - Computation Theory and Mathematics"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0802 - Computation Theory and Mathematics"
+						]
+					}
+				],
+				"probability": 90
 			}
 		]
 	},
@@ -9865,6 +8966,1247 @@
 					}
 				],
 				"probability": 27
+			}
+		]
+	},
+	{
+		"summary": "IEEE ISKE 2023",
+		"eventType": "Conference",
+		"startDate": "2023-11-17T00:00:00",
+		"endDate": "2023-11-19T23:59:59",
+		"locality": "Fuzhou, China",
+		"description": "The International Conference on Intelligent Systems and Knowledge Engineering",
+		"submission_deadline": "2023-06-30T00:00:00",
+		"title": "IEEE ISKE",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172941",
+		"source": "http://www.iske2023.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"intelligent systems",
+			"systems engineering",
+			"knowledge management",
+			"cloud computing"
+		],
+		"year": "2023",
+		"abbr": [
+			"iske"
+		],
+		"nth": "18",
+		"event_id": "172941",
+		"core_confs": [
+			{
+				"CoreId": 1097,
+				"Type": "Conference",
+				"Title": "International Conference on Intelligent Systems and Knowledge Engineering",
+				"Acronym": "ISKE",
+				"Acronym2": "iske",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/iske",
+				"Rank": "National: China",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: China",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: China",
+						"Field Of Research": [
+							"4602 - Artificial intelligence"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 90
+			}
+		]
+	},
+	{
+		"summary": "SPIE ICMV 2023",
+		"eventType": "Conference",
+		"startDate": "2023-11-15T00:00:00",
+		"endDate": "2023-11-18T23:59:59",
+		"locality": "Yerevan, Armenia",
+		"description": "The International Conference on Machine Vision",
+		"submission_deadline": "2023-07-05T00:00:00",
+		"title": "SPIE ICMV",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172947",
+		"source": "http://icmv.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"systems engineering",
+			"computer engineering",
+			"computer vision",
+			"computer graphics"
+		],
+		"year": "2023",
+		"abbr": [
+			"icmv",
+			"spie"
+		],
+		"nth": "16",
+		"event_id": "172947",
+		"core_confs": [
+			{
+				"CoreId": 1124,
+				"Type": "Conference",
+				"Title": "International Conference on Machine Vision",
+				"Acronym": "ICMV",
+				"Acronym2": "icmv",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/icmv",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4603 - Computer vision and multimedia computation",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4603 - Computer vision and multimedia computation"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4603 - Computer vision and multimedia computation"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"Links": {
+					"site": "http://icmv.org/",
+					"icmv.org": "http://icmv.org/"
+				},
+				"probability": 100
+			}
+		]
+	},
+	{
+		"summary": "AIAD 2023",
+		"eventType": "Conference",
+		"startDate": "2023-07-15T00:00:00",
+		"endDate": "2023-07-16T23:59:59",
+		"locality": "Virtual Conference",
+		"description": "International Conference on Artificial Intelligence Advances",
+		"submission_deadline": "2023-04-15T00:00:00",
+		"notification_due": "2023-05-18T00:00:00",
+		"final_version_due": "2023-05-25T00:00:00",
+		"title": "AIAD",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172991",
+		"source": "https://aiad2023.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"machine learning",
+			"robotics",
+			"NLP"
+		],
+		"year": "2023",
+		"abbr": [
+			"aiad"
+		],
+		"nth": "2",
+		"event_id": "172991",
+		"core_confs": [
+			{
+				"CoreId": 909,
+				"Type": "Conference",
+				"Title": "International Conference on Artificial Intelligence",
+				"Acronym": "IC-AI",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: USA",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4611 - Machine learning",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 32
+			}
+		]
+	},
+	{
+		"summary": "CSITA 2023",
+		"eventType": "Conference",
+		"startDate": "2023-04-29T00:00:00",
+		"endDate": "2023-04-30T23:59:59",
+		"locality": "Copenhagen, Denmark",
+		"description": "International Conference on Computer Science, Information Technology and Applications",
+		"submission_deadline": "2023-04-15T00:00:00",
+		"notification_due": "2023-04-22T00:00:00",
+		"final_version_due": "2023-04-25T00:00:00",
+		"title": "CSITA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=172993",
+		"source": "https://csita2023.org/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"artificial intelligence",
+			"information technology",
+			"internet of things"
+		],
+		"year": "2023",
+		"abbr": [
+			"csita"
+		],
+		"nth": "9",
+		"event_id": "172993",
+		"core_confs": [
+			{
+				"CoreId": 1083,
+				"Type": "Conference",
+				"Title": "International Conference on Information Technology and Applications",
+				"Acronym": "ICITA",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "Australasian C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4601 - Applied computing",
+					"08 - Information and Computing Sciences"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "Australasian C",
+						"Field Of Research": [
+							"4601 - Applied computing"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "Australasian C",
+						"Field Of Research": [
+							"4601 - Applied computing"
+						],
+						"other": "Ranked as C due to no dblp link and consequent inability to access data."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 29
+			}
+		]
+	},
+	{
+		"summary": "SoICT 2023",
+		"eventType": "Conference",
+		"startDate": "2023-12-07T00:00:00",
+		"endDate": "2023-12-08T23:59:59",
+		"locality": "Hochiminh city, Vietnam",
+		"description": "The Symposium on Information and Communication Technology",
+		"abstract_registration_due": "2023-08-20T00:00:00",
+		"submission_deadline": "2023-09-05T00:00:00",
+		"notification_due": "2023-10-15T00:00:00",
+		"final_version_due": "2023-10-23T00:00:00",
+		"title": "SoICT",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173021",
+		"source": "https://soict.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"aritficial intelligence",
+			"computer vision",
+			"network and communication"
+		],
+		"year": "2023",
+		"abbr": [
+			"soict"
+		],
+		"nth": "12",
+		"event_id": "173021",
+		"core_confs": [
+			{
+				"CoreId": 1387,
+				"Type": "Conference",
+				"Title": "International Symposium on Information and Communication Technologies",
+				"Acronym": "ISICT",
+				"Acronym2": "isict",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/isict",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"46 - Information and Computing Sciences",
+					"08 - Information and Computing Sciences"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"46 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"46 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"08 - Information and Computing Sciences"
+						]
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 75
+			}
+		]
+	},
+	{
+		"summary": "ARIN 2023",
+		"eventType": "Conference",
+		"startDate": "2023-04-29T00:00:00",
+		"endDate": "2023-04-30T23:59:59",
+		"locality": "Copenhagen, Denmark",
+		"description": "International Conference on Artificial Intelligence",
+		"submission_deadline": "2023-04-15T00:00:00",
+		"notification_due": "2023-04-22T00:00:00",
+		"final_version_due": "2023-04-25T00:00:00",
+		"title": "ARIN",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173046",
+		"source": "https://csita2023.org/arin/index",
+		"publisher": "WikiCFP",
+		"categories": [
+			"engineering",
+			"machine learning",
+			"neural networks",
+			"deep learning"
+		],
+		"year": "2023",
+		"abbr": [
+			"arin"
+		],
+		"nth": "9",
+		"event_id": "173046",
+		"core_confs": [
+			{
+				"CoreId": 909,
+				"Type": "Conference",
+				"Title": "International Conference on Artificial Intelligence",
+				"Acronym": "IC-AI",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: USA",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4611 - Machine learning",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 51
+			}
+		]
+	},
+	{
+		"summary": "BigDataSE 2023",
+		"eventType": "Conference",
+		"startDate": "2023-11-01T00:00:00",
+		"endDate": "2023-11-03T23:59:59",
+		"locality": "Exeter, UK",
+		"description": "International Conference on Big Data Science and Engineering",
+		"submission_deadline": "2023-07-01T00:00:00",
+		"notification_due": "2023-09-01T00:00:00",
+		"final_version_due": "2023-10-01T00:00:00",
+		"title": "BigDataSE",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173048",
+		"source": "https://hpcn.exeter.ac.uk/bigdatase2023/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"systems, models and algorith",
+			"big data",
+			"large data stream processing",
+			"distributed and federated da"
+		],
+		"year": "2023",
+		"abbr": [
+			"bigdatase"
+		],
+		"nth": "17",
+		"event_id": "173048",
+		"core_confs": [
+			{
+				"CoreId": 2182,
+				"Type": "Conference",
+				"Title": "IEEE International Conference on Data Science and Engineering",
+				"Acronym": "ICDSE",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National:India",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4605 - Data management and data science",
+					"4611 - Machine learning",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National:India",
+						"Field Of Research": [
+							"4605 - Data management and data science",
+							"4611 - Machine learning"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National:India",
+						"Field Of Research": [
+							"4605 - Data management and data science"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "National:India",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						],
+						"other": "Always held in India. Added as National.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_AddUnRankedRequest_46.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/ICDSE.pdf\">Decision</a>)"
+					}
+				],
+				"probability": 45
+			}
+		]
+	},
+	{
+		"summary": "ICRAI 2023",
+		"eventType": "Conference",
+		"startDate": "2023-11-17T00:00:00",
+		"endDate": "2023-11-19T23:59:59",
+		"locality": "Singapore",
+		"description": "International Conference on Robotics and Artificial Intelligence",
+		"submission_deadline": "2023-06-10T00:00:00",
+		"title": "ICRAI",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173074",
+		"source": "http://icrai.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"intelligent systems",
+			"control",
+			"automation",
+			"mechanical engineering"
+		],
+		"year": "2023",
+		"abbr": [
+			"icrai"
+		],
+		"nth": "9",
+		"event_id": "173074",
+		"core_confs": [
+			{
+				"CoreId": 913,
+				"Type": "Conference",
+				"Title": "International Conference on Artificial Intelligence and Statistics",
+				"Acronym": "AISTATS",
+				"Acronym2": "aistats",
+				"DBLP Source": "https://dblp.uni-trier.de/db/conf/aistats",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4611 - Machine learning",
+					"4602 - Artificial intelligence",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4611 - Machine learning",
+							"4602 - Artificial intelligence"
+						],
+						"other": "Provided as comparator,retain A(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Comparator_for_1281_598.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4611AIStats.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "A",
+						"Field Of Research": [
+							"4611 - Machine learning",
+							"4602 - Artificial intelligence"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "A",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						],
+						"other": "Move from B to A as requested(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/AISTATS2014.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2014/AISTATS.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "B",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"Links": {
+					"site": "https://www.wikidata.org/entity/Q47449932",
+					"www.aistats.org": "http://www.aistats.org/"
+				},
+				"probability": 29
+			},
+			{
+				"CoreId": 909,
+				"Type": "Conference",
+				"Title": "International Conference on Artificial Intelligence",
+				"Acronym": "IC-AI",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: USA",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4611 - Machine learning",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: USA",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4611 - Machine learning"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "C",
+						"Field Of Research": []
+					}
+				],
+				"probability": 24
+			}
+		]
+	},
+	{
+		"summary": "CSCI 2023",
+		"eventType": "Conference",
+		"startDate": "2023-11-24T00:00:00",
+		"endDate": "2023-11-26T23:59:59",
+		"locality": "Hong Kong",
+		"description": "International Conference on Computer Science and Computational Intelligence",
+		"submission_deadline": "2023-06-30T00:00:00",
+		"title": "CSCI",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173080",
+		"source": "http://csci.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer science",
+			"artificial intelligence",
+			"software engineering",
+			"computational intelligence"
+		],
+		"year": "2023",
+		"abbr": [
+			"csci"
+		],
+		"event_id": "173080",
+		"core_confs": [
+			{
+				"CoreId": 2219,
+				"Type": "Conference",
+				"Title": "CONFERENCE ON COMPUTER SCIENCE AND INTELLIGENCE SYSTEMS",
+				"Acronym": "FedCSIS",
+				"Acronym2": "search?q=fedcsis",
+				"DBLP Source": "https://dblp.org/search?q=fedcsis",
+				"Rank": "B",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4602 - Artificial intelligence",
+					"4612 - Software engineering",
+					"4601 - Applied computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "B",
+						"Field Of Research": [
+							"4602 - Artificial intelligence",
+							"4612 - Software engineering",
+							"4601 - Applied computing"
+						],
+						"other": "Request for rank B accepted(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1431.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4602FedCSIS.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 11
+			}
+		]
+	},
+	{
+		"summary": "IPMV--Ei 2024",
+		"eventType": "Conference",
+		"startDate": "2024-01-12T00:00:00",
+		"endDate": "2024-01-14T23:59:59",
+		"locality": "Macau, China",
+		"description": "International Conference on Image Processing and Machine Vision",
+		"submission_deadline": "2023-08-20T00:00:00",
+		"title": "IPMV--Ei",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173089",
+		"source": "http://www.ipmv.org/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"computer engineering",
+			"computer graphics",
+			"computer vision",
+			"artificial intelligence"
+		],
+		"year": "2024",
+		"abbr": [
+			"ipmv"
+		],
+		"nth": "6",
+		"event_id": "173089",
+		"core_confs": [
+			{
+				"CoreId": 1321,
+				"Type": "Conference",
+				"Title": "International Machine Vision and Image Processing Conference",
+				"Acronym": "IMVIP",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "National: ireland",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4603 - Computer vision and multimedia computation",
+					"0801 - Artificial Intelligence and Image Processing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "National: ireland",
+						"Field Of Research": [
+							"4603 - Computer vision and multimedia computation"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "National: ireland",
+						"Field Of Research": [
+							"4603 - Computer vision and multimedia computation"
+						],
+						"other": "CORE does not generally rank conferences held in a single country or region. See CORE website for details."
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0801 - Artificial Intelligence and Image Processing"
+						]
+					}
+				],
+				"probability": 15
+			}
+		]
+	},
+	{
+		"summary": "AINTEC 2023",
+		"eventType": "Conference",
+		"startDate": "2023-12-12T00:00:00",
+		"endDate": "2023-12-14T23:59:59",
+		"locality": "Hanoi, Vietnam",
+		"description": "Asian Internet Engineering",
+		"abstract_registration_due": "2023-08-10T00:00:00",
+		"submission_deadline": "2023-08-17T00:00:00",
+		"notification_due": "2023-10-19T00:00:00",
+		"final_version_due": "2023-11-19T00:00:00",
+		"title": "AINTEC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173115",
+		"source": "https://www.interlab.ait.ac.th/aintec2023/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"social network",
+			"cloud computing",
+			"network security",
+			"quantum networking"
+		],
+		"year": "2023",
+		"abbr": [
+			"aintec"
+		],
+		"nth": "18",
+		"event_id": "173115",
+		"core_confs": [
+			{
+				"CoreId": 1106,
+				"Type": "Conference",
+				"Title": "International Conference on Internet Computing in Science and Engineering",
+				"Acronym": "ICICSE",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "C",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software",
+					"0805 - Distributed Computing"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "C",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						],
+						"other": "Data provided as a comparator for EATIS. Remains as C.(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/Data_Comparator_60.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2018/ICICSE.pdf\">Decision</a>)"
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					},
+					{
+						"Source": "ERA2010",
+						"Rank": "C",
+						"Field Of Research": [
+							"0805 - Distributed Computing"
+						]
+					}
+				],
+				"probability": 19
+			}
+		]
+	},
+	{
+		"summary": "PRAXAI @ IEEE-DSAA 2023",
+		"eventType": "Conference",
+		"startDate": "2023-10-09T00:00:00",
+		"endDate": "2023-10-13T23:59:59",
+		"locality": "Thessaloniki, Grece",
+		"description": "Practical applications of explainable artificial intelligence DSAA23",
+		"submission_deadline": "2023-05-02T00:00:00",
+		"notification_due": "2023-07-10T00:00:00",
+		"final_version_due": "2023-08-07T00:00:00",
+		"title": "PRAXAI @ IEEE-DSAA",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173119",
+		"source": "https://praxai.geist.re",
+		"publisher": "WikiCFP",
+		"categories": [
+			"explainable ai",
+			"machine learning",
+			"data mining",
+			"artificial intelligence"
+		],
+		"year": "2023",
+		"abbr": [
+			"praxai",
+			"dsaa"
+		],
+		"nth": "10",
+		"event_id": "173119",
+		"core_confs": [
+			{
+				"CoreId": 2237,
+				"Type": "Conference",
+				"Title": "IEEE International Conference on Data Science and Advanced Analytics",
+				"Acronym": "DSAA",
+				"Acronym2": "dsaa",
+				"DBLP Source": "https://dblp.org/db/conf/dsaa",
+				"Rank": "A",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4605 - Data management and data science",
+					"4611 - Machine learning"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "A",
+						"Field Of Research": [
+							"4605 - Data management and data science",
+							"4611 - Machine learning"
+						],
+						"other": "Requested A, added at A, to be re-assessed next round.(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1301.pdf\">Data</a>)(<a href=\"http://portal.core.edu.au/core/media/conference_submission_2020/Data_Addrank_1690.pdf\">Extra Data 1</a>)(<a href=\"http://portal.core.edu.au/core/media/justification/CORE2021/4605DSAA.pdf\">Decision</a>)"
+					}
+				],
+				"Links": {
+					"site": null
+				},
+				"probability": 51
+			}
+		]
+	},
+	{
+		"summary": "MICC 2023",
+		"eventType": "Conference",
+		"startDate": "2023-12-10T00:00:00",
+		"endDate": "2023-12-12T23:59:59",
+		"locality": "Kuala Lumpur",
+		"description": "Malaysia International Conference on Communications",
+		"submission_deadline": "2023-06-30T00:00:00",
+		"notification_due": "2023-08-31T00:00:00",
+		"final_version_due": "2023-09-30T00:00:00",
+		"title": "MICC",
+		"identifier": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=173135",
+		"source": "https://micc2023.mycomvt.info/",
+		"publisher": "WikiCFP",
+		"categories": [
+			"communication",
+			"antenna",
+			"satellite",
+			"wireless"
+		],
+		"year": "2023",
+		"abbr": [
+			"micc"
+		],
+		"nth": "16",
+		"event_id": "173135",
+		"core_confs": [
+			{
+				"CoreId": 2097,
+				"Type": "Conference",
+				"Title": "Malaysia International Conference on Communications",
+				"Acronym": "MICC",
+				"Acronym2": "",
+				"DBLP Source": "",
+				"Rank": "Regional",
+				"Rank Source": "CORE2021",
+				"Field": [
+					"4606 - Distributed computing and systems software"
+				],
+				"Info": [
+					{
+						"Source": "CORE2021",
+						"Rank": "Regional",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2020",
+						"Rank": "Regional",
+						"Field Of Research": [
+							"4606 - Distributed computing and systems software"
+						]
+					},
+					{
+						"Source": "CORE2018",
+						"Rank": "Regional",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2017",
+						"Rank": "Regional",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2014",
+						"Rank": "Regional",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2013",
+						"Rank": "Regional",
+						"Field Of Research": []
+					},
+					{
+						"Source": "CORE2008",
+						"Rank": "Regional",
+						"Field Of Research": []
+					}
+				],
+				"probability": 51
 			}
 		]
 	}
