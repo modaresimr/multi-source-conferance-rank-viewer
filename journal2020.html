@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Smart Conference Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.2/js/dataTables.select.min.js"></script>
+    <link href="https://cdn.datatables.net/select/1.2.2/css/select.dataTables.min.css" rel="stylesheet">
+    <style>
+        table.dataTable thead th,
+        table.dataTable thead td {
+            padding: 5px 2px;
+            text-align: center;
+        }
+
+        .bigdrop {
+            min-width: 500px !important;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        label.rowselector {
+            cursor: pointer;
+        }
+
+        label.rowselector .tik {
+            display: none;
+        }
+
+        label.rowselector .untik {
+            display: block;
+        }
+
+        .selected label.rowselector .tik {
+            display: block;
+        }
+
+        .selected label.rowselector .untik {
+            display: none;
+        }
+    </style>
+    <script>
+        function format_row(item) {
+            return '<tr>' + item + "</tr>"
+        }
+        function format_a(text, link) {
+            return `<a href='${link}' target="_blank">${text}</a> `
+        }
+        function format_scimag(confs) {
+            var out = "";
+            out += '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+            out += format_row(`<th>Title</th><th>Q</th><th>SJR</th><th>WOS</th><th>H-index</th><th>Probability</th><th>Topics</th><th>Link</th>`)
+            confs.forEach(conf => {
+                // Object.keys(d).forEach((p) => (out += "<dt>" + p + "</dt><dd>" + internal_format(d[p]) + "</dd>"));
+
+
+                topic = ''
+                Object.keys(conf.Topic).forEach(p => {
+                    topic += scimagojr_info['area'][p] + "<br>"
+                    conf.Topic[p].forEach(q => topic += "└─" + scimagojr_info['category'][q] + "<br>")
+                })
+                out += format_row(
+                    `<td>${conf.SOURCETITLE}</td>` +
+                    `<td>Q${conf.CUARTIL}</td>` +
+                    `<td>${conf.SJR}</td>` +
+                    `<td>${conf.WOS}</td>` +
+                    `<td>${conf.H}</td>` +
+                    `<td>${conf.probability}%</td>` +
+                    `<td>${topic}</td>` +
+                    `<td> ${format_a('scisite', "https://www.scimagojr.com/journalsearch.php?q=${conf.SOURCEID}&tip=sid&clean=0")}</td>`
+                );
+
+
+            })
+            out += "</table>";
+            return out;
+        }
+        function format(d) {
+            // `d` is the original data object for the row
+            if (Array.isArray(d)) {
+                var out = '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">';
+                d.forEach((p) => (out += "<tr>" + format(p) + "</tr>"));
+                out += "</table>";
+                return out;
+            }
+
+            if (typeof d == "object") {
+                var out = "<table>";
+                Object.keys(d).forEach((p) => (out += "<tr><th>" + p + "</th><td>" + format(d[p]) + "</td></tr>"));
+                out+="</table>"
+                return out;
+            }
+
+            return "<div>" + d + "</div>";
+        }
+
+        $(document).ready(function () {
+            dataSet = [];
+
+            $("#rankTable thead th").each(function () {
+                var title = $(this).text();
+                //$(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+            });
+            cols = ['Select', "Type", "Title", "Rank", 'SJR','WOS', 'Hindex', 'CS', 'SNIP', "Topic",'Rev1', 'RevF','AR', "Link"];
+            table = $("#rankTable").DataTable({
+                data: dataSet,
+                dom: '<"top"f>it<"bottom"lrp><"clear">',
+
+                "order": [[cols.indexOf('SJR'), "dsc"]],
+                //"deferRender": true,
+                // ordering: false,
+                select: {
+                    style: 'multi',
+                    selector: 'td:first-child'
+                },
+                columns: [
+                    // { data: "Sourceid", width: "40px" , render: (data, type, row) => {
+                    //         return `<label class="rowselector"><span class='tik'>✓</span><span class='untik'>✗</span></label>`
+                    // }},
+                    {
+                        data: 'Sourceid', render: () => '',
+                        orderable: false,
+                        className: 'select-checkbox',
+                        targets: 0, width: "80px"
+                    },
+                    {
+                        data: "Type", width: "40px", render: (data, type, row) =>
+                            format_a(data, document.location.href.split("#")[0] + '#q="' + row['Title'] + '"')
+                    },
+                    {
+                        data: "Title", orderable: false,
+                        render: (data, type, row) =>
+                            (data && row['Links']?.['Homepage']) ? format_a(data, row['Links']?.['Homepage']) : data
+                        // (data && row['Links']?.['Homepage']) ? format_a(data, document.location.href.split("#")[0] + '#q="' + data + '"') : data
+                    },
+
+                    { data: "Rank", width: "70px", orderable: false },
+                    {
+                        data: "SJR", width: "60px", render: (data, type, row) =>
+                            (data) ? format_a(data, `https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) : data
+                    },
+                    { data: "WOS", width: "70px", orderable: false },
+                    { data: "H index", width: "60px" },
+                    {
+                        data: 'CiteScore', width: "60px", render: (data, type, row) =>
+                            (data) ? format_a(data, `https://www.scopus.com/sourceid/${row['Sourceid']}`) : data
+                    },
+                    { data: 'SNIP', width: "60px" },
+                    //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
+                    { data: "Categories", orderable: false },
+                    { data: "Rev1", orderable: true , width: "60px", "type": "ali"},
+                    { data: "RevF", orderable: true , width: "60px", "type": "ali"},
+                    { data: "AR", orderable: true, width: "60px" , "type": "ali"},
+                    // { data: "CatRank", render: (data, type) => data.join("<br>") },
+                    {//Link 
+                        data: "Title", orderable: false,
+                        width: "70px",
+                        render: (data, type, row) => {
+                            if (data == '') return '';
+                            slug = data.replace(/ /g, '-').replace(/[^\w-]+/g, '')
+
+                            link = '';
+                            if (row['Issn']) {
+                                link += row['Issn']
+                                    .map(p => {
+                                        return format_a('els', `https://journalinsights.elsevier.com/journals/` + p)
+                                    }).join(' ')
+
+                            }
+                            link += format_a('spr', 'https://www.springer.com/gp/search?facet-type=type__journal&query=' + data)
+                            
+                            // format_a('sjr',`https://www.scimagojr.com/journalsearch.php?q=${row['Sourceid']}&tip=sid&clean=0`) +
+                            // format_a('sps', `https://www.scopus.com/sourceid/${row['Sourceid']}`)+ //"<br>" +
+                            return (link ? link /*+ "<br>"*/ : '') +
+                                format_a('IEEE', 'https://ieeexplore.ieee.org/browse/periodicals/title?queryText=' + data) +
+                                format_a('AA', 'https://academic-accelerator.com/Journal-Profile/' + slug) +
+                                format_a('scirev', `https://scirev.org/journal/${slug.toLowerCase()}/`)
+
+                        },
+                    },
+                ],
+                initComplete: function () { },
+            });
+            $(".dataTables_filter").append($(".dataTables_filter label input"));
+            $(".dataTables_filter, .dataTables_filter input").attr("style", "width:100%");
+            $(".dataTables_filter label").hide();
+            $(".dataTables_filter input").attr("placeholder", "Search any topic, conference journal, etc.");
+
+            //$("div.toolbar").html('<input type="search" class="" placeholder="" aria-controls="rankTable" style="width: 100%;">'
+            $("#rankTable tbody").on('click', 'label', function () {
+                $(this).parent().parent().toggleClass('selected');
+            });
+            $("#rankTable tbody").on("click", "td", function () {
+                if ($(this).hasClass('select-checkbox'))
+                    return;
+                var tr = $(this).closest("tr");
+                var row = table.row(tr);
+
+                if (row.child.isShown()) {
+                    // This row is already open - close it
+                    row.child.hide();
+                    tr.removeClass("shown");
+                } else {
+                    // Open this row
+                    row.child(format_all(row.data())).show();
+                    tr.addClass("shown");
+                }
+            });
+            function format_all(d) {
+                var out = '<table>'
+                keys = Array.from(Object.keys(d));
+                keys = keys.filter(el => ['Percentile','Rank','Links', 'Categories', 'Title', 'Topic', 'Scope'].indexOf(el) < 0);
+
+                col = 4
+                out += format_row(`<th>Title</th><td colspan="${col * 2 - 1}">${d['Title']}</td>`)
+                out += format_row(`<th>Links</th><td colspan="${col * 2 - 1}">${Object.keys(d['Links']).map(p=>format_a(p, d['Links'][p]))}</td>`)
+                out += format_row(`<th>Categories</th><td colspan="${col * 2 - 1}">${d['Categories']}</td>`)
+                out += format_row(`<th>Scope</th><td colspan="${col * 2 - 1}">${d['Scope']}</td>`)
+                for (var i = 0; i < keys.length; i += col) {
+                    out += "<tr>"
+                    for (var j = 0; j < col && i + j < keys.length; j++) {
+                        p = keys[i + j]
+                        out += `<th>${p}</th><td>${format(d[p])}</td>`
+                    }
+                    out += "</tr>"
+                }
+                
+                out += '</table>'
+                return out
+            }
+
+            function hashfunc() {
+                params = new URLSearchParams(
+                    window.location.hash.substr(1) // skip the first char (#)
+                );
+                if (params.get("q") != null) {
+                    table.search(params.get("q")).draw();
+                }
+            }
+            window.addEventListener("hashchange", hashfunc, false);
+            hashfunc();
+            table.on("search.dt", function () {
+                updateShare("#q=" + table.search());
+            });
+
+            var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
+            var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
+            var alltopics = new Set()
+            function process(data) {
+                data.forEach((p) => {
+                    c_q = p.Categories.split(';').map(p => {
+                        var res = p.split(/(.*)\W+\((Q[1-4])\)\W*|(.*)/);
+                        return [res[1] || res[3], p];
+                    });
+                    p.CiteScore = p.CiteScore ?? 0
+                    p.SNIP = p.SNIP ?? 0
+                    p.SJR = p.SJR?.replaceAll(',', '.') ?? 0
+                    p.WOS = p.aut??''
+                    p.Rev1=Number(p.Review?.[2020]?.First?? 0)|| '~'
+                    p.RevF = Number(p.Review?.[2020]?.Final ?? 0) || '~'
+                    console.log(p.Acceptance)
+                    p.AR = Number(p.Acceptance?.[2020]?.Rate ?? 0) || '~'
+                    p.Issn = p.Issn?.split(',').map(q => `${q.trim().slice(0, 4)}-${q.trim().slice(4, 8)}`)
+                    p.Categories = p.Categories.split(';').map(z => `<span>${z.trim()}</span>`).join('<br>')
+                    c_q.forEach(p => p.forEach(z => alltopics.add(z.trim())))
+
+                    p.Rank = p['SJR Best Quartile']
+                    if (p.Rank == "") p.Rank = "--";
+                    dataSet.push(p);
+                });
+                function compare(a, b) {
+                    ai = a.SJR;
+                    bi = b.SJR;
+                    if (ai == -1) ai = 5;
+                    if (bi == -1) bi = 5;
+                    if (ai < bi) return -1;
+                    if (ai > bi) return 1;
+                    return 0;
+                }
+
+                dataSet.sort(compare);
+                table.clear();
+                table.rows.add(dataSet);
+
+                table.columns().every(function () {
+                    var column = this;
+                    if (["Link", 'SJR', 'Hindex', 'CS', 'SNIP','Rev1','RevF','AR'].indexOf(cols[column[0]]) >= 0) {
+                        $("<span>" + cols[column[0]] + "</span>").appendTo($(column.header()).empty());
+                        return;
+                    }
+                    if (["Select"].indexOf(cols[column[0]]) >= 0) {
+                        $("<input class='filter-table' type='checkbox'/>").appendTo($(column.header()).empty()).on('change', (ev) => {
+                            var val = ev.target.checked;
+                            console.log(val);
+                            if (val) {
+                                $.fn.dataTable.ext.search.push(
+                                    function (settings, data, dataIndex) {
+                                        return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                                    }
+                                );
+                                table.draw();
+                            } else {//if ('✗' == val) {
+                                $.fn.dataTable.ext.search.pop();
+                                table.draw();
+                            }
+                        }
+                        );
+                        return;
+                    }
+
+                    var select = $('<select class="filter-table" style="width:100%" data-placeholder="' + cols[column[0]] + '"><option value=""></option></select>')
+                        .appendTo($(column.header()).empty())
+                        .on("change", function () {
+                            var val = $.fn.dataTable.util.escapeRegex($(this).val());
+                            if (["Title"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
+                            else if (["Topic"].indexOf(cols[column[0]]) >= 0) {
+                                column.search(val ? val : "", true, false).draw();
+                                // $(`td span`).removeClass('bold')
+                                // $(`td span:contains("${val}")`).addClass('bold')
+                            } else if (["Select"].indexOf(cols[column[0]]) >= 0) {
+                                if ('✓' == val) {
+                                    $.fn.dataTable.ext.search.push(
+                                        function (settings, data, dataIndex) {
+                                            return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                                        }
+                                    );
+                                    table.draw();
+                                } else {//if ('✗' == val) {
+                                    $.fn.dataTable.ext.search.pop();
+                                    table.draw();
+                                }
+                            }
+
+                            // else if (["Rank"].indexOf(cols[column[0]]) >= 0) {
+                            //     val = val.replaceAll('\\', '').replaceAll('A*', 'A\\*')
+                            //     column.search(val ? `^(${val})$` : "", true, false, false).draw();
+                            // }
+                            else column.search(val ? "^(" + val.replaceAll('\\', '') + ")$" : "", true, false, false).draw();
+                        });
+
+                    if (cols[column[0]] == "Topic") {
+                        var all = {};
+                        Array.from(alltopics)
+                            .sort()
+                            //.forEach((p) => {var d=p.split('-')[1].trim(); select.append('<option value="' + d + '">' + d + "</option>")});
+                            .forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    } else if (cols[column[0]] == "Rank" || cols[column[0]] == "WOS") {
+                        scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    } else if (cols[column[0]] == "Select") {
+                        ['✓'].forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    }
+
+
+                    else if (cols[column[0]] == "CatRank") {
+                        scimagRanks.forEach((d) => select.append('<option value="' + d + '">' + d + "</option>"));
+                    } else {
+                        column
+                            .data()
+                            .unique()
+                            .sort()
+                            .each(function (d, j) {
+                                select.append('<option value="' + d + '">' + d + "</option>");
+                            });
+                    }
+
+                });
+                table.on('draw', function () {
+                    var body = $(table.table().body());
+
+                    body.find('td span').removeClass('bold');
+                    var sear = table.columns(cols.indexOf('Topic')).search()?.[0]
+                    if (sear)
+                        body.find(`td span:contains('${sear}')`).addClass('bold');
+
+                });
+                
+                $.fn.dataTable.ext.type.order['num-pre'] = function (d) {
+                    return d=='~'?Infinity:d;
+                }
+                $.fn.dataTable.ext.type.order['ali-asc'] = function (a,b) {
+                    if (a == '~')
+                        return 1;
+                    else if (b == '~')
+                        return -1;
+                    else {
+                        var ia = parseInt(a);
+                        var ib = parseInt(b);
+                        return (ia > ib) ? 1 : ((ia < ib) ? -1 : 0);
+                    }
+                }
+                $.fn.dataTable.ext.type.order['ali-desc'] = function (a, b) {
+                    if (a == '~')
+                        return 1;
+                    else if (b == '~')
+                        return -1;
+                    else {
+                        var ia = parseInt(a);
+                        var ib = parseInt(b);
+                        return (ia > ib) ? -1 : ((ia < ib) ? 1 : 0);
+                    }
+                }
+                table.draw();
+
+                $("select.filter-table").select2({ dropdownCssClass: "bigdrop", tags: true, allowClear: true });
+            }
+
+            $.ajax({
+                dataType: "json",
+                url: "scimagojr_journal_2020_cs_link_aut.json",//"https://rank.modaresi.eu.org/scimagojr_journal_2020_cs_link_aut.json",
+                success: (data) => {
+                    jnl_dataset = data;
+                    process(data);
+                }, error: (a, b, c, d) => console.log('error ', a, b, c, d)
+            })
+
+        });
+
+        function updateShare(search) {
+            url = document.location.href.split("#")[0] + search;
+            $("#share").attr("href", url);
+            $("#share").text(url);
+            window.location.hash = search;
+        }
+        updateShare(document.location.hash);
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Conference & Journal Search</h1>
+        Share this data via direct link <a id="share" href=""></a>
+    </div>
+    <div class="container-fluid">
+        <table id="rankTable" class="display" width="100%">
+            <thead></thead>
+            <tbody></tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+
+    Designed By Ali Modaresi
+</body>
+
+</html>
