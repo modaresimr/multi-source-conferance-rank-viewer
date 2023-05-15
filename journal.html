@@ -138,7 +138,7 @@
                         targets: 0, width: "80px"
                     },
                     {
-                        data: "Type", width: "40px", render: (data, type, row) =>
+                        data: "Type", width: "40px", render: (data, type, row) =>{
                             link = format_a(data, document.location.href.split("#")[0] + '#q="' + row['Title'] + '"');
                             if (row['Issn']) {
                                 link += row['Issn']
@@ -149,6 +149,8 @@
                                     }).join(' ')
 
                             }
+                            return link
+                        }
                             
                     },
                     {
