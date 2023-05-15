@@ -289,9 +289,13 @@
                                 this.select();
                             }
                         });
-
-
                     })
+                    $.fn.dataTable.ext.search.push(
+                        function (settings, data, dataIndex) {
+                            return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                        }
+                    );
+                    table.draw();
                 }
             }
             window.addEventListener("hashchange", hashfunc, false);
