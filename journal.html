@@ -282,7 +282,11 @@
                     table.search(params.get("q")).draw();
                 }
                 if(params.get("issn")!=null){
+                    already_selected=table.rows( { selected: true } ).data().map(p=>p['Issn'].join(",")).join(",").split(",")
+                    old_select={}
                     params.get("issn").split(",").forEach(p=>{
+                        old_select[p]=1
+                        if(already_selected.includes(p))continue
                         table.rows().every(function() {
                             var data = this.data();
                             if (data['Issn'].includes(p)) {
@@ -290,11 +294,23 @@
                             }
                         });
                     })
-                    $.fn.dataTable.ext.search.push(
-                        function (settings, data, dataIndex) {
-                            return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                    already_selected.forEach(p=>{
+                        if(old_select[p]!=1){
+                            table.rows().every(function() {
+                                var data = this.data();
+                                if (data['Issn'].includes(p)) {
+                                    this.deselect();
+                                }
+                            });
                         }
-                    );
+                    })
+
+                    if($.fn.dataTable.ext.search.length==0)
+                        $.fn.dataTable.ext.search.push(
+                            function (settings, data, dataIndex) {
+                                return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                            }
+                        );
                     table.draw();
                 }
             }
@@ -303,7 +319,7 @@
                 
                 updateShare("#q=" + table.search());
             });
-            hashfunc();
+            
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
             var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
             var alltopics = new Set()
