@@ -467,6 +467,7 @@
                 success: (data) => {
                     jnl_dataset = data;
                     process(data);
+                    hashfunc()
                 }, error: (a, b, c, d) => console.log('error ', a, b, c, d)
             })
 
