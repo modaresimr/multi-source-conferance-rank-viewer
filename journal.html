@@ -320,14 +320,7 @@
                 updateShare("#q=" + table.search());
             });
             
-            if(document.location.hash.includes("issn")){
-                $(".filter-table")[0].checked=true
-                $.fn.dataTable.ext.search.push(
-                    function (settings, data, dataIndex) {
-                        return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
-                    }
-                );
-            }
+            
 
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
             var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
@@ -511,7 +504,16 @@
             old_hash=search
             window.location.hash = search;
         }
+        if(document.location.hash.includes("issn")){
+            $(".filter-table")[0].checked=true
+            $.fn.dataTable.ext.search.push(
+                function (settings, data, dataIndex) {
+                    return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                }
+            );
+        }
         updateShare(document.location.hash);
+        old_hash=""
     </script>
 </head>
 
