@@ -296,11 +296,11 @@
                 }
             }
             window.addEventListener("hashchange", hashfunc, false);
-            hashfunc();
             table.on("search.dt", function () {
-                updateShare("#q=" + table.search());
+                if(table.search().length>2)
+                    updateShare("#q=" + table.search());
             });
-
+            hashfunc();
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
             var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
             var alltopics = new Set()
