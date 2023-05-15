@@ -156,8 +156,7 @@
                     {
                         data: "Title", orderable: false,
                         render: (data, type, row) =>{
-                            issns=(row['Issn']||[]).join(' ')
-                            return `<div class="${issns}">${(data && row['Links']?.['Homepage']) ? format_a(data, row['Links']?.['Homepage']) : data} </div>` 
+                            return (data && row['Links']?.['Homepage']) ? format_a(data, row['Links']?.['Homepage']) : data 
                         }
                         // (data && row['Links']?.['Homepage']) ? format_a(data, document.location.href.split("#")[0] + '#q="' + data + '"') : data
                     },
@@ -175,7 +174,7 @@
                     },
                     { data: 'SNIP', width: "60px" },
                     //{'data' : 'DBLP Source',render: (data, type)=> data==''?'':'<a target="_blank" href="'+data+'">view</a>'},
-                    { data: "Categories", orderable: false },
+                    { data: "Categories", width: "300px", orderable: false },
                     { data: "Rev1", orderable: true , width: "60px", "type": "ali"},
                     { data: "RevF", orderable: true , width: "60px", "type": "ali"},
                     { data: "AR", orderable: true, width: "60px" , "type": "ali"},
