@@ -361,7 +361,8 @@
                                 );
                                 table.draw();
                             } else {//if ('✗' == val) {
-                                $.fn.dataTable.ext.search.pop();
+                                while($.fn.dataTable.ext.search.length>0)
+                                    $.fn.dataTable.ext.search.pop();
                                 table.draw();
                             }
                         }
