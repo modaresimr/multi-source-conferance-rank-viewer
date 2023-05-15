@@ -310,14 +310,7 @@
                         }
                     })
 
-                    if($.fn.dataTable.ext.search.length==0){
-                        $(".filter-table")[0].checked=true
-                        $.fn.dataTable.ext.search.push(
-                            function (settings, data, dataIndex) {
-                                return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
-                            }
-                        );
-                    }
+                    
                     table.draw();
                 }
             }
@@ -327,6 +320,15 @@
                 updateShare("#q=" + table.search());
             });
             
+            if(document.location.hash.includes("issn")){
+                $(".filter-table")[0].checked=true
+                $.fn.dataTable.ext.search.push(
+                    function (settings, data, dataIndex) {
+                        return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
+                    }
+                );
+            }
+
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
             var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
             var alltopics = new Set()
