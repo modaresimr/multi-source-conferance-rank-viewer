@@ -273,11 +273,16 @@
                 out += '</table>'
                 return out
             }
-
+            var old_hash=""
             function hashfunc() {
+                if(old_hash==window.location.hash)
+                    return
+                old_hash=window.location.hash
+                
                 params = new URLSearchParams(
                     window.location.hash.substr(1) // skip the first char (#)
                 );
+
                 if (params.get("q") != null) {
                     table.search(params.get("q")).draw();
                 }
