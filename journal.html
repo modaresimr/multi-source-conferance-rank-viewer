@@ -508,6 +508,7 @@
             if(search.length<6)return
             $("#share").attr("href", url);
             $("#share").text(url);
+            old_hash=search
             window.location.hash = search;
         }
         updateShare(document.location.hash);
