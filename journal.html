@@ -53,6 +53,7 @@
         }
     </style>
     <script>
+        old_hash=""
         var selectedIssns=[]
         function format_row(item) {
             return '<tr>' + item + "</tr>"
@@ -273,7 +274,7 @@
                 out += '</table>'
                 return out
             }
-            var old_hash=""
+            
             function hashfunc() {
                 if(old_hash==window.location.hash)
                     return
