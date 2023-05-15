@@ -297,8 +297,8 @@
             }
             window.addEventListener("hashchange", hashfunc, false);
             table.on("search.dt", function () {
-                if(table.search().length>2)
-                    updateShare("#q=" + table.search());
+                
+                updateShare("#q=" + table.search());
             });
             hashfunc();
             var defaultRanks = ["A*|A", "A*|A|B", "A*", "A", "B", "C"];
@@ -475,6 +475,7 @@
 
         function updateShare(search) {
             url = document.location.href.split("#")[0] + search;
+            if(search.length<6)return
             $("#share").attr("href", url);
             $("#share").text(url);
             window.location.hash = search;
