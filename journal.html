@@ -278,7 +278,7 @@
                 if(old_hash==window.location.hash)
                     return
                 old_hash=window.location.hash
-                
+
                 params = new URLSearchParams(
                     window.location.hash.substr(1) // skip the first char (#)
                 );
@@ -310,12 +310,14 @@
                         }
                     })
 
-                    if($.fn.dataTable.ext.search.length==0)
+                    if($.fn.dataTable.ext.search.length==0){
+                        $(".filter-table")[0].checked=true
                         $.fn.dataTable.ext.search.push(
                             function (settings, data, dataIndex) {
                                 return ($(table.row(dataIndex).node()).hasClass('selected')) ? true : false;
                             }
                         );
+                    }
                     table.draw();
                 }
             }
