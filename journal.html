@@ -286,7 +286,7 @@
                     old_select={}
                     params.get("issn").split(",").forEach(p=>{
                         old_select[p]=1
-                        if(already_selected.includes(p))continue
+                        if(already_selected.includes(p))return
                         table.rows().every(function() {
                             var data = this.data();
                             if (data['Issn'].includes(p)) {
