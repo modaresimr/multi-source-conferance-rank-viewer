@@ -11,29 +11,82 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" type="text/css"
 		href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+	<link href="https://cdn.datatables.net/select/1.2.2/css/select.dataTables.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
+
+	<style>
+		table.dataTable thead th,
+		table.dataTable thead td {
+			padding: 5px 2px;
+			text-align: center;
+		}
+
+		.dtr-data .issn {
+			width: fit-content;
+		}
+
+		.issn {
+			width: 30px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap
+		}
+
+		.bigdrop {
+			min-width: 500px !important;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+
+		label.rowselector {
+			cursor: pointer;
+		}
+
+		label.rowselector .tik {
+			display: none;
+		}
+
+		label.rowselector .untik {
+			display: block;
+		}
+
+		.selected label.rowselector .tik {
+			display: block;
+		}
+
+		.selected label.rowselector .untik {
+			display: none;
+		}
+	</style>
 
 </head>
 
 <body>
 	<div class="container mt-5">
+
+		<h1>Smart Journal Search</h1>
+		Share this data via direct link <a id="share" href=""></a>
+
 		<table id="csvDataTable" class="table table-striped table-bordered" style="width:100%">
+
 			<thead>
 				<tr>
+					<th>Select</th>
 					<th>Journal Name</th>
 					<th>Best Quartile</th>
 					<th>Quartiles</th>
 					<th>ISSN</th>
-					<th>EISSN</th>
 					<th>IF</th>
 					<th>Eigen Factor</th>
 					<th>MIF</th>
 				</tr>
 			</thead>
-			<tbody>
-				<!-- Data will be loaded here via JavaScript -->
-			</tbody>
-		</table>
+			<tbody></tbody>
+			<tfoot></tfoot>
+
 	</div>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js">
@@ -42,7 +95,8 @@
 	<script type="text/javascript"
 		src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.0.2/papaparse.min.js"></script>
-
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+	<script src="https://cdn.datatables.net/select/1.2.2/js/dataTables.select.min.js"></script>
 	<script src="script.js"></script> <!-- Your JavaScript File -->
 </body>
 
