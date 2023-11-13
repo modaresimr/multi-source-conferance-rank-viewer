@@ -26,6 +26,7 @@ $(document).ready(function () {
 	function processData(data) {
 		console.log(data[13014]);
 		var table = $('#csvDataTable').DataTable({
+			responsive: true,
 			data: data,
 			columns: [
 				{
@@ -38,11 +39,11 @@ $(document).ready(function () {
 						return '<a href="https://www.google.com/search?q=' + searchQuery + '" target="_blank">' + replace_extra_keywords(data) + '</a>';
 					}
 				},
+				{ data: 'Best Quartile' },
+				{ data: 'Quartiles' },
 				{ data: 'ISSN' },
 				{ data: 'EISSN' },
 				{ data: 'IF' },
-				{ data: 'Best Quartile' },
-				{ data: 'Quartiles' },
 				{ data: 'Eigen Factor' },
 				{ data: 'MIF' }
 			]
