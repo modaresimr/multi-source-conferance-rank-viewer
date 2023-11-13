@@ -1,54 +1,52 @@
 $(document).ready(function () {
 	// Read CSV File
-	$.ajax({
-		type: "GET",
-		url: "aut-q-2023.csv",
-		dataType: "text",
-		success: function (data) {
-			processData(data);
+	// $.ajax({
+	// 	type: "GET",
+	// 	url: "aut-q-2023.csv",
+	// 	dataType: "text",
+	// 	success: function (data) {
+	// 		processData(data);
+	// 	}
+	// });
+	Papa.parse("aut-q-2023.csv", {
+		download: true,
+		header: true, // Set to true if your data has headers
+		complete: function (results) {
+			data = results.data
+			data = data.filter(function (row) {
+				if (row['Journal Name'] == "") {
+					return false
+				}
+				return true
+			})
+			console.log(results.data);
+			processData(results.data); // Call your function to process data
 		}
 	});
-
-	function processData(allText) {
-		var allTextLines = allText.split(/\r\n|\n/);
-		var headers = allTextLines[0].split(',');
-		var lines = [];
-
-		for (var i = 1; i < allTextLines.length; i++) {
-			data = replace_extra_keywords(allTextLines[i]);
-			var data = data.split(',');
-
-			if (data.length == headers.length) {
-				var tarr = [];
-				for (var j = 0; j < headers.length; j++) {
-					cell = data[j]
-					if (j == 0) {
-						var searchQuery = encodeURIComponent(data[j] + " Journal + scimagojr " + data[1] + " " + data[2]);
-						cell = '<a href="https://www.google.com/search?q=' + searchQuery + '" target="_blank">' + data[j] + '</a>';
+	function processData(data) {
+		console.log(data[13014]);
+		var table = $('#csvDataTable').DataTable({
+			data: data,
+			columns: [
+				{
+					data: 'Journal Name',
+					render: function (data, type, row) {
+						if (data == "") {
+							return data
+						}
+						var searchQuery = encodeURIComponent(data + " Journal scimagojr " + row['ISSN'] + " " + row['EISSN']);
+						return '<a href="https://www.google.com/search?q=' + searchQuery + '" target="_blank">' + replace_extra_keywords(data) + '</a>';
 					}
-					tarr.push(cell);
-				}
-				lines.push(tarr);
-			}
-		}
-
-		// Add data to table
-		for (var i = 0; i < lines.length; i++) {
-			var rowData = lines[i];
-			var row = $("<tr />");
-			$("#csvDataTable").append(row);
-			row.append($("<td>" + rowData[0] + "</td>"));
-			row.append($("<td>" + rowData[1] + "</td>"));
-			row.append($("<td>" + rowData[2] + "</td>"));
-			row.append($("<td>" + rowData[3] + "</td>"));
-			row.append($("<td>" + rowData[4] + "</td>"));
-			row.append($("<td>" + rowData[5] + "</td>"));
-			row.append($("<td>" + rowData[6] + "</td>"));
-			row.append($("<td>" + rowData[7] + "</td>"));
-		}
-
-		// Initialize DataTable
-		$('#csvDataTable').DataTable({
+				},
+				{ data: 'ISSN' },
+				{ data: 'EISSN' },
+				{ data: 'IF' },
+				{ data: 'Best Quartile' },
+				{ data: 'Quartiles' },
+				{ data: 'Eigen Factor' },
+				{ data: 'MIF' }
+			]
+			,
 			// "search": {
 			// 	// "smart": true,
 			// 	// "search": function (search) {
@@ -82,6 +80,6 @@ $(document).ready(function () {
 });
 
 function replace_extra_keywords(input) {
-	a = `${input}`.toLowerCase().replace(/Journal/gi, "").replace(/ of /g, "").replace(/ & /g, " ").replace(/ and /g, " ").replaceAll(/[ ]+/g, " ").trim();
+	a = `${input}`.replace(/Journal/gi, "").replace(/ of /g, "").replace(/ & /g, " ").replace(/ and /g, " ").replaceAll(/[ ]+/g, " ").trim();
 	return a;
 }
