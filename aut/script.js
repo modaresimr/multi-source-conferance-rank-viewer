@@ -23,6 +23,7 @@ $(document).ready(function () {
 				}
 				if (row['Best Quartile'] == "Q3" || row['Best Quartile'] == "Q4")
 					row['aut_valid'] = `No! ${row['Best Quartile']}`
+				if (row['aut_valid'] != "Yes") return false
 				if (row['Journal Name'] != undefined && row['Journal Name'].length > 2) {
 					return true
 				}
@@ -33,6 +34,20 @@ $(document).ready(function () {
 		}
 	});
 	function processData(data) {
+		cols = ["Select", "Journal Name", "Rank", "Topics", "AUT", "AR✅", "Rev1", "TF", "RT", "SA", "AP", "ISSN", "IF", "EF", "MIF", "Search",]
+		var buttonCommon = {
+			exportOptions: {
+				format: {
+					header: function (data, column, node) {
+						// Strip $ from salary column to make it numeric
+						// return column === 5 ?
+						return cols[column]
+						// 	data.replace( /[$,]/g, '' ) :
+						// 	data;
+					}
+				}
+			}
+		};
 
 		var table = $('#csvDataTable').DataTable({
 			// responsive: true,
@@ -41,7 +56,19 @@ $(document).ready(function () {
 				style: 'multi',
 				selector: 'td:first-child'
 			},
-			dom: '<"top"f>it<"bottom"lrp><"clear">',
+			dom: '<"top"f>it<"bottom"Blrp><"clear">',
+			// dom: '',Bfrtip
+			buttons: [
+				$.extend(true, {}, buttonCommon, {
+					extend: 'copyHtml5',
+					messageTop: document.location.href,
+					title: 'AR=Acceptance Rate | Rev1=First Revision | TF=Time to first decision | RT=Review time | SA=Submission to acceptance | AP=Acceptance to publication'
+
+				}),
+				$.extend(true, {}, buttonCommon, {
+					extend: 'excelHtml5'
+				}),
+			],
 
 			columns: [
 				{
@@ -233,7 +260,7 @@ $(document).ready(function () {
 			// }
 
 		});
-		cols = ["Select", "Journal Name", "Rank", "Topics", "AUT", "AR✅", "Rev1", "TF", "RT", "SA", "AP", "ISSN", "IF", "EF", "MIF", "Search",]
+
 		table.columns().every(function () {
 			var column = this;
 			if (["ISSN", 'IF', 'EF', 'Rev1', "RevF", "AR✅", 'MIF', "Search", "TF", "RT", "SA", "AP"].indexOf(cols[column[0]]) >= 0) {
