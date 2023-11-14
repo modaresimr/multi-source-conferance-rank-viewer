@@ -23,7 +23,7 @@ $(document).ready(function () {
 				}
 				if (row['Best Quartile'] == "Q3" || row['Best Quartile'] == "Q4")
 					row['aut_valid'] = `No! ${row['Best Quartile']}`
-				if (row['aut_valid'] != "Yes") return false
+				// if (row['aut_valid'] != "Yes") return false
 				if (row['Journal Name'] != undefined && row['Journal Name'].length > 2) {
 					return true
 				}
