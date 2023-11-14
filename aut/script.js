@@ -2,8 +2,8 @@ $(document).ready(function () {
 	// Read CSV File
 	// $.ajax({
 	// 	type: "GET",
-	// 	url: "aut-q-2023.csv",
-	// 	dataType: "text",
+	// 	url: "aut-els-2023.json",
+	// 	dataType: "json",
 	// 	success: function (data) {
 	// 		processData(data);
 	// 	}
@@ -68,7 +68,14 @@ $(document).ready(function () {
 				},
 				{ data: 'IF' },
 				{ data: 'Eigen Factor' },
-				{ data: 'MIF' }
+				{ data: 'MIF' },
+				{
+					data: 'Journal Name',
+					render: function (data, type, row) {
+						searchda = encodeURIComponent('"' + row['Journal Name'] + '"')
+						return '<a href="https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&elsevierOnly=true&sortBy=default&sortOrder=desc&query=' + searchda + '&mode=search' + '" target="_blank"> SD</a>';
+					}
+				},
 			]
 			,
 			// "search": {
@@ -160,10 +167,10 @@ $(document).ready(function () {
 			// }
 
 		});
-		cols = ["Select", "Journal Name", "Rank", "Quartiles", "ISSN", "IF", "EF", "MIF"]
+		cols = ["Select", "Journal Name", "Rank", "Quartiles", "ISSN", "IF", "EF", "MIF", "Search"]
 		table.columns().every(function () {
 			var column = this;
-			if (["ISSN", 'IF', 'EF', 'MIF'].indexOf(cols[column[0]]) >= 0) {
+			if (["ISSN", 'IF', 'EF', 'MIF', "Search"].indexOf(cols[column[0]]) >= 0) {
 				$("<span>" + cols[column[0]] + "</span>").appendTo($(column.header()).empty());
 				return;
 			}
