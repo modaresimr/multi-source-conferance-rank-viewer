@@ -16,7 +16,13 @@ $(document).ready(function () {
 			data = data.filter(function (row) {
 				if (row['subjectAreas'] != undefined && row['subjectAreas'] != '')
 					row['Quartiles'] += ";" + JSON.parse(row['subjectAreas'].replaceAll("'", '"')).join(";")
-
+				if (row['journal'] != undefined && row['journal'] != "") {
+					row['aut_valid'] = row['aut_valid'] == '' ? "No! Not Free" : "Yes"
+				} else {
+					row['aut_valid'] = 'Unknown'
+				}
+				if (row['Best Quartile'] == "Q3" || row['Best Quartile'] == "Q4")
+					row['aut_valid'] = `No! ${row['Best Quartile']}`
 				if (row['Journal Name'] != undefined && row['Journal Name'].length > 2) {
 					return true
 				}
@@ -68,7 +74,21 @@ $(document).ready(function () {
 					},
 				},
 
-				{ data: 'AR', "type": "ali" },
+				{
+					data: 'aut_valid', orderable: false, render: function (data, type, row) {
+						if (row['journal'] != "") {
+							var searchQuery = encodeURIComponent(`"${row['journal']}"`);
+							return `<a target="_blank" href='https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&elsevierOnly=true&sortBy=journal&sortOrder=asc&query=${searchQuery}&mode=search'>${data}</a>`
+
+						}
+
+						return data
+
+					}
+				},
+				{
+					data: 'AR', "type": "ali",
+				},
 				{ data: 'Rev1', "type": "ali" },
 				// { data: 'timeToFirstDecision', },
 
@@ -77,15 +97,6 @@ $(document).ready(function () {
 				{ data: 'Submission to acceptance', "type": "ali" },
 				{ data: 'Acceptance to publication', "type": "ali" },
 
-				{
-					data: 'aut_valid', orderable: false, render: function (data, type, row) {
-						if (data == "True") {
-							return "True"
-						}
-						return ""
-
-					}
-				},
 				// {
 				// 	data: 'ISSN', orderable: false,
 				// 	render: function (data, type, row) {
@@ -222,7 +233,7 @@ $(document).ready(function () {
 			// }
 
 		});
-		cols = ["Select", "Journal Name", "Rank", "Topics", "AR✅", "Rev1", "TF", "RT", "SA", "AP", "AUT", "ISSN", "IF", "EF", "MIF", "Search",]
+		cols = ["Select", "Journal Name", "Rank", "Topics", "AUT", "AR✅", "Rev1", "TF", "RT", "SA", "AP", "ISSN", "IF", "EF", "MIF", "Search",]
 		table.columns().every(function () {
 			var column = this;
 			if (["ISSN", 'IF', 'EF', 'Rev1', "RevF", "AR✅", 'MIF', "Search", "TF", "RT", "SA", "AP"].indexOf(cols[column[0]]) >= 0) {
@@ -281,7 +292,7 @@ $(document).ready(function () {
 					else column.search(val ? "^(" + val.replaceAll('\\', '') + ")$" : "", true, false, false).draw();
 				});
 
-			if (cols[column[0]] == "Quartiles") {
+			if (cols[column[0]] == "Topics") {
 				var alltopics = {};
 				data.forEach((d) => d['Quartiles'].split(';').forEach(p => alltopics[p] = 1));
 
