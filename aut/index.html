@@ -70,19 +70,30 @@
 		<h1>Smart Journal Search</h1>
 		Share this data via direct link <a id="share" href=""></a>
 
-		<table id="csvDataTable" class="table table-striped table-bordered" style="width:100%">
+		<table id="csvDataTable" class="table table-striped table-bordered">
 
 			<thead>
 				<tr>
-					<th>Select</th>
-					<th>Journal Name</th>
-					<th>Best Quartile</th>
-					<th>Quartiles</th>
-					<th>ISSN</th>
+					<th data-priority="0" width="80px">Select</th>
+					<th data-priority="1">Journal Name</th>
+					<th data-priority="2">Best Quartile</th>
+					<th data-priority="3">Quartiles</th>
+
+					<th data-priority="19">Acceptance Rate (AR)</th>
+					<th data-priority="17">First Revision (Rev1)</th>
+					<!-- <th data-priority="18">RevF</th> -->
+
+
+					<th data-priority="19">Time to first decision (TF)</th>
+					<th data-priority="19">Review time (RT)</th>
+					<th data-priority="19">Submission to acceptance (SA)</th>
+					<th data-priority="22">Acceptance to publication (AP)</th>
+					<th data-priority="20">AUT</th>
+					<!-- <th>ISSN</th>
 					<th>IF</th>
 					<th>Eigen Factor</th>
 					<th>MIF</th>
-					<th>Search</th>
+					<th>Search</th> -->
 				</tr>
 			</thead>
 			<tbody></tbody>

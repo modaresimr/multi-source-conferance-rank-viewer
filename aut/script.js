@@ -8,25 +8,28 @@ $(document).ready(function () {
 	// 		processData(data);
 	// 	}
 	// });
-	Papa.parse("aut-q-2023.csv", {
+	Papa.parse("aut-els-insights-lite-2023.csv", {
 		download: true,
 		header: true, // Set to true if your data has headers
 		complete: function (results) {
 			data = results.data
 			data = data.filter(function (row) {
-				if (row['Journal Name'] == "") {
-					return false
+				if (row['subjectAreas'] != undefined && row['subjectAreas'] != '')
+					row['Quartiles'] += ";" + JSON.parse(row['subjectAreas'].replaceAll("'", '"')).join(";")
+
+				if (row['Journal Name'] != undefined && row['Journal Name'].length > 2) {
+					return true
 				}
-				return true
+				return false
 			})
 			console.log(results.data);
-			processData(results.data); // Call your function to process data
+			processData(data); // Call your function to process data
 		}
 	});
 	function processData(data) {
-		console.log(data[13014]);
+
 		var table = $('#csvDataTable').DataTable({
-			responsive: true,
+			// responsive: true,
 			data: data,
 			select: {
 				style: 'multi',
@@ -48,34 +51,58 @@ $(document).ready(function () {
 						if (data == "") {
 							return data
 						}
+						if (row['journal'] != undefined && row['journal'] != '')
+							data = row['journal']
 						var searchQuery = encodeURIComponent(data + " Journal scimagojr " + row['ISSN'] + " " + row['EISSN']);
 						return '<a href="https://www.google.com/search?q=' + searchQuery + '" target="_blank">' + replace_extra_keywords(data) + '</a>';
 					}
 				},
 				{ data: 'Best Quartile', orderable: false, },
 				{
-					data: 'Quartiles', orderable: false,
+					data: 'Quartiles', orderable: false, width: "200px",
 					render: function (data, type, row) {
+						if (data == "") {
+							return data
+						}
 						return "<div style=''>• " + data.replaceAll(";", "<br>• ") + "</div>"
 					},
 				},
+
+				{ data: 'AR', "type": "ali" },
+				{ data: 'Rev1', "type": "ali" },
+				// { data: 'timeToFirstDecision', },
+
+				{ data: 'Time to first decision', "type": "ali" },
+				{ data: 'Review time', "type": "ali" },
+				{ data: 'Submission to acceptance', "type": "ali" },
+				{ data: 'Acceptance to publication', "type": "ali" },
+
 				{
-					data: 'ISSN', orderable: false,
-					render: function (data, type, row) {
-						return '<div class="issn">' + row['ISSN'] + "," + row['EISSN'].replace("N/A,", "").replace(",N/A", "").trim() + "</div>"
+					data: 'aut_valid', orderable: false, render: function (data, type, row) {
+						if (data == "True") {
+							return "True"
+						}
+						return ""
 
 					}
 				},
-				{ data: 'IF' },
-				{ data: 'Eigen Factor' },
-				{ data: 'MIF' },
-				{
-					data: 'Journal Name',
-					render: function (data, type, row) {
-						searchda = encodeURIComponent('"' + row['Journal Name'] + '"')
-						return '<a href="https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&elsevierOnly=true&sortBy=default&sortOrder=desc&query=' + searchda + '&mode=search' + '" target="_blank"> SD</a>';
-					}
-				},
+				// {
+				// 	data: 'ISSN', orderable: false,
+				// 	render: function (data, type, row) {
+				// 		return '<div class="issn">' + row['ISSN'] + "," + row['EISSN'].replace("N/A,", "").replace(",N/A", "").trim() + "</div>"
+
+				// 	}
+				// },
+				// { data: 'IF' },
+				// { data: 'Eigen Factor' },
+				// { data: 'MIF' },
+				// {
+				// 	data: 'Journal Name',
+				// 	render: function (data, type, row) {
+				// 		searchda = encodeURIComponent('"' + row['Journal Name'] + '"')
+				// 		return '<a href="https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&elsevierOnly=true&sortBy=default&sortOrder=desc&query=' + searchda + '&mode=search' + '" target="_blank"> SD</a>';
+				// 	}
+				// },
 			]
 			,
 			// "search": {
@@ -91,6 +118,28 @@ $(document).ready(function () {
 				});
 			}
 		});
+		$.fn.dataTable.ext.type.order['ali-asc'] = function (a, b) {
+			if (a == '~' || a == '')
+				return 1;
+			else if (b == '~' || b == '')
+				return -1;
+			else {
+				var ia = parseInt(a);
+				var ib = parseInt(b);
+				return (ia > ib) ? 1 : ((ia < ib) ? -1 : 0);
+			}
+		}
+		$.fn.dataTable.ext.type.order['ali-desc'] = function (a, b) {
+			if (a == '~' || a == '')
+				return 1;
+			else if (b == '~' || b == '')
+				return -1;
+			else {
+				var ia = parseInt(a);
+				var ib = parseInt(b);
+				return (ia > ib) ? -1 : ((ia < ib) ? 1 : 0);
+			}
+		}
 		table.on("search.dt", function () {
 
 			updateShare("#q=" + table.search());
@@ -142,11 +191,17 @@ $(document).ready(function () {
 		}
 		table.on('select', function (e, dt, type, indexes) {
 			var res = get_selected_ISSN()
-			updateShare("#issn=" + res)
+			if (res.length > 0)
+				updateShare("#issn=" + res)
+			else
+				updateShare("")
 		})
 			.on('deselect', function (e, dt, type, indexes) {
 				var res = get_selected_ISSN()
-				updateShare("#issn=" + res)
+				if (res.length > 0)
+					updateShare("#issn=" + res)
+				else
+					updateShare("#issn=")
 			});
 		$(".dataTables_filter").append($(".dataTables_filter label input"));
 		$(".dataTables_filter, .dataTables_filter input").attr("style", "width:100%");
@@ -167,10 +222,10 @@ $(document).ready(function () {
 			// }
 
 		});
-		cols = ["Select", "Journal Name", "Rank", "Quartiles", "ISSN", "IF", "EF", "MIF", "Search"]
+		cols = ["Select", "Journal Name", "Rank", "Topics", "AR✅", "Rev1", "TF", "RT", "SA", "AP", "AUT", "ISSN", "IF", "EF", "MIF", "Search",]
 		table.columns().every(function () {
 			var column = this;
-			if (["ISSN", 'IF', 'EF', 'MIF', "Search"].indexOf(cols[column[0]]) >= 0) {
+			if (["ISSN", 'IF', 'EF', 'Rev1', "RevF", "AR✅", 'MIF', "Search", "TF", "RT", "SA", "AP"].indexOf(cols[column[0]]) >= 0) {
 				$("<span>" + cols[column[0]] + "</span>").appendTo($(column.header()).empty());
 				return;
 			}
@@ -195,13 +250,13 @@ $(document).ready(function () {
 				return;
 			}
 			var scimagRanks = ['Q1|Q2', 'Q1|Q2|Q3', 'Q1', 'Q2', 'Q3', 'Q4']
-
-			var select = $('<select class="filter-table" style="width:100%" data-placeholder="' + cols[column[0]] + '"><option value=""></option></select>')
+			width = cols[column[0]] == "Rank" || cols[column[0]] == "AUT" ? "100px" : "300px"
+			var select = $(`<select class="filter-table" style="min-width:${width};width:${width}" data-placeholder="${cols[column[0]]}"><option value=""></option></select>`)
 				.appendTo($(column.header()).empty())
 				.on("change", function () {
 					var val = $.fn.dataTable.util.escapeRegex($(this).val());
-					if (["Quartiles"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
-					else if (["Quartiles"].indexOf(cols[column[0]]) >= 0) {
+					if (["Topics"].indexOf(cols[column[0]]) >= 0) column.search(val ? val.replaceAll('\\', '') : "", true, false).draw();
+					else if (["Topics"].indexOf(cols[column[0]]) >= 0) {
 						column.search(val ? val : "", true, false).draw();
 						// $(`td span`).removeClass('bold')
 						// $(`td span:contains("${val}")`).addClass('bold')
@@ -273,7 +328,7 @@ $(document).ready(function () {
 			old_hash = search
 			window.location.hash = search;
 		}
-		if (document.location.hash.includes("issn")) {
+		if (document.location.hash.includes("issn") && document.location.hash.length > 6) {
 			$(".filter-table")[0].checked = true
 			$.fn.dataTable.ext.search.push(
 				function (settings, data, dataIndex) {
@@ -315,7 +370,7 @@ $(document).ready(function () {
 });
 
 function replace_extra_keywords(input) {
-	a = `${input}`.replace(/Journal/gi, "").replace(/ of /g, "").replace(/ & /g, " ").replace(/ and /g, " ").replaceAll(/[ ]+/g, " ").trim();
+	a = `${input}`.replace(/ of /gi, "").replace(/Journal/gi, "").replace(/ & /g, " ").replace(/ and /g, " ").replaceAll(/[ ]+/g, " ").trim();
 	return a;
 }
 old_hash = ""
