@@ -52,7 +52,7 @@ $(document).ready(function () {
 
 		var table = $('#csvDataTable').DataTable({
 			// responsive: true,
-			data: data,
+			data: data,"lengthMenu": [10, 25, 50, 100, 500],
 			select: {
 				style: 'multi',
 				selector: 'td:first-child'
