@@ -51,7 +51,7 @@ $(document).ready(function () {
 		};
 
 		var table = $('#csvDataTable').DataTable({
-			// responsive: true,
+			responsive: true,
 			data: data,"lengthMenu": [10, 25, 50, 100, 500],
 			select: {
 				style: 'multi',
@@ -139,23 +139,23 @@ $(document).ready(function () {
 				{ data: 'Submission to acceptance', "type": "ali" },
 				{ data: 'Acceptance to publication', "type": "ali" },
 
-				// {
-				// 	data: 'ISSN', orderable: false,
-				// 	render: function (data, type, row) {
-				// 		return '<div class="issn">' + row['ISSN'] + "," + row['EISSN'].replace("N/A,", "").replace(",N/A", "").trim() + "</div>"
+				{
+					data: 'ISSN', orderable: false,
+					render: function (data, type, row) {
+						return '<div class="issn">' + row['ISSN'] + "," + row['EISSN'].replace("N/A,", "").replace(",N/A", "").trim() + "</div>"
 
-				// 	}
-				// },
-				// { data: 'IF' },
-				// { data: 'Eigen Factor' },
-				// { data: 'MIF' },
-				// {
-				// 	data: 'Journal Name',
-				// 	render: function (data, type, row) {
-				// 		searchda = encodeURIComponent('"' + row['Journal Name'] + '"')
-				// 		return '<a href="https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&elsevierOnly=true&sortBy=default&sortOrder=desc&query=' + searchda + '&mode=search' + '" target="_blank"> SD</a>';
-				// 	}
-				// },
+					}
+				},
+				{ data: 'IF' },
+				{ data: 'Eigen Factor' },
+				{ data: 'MIF' },
+				{
+					data: 'Journal Name',
+					render: function (data, type, row) {
+						searchda = encodeURIComponent('"' + row['Journal Name'] + '"')
+						return '<a href="https://journalfinder.elsevier.com/results?goldOpenAccess=true&subscription=true&elsevierOnly=true&sortBy=default&sortOrder=desc&query=' + searchda + '&mode=search' + '" target="_blank"> SD</a>';
+					}
+				},
 			]
 			,
 			// "search": {
