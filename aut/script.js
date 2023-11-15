@@ -62,6 +62,9 @@ $(document).ready(function () {
 			buttons: [
 				$.extend(true, {}, buttonCommon, {
 					extend: 'copyHtml5',
+					 exportOptions: {
+					    stripNewlines: false,stripHtml: false
+					  },
 					messageTop: document.location.href,
 					title: 'AR=Acceptance Rate | Rev1=First Revision | TF=Time to first decision | RT=Review time | SA=Submission to acceptance | AP=Acceptance to publication'
 
