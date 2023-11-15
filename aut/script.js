@@ -196,31 +196,29 @@ $(document).ready(function () {
 				table.search(params.get("q")).draw();
 			}
 			if (params.get("issn") != null && params.get("issn") != "") {
-				inprogress=true;
-				already_selected = get_selected_ISSN()
-				old_select = {}
-				params.get("issn").split(",").forEach(p => {
-					old_select[p] = 1
-					if (already_selected.includes(p)) return
-					table.rows().every(function () {
-						var data = this.data();
-						if (data['ISSN'].includes(p)) {
-							this.select();
-						}
-					});
-				})
-				already_selected.forEach(p => {
-					if (old_select[p] != 1) {
-						table.rows().every(function () {
-							var data = this.data();
-							if (data['ISSN'].includes(p)) {
-								this.deselect();
-							}
-						});
-					}
-				})
-                                inprogress=false;
-				var res = get_selected_ISSN()
+				inprogress = true;
+
+				const already_selected = new Set(get_selected_ISSN());
+				const issnList = params.get("issn").split(",");
+				const rowsToSelect = new Set();
+				const rowsToDeselect = new Set();
+				
+				table.rows().every(function () {
+				  const data = this.data();
+				  const issn = data['ISSN'];
+				
+				  if (issnList.includes(issn) && !already_selected.has(issn)) {
+				    rowsToSelect.add(this.index());
+				  } else if (!issnList.includes(issn) && already_selected.has(issn)) {
+				    rowsToDeselect.add(this.index());
+				  }
+				});
+				
+				//table.rows().deselect();
+				table.rows(Array.from(rowsToSelect)).select();
+				table.rows(Array.from(rowsToDeselect)).deselect();
+				
+				inprogress = false;
 				table.draw();
 			}
 		}
