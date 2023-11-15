@@ -70,7 +70,9 @@ $(document).ready(function () {
 
 				}),
 				$.extend(true, {}, buttonCommon, {
-					extend: 'excelHtml5'
+					extend: 'excelHtml5', exportOptions: {
+					    stripNewlines: false,stripHtml: false
+					  },
 				}),
 			],
 
