@@ -63,7 +63,16 @@ $(document).ready(function () {
 				$.extend(true, {}, buttonCommon, {
 					extend: 'copyHtml5',
 					 exportOptions: {
-					    stripNewlines: false,stripHtml: false
+					    stripNewlines: false,stripHtml: false,
+						 format: {
+          body: function (data, row, column, node) {
+            // Check if the node contains an anchor tag
+            if ($(node).find('a').length > 0) {
+              return $(node).find('a')[0].outerHTML;
+            }
+            return data;
+          }
+        }
 					  },
 					messageTop: document.location.href,
 					title: 'AR=Acceptance Rate | Rev1=First Revision | TF=Time to first decision | RT=Review time | SA=Submission to acceptance | AP=Acceptance to publication'
