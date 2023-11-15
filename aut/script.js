@@ -1,3 +1,4 @@
+var inprogress=false;
 $(document).ready(function () {
 	// Read CSV File
 	// $.ajax({
@@ -195,6 +196,7 @@ $(document).ready(function () {
 				table.search(params.get("q")).draw();
 			}
 			if (params.get("issn") != null && params.get("issn") != "") {
+				inprogress=true;
 				already_selected = get_selected_ISSN()
 				old_select = {}
 				params.get("issn").split(",").forEach(p => {
@@ -217,8 +219,8 @@ $(document).ready(function () {
 						});
 					}
 				})
-
-
+                                inprogress=false;
+				var res = get_selected_ISSN()
 				table.draw();
 			}
 		}
@@ -228,6 +230,7 @@ $(document).ready(function () {
 			return Array.from(table.rows({ selected: true }).data().map(p => (p['ISSN'] + "," + p['EISSN']).replace("N/A,", "").replace(",N/A", "")))
 		}
 		table.on('select', function (e, dt, type, indexes) {
+			if (inprogress)return;
 			var res = get_selected_ISSN()
 			if (res.length > 0)
 				updateShare("#issn=" + res)
@@ -235,6 +238,7 @@ $(document).ready(function () {
 				updateShare("")
 		})
 			.on('deselect', function (e, dt, type, indexes) {
+				if (inprogress)return;
 				var res = get_selected_ISSN()
 				if (res.length > 0)
 					updateShare("#issn=" + res)
