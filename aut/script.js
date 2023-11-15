@@ -199,22 +199,21 @@ $(document).ready(function () {
 				inprogress = true;
 
 				const already_selected = new Set(get_selected_ISSN());
-				const issnList = params.get("issn").split(",");
+				const issnList = new Set(params.get("issn").split(","));
 				const rowsToSelect = new Set();
 				const rowsToDeselect = new Set();
 				
 				table.rows().every(function () {
 				  const data = this.data();
 				  const issn = data['ISSN'];
-				
-				  if (issnList.includes(issn) && !already_selected.has(issn)) {
+				  hasissn=(data['ISSN'] !="" && issnList.has(data['ISSN'])) || (data['EISSN'] !="" &&issnList.has(data['EISSN']))
+				  if (hasissn) {
 				    rowsToSelect.add(this.index());
-				  } else if (!issnList.includes(issn) && already_selected.has(issn)) {
+				  } else if (already_selected.has(issn)) {
 				    rowsToDeselect.add(this.index());
 				  }
 				});
 				
-				//table.rows().deselect();
 				table.rows(Array.from(rowsToSelect)).select();
 				table.rows(Array.from(rowsToDeselect)).deselect();
 				
